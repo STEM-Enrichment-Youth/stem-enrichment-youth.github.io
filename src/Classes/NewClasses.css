@@ -1,0 +1,115 @@
+.new-classes {
+    background-size: cover;  
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    min-height: 150vh; 
+    padding: 60px; 
+    padding-top: 150px; 
+}
+
+
+.new-classes h1 {
+    color: rgb(196, 193, 193); 
+}
+
+.new-classes .diff-classes {
+    padding-top: 50px; 
+}
+
+.p-des {
+    text-align: left;
+    line-height: 160%;
+    width: 100%;
+}
+
+.diff-classes {
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 50px; 
+    min-height: 50vh; 
+}
+
+.new-class {
+    margin: 0; 
+    border-radius: 1em; 
+    background-color: rgba(0, 0, 0, 0.3); 
+    min-height: 400px; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto 1fr; 
+    max-height: 500px; 
+    grid-gap: 10px; 
+    padding: 10% 0;  
+    color: white; 
+    justify-items: center; 
+}
+
+.new-class h2 {
+    font-weight: 100; 
+}
+
+
+ion-icon {
+    color: white; 
+    font-size: 30px; 
+}
+
+.p-with-btn {
+    display: flex; 
+}
+.p-with-btn p {
+    padding: 10px; 
+}
+
+
+.unit {
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto; 
+    grid-gap: 5px; 
+}
+.unit img { align-self: end; }
+
+
+.a-btn:link,
+.a-btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #e78fd7;
+    border: 1px solid #e78fd7;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid  #e78fd7;
+    color:  #e78fd7;
+}
+
+.a-btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #c777b9;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid white;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid white;
+    color: #fff;
+}

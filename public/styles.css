@@ -1,0 +1,43 @@
+
+body {
+  background-color: #E8ECEF;
+  font-weight : 200; 
+  border: none; 
+  letter-spacing: 2px; 
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+body {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.4)), url("./background.png");  */
+    background-attachment: fixed; 
+    height: 120vh; 
+}
+
+h1 {
+    font-weight : 200; 
+}
+
+.sticky {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+}
+
+a:hover {
+  text-decoration-color: inherit; 
+}
+
+p {
+  letter-spacing: 1px; 
+}
