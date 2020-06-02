@@ -1,8 +1,6 @@
-.new-team {
-overflow: hidden;
-  margin: 0;
-  padding: 0;
-  padding-top: 150px; 
+
+.new-team-con {
+  background-size: cover; 
   background: rgba(206,188,155,1);
   background: -moz-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(206,188,155,1)), color-stop(51%, rgba(85,63,50,1)), color-stop(100%, rgba(42,31,25,1)));
@@ -12,15 +10,27 @@ overflow: hidden;
   background: linear-gradient(135deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
 }
 
+
+.new-team {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px; 
+}
 .new-team h1, 
 .new-classes h1 {
-  font-family: 'Lato', sans-serif;
-  font-size: 7rem;
-  font-weight: 700; 
   text-align: center;
+  padding: 0 20px; 
+  font-size: 7rem;
+}
+
+.new-team h1, 
+.new-classes h1, 
+.whole-home h3, 
+.whole-home h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700; 
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
-    padding: 0 20px; 
   /* now for 3D */
     color: #968d8d;
     letter-spacing: .15em;
@@ -76,4 +86,6 @@ overflow: hidden;
     display: grid; 
     grid-template-columns: 1fr; 
     justify-items: center; 
+    margin-top: 0px; 
 }
+

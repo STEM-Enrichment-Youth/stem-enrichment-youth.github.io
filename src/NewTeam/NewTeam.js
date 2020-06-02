@@ -1,8 +1,11 @@
 import React from "react"; 
 import "./NewTeam.css"; 
+import Navbar from "../Navbar.js"; 
 
 export default function NewTeam() {
-    return <div class="new-team" style={{minHeight: "120vh"}}>
+    return (<div class="new-team-con">
+        <Navbar/> 
+        <div class="new-team" style={{minHeight: "120vh"}}>
         <h1>Meet Our Team</h1>
         <div class="con">
                 <div class="con-item">
@@ -34,5 +37,7 @@ export default function NewTeam() {
                     <p class="pTeam">Katherine Liu is the mathematics class instructor. She is also currently a junior and the co-president of Leigh’s Science National Honors Society and Physics Olympiad Club at Leigh High School. Katherine Liu is an official employee at Kumon, a tutoring center, so she also has experience working with elementary and middle school children. As officers of Science National Honors Society, Katherine and Diana have also organized and led STEM experiments at Carlton Elementary School. </p>
                 </div>
             </div>
+        </div>
     </div>
+    )
 }
