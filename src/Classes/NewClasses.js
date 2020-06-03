@@ -223,31 +223,5 @@ export default function NewClasses() {
 
             </div>
         </div>
-
-        //         <div class="new-classes">
-        //             <h1>Our Classes</h1>
-        //             <div class="new-class">
-        //                 <h2>Biology</h2>
-        //                 <h3>Lead Instructor: Diana Poplacenel</h3>
-        //                 <h4>Age Group: 6th - 8th grade</h4>
-        //                 <p>Biology Class focuses most of the curriculum on preparing for the USA Biology Olympiad and also focuses greatly on anatomy and physiology. 
-        // We cover the chemistry of life, molecular biology, genetics, evolution, phylogeny, botany, anatomy and physiology, animal behavior, and oncology. 
-        //                 </p> 
-        //             </div>
-        //             <div class="new-class">
-        //                 <h2>Chemistry</h2>
-        //                 <h3>Lead Instructor: Christian Kim</h3>
-        //                 <h4>Age Group: 4th - 6th grade</h4>
-        //                 <p>Chemistry Class I focuses on introducing elementary schoolers to the application of science in real life by exploring interactive experiments.
-        //                 </p> 
-        //             </div>
-        //             <div class="new-class">
-        //                 <h2>Chemistry</h2>
-        //                 <h3>Lead Instructor: Christian Kim</h3>
-        //                 <h4>Age Group: 4th - 6th grade</h4>
-        //                 <p>Chemistry Class I focuses on introducing elementary schoolers to the application of science in real life by exploring interactive experiments.
-        //                 </p> 
-        //             </div>
-        //         </div>
     )
 }

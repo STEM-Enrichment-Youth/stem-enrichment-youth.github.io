@@ -17,7 +17,7 @@ export default function App(props) {
   return (
       <div class="body" style={{color: "white"}}>
       
-        <div class="main">
+        <div class="main-login">
           <p class="sign" align="center" style={{fontWeight: "300", fontSize: "50px", textAlign: "center", color: "white"}}>{props.title}</p>
           <form class="form1" method="POST" action={props.formURL} style={{paddingTop: "20px"}}>
               <input class="un " type="text" align="center" name="username" placeholder="Username or Email" style={inputStyle}/>

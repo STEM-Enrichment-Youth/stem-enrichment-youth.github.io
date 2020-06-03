@@ -6,9 +6,11 @@
     padding-top: 60px; 
 }
 
-
 .new-classes h1 {
     color: rgb(196, 193, 193); 
+    text-align: center;
+    padding: 0 20px; 
+    font-size: 7rem;
 }
 
 .new-classes .diff-classes {
@@ -50,11 +52,6 @@
 }
 
 
-ion-icon {
-    color: white; 
-    font-size: 30px; 
-}
-
 .p-with-btn {
     display: flex; 
 }
@@ -67,63 +64,6 @@ ion-icon {
     grid-template-rows: auto auto; 
     width: 80%; 
     margin: 0 auto; 
-}
-
-.unit {
-    display: grid; 
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto; 
-    grid-gap: 5px; 
-}
-.unit img { align-self: end; }
-
-
-.a-btn:link,
-.a-btn:visited,
-input[type=submit] {
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 200px;
-    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-.btn-full:link,
-.btn-full:visited,
-input[type=submit] {
-    background-color: #e78fd7;
-    border: 1px solid #e78fd7;
-    color: #fff;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-    border: 1px solid  #e78fd7;
-    color:  #e78fd7;
-}
-
-.a-btn:hover,
-.btn:active,
-input[type=submit]:hover,
-input[type=submit]:active {
-    background-color: #c777b9;
-}
-
-.btn-full:hover,
-.btn-full:active {
-    border: 1px solid white;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-    border: 1px solid white;
-    color: #fff;
-}
-
-.sign-up-btn {
-    padding-top: 20px; 
 }
 
 .units-con {
@@ -145,6 +85,17 @@ input[type=submit]:active {
     height: 120px; 
 }
 
+
+.unit {
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto; 
+    grid-gap: 5px; 
+}
+.unit img { align-self: end; }
+
+
+/* BUTTONS */
 .forward-btn ion-icon,
 .backward-btn ion-icon {
     margin-top: 10px; 
