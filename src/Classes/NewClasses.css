@@ -3,7 +3,7 @@
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
     min-height: 150vh; 
     padding: 60px; 
-    padding-top: 60px; 
+    padding-top: 10px; 
 }
 
 .new-classes h1 {
@@ -26,7 +26,7 @@
 
 .diff-classes {
     display: grid;  
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     grid-gap: 50px; 
     min-height: 50vh; 
 }
@@ -34,7 +34,7 @@
 .new-class {
     margin: 0; 
     border-radius: 1em; 
-    background-color: rgba(0, 0, 0, 0.3); 
+    background-color: rgba(0, 0, 0, 0.5); 
     min-height: 400px; 
     display: grid; 
     grid-template-columns: 1fr; 
@@ -72,8 +72,10 @@
 }
 .units {
     display: grid; 
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 20px; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 10px; 
+    margin: 0 15px; 
+    margin-left: 20px;
 }
 
 .units p {
@@ -81,22 +83,84 @@
     padding: 0; 
 }
 
-.units img {
-    height: 120px; 
-}
-
-
 .unit {
     display: grid; 
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto; 
-    grid-gap: 5px; 
+    grid-template-rows: auto 1fr; 
+    grid-gap: 10px; 
 }
-.unit img { align-self: end; }
 
 
 /* BUTTONS */
 .forward-btn ion-icon,
 .backward-btn ion-icon {
     margin-top: 10px; 
+}
+
+
+
+/* SIGN UP FORM */
+
+.sign-up-form {
+    background-color: rgb(0, 0, 0, 0.95); 
+    position: absolute; 
+    top: 20%; left: 35%; 
+    z-index: 2; 
+    padding-bottom: 60px;
+    border-radius: 4em; 
+    margin-right: 50px; 
+}
+
+.sign-up-form ion-icon {
+    padding-left: 20px; 
+    padding-top: 20px; 
+}
+
+/* // .un:focus  */
+
+
+
+.email {
+    width: 70%;
+    color: rgb(243, 229, 229);
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-left: 15%;
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+
+.submit-email {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #f540fb);
+    border: 0;
+    padding: 10px 30px; 
+    margin-top: 50px; 
+    margin-left: 38%;
+    font-size: 16px;
+    letter-spacing: 1px; 
+    font-weight: 200; 
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.p-sign {
+    width: 70%; 
+    margin-left: 15%; 
+    text-align: center; 
+    margin-bottom: 0; 
+    margin-top: 50px; 
+}
+
+.unit p {
+    width: 80%; 
 }

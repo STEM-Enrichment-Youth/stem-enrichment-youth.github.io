@@ -1,20 +1,17 @@
 
 body {
   background-size: cover; 
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.08)), url("https://www.pixel4k.com/wp-content/uploads/2018/10/abstraction-shapes-dark-background-4k_1539369935.jpg"); 
-  /* background: rgba(206,188,155,1);
-  background: -moz-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(206,188,155,1)), color-stop(51%, rgba(85,63,50,1)), color-stop(100%, rgba(42,31,25,1)));
-  background: -webkit-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
-  background: -o-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
-  background: -ms-linear-gradient(-45deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%);
-  background: linear-gradient(135deg, rgba(206,188,155,1) 0%, rgba(85,63,50,1) 51%, rgba(42,31,25,1) 100%); */
+  /* background-image: url("https://i.pinimg.com/originals/77/a7/86/77a78633604cce24717dc9735b013725.jpg");  */
+  /* background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.7)), url("https://media.blendernation.com/wp-content/uploads/2016/07/Abstract-728x336.png");  */
+  /* background-image: linear-gradient(rgba(80, 43, 43, 0.3), rgb(0, 0, 0, 0.7)),url("https://wallpapersite.com/images/pages/pic_w/13005.jpg");  */
+  background-image:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url("https://wallup.net/wp-content/uploads/2016/01/230643-simple-simple_background-minimalism-abstract.jpg"); 
   background-attachment: fixed; 
 
 
   border: none; 
   font-weight: 200; 
   letter-spacing: 2px; 
+  color: white; 
 }
 
 p { font-weight: 200; letter-spacing: 2.5px; }
@@ -31,7 +28,8 @@ a:hover { text-decoration: none ; }
   width: 100%; 
   top: 0; 
   left: 0; 
-}
+  background-color: rgb(0, 0, 0, 0.85) !important; 
+ }
 
 .non-sticky { 
   background-color: transparent !important;
@@ -94,38 +92,4 @@ input[type=submit]:active {
 
 .sign-up-btn {
     padding-top: 20px; 
-}
-
-
-.new-team h1, 
-.new-classes h1, 
-.whole-home h3, 
-.whole-home h4 {
-  font-weight: 700; 
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  /* now for 3D */
-    color: #968d8d;
-    letter-spacing: .15em;
-    text-shadow: 
-      -1px -1px 1px #efede3, 
-      0px 1px 0 #2e2e2e, 
-      0px 2px 0 #2c2c2c, 
-      0px 3px 0 #2a2a2a, 
-      0px 4px 0 #282828, 
-      0px 5px 0 #262626, 
-      0px 6px 0 #242424, 
-      0px 7px 0 #222, 
-      0px 8px 0 #202020, 
-      0px 9px 0 #1e1e1e, 
-      0px 10px 0 #1c1c1c, 
-      0px 11px 0 #1a1a1a, 
-      0px 12px 0 #181818, 
-      0px 13px 0 #161616, 
-      0px 14px 0 #141414, 
-      0px 15px 0 #121212,
-      2px 20px 5px rgba(0, 0, 0, 0.9),
-      5px 23px 5px rgba(0, 0, 0, 0.3),
-      8px 27px 8px rgba(0, 0, 0, 0.5),
-      8px 28px 35px rgba(0, 0, 0, 0.9);
 }

@@ -8,7 +8,6 @@ const pStyle = {
 }
 
 const inputStyle = {boxShadow: "5px 5px 10px black", 
-fontFamily: "-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif", 
 fontWeight: "400",
 color: "white", 
 fontSize: "15px"}
