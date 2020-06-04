@@ -20,6 +20,7 @@ function Home() {
         <div class="head-txt">
           <h1 class="biggest-header">Explore STEM</h1>
           <h1 class="biggest-header-2">Expand your knowledge</h1>
+          <p style={{fontSize: "120%", paddingTop: "3%"}}>Keep scrolling to learn more about us!</p>
         </div>
       </div>
       <section class="who">
@@ -53,7 +54,7 @@ function Home() {
           </div>
 
           <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-            <h1 class="big-title">Why Us?</h1>
+            <h1 class="big-title">Why Us? <span style={{color: "transparent"}}>random</span></h1>
           </div>
         </div>
         <div class="why-us">

@@ -4,7 +4,7 @@ body {
   /* background-image: url("https://i.pinimg.com/originals/77/a7/86/77a78633604cce24717dc9735b013725.jpg");  */
   /* background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.7)), url("https://media.blendernation.com/wp-content/uploads/2016/07/Abstract-728x336.png");  */
   /* background-image: linear-gradient(rgba(80, 43, 43, 0.3), rgb(0, 0, 0, 0.7)),url("https://wallpapersite.com/images/pages/pic_w/13005.jpg");  */
-  background-image:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url("https://wallup.net/wp-content/uploads/2016/01/230643-simple-simple_background-minimalism-abstract.jpg"); 
+  background-image:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.5)), url("./abstract-background.jpg"); 
   background-attachment: fixed; 
 
 
@@ -14,7 +14,7 @@ body {
   color: white; 
 }
 
-p { font-weight: 200; letter-spacing: 2.5px; }
+p { font-weight: 200; letter-spacing: 2.5px; font-size: 19px; }
 h1, h2 { font-weight: 100; letter-spacing: 4px; }
 
 
