@@ -5,10 +5,6 @@ import clsx from "clsx";
 import AddLocationIcon from '@material-ui/icons/AddLocation';
 import "./home.css";
 
-const iconStyle = {
-  gridRow: "span 3",
-  alignSelf: "end", fontSize: "60px"
-}
 
 
 function Home() {
@@ -20,7 +16,7 @@ function Home() {
         <div class="head-txt">
           <h1 class="biggest-header">Explore STEM</h1>
           <h1 class="biggest-header-2">Expand your knowledge</h1>
-          <p style={{fontSize: "120%", paddingTop: "3%"}}>Keep scrolling to learn more about us!</p>
+          <p class="header-p">Keep scrolling to learn more about us!</p>
         </div>
       </div>
       <section class="who">
@@ -30,7 +26,7 @@ function Home() {
           </div>
           <div class="motivate item">
             <AddLocationIcon
-              style={iconStyle}
+              
             />
             <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM Enrichment Youth</h2>
             <p class="p-home"
@@ -42,7 +38,7 @@ function Home() {
         <div class="why-us">
           <div class="inspire item">
             <AddLocationIcon
-              style={iconStyle}
+              
             />
             <h2>Fun Activities</h2>
             <p class="p-home">
@@ -54,13 +50,13 @@ function Home() {
           </div>
 
           <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-            <h1 class="big-title">Why Us? <span style={{color: "transparent"}}>random</span></h1>
+            <h1 class="big-title">Why Us? <span style={{color: "transparent", fontSize: "20px"}}>randomrandom</span></h1>
           </div>
         </div>
         <div class="why-us">
           <div class="motivate item">
             <AddLocationIcon
-              style={iconStyle}
+              
             />
             <h2>Great Instruction</h2>
             <p class="p-home">But you're high schoolers! Indeed we are, but we have a lot of knowledge to share! Many of our instructors
@@ -69,7 +65,7 @@ function Home() {
           </div>
           <div class="motivate item">
             <AddLocationIcon
-              style={iconStyle}
+              
             />
             <h2>We're Super Flexible!</h2>
             <p class="p-home"

@@ -20,13 +20,13 @@
 .p-des {
     text-align: left;
     line-height: 160%;
-    width: 80%;
-    margin-left: 10%; 
+    width: 90%;
+    margin-left: 5%; 
 }
 
 .diff-classes {
     display: grid;  
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     grid-gap: 50px; 
     min-height: 50vh; 
 }
@@ -163,4 +163,46 @@
 
 .unit p {
     width: 80%; 
+}
+
+@media only screen and (max-width: 760px) {
+    .new-classes h1 {
+        font-size: 4rem; 
+    }
+
+
+    .diff-classes {
+        grid-template-columns: 1fr;    
+    }
+    .unit p {
+        width: 100%; 
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .p-des-box {
+        width: 80%;
+        margin-left: 10%; 
+    }
+    .diff-classes {
+        justify-items: center; 
+    }
+    .new-classes {padding: 0;}
+
+    .new-class {
+        transform: scale(.8); 
+        transform-origin: center;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .new-class {width: 320px; }
+    .p-with-btn { width: 320px; }
+    .units-con { transform: scale(0.7); transform-origin: left; margin-left: 3%; }
+
+    .p-des { width: 70%; margin-left: 5%; font-size: 80%; }
+    
+
 }

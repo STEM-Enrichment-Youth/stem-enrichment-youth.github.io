@@ -21,7 +21,7 @@ export default function Navbar(props) {
   })
 
   return (
-    <nav className={`navbar navbar-expand-lg ${!scrolled ? 'navbar-dark bg-dark' : 'navbar-light bg-light'} ${scrolled && 'sticky'} ${!scrolled && 'non-sticky'}`}
+    <nav className={`navbar navbar-expand-lg navbar-dark bg-dark ${scrolled && 'sticky'} ${!scrolled && 'non-sticky'}`}
       style={{ transition: "0.3s", zIndex: "4" }}>
 
       <a href="/" style={(scrolled ? { color: "white", fontSize: "30px" } : { color: "white", fontSize: "30px" })}>Home</a>
@@ -34,12 +34,12 @@ export default function Navbar(props) {
           <li class="nav-item active nav-link">
             <Button href="/team" variant="contained">Team</Button>
           </li>
-          <li class="nav-item active nav-link">
+          {/* <li class="nav-item active nav-link">
             <Button href="/login" variant="contained">Login</Button>
           </li>
           <li class="nav-item active nav-link">
             <Button href="/register" variant="contained">Register</Button>
-          </li>
+          </li> */}
           <li class="nav-item active nav-link">
             <Button href="/classes" variant="contained">Classes</Button>
           </li>

@@ -93,3 +93,22 @@ input[type=submit]:active {
 .sign-up-btn {
     padding-top: 20px; 
 }
+
+
+/** --  MEDIA QUERIES  -- **/
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+  
+}
+
+@media only screen and (max-width: 767px) {
+  h1, h2, h3 {font-size: 160%; }
+  p { font-size: 15px; }
+}
+
+@media only screen and (max-width: 480px) {
+}
