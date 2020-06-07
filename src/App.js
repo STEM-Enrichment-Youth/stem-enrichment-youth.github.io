@@ -25,7 +25,7 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/register">
+          {/* <Route path="/register">
             <Navbar/> 
             <Login
               title="Register"
@@ -41,7 +41,7 @@ export default function App() {
               forgot="Forgot Password?"
               OAuth="Or Sign In Using"
             />
-          </Route>
+          </Route> */}
           <Route path="/activities">
             <Navbar/> 
             <Activities/>
