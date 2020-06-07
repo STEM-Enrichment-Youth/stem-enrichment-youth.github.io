@@ -1,0 +1,16 @@
+[[redirects]]
+  from = "/"
+  to = "/teams"
+
+
+[[redirects]]
+  from = "/"
+  to = "/classes"
+
+[[redirects]]
+  from = "/teams"
+  to = "/"
+
+[[redirects]]
+  from = "/classes"
+  to = "/"
