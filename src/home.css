@@ -78,7 +78,7 @@
     margin-bottom: 10px; 
 }
 
-
+.stemey-logo { width: 250px; }
 
 
 
@@ -100,9 +100,10 @@
       letter-spacing: 5px; 
     }
     .biggest-header-2 {
-        font-size: 200%; 
+        font-size: 150%; 
         letter-spacing: 4px; 
     }
+
     /*
     style={{fontSize: "120%", paddingTop: "3%"}}
     */
@@ -126,13 +127,11 @@
     }
 
     .p-home { width: 100%; }
+    .stemey-logo { width: 150px; }
     
 
 }   
 
-  @media only screen and (max-width: 510px) {
-    .who { justify-items: stretch; }
-}
 
   @media only screen and (max-width: 480px) {
 
@@ -151,7 +150,7 @@
 
     .why-us {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
-        justify-items: auto; 
+        justify-items: center; 
     }
     .who {
         padding: 0; 
