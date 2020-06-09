@@ -4,7 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
 import AddLocationIcon from '@material-ui/icons/AddLocation';
 import "./home.css";
-
+import stemey from "./STEMEY.png"; 
 
 
 function Home() {
@@ -16,7 +16,10 @@ function Home() {
         <div class="head-txt">
           <h1 class="biggest-header">Explore STEM</h1>
           <h1 class="biggest-header-2">Expand your knowledge</h1>
-          <p class="header-p">Keep scrolling to learn more about us!</p>
+          <div style={{display: "flex", alignItems: "center"}}>
+            <img src={stemey} style={{width: "250px"}}/>
+            <h1 class="biggest-header">STEMEY</h1>
+          </div>
         </div>
       </div>
       <section class="who">
@@ -25,9 +28,7 @@ function Home() {
             <h1 class="big-title">Who Are We?</h1>
           </div>
           <div class="motivate item">
-            <AddLocationIcon
-              
-            />
+          <ion-icon name="people-circle"></ion-icon>
             <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM Enrichment Youth</h2>
             <p class="p-home"
             >
@@ -37,9 +38,7 @@ function Home() {
         </div>
         <div class="why-us">
           <div class="inspire item">
-            <AddLocationIcon
-              
-            />
+          <ion-icon name="logo-electron"></ion-icon>
             <h2>Fun Activities</h2>
             <p class="p-home">
               Our main goal is for our students to have FUN while they are learning STEM.
@@ -55,18 +54,14 @@ function Home() {
         </div>
         <div class="why-us">
           <div class="motivate item">
-            <AddLocationIcon
-              
-            />
+          <ion-icon name="color-filter"></ion-icon>
             <h2>Great Instruction</h2>
             <p class="p-home">But you're high schoolers! Indeed we are, but we have a lot of knowledge to share! Many of our instructors
             have taken college level courses and extracurriculars including national math and biology olympiads.
             You can check out all the information about our members in the TEAM section of the website to learn more! </p>
           </div>
           <div class="motivate item">
-            <AddLocationIcon
-              
-            />
+          <ion-icon name="color-wand"></ion-icon>
             <h2>We're Super Flexible!</h2>
             <p class="p-home"
             >

@@ -4,7 +4,7 @@ import { Toolbar, AppBar, Button, Typography, IconButton } from '@material-ui/co
 import { withStyles } from 'material-ui/styles';
 import Menu from "./Menu";
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-
+import stemey from "./STEMEY.png"; 
 export default function Navbar(props) {
   const [scrolled, setScrolled] = React.useState(false);
 
@@ -24,7 +24,9 @@ export default function Navbar(props) {
     <nav className={`navbar navbar-expand-lg navbar-dark bg-dark ${scrolled && 'sticky'} ${!scrolled && 'non-sticky'}`}
       style={{ transition: "0.3s", zIndex: "4" }}>
 
-      <a href="/" style={(scrolled ? { color: "white", fontSize: "30px" } : { color: "white", fontSize: "30px" })}>Home</a>
+      <a href="/" style={(scrolled ? { color: "white", fontSize: "30px" } : { color: "white", fontSize: "30px" })}>
+        Home
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

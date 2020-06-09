@@ -71,6 +71,16 @@
     width: 90%; 
 }
 
+.header-p { font-size: 150%; }
+
+.whole-home ion-icon {
+    font-size: 50px; 
+    margin-bottom: 10px; 
+}
+
+
+
+
 
 @media screen and (max-width: 1215px) {
     .head-txt h3, 

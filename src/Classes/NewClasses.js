@@ -14,7 +14,7 @@ export default function NewClasses() {
 
     return (<div class="new-team-con">
         <div class="new-team">
-            <h1>Restaurants</h1>
+            <h1>Classes</h1>
             <div class="con">
                 <div class="con-item">
                     <h2 class="h">Lanna Thai</h2>
@@ -22,7 +22,17 @@ export default function NewClasses() {
                         Lanna Thai is a very yummy restaurant that we love very much yum yum yum for lannaaaa
                     </p>
                     <Carousel />
-                    <h2>Join us at 49i349i</h2>
+                    <p  style={{margin: "0"}}> Sign up with the Classroom Code:</p>
+                    <h2>2390129</h2>
+                    <button class="btn btn-danger">
+                        <a href="https://classroom.google.com/u/0/h" style={{textDecoration: "none",  
+                        color: "white", 
+                        letterSpacing: "3px", 
+                        fontWeight: "200", 
+                        fontSize: "20px"}}>
+                        SIGN UP
+                        </a>
+                    </button>
 
                 </div>
                 <div class="con-item">
@@ -31,7 +41,18 @@ export default function NewClasses() {
                         Lanna Thai is a very yummy restaurant that we love very much yum yum yum for lannaaaa
                     </p>
                     <Carousel />
-                    <h2>Join us at 49i349i</h2>
+                    <p  style={{margin: "0"}}> Sign up with the Classroom Code:</p>
+                    <h2>2390129</h2>
+                    <button class="btn btn-danger">
+                        <a href="https://classroom.google.com/u/0/h" style={{textDecoration: "none",  
+                        color: "white", 
+                        letterSpacing: "3px", 
+                        fontWeight: "200", 
+                        fontSize: "20px"}}>
+                        SIGN UP
+                        </a>
+                    </button>
+
 
                 </div>
 
