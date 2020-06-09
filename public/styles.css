@@ -94,6 +94,11 @@ input[type=submit]:active {
     padding-top: 20px; 
 }
 
+.carousel-h {
+  font-size: 18px; 
+  font-weight: 300; 
+}
+
 
 /** --  MEDIA QUERIES  -- **/
 
