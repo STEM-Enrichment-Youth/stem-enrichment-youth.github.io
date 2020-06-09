@@ -200,9 +200,9 @@
 @media only screen and (max-width: 376px) {
     .new-class {width: 320px; }
     .p-with-btn { width: 320px; }
-    .units-con { transform: scale(0.7); transform-origin: left; margin-left: 3%; }
+    .units-con { transform: scale(0.7); transform-origin: left; }
 
-    .p-des { width: 70%; margin-left: 5%; font-size: 80%; }
+    .p-des { width: 70%; font-size: 80%; }
     
 
 }
