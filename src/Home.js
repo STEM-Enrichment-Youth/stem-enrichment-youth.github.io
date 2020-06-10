@@ -17,7 +17,7 @@ function Home() {
           <div class="head-con">
             <div style={{display: "flex", marginBottom: "20px"}}>
               <h1 class="biggest-header">stemey</h1>
-              <img class="stemey-logo-no stemey-logo" src={stemey} />
+              {/* <img class="stemey-logo-no stemey-logo" src={stemey} /> */}
             </div>
               <h1 class="biggest-header-2">stem enrichment youth</h1>
               {/* <p >Explore biology, coding, neuroscience, programming, physics, or chemistry online at your own pace with the help of 
