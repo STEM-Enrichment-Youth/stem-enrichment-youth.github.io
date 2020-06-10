@@ -125,6 +125,7 @@
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
         justify-items: center; 
     }
+    /* .who { justify-items: center } */
 
     .p-home { width: 100%; }
     .stemey-logo { width: 150px; }
