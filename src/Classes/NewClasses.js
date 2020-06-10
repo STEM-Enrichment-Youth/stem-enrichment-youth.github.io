@@ -17,12 +17,12 @@ export default function NewClasses() {
             <h1>Classes</h1>
             <div class="con">
                 <div class="con-item">
-                    <h2 class="h">Lanna Thai</h2>
+                    <h2 class="h">Biology Class</h2>
                     <p class="p-team">
-                        Lanna Thai is a very yummy restaurant that we love very much yum yum yum for lannaaaa
+                        Description about class
                     </p>
                     <Carousel />
-                    <p  style={{margin: "0"}}> Sign up with the Classroom Code:</p>
+                    <p  class="sign-up-p" > Sign up with the Classroom Code:</p>
                     <h2>2390129</h2>
                     <button class="btn btn-danger">
                         <a href="https://classroom.google.com/u/0/h" style={{textDecoration: "none",  
@@ -41,7 +41,7 @@ export default function NewClasses() {
                         Lanna Thai is a very yummy restaurant that we love very much yum yum yum for lannaaaa
                     </p>
                     <Carousel />
-                    <p  style={{margin: "0"}}> Sign up with the Classroom Code:</p>
+                    <p  class="sign-up-p"> Sign up with the Classroom Code:</p>
                     <h2>2390129</h2>
                     <button class="btn btn-danger">
                         <a href="https://classroom.google.com/u/0/h" style={{textDecoration: "none",  

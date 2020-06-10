@@ -5,7 +5,7 @@
 
 .who {
     min-height: 120vh; 
-    padding: 50px 30px; 
+    padding: 50px 0; 
     padding-top: 0px; 
 }
 .home-header {
@@ -21,12 +21,14 @@
     background-color: rgba(0, 0, 0, 0.7); 
 }
 
-.biggest-header, .biggest-header-2 {
+.biggest-header, .biggest-header-2{
     font-size: 700%; 
     text-transform: uppercase;
     letter-spacing: 12px; 
 }
-.biggest-header-2 { font-size: 300%; }
+.biggest-header-2 { font-size: 250%; }
+
+.biggest-header-3 { font-size: 140%; }
 
 .big-title {
     align-self: center; 
@@ -57,7 +59,7 @@
     justify-items: center; 
     max-width: 650px; 
     transition: 0.3s;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
 .item:hover {
@@ -71,16 +73,25 @@
     width: 90%; 
 }
 
-.header-p { font-size: 150%; }
+.header-p { 
+    font-size: 150%; 
+    width: 90%;  
+    margin-top: 20px; 
+}
 
 .whole-home ion-icon {
     font-size: 50px; 
     margin-bottom: 10px; 
 }
 
-.stemey-logo { width: 250px; }
 
+.stemey-logo {
+    width: 300px; 
+}
 
+.subject {
+    margin-right: 20px; 
+}
 
 @media screen and (max-width: 1215px) {
     .head-txt h3, 
@@ -132,6 +143,11 @@
     
 
 }   
+
+@media only screen and (max-width: 510px) {
+    .why-us { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+        justify-items: center; }
+}
 
 
   @media only screen and (max-width: 480px) {

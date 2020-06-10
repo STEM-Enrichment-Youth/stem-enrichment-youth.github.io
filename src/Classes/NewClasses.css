@@ -121,6 +121,10 @@
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 
+.sign-up-p {
+    margin: 0; 
+    text-align: center; 
+}
 
 
   
@@ -140,6 +144,8 @@
     .con {
       margin: 50px 0; 
     }
+
+    .sign-up-p { width: 80%;}
   }
   
 

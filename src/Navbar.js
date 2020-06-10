@@ -25,7 +25,7 @@ export default function Navbar(props) {
       style={{ transition: "0.3s", zIndex: "4" }}>
 
       <a href="/" style={(scrolled ? { color: "white", fontSize: "30px" } : { color: "white", fontSize: "30px" })}>
-        Home
+        STEMEY
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
