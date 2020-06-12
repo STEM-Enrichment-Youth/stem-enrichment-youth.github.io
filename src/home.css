@@ -93,6 +93,24 @@
     margin-right: 20px; 
 }
 
+.step {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    grid-template-rows: repeat(4, auto); 
+    grid-gap: 10px; 
+    justify-self: start; 
+}
+
+.step1 { margin-top: 20px; }
+.step p { margin-bottom: 0 !important; font-size: 110%; }
+.step i { align-self: center; }
+
+.steps-item {
+    display: grid; 
+    grid-template-rows: 1fr; 
+    place-items: center;
+}
+
 @media screen and (max-width: 1215px) {
     .head-txt h3, 
     .head-txt h4 {
@@ -124,7 +142,7 @@
 
 
     .big-title {
-        font-size: 4rem; 
+        font-size: 3rem; 
     }
 
     .head-txt {

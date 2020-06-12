@@ -13,10 +13,11 @@ export default function NewClasses() {
 
 
     return (<div class="new-team-con">
-        <div class="new-team">
+        <div class="new-class">
             <h1>Classes</h1>
-            <div class="con">
-                <div class="con-item">
+            <h2>Coming Soon</h2>
+            <div class="class-con">
+                {/* <div class="class-con-item">
                     <h2 class="h">Biology Class</h2>
                     <p class="p-team">
                         Description about class
@@ -35,7 +36,7 @@ export default function NewClasses() {
                     </button>
 
                 </div>
-                <div class="con-item">
+                <div class="class-con-item">
                     <h2 class="h">Lanna Thai</h2>
                     <p class="p-team">
                         Lanna Thai is a very yummy restaurant that we love very much yum yum yum for lannaaaa
@@ -54,7 +55,7 @@ export default function NewClasses() {
                     </button>
 
 
-                </div>
+                </div> */}
 
             </div>
         </div>

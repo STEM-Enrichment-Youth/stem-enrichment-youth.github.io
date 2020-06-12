@@ -15,7 +15,7 @@ function Home() {
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
         <div class="head-txt" >
           <div class="head-con">
-            <div style={{display: "flex", marginBottom: "20px"}}>
+            <div style={{display: "flex"}}>
               <h1 class="biggest-header">stemey</h1>
               {/* <img class="stemey-logo-no stemey-logo" src={stemey} /> */}
             </div>
@@ -33,12 +33,28 @@ function Home() {
       <section class="who">
         <div class="why-us">
           <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-            <h1 class="big-title">Take our Classes!</h1>
+            <h1 class="big-title">Free Virtual Classes!</h1>
           </div>
-          <div class="motivate item">
+          <div class="motivate item steps-item">
             <ion-icon name="people-circle"></ion-icon>
-            <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Virtual Summer STEM Classes</h2>
-            <p class="p-home"
+            <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Summer STEM Classes</h2>
+            <div class="step step1">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Free Online Academic Resources</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Fun Activities, Video Lectures, and More</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Pick and Choose What You Learn</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Get Help From Experienced and Accomplished High Schoolers</p>
+            </div>
+            {/* <p class="p-home"
             >
               Stem Enrichment Youth is a team of passionate 
               high schoolers dedicated to exploring different fields of STEM. 
@@ -46,7 +62,7 @@ function Home() {
               chemistry, coding, and physics. These courses are created by our team of high schoolers 
               and are free, completely online, and accessible to all. 
               These classes are aimed towards middle schoolers but anyone is welcome to join!
-            </p>
+            </p> */}
           </div>
         </div>
         {/* here will be the banner */}

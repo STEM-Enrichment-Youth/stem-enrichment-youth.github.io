@@ -1,6 +1,6 @@
 
   
-  .new-team {
+  .new-class {
     margin: 0;
     padding: 0;
     padding-top: 50px; 
@@ -9,14 +9,14 @@
     justify-items: center; 
   }
   
-  .new-team h1 {
+  .new-class h1 {
     text-align: center;
     padding: 0 20px; 
     font-size: 7rem;
   }
   
   
-  .con, .con2 {
+  .class-con, .class-con2 {
     display: grid;  
     grid-template-columns: repeat(2, minmax(350px, 1fr)); 
     grid-gap: 70px; 
@@ -25,7 +25,7 @@
     margin: 50px; 
   }
   
-  .con-item {
+  .class-con-item {
     box-shadow: 0px 0px 20px black ; 
     height: auto; 
     display: grid; 
@@ -35,7 +35,7 @@
     grid-gap: 20px; 
   }
   
-  .con-item img {
+  .class-con-item img {
     width: 100%; 
     transition: 0.5s;
     display: inline-block; 
@@ -43,7 +43,7 @@
   }
   
   @media only screen and (max-width: 900px) {
-    .con {
+    .class-con {
         grid-template-columns: repeat(1, minmax(250px, 1fr)); 
         width: 80%; 
     }
@@ -129,7 +129,7 @@
 
   
   @media only screen and (max-width: 760px) {
-    .new-team h1 {
+    .new-class h1 {
       font-size: 4rem;
     }
   }
@@ -137,7 +137,7 @@
   
   
   @media only screen and (max-width: 480px) {
-    .new-team h1 {
+    .new-class h1 {
       font-size: 2rem;
     }
   
