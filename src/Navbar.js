@@ -35,7 +35,7 @@ export default function Navbar(props) {
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item dropdown nav-link active">
-            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px"}}
+            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
             class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Teams</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">

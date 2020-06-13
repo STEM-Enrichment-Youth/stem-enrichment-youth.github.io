@@ -24,7 +24,10 @@ function Home() {
           <div class="head-con">
             <div class="head-txt-2">
               <h1 class="biggest-header">stemey</h1>
-              <p style={{ textAlign: "center" }}>An organization committed to teaching STEM related concepts to grades 5-10.</p>
+              <p class="head-p">
+              A high-school led organization committed to encouraging interest in STEM especially among middle schoolers. 
+              STEMEY provides virtual classes built by high schoolers to grades 5-10. 
+              </p>
             </div>
             <img class="stemey-logo" src={stemey} />
             {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}

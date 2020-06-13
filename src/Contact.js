@@ -21,8 +21,8 @@ function Contact() {
           <div class="head-con">
             <div class="head-txt-2">
               <h1 class="biggest-header">stemey</h1>
-              <p style={{textAlign: "left"}}>EMAIL: stemenrichmentyouth@gmail.com</p>
-              <p style={{textAlign: "left", maxWidth: "400px"}}>Feel free to email us with ANY questions that you have about the program! We will get to your questions as soon as possible!!</p>
+              <p class="head-p" style={{textAlign: "left"}}>EMAIL: stemenrichmentyouth@gmail.com</p>
+              <p class="head-p" style={{textAlign: "left", maxWidth: "400px"}}>Feel free to email us with ANY questions that you have about the program! We will get to your questions as soon as possible!!</p>
 
             </div>
               <img class="stemey-logo" src={stemey} />

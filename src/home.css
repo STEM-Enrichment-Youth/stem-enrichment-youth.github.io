@@ -159,8 +159,7 @@
     .home-header { height: 100vh; }
 
     .head-txt-2 { display: grid; grid-template-columns: 1fr; justify-items: center; }
-    .head-txt-2 p { width: 75%; }
-    
+    .head-p { width: 80%; }
 }
 @media only screen and (max-width: 767px) {
     .biggest-header {
@@ -216,7 +215,8 @@
 
 
     .head-txt {
-        width: 90%; 
+        width: 100%; 
+        padding-left: 0;
     }
 
     .biggest-header { font-size: 200%; }
@@ -229,6 +229,9 @@
     .who {
         padding: 0; 
     }
+
+    .head-p { width: 100%; font-size: 80%; margin-left: 15%; }
+
   }
 
   @media only screen and (max-width: 375px) {
