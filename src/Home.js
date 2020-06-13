@@ -4,7 +4,14 @@ import { withStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
 import AddLocationIcon from '@material-ui/icons/AddLocation';
 import "./home.css";
-import stemey from "./STEMEY.png";
+import stemey from "./GoodStemeyLogo.png";
+import coding from "./icons/head-cross.png";
+import chemistry from "./icons/beaker-atom.png"; import biology from "./icons/genetics.png";
+import physics from "./icons/Newtons-cradle.png";
+import math from "./icons/checkboard-graph.png";
+import neuroscience from "./icons/head-brains.png";
+import katherine from "./NewTeam/InstructorImages/katherine.jpg"; 
+import christian from "./NewTeam/InstructorImages/christian.png"; 
 
 
 function Home() {
@@ -15,14 +22,15 @@ function Home() {
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
         <div class="head-txt" >
           <div class="head-con">
-            <div style={{display: "flex"}}>
+            <div class="head-txt-2">
               <h1 class="biggest-header">stemey</h1>
-              {/* <img class="stemey-logo-no stemey-logo" src={stemey} /> */}
+              <p style={{ textAlign: "center" }}>An organization committed to teaching STEM related concepts to grades 5-10.</p>
             </div>
-              <h1 class="biggest-header-2">stem enrichment youth</h1>
-              {/* <p >Explore biology, coding, neuroscience, programming, physics, or chemistry online at your own pace with the help of 
+            <img class="stemey-logo" src={stemey} />
+            {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
+            {/* <p >Explore biology, coding, neuroscience, programming, physics, or chemistry online at your own pace with the help of 
               passionate, accomplished high school STEM enthusiasts.</p> */}
-           
+
           </div>
 
           {/* <img class="stemey-logo-no stemey-logo" src={stemey} /> */}
@@ -31,7 +39,34 @@ function Home() {
 
       </div>
       <section class="who">
+        <div class="banner">
+          <div class="banner-class">
+            <img class="class-icon" src={coding} />
+            <h2>Coding</h2>
+          </div>
+          <div class="banner-class">
+            <img class="class-icon" src={biology} />
+            <h2>Biology</h2>
+          </div>
+          <div class="banner-class">
+            <img class="class-icon" src={chemistry} />
+            <h2>Chemistry</h2>
+          </div>
+          <div class="banner-class">
+            <img class="class-icon" src={neuroscience} />
+            <h2>Neuroscience</h2>
+          </div>
+          <div class="banner-class">
+            <img class="class-icon" src={physics} />
+            <h2>Physics</h2>
+          </div>
+          <div class="banner-class">
+            <img class="class-icon" src={math} />
+            <h2>Math</h2>
+          </div>
+        </div>
         <div class="why-us">
+
           <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
             <h1 class="big-title">Free Virtual Classes!</h1>
           </div>
@@ -65,26 +100,10 @@ function Home() {
             </p> */}
           </div>
         </div>
-        {/* here will be the banner */}
-        {/* <div class="why-us">
-          <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-            <h1 class="big-title">Who are we?</h1>
-          </div>
-          <div class="motivate item">
-            <ion-icon name="people-circle"></ion-icon>
-            <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Our Team of instructors</h2>
-            <p class="p-home"
-            >
-              Many of our lead instructors have competed in STEM Competitions including Science Bowl, Science Olympiad, Biology Olympiad, Chemistry Olympiad, the Brain Bee, and the American Invitational Math Examination. 
-              We have about twenty instructors in total who are involved in STEM clubs at Leigh 
-              High School including Science National Honors Society, Biology and Chemistry Olympiad. 
-              Many of us have experience tutoring and teaching other high schoolers and middle schoolers. 
-              Check out our TEAM page to learn more about our team! 
-            </p>
-          </div>
-        </div> */}
+
+
         <div class="why-us">
-        <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
+          <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
             <h1 class="big-title">Why Us? <span style={{ color: "transparent", fontSize: "20px" }}>randomrandom</span></h1>
           </div>
           <div class="inspire item">
@@ -103,11 +122,11 @@ function Home() {
             <ion-icon name="color-filter"></ion-icon>
             <h2>Great Instruction</h2>
             <p class="p-home">
-            Many of our lead instructors have competed in STEM Competitions including Science Bowl, Science Olympiad, Biology Olympiad, Chemistry Olympiad, the Brain Bee, and the American Invitational Math Examination. 
-              We have about twenty instructors in total who are involved in STEM clubs at Leigh 
-              High School including Science National Honors Society, Biology and Chemistry Olympiad. 
-              Many of us have experience tutoring and teaching other high schoolers and middle schoolers. 
-              Check out our TEAM page to learn more about our team! 
+              Many of our lead instructors have competed in STEM Competitions including Science Bowl, Science Olympiad, Biology Olympiad, Chemistry Olympiad, the Brain Bee, and the American Invitational Math Examination.
+              We have about twenty instructors in total who are involved in STEM clubs at Leigh
+              High School including Science National Honors Society, Biology and Chemistry Olympiad.
+              Many of us have experience tutoring and teaching other high schoolers and middle schoolers.
+              Check out our TEAM page to learn more about our team!
              </p>
           </div>
           <div class="motivate item">
@@ -126,6 +145,26 @@ function Home() {
         </div>
 
       </section>
+      <h1 style={{textAlign: "center", fontSize: "500%"}}>Founders</h1>
+      <div class="banner">
+          <div class="banner-class">
+            <img style={{width: "200px",  marginTop: '15px'}} src="https://stemenrichmentyouth.weebly.com/uploads/1/3/1/7/131772821/diana_orig.jpg" />
+            <h2>Diana Poplacenel</h2>
+          </div>
+          <div class="banner-class">
+          <img style={{width: "50%", marginTop: '15px'}} src={katherine} />
+            <h2>Katherine Liu</h2>
+          </div>
+          <div class="banner-class">
+          <img style={{width: "50%", marginTop: '15px'}} src={christian} />
+            <h2>Christian Kim</h2>
+          </div>
+          <div class="banner-class">
+            <img class="class-icon" src={neuroscience} style={{marginTop: '15px'}} />
+            <h2>Aniketh Prasad</h2>
+          </div>
+          
+        </div>
     </div>
 
 

@@ -84,10 +84,7 @@
     margin-bottom: 10px; 
 }
 
-
-.stemey-logo {
-    width: 300px; 
-}
+.stemey-logo { max-width: 400px; }
 
 .subject {
     margin-right: 20px; 
@@ -111,6 +108,35 @@
     place-items: center;
 }
 
+.head-con { 
+    display: flex; 
+    align-items: center;
+}
+
+.class-icon { 
+    width: 100px; 
+}
+
+/*--------BANNER---------*/
+.banner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 20px; 
+    width: 90%;
+    margin: 0 auto; 
+    margin-top: 50px; 
+
+}
+
+.banner-class {
+    background-color: rgba(0, 0, 0, 0.7); 
+    box-shadow: 0px 0px 10px black; 
+    display: grid; grid-template-columns: 1fr;
+    justify-items: center; 
+    padding: 10px 0; 
+}
+.banner-class h2 { font-size: 120%; margin-top: 10px; }
+
 @media screen and (max-width: 1215px) {
     .head-txt h3, 
     .head-txt h4 {
@@ -122,6 +148,19 @@
         grid-template-columns: 1fr; 
         justify-items: center; 
     }
+}
+
+@media only screen and (max-width: 1000px) {
+    .head-con {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        justify-items: center; 
+    }
+    .home-header { height: 100vh; }
+
+    .head-txt-2 { display: grid; grid-template-columns: 1fr; justify-items: center; }
+    .head-txt-2 p { width: 75%; }
+    
 }
 @media only screen and (max-width: 767px) {
     .biggest-header {
@@ -157,7 +196,7 @@
     /* .who { justify-items: center } */
 
     .p-home { width: 100%; }
-    .stemey-logo { width: 150px; }
+
     
 
 }   

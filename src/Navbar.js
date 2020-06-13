@@ -4,7 +4,7 @@ import { Toolbar, AppBar, Button, Typography, IconButton } from '@material-ui/co
 import { withStyles } from 'material-ui/styles';
 import Menu from "./Menu";
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import stemey from "./STEMEY.png"; 
+import stemey from "./STEMEY.png";
 export default function Navbar(props) {
   const [scrolled, setScrolled] = React.useState(false);
 
@@ -33,8 +33,27 @@ export default function Navbar(props) {
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item dropdown nav-link active">
+            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px"}}
+            class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Teams</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/biology">Biology</a>
+              <a class="dropdown-item" href="/chemistry">Chemistry</a>
+              <a class="dropdown-item" href="/physics">Physics</a>
+              <a class="dropdown-item" href="/neuroscience">Neuroscience</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/math">Math</a>
+              <a class="dropdown-item" href="/coding">Coding</a>
+
+            </div>
+          </li>
           <li class="nav-item active nav-link">
-            <Button href="/team" variant="contained">Team</Button>
+            <Button href="/contact" variant="contained">Contact Us</Button>
+          </li>
+          <li class="nav-item active nav-link">
+            <Button href="/teach" variant="contained">Teach</Button>
           </li>
           {/* <li class="nav-item active nav-link">
             <Button href="/login" variant="contained">Login</Button>
@@ -45,18 +64,6 @@ export default function Navbar(props) {
           <li class="nav-item active nav-link">
             <Button href="/classes" variant="contained">Classes</Button>
           </li>
-
-          {/* <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li> */}
         </ul>
       </div>
     </nav>

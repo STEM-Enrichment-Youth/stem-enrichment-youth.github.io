@@ -2,7 +2,7 @@ import React from "react";
 import "./NewClasses.css";
 import AddLocationIcon from '@material-ui/icons/AddLocation';
 import Form from "../Form";
-import Carousel from "./PhotoCarousel"; 
+import Carousel from "./PhotoCarousel";
 
 const gcCode1 = "659323"
 const gcCode2 = "3423232"
@@ -15,48 +15,259 @@ export default function NewClasses() {
     return (<div class="new-team-con">
         <div class="new-class">
             <h1>Classes</h1>
-            <h2>Coming Soon</h2>
-            <div class="class-con">
-                {/* <div class="class-con-item">
-                    <h2 class="h">Biology Class</h2>
+
+            <div class="class-con sign-up">
+                <div class="class-con-item" style={{display: "grid", gridTemplateRows: "1fr", alignItems: "center"}}>
+                    <h1 class="h">How Do I Sign Up?</h1>
+                </div>
+                <div class="class-con-item">
+                    <div class="sign-up-steps">
+                        <div class="step step1">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            <p>Scroll through this page to find the class or classes you want</p>
+                        </div>
+
+                        <div class="step">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            <p>Open up Google Classroom with your PERSONAL email</p>
+                        </div>
+                        <div class="step">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            <p>Add a Class using the class code provided in each description down below</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="class-con-item">
+                    <h2 class="h">Chemistry</h2>
                     <p class="p-team">
-                        Description about class
+                       Coming Soon
+
                     </p>
-                    <Carousel />
-                    <p  class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>2390129</h2>
+                    {/* <Carousel /> */}
+                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
+                    <p><span style={{fontSize: "150%"}}>Intended Ages: </span> Grades 6-9</p>
+                    <p><span style={{fontSize: "150%"}}>Lead Instructor: </span>Christian Kim</p>
+                    <p><span style={{fontSize: "150%"}}>Prerequisites: </span>None!</p>
+
+                    </div>
+                    
+
+                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
+                    <h2>Coming Soon</h2>
                     <button class="btn btn-danger">
-                        <a href="https://classroom.google.com/u/0/h" style={{textDecoration: "none",  
-                        color: "white", 
-                        letterSpacing: "3px", 
-                        fontWeight: "200", 
-                        fontSize: "20px"}}>
-                        SIGN UP
+                        <a href="https://classroom.google.com/u/0/h" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}>
+                            SIGN UP
                         </a>
                     </button>
 
                 </div>
                 <div class="class-con-item">
-                    <h2 class="h">Lanna Thai</h2>
+                    <h2 class="h">Biology</h2>
                     <p class="p-team">
-                        Lanna Thai is a very yummy restaurant that we love very much yum yum yum for lannaaaa
+                    Coming Soon!
                     </p>
-                    <Carousel />
-                    <p  class="sign-up-p"> Sign up with the Classroom Code:</p>
-                    <h2>2390129</h2>
+                    {/* <Carousel /> */}
+                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
+                    <p><span style={{fontSize: "150%"}}>Intended Ages: </span> Grades 6-10</p>
+                    <p><span style={{fontSize: "150%"}}>Lead Instructor: </span>Aniketh Prasad</p>
+                    <p><span style={{fontSize: "150%"}}>Prerequisites: </span>None!</p>
+
+                    </div>
+
+                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
+                    <h2>Coming Soon</h2>
                     <button class="btn btn-danger">
-                        <a href="https://classroom.google.com/u/0/h" style={{textDecoration: "none",  
-                        color: "white", 
-                        letterSpacing: "3px", 
-                        fontWeight: "200", 
-                        fontSize: "20px"}}>
-                        SIGN UP
+                        <a href="https://classroom.google.com/u/0/h" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}>
+                            SIGN UP
                         </a>
                     </button>
 
+                </div>
+                <div class="class-con-item">
+                    <h2 class="h">Competition Math</h2>
+                    <p class="p-team">
+                       
+Provides the problem-solving skills needed for competition math problems from the AMC 8 and Mathcounts.
 
-                </div> */}
+                    </p>
+                    {/* <Carousel /> */}
+                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
+                    <p><span style={{fontSize: "150%"}}>Intended Ages: </span> Grades 5-8</p>
+                    <p><span style={{fontSize: "150%"}}>Lead Instructor: </span> Katherine Liu</p>
+                    <p><span style={{fontSize: "150%"}}>Prerequisites: </span>Prealgebra</p>
 
+                    </div>
+                    
+
+                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
+                    <h2>Coming Soon!</h2>
+                    <button class="btn btn-danger">
+                        <a href="https://classroom.google.com/u/0/h" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}>
+                            SIGN UP
+                        </a>
+                    </button>
+
+                </div>
+                <div class="class-con-item">
+                    <h2 class="h">PreCalc/Calc</h2>
+                    <p class="p-team">
+                    Coming Soon! 
+                    </p>
+                    {/* <Carousel /> */}
+                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
+                    <p><span style={{fontSize: "150%"}}>Intended Ages: </span>Grades 6-10</p>
+                    <p><span style={{fontSize: "150%"}}>Lead Instructor: </span>Daniel Lee</p>
+                    <p><span style={{fontSize: "150%"}}>Prerequisites: </span>Algebra</p>
+
+                    </div>
+
+                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
+                    <h2>Coming Soon</h2>
+                    <button class="btn btn-danger">
+                        <a href="https://classroom.google.com/u/0/h" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}>
+                            SIGN UP
+                        </a>
+                    </button>
+
+                </div>
+                <div class="class-con-item">
+                    <h2 class="h">Geometry/Algebra</h2>
+                    <p class="p-team">
+                    Coming Soon! 
+                    </p>
+                    {/* <Carousel /> */}
+                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
+                    <p><span style={{fontSize: "150%"}}>Intended Ages: </span> Grades 5-10</p>
+                    <p><span style={{fontSize: "150%"}}>Lead Instructor: </span>Justin Liu</p>
+                    <p><span style={{fontSize: "150%"}}>Prerequisites: </span>Prealgebra</p>
+
+                    </div>
+
+                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
+                    <h2>Coming Soon</h2>
+                    <button class="btn btn-danger">
+                        <a href="https://classroom.google.com/u/0/h" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}>
+                            SIGN UP
+                        </a>
+                    </button>
+
+                </div>
+                <div class="class-con-item">
+                    <h2 class="h">USACO Preparation</h2>
+                    <p class="p-team">
+                    Coming Soon! 
+                    </p>
+                    {/* <Carousel /> */}
+                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
+                    <p><span style={{fontSize: "150%"}}>Intended Ages: </span> Grades 5-10</p>
+                    <p><span style={{fontSize: "150%"}}>Co-Lead Instructor: </span>Diana Poplacenel</p>
+                    <p><span style={{fontSize: "150%"}}>Co-Lead Instructor: </span>Nethra Srinivasan</p>
+                    <p><span style={{fontSize: "150%"}}>Prerequisites: </span>None!</p>
+
+                    </div>
+
+                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
+                    <h2>Coming Soon</h2>
+                    <button class="btn btn-danger">
+                        <a href="https://classroom.google.com/u/0/h" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}>
+                            SIGN UP
+                        </a>
+                    </button>
+
+                </div>
+                <div class="class-con-item">
+                    <h2 class="h">Intro to Coding</h2>
+                    <p class="p-team">
+                    Coming Soon! 
+                    </p>
+                    {/* <Carousel /> */}
+                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
+                    <p><span style={{fontSize: "150%"}}>Intended Ages: </span> Grades 5-10</p>
+                    <p><span style={{fontSize: "150%"}}>Co-Lead Instructor: </span>Diana Poplacenel</p>
+                    <p><span style={{fontSize: "150%"}}>Prerequisites: </span>None!</p>
+
+                    </div>
+
+                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
+                    <h2>Coming Soon</h2>
+                    <button class="btn btn-danger">
+                        <a href="https://classroom.google.com/u/0/h" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}>
+                            SIGN UP
+                        </a>
+                    </button>
+
+                </div>
+                <div class="class-con-item">
+                    <h2 class="h">Physics</h2>
+                    <p class="p-team">
+                    Coming Soon
+                    </p>
+                    {/* <Carousel /> */}
+                    {/* <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
+                    <p><span style={{fontSize: "150%"}}>Intended Ages: </span> Grades 5-10</p>
+                    <p><span style={{fontSize: "150%"}}>Co-Lead Instructor: </span>Diana Poplacenel</p>
+                    <p><span style={{fontSize: "150%"}}>Prerequisites: </span>None!</p>
+
+                    </div>
+
+                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
+                    <h2>Coming Soon</h2>
+                    <button class="btn btn-danger">
+                        <a href="https://classroom.google.com/u/0/h" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}>
+                            SIGN UP
+                        </a>
+                    </button> */}
+
+                </div>
+                
             </div>
         </div>
     </div>
@@ -122,5 +333,5 @@ const [slide, setSlide] = React.useState(1);
         const nextSlide = slide > 1 ? slide - 1 : 2;
         setSlide(nextSlide);
     }
-    
+
 */
