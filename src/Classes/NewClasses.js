@@ -130,9 +130,9 @@ export default function NewClasses() {
                 </div>
                 <div class="class-con-item">
                     <h2 class="h">PreCalc/Calc</h2>
-                    <p class="p-team">
+                    {/* <p class="p-team">
                         Coming Soon!
-                    </p>
+                    </p> */}
                     {/* <Carousel /> */}
                     <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
                         <p><span class="class-des-p">Intended Ages: </span>Grades 6-10</p>
@@ -142,7 +142,7 @@ export default function NewClasses() {
                     </div>
 
                     <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>Coming Soon</h2>
+                    <h2>vboo6ss</h2>
                     <button class="btn btn-danger">
                         <a href="https://classroom.google.com/u/0/h" style={{
                             textDecoration: "none",
