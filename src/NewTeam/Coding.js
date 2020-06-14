@@ -2,14 +2,10 @@ import React from "react";
 import "./NewTeam.css"; 
 import Navbar from "../Navbar.js"; 
 import Card from "./TeamCard"; 
-import christian from "./InstructorImages/christian.png"; 
-import fiona from "./InstructorImages/fiona.png"; 
-import emily from "./InstructorImages/emily.jpg"; 
-import katherine from "./InstructorImages/katherine.jpg"; 
-import justin from "./InstructorImages/justin.jpg"; 
+import sudhir from "./InstructorImages/sudhir.jpeg"; 
+import liza from "./InstructorImages/liza.jpg"; 
 import aryan from "./InstructorImages/aryan.JPG"; 
-import yulia from "./InstructorImages/yulia.JPG"; 
-import daniel from "./InstructorImages/daniel.png"; 
+import sasmit from "./InstructorImages/sasmit.jpg"; 
 
 
 export default function NewTeam() {
@@ -27,40 +23,38 @@ export default function NewTeam() {
 "
                 position="Coding Director"
                 />
+                
                 <Card
-                    name="Yulia Anashkina"
-                    imgURL={yulia}
-                    des="
-Yulia Anashkina is a rising sophomore with a passion for STEM. She earned straight A’s throughout middle school and freshman year. Her interests in STEM led her to complete Harvard’s Fundamentals of Neuroscience, and one of BYU’s math courses. At school she also participates in clubs such as Design Thinking and Bring Change to Mind. Outside of academics Yulia is a figure skater who competes individually as well as in a team. Her team, San Francisco Ice Theater, recently traveled to France and earned a ranking as fifth in the world. She is also a member of the Peninsula Skating Club Junior Board which helps the skating community through volunteering, fundraising, as well as other events. 
+                imgURL={liza}
+                name="Liza George"
+                position="
+Competitive Coding Instructor"
+                des="
+                Liza is a rising Senior in Leigh, and is passionate about all things Computer Science. She’s been self-studying various programming concepts since middle school (currently focussing on web design), and is in USACO Silver. Her interests in both computer science and mechanical engineering were expanded last year in the AP Computer Science and Physics 1 courses. Outside of her academics, Liza’s involved in Leigh's clubs; she's the President of the Robotics and Girls Who Code clubs, and holds senior officer positions in the Science Olympiad, LEOs, NHS, and NAHS branches at Leigh. Liza is also a flautist, and played in the Leigh Marching Band and Wind Ensemble. She's excited to get to know everyone over the next few months in STEMEY!
 "
                 />
                 <Card
-                    name="Daniel Lee"
-                    imgURL={daniel}
-                    des="
+                imgURL={sasmit}
+                name="Sasmit Agarwal"
+                position="
+Director of Competitive Programming
+"
+                des="
 
-                    Daniel Lee is a rising senior at Leigh HIgh School. He has been a member of Leigh’s Science Olympiad, Math Club, California Scholarship Federation, National Honors Society for 3 years and is the founder of Leigh Science Bowl Team. He has also been the captain of Leigh’s School Varsity Golf team for the last 2 years. He has won several awards including AIME, President’s Volunteer Service Award, Silicon Valley Korean Unification Competition Silver Medal. He has tutoring experience through volunteering at Silicon Valley Korean School. He is currently studying Multivariable Calculus in Mission College. 
+                Sasmit is a senior interested in competitive programming, machine learning, and entrepreneurship, he has participated in USACO and will be basing the competitive programming class on progressing in USACO. He is currently in USACO Gold, and has also participated in the Google Code Jam as well as Codeforces. He also happens to be the president of the USACO club at Leigh. In addition to programming, he has also done math competitions in the past, qualifying for AIME and scoring an 8 just this year. 
 "
                 />
                 <Card
-                    name="Justin Liu"
-                    imgURL={justin}
-                    des="
-                    Justin Liu is a rising senior at Leigh High School. He is an officer of the Science National Honors Society and co-president of the Physics Olympiad. He is a member of National Honors Society and California Scholarship Federation, and he is also a peer tutor at Leigh. Outside of school, he volunteers at Friends of Children with Special Needs. He is fluent in Mandarin and English. He plays the bassoon, clarinet, and piano. Also, Justin does fencing competitively and is the alternate for the 2020 USA National Team while also part of the mentor program on his club team. He is looking forward to teaching Math at STEMEY.
+                imgURL={sudhir}
+                name="Sudhir Vasudevan"
+                position="
+Competitive Coding Instructor"
+                des="
+                Sudhir is a senior at Leigh High School. He is interested in the field of AI, robotics, and business. He is currently in USACO Silver and participated in numerous coding competitions including various hackathons, and Code Jam. He is the president of the Competitive Math Club at Leigh. He qualified AIME this past year and got a 8.
+He has been involved in many clubs throughout high school. He is excited to teach and plan courses for y’all!
 "
                 />
-                <Card
-                    name="Catherine Luu"
-                    des="
-Catherine Luu is a rising junior at Leigh High School. She is a member of the National Honors Society and is a future officer of Seoul to San Jose. Since her middle school days, she has been a peer tutor for her fellow classmates. She is also a member of the Leigh High School’s swimming team. Outside of the school campus, she volunteers at King’s Martial Arts Academy as a second degree assistant instructor and is aiming for her third degree. She also swims competitively for South Valley Stingrays and Santa Teresa Sea Otters where she has worked in leadership positions. She will be working on the math and chemistry courses at STEMEY.
-"
-                />
-                <Card
-                name="Claire Jin"
-                    des="
-Claire Jin is a rising senior at Leigh High School. She is president of the Science National Honor Society and officer of Leigh CSF, and she is also a member of SOS and National Art Honors Society. She is part of leadership and senior class vice president. She has tutored young students from working at Kumon Math and Reading and peer students at Leigh from National Honors Society Club. She has been volunteering at Good Samaritan Hospital working in patient services. She volunteers working with young kids doing art activities and translating English to Korean. She will be part of the Chemistry course.
-"
-                />
+                
                
             </div>
         </div>

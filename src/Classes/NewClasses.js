@@ -17,10 +17,11 @@ export default function NewClasses() {
             <h1>Classes</h1>
 
             <div class="class-con sign-up">
-                <div class="class-con-item" style={{display: "grid", gridTemplateRows: "1fr", alignItems: "center"}}>
+                <div class="class-con-item" style={{ display: "grid", gridTemplateRows: "1fr", alignItems: "center" }}>
                     <h1 class="h">How Do I Sign Up?</h1>
                 </div>
                 <div class="class-con-item">
+                    <h2>3 Easy Steps</h2>
                     <div class="sign-up-steps">
                         <div class="step step1">
                             <i class="fas fa-arrow-alt-circle-right"></i>
@@ -40,20 +41,20 @@ export default function NewClasses() {
                 <div class="class-con-item">
                     <h2 class="h">Chemistry</h2>
                     <p class="p-team">
-                       Coming Soon
+                        Coming Soon
 
                     </p>
                     {/* <Carousel /> */}
-                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
-                    <p><span class="class-des-p">Intended Ages: </span> Grades 6-9</p>
-                    <p><span class="class-des-p">Lead Instructor: </span>Christian Kim</p>
-                    <p><span class="class-des-p">Prerequisites: </span>None!</p>
+                    <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
+                        <p><span class="class-des-p">Intended Ages: </span>Grades 6-9</p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Christian Kim</p>
+                        <p><span class="class-des-p">Prerequisites: </span>None!</p>
 
                     </div>
-                    
+
 
                     <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>Coming Soon</h2>
+                    <h2>p2h7hvu</h2>
                     <button class="btn btn-danger">
                         <a href="https://classroom.google.com/u/0/h" style={{
                             textDecoration: "none",
@@ -70,18 +71,19 @@ export default function NewClasses() {
                 <div class="class-con-item">
                     <h2 class="h">Biology</h2>
                     <p class="p-team">
-                    Coming Soon!
+                        In this class, we will discuss the fundamentals of the human body and
+                        follow the curriculum for Biology & in the future AP Biology.  
                     </p>
                     {/* <Carousel /> */}
-                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
-                    <p><span class="class-des-p">Intended Ages: </span> Grades 6-10</p>
-                    <p><span class="class-des-p">Lead Instructor: </span>Aniketh Prasad</p>
-                    <p><span class="class-des-p">Prerequisites: </span>None!</p>
+                    <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
+                        <p><span class="class-des-p">Intended Ages: </span> Grades 6-10</p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Aniketh Prasad</p>
+                        <p><span class="class-des-p">Prerequisites: </span>None!</p>
 
                     </div>
 
                     <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>Coming Soon</h2>
+                    <h2>4qtekpr</h2>
                     <button class="btn btn-danger">
                         <a href="https://classroom.google.com/u/0/h" style={{
                             textDecoration: "none",
@@ -98,18 +100,18 @@ export default function NewClasses() {
                 <div class="class-con-item">
                     <h2 class="h">Competition Math</h2>
                     <p class="p-team">
-                       
-Provides the problem-solving skills needed for competition math problems from the AMC 8 and Mathcounts.
+
+                        Provides the problem-solving skills needed for competition math problems from the AMC 8 and Mathcounts.
 
                     </p>
                     {/* <Carousel /> */}
-                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
-                    <p><span class="class-des-p">Intended Ages: </span> Grades 5-8</p>
-                    <p><span class="class-des-p">Lead Instructor: </span> Katherine Liu</p>
-                    <p><span class="class-des-p">Prerequisites: </span>Prealgebra</p>
+                    <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
+                        <p><span class="class-des-p">Intended Ages: </span> Grades 5-8</p>
+                        <p><span class="class-des-p">Lead Instructor: </span> Katherine Liu</p>
+                        <p><span class="class-des-p">Prerequisites: </span>Prealgebra</p>
 
                     </div>
-                    
+
 
                     <p class="sign-up-p" > Sign up with the Classroom Code:</p>
                     <h2>Coming Soon!</h2>
@@ -129,13 +131,13 @@ Provides the problem-solving skills needed for competition math problems from th
                 <div class="class-con-item">
                     <h2 class="h">PreCalc/Calc</h2>
                     <p class="p-team">
-                    Coming Soon! 
+                        Coming Soon!
                     </p>
                     {/* <Carousel /> */}
-                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
-                    <p><span class="class-des-p">Intended Ages: </span>Grades 6-10</p>
-                    <p><span class="class-des-p">Lead Instructor: </span>Daniel Lee</p>
-                    <p><span class="class-des-p">Prerequisites: </span>Algebra</p>
+                    <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
+                        <p><span class="class-des-p">Intended Ages: </span>Grades 6-10</p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Daniel Lee</p>
+                        <p><span class="class-des-p">Prerequisites: </span>Algebra</p>
 
                     </div>
 
@@ -157,13 +159,13 @@ Provides the problem-solving skills needed for competition math problems from th
                 <div class="class-con-item">
                     <h2 class="h">Geometry/Algebra</h2>
                     <p class="p-team">
-                    Coming Soon! 
+                        Coming Soon!
                     </p>
                     {/* <Carousel /> */}
-                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
-                    <p><span class="class-des-p">Intended Ages: </span> Grades 5-10</p>
-                    <p><span class="class-des-p">Lead Instructor: </span>Justin Liu</p>
-                    <p><span class="class-des-p">Prerequisites: </span>Prealgebra</p>
+                    <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
+                        <p><span class="class-des-p">Intended Ages: </span> Grades 5-10</p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Justin Liu</p>
+                        <p><span class="class-des-p">Prerequisites: </span>Prealgebra</p>
 
                     </div>
 
@@ -186,13 +188,13 @@ Provides the problem-solving skills needed for competition math problems from th
                     <h2 class="h">USACO Preparation</h2>
                     <p class="p-team">
 
-                    We will start from the basics and build up, preparing for the USACO contests and learning about computing optimization and algorithms. The course will be taught in java but if you know any language well you will be fine.
+                        We will start from the basics and build up, preparing for the USACO contests and learning about computing optimization and algorithms. The course will be taught in java but if you know any language well you will be fine.
                     </p>
                     {/* <Carousel /> */}
-                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
-                    <p><span class="class-des-p">Intended Ages: </span> Grades 8-10</p>
-                    <p><span class="class-des-p">Lead Instructor: </span>Sasmit Agarwal</p>
-                    <p><span class="class-des-p">Prerequisites: </span>Knowledge of Programming</p>
+                    <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
+                        <p><span class="class-des-p">Intended Ages: </span> Grades 8-10</p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Sasmit Agarwal</p>
+                        <p><span class="class-des-p">Prerequisites: </span>Knowledge of Programming</p>
 
                     </div>
 
@@ -214,15 +216,15 @@ Provides the problem-solving skills needed for competition math problems from th
                 <div class="class-con-item">
                     <h2 class="h">Intro to Coding</h2>
                     <p class="p-team">
-                    
-In this course we will be covering the basics of coding through learning java and going through the AP Computer Science course. By the end of the course students will know the main concepts of coding which will help in learning any language moving forward. 
+
+                        In this course we will be covering the basics of coding through learning java and going through the AP Computer Science course. By the end of the course students will know the main concepts of coding which will help in learning any language moving forward.
 
                     </p>
                     {/* <Carousel /> */}
-                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
-                    <p><span class="class-des-p">Intended Ages: </span>Grades 6-10</p>
-                    <p><span class="class-des-p">Lead Instructor: </span>Aryan Mathur</p>
-                    <p><span class="class-des-p">Prerequisites: </span>Pre-algebra</p>
+                    <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
+                        <p><span class="class-des-p">Intended Ages: </span>Grades 6-10</p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Aryan Mathur</p>
+                        <p><span class="class-des-p">Prerequisites: </span>Pre-algebra</p>
 
                     </div>
 
@@ -244,7 +246,7 @@ In this course we will be covering the basics of coding through learning java an
                 <div class="class-con-item">
                     <h2 class="h">Physics</h2>
                     <p class="p-team">
-                    Coming Soon
+                        Coming Soon
                     </p>
                     {/* <Carousel /> */}
                     {/* <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
@@ -269,7 +271,7 @@ In this course we will be covering the basics of coding through learning java an
                     </button> */}
 
                 </div>
-                
+
             </div>
         </div>
     </div>

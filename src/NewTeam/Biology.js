@@ -2,15 +2,11 @@ import React from "react";
 import "./NewTeam.css"; 
 import Navbar from "../Navbar.js"; 
 import Card from "./TeamCard"; 
-import christian from "./InstructorImages/christian.png"; 
 import fiona from "./InstructorImages/fiona.png"; 
-import emily from "./InstructorImages/emily.jpg"; 
-import katherine from "./InstructorImages/katherine.jpg"; 
-import justin from "./InstructorImages/justin.jpg"; 
-import aryan from "./InstructorImages/aryan.JPG"; 
 import yulia from "./InstructorImages/yulia.JPG"; 
-import daniel from "./InstructorImages/daniel.png"; 
-
+import aashvi from "./InstructorImages/aashvi.jpg"; 
+import maariyah from "./InstructorImages/maariyah.jpg"; 
+import defaultInstructor from "../icons/head-cross.png"; 
 
 export default function Biology() {
     return (<div class="new-team-con">
@@ -19,8 +15,12 @@ export default function Biology() {
         <h1>Biology</h1>
         <div class="con">
                 <Card
+                    imgURL = {defaultInstructor}
+                    position = "Biology Class Director"
                     name="Aniketh Prasad"
-                    des="Coming Soon "
+                    des="
+Aniketh is a rising senior at Leigh High School. He is a passionate biology student who has taken AP Biology and qualified as a USA Biology Olympiad Semifinalist. He is also studying Neuroscience and Human Biology at Mission College. Aniketh is currently an officer of the California Scholarship Federation and Biology Olympiad Clubs. He has various tutoring experience through his job at the Kumon Math and Reading Center as well as through a tutoring program for underprivileged kids. Aniketh has also participated in peer tutoring through the National Honors Society. During his summer, he attended COSMOS at UCSD and volunteered for various organizations.
+"
                 />
                 <Card
                     imgURL="https://stemenrichmentyouth.weebly.com/uploads/1/3/1/7/131772821/diana_orig.jpg"
@@ -29,6 +29,15 @@ export default function Biology() {
                     position = "President of Operations"
 
                 />
+                <Card
+                    imgURL = {maariyah}
+                    position = "Biology Lead Instructor"
+                    name="Maariyah"
+                    des="
+ Maariyah is a recent graduate of Leigh High School. She participated in WiSTEM, the Medical Explorers Program, and volunteered at Good Samaritan Hospital. She is pursuing the Pre-Medical Track at New York University. She looks forward to sharing her passion for the life sciences via the Biology course at STEMEY.
+"
+                />
+               
                 <Card
                     imgURL={fiona}
                     name="Fiona Sun"
@@ -46,6 +55,43 @@ Yulia Anashkina is a rising sophomore with a passion for STEM. She earned straig
                     position="Biology Instructor"
 
                 />
+                <Card
+                    imgURL = {defaultInstructor}
+                    position = "Biology Instructor"
+                    name="Landon Battin"
+                    des="
+
+Landon, a Junior at Leigh High School, is passionate in varying medical and tech fields including Chemistry and Biology. He also enjoys taking charge and sharing his interests with others of the same interest. He is the LHS Class of 2022 Junior Class President, a LHS Superintendent Student Advisory Council Site Rep, and a member of National Honor Society. In addition to youth leadership positions, Landon has made endeavours in Varsity Track and Field and Captain of the Junior Varsity Soccer team. Outside of school, Landon works part-time at Holy Cross After-school Children’s Center as a Junior Aide. Landon looks to pursue Biochemistry or a Biotech field in the near future and is excited to share his leadership as a Chemistry and Biology STEMEY instructor.
+
+"
+                />
+                <Card
+                    imgURL = {aashvi}
+                    position = "Biology Instructor"
+                    name="Aashvi Wason"
+                    des="
+                    Aashvi, a rising junior at Leigh, is interested in the medical field, and is passionate about biology and chemistry. She enjoys taking classes outside of school in the STEM field that advance her knowledge in science and math. Aashvi is involved in Leadership at Leigh, and is the Junior class Secretary/Treasurer. She is also a member of both the National Honor Society and the California Scholarship Federation. Outside of school, Aashvi helps out at the public library, volunteers at Good Samaritan Hospital, and likes to dance at Capitol Dance Company. She’s very thrilled to work with everyone as a part of STEMEY for the next few months!
+"
+                />
+                <Card
+                    imgURL = {defaultInstructor}
+                    position = "Biology Instructor"
+                    name="Abby Fernandes"
+                    
+                />
+                <Card
+                    imgURL = {defaultInstructor}
+                    position = "Biology Instructor"
+                    name="Alexandra Guo"
+                />
+                 <Card
+                    imgURL = {defaultInstructor}
+                    position = "Biology Instructor"
+                    name="Emma Whitehead"
+                />
+
+            
+                
                 
                 
                

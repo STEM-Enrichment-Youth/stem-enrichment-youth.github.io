@@ -43,7 +43,6 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/chemistry">Chemistry</a>
               <a class="dropdown-item" href="/physics">Physics</a>
               <a class="dropdown-item" href="/neuroscience">Neuroscience</a>
-              <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="/math">Math</a>
               <a class="dropdown-item" href="/coding">Coding</a>
 
