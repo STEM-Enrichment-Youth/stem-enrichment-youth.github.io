@@ -25,7 +25,7 @@ export default function NewTeam() {
                     imgURL={elyssa}
                     name="Elyssa Wolter"
                     position="Physics Instructor"
-                    des = "Elyssa Wolter is a rising senior at Leigh High School. She is a member of the Science National Honor Society, California Scholarship Federation, National Honor Society, and Link Crew. She is on the school’s track and field team as well as playing on a competitive soccer team and is a part of the music program at Leigh. She has worked as a babysitter and soccer referee since middle school and the past two summers she was a camp counselor at Mulberry School. She looks forward to finding ways for STEM to be interactive and fun as well as teaching classes."
+                    des = "Elyssa Wolter is a rising senior at Leigh High School. She is a member of the Science National Honor Society, California Scholarship Federation, National Honor Society, and Link Crew. She is on the school’s track and field team. She also plays on a competitive soccer team and is a part of the music program at Leigh. She has worked as a babysitter and soccer referee since middle school and the past two summers she was a camp counselor at Mulberry School. She looks forward to finding ways for STEM to be interactive and fun as well as teaching classes."
                 />
                                 <Card
                     imgURL={liza}

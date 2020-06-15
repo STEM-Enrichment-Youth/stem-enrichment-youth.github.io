@@ -4,7 +4,8 @@ import { Toolbar, AppBar, Button, Typography, IconButton } from '@material-ui/co
 import { withStyles } from 'material-ui/styles';
 import Menu from "./Menu";
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import stemey from "./STEMEY.png";
+import stemey from "./GoodStemeyLogo.png";
+
 export default function Navbar(props) {
   const [scrolled, setScrolled] = React.useState(false);
 

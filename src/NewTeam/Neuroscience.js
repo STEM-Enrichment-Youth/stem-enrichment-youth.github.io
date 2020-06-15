@@ -18,6 +18,7 @@ export default function NewTeam() {
         <div class="new-team">
         <h1>Meet Our Team</h1>
         <div class="con">
+            <h1>Coming Soon</h1>
                
             </div>
         </div>

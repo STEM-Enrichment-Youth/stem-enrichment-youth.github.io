@@ -185,7 +185,7 @@ export default function NewClasses() {
 
                 </div>
                 <div class="class-con-item">
-                    <h2 class="h">USACO Preparation</h2>
+                    <h2 class="h">USACO Prep</h2>
                     <p class="p-team">
 
                         We will start from the basics and build up, preparing for the USACO contests and learning about computing optimization and algorithms. The course will be taught in java but if you know any language well you will be fine.

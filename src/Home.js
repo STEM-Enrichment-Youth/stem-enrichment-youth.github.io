@@ -43,30 +43,30 @@ function Home() {
       </div>
       <section class="who">
         <div class="banner">
-          <div class="banner-class">
-            <img class="class-icon" src={coding} />
-            <h2>Coding</h2>
-          </div>
-          <div class="banner-class">
+          <a class="banner-class"  href="/classes">
+            <img class="class-icon" src={coding}  />
+            <h2  style={{color: "white"}}>Coding</h2>
+          </a>
+          <a class="banner-class" href="/classes">
             <img class="class-icon" src={biology} />
-            <h2>Biology</h2>
-          </div>
-          <div class="banner-class">
+            <h2 style={{color: "white"}}>Biology</h2>
+          </a>
+          <a class="banner-class"  href="/classes">
             <img class="class-icon" src={chemistry} />
-            <h2>Chemistry</h2>
-          </div>
-          <div class="banner-class">
+            <h2  style={{color: "white"}}>Chemistry</h2>
+          </a>
+          <a class="banner-class"  href="/classes">
             <img class="class-icon" src={neuroscience} />
-            <h2>Neuroscience</h2>
-          </div>
-          <div class="banner-class">
+            <h2  style={{color: "white"}}>Neuroscience</h2>
+          </a>
+          <a class="banner-class"  href="/classes">
             <img class="class-icon" src={physics} />
-            <h2>Physics</h2>
-          </div>
-          <div class="banner-class">
+            <h2  style={{color: "white"}}>Physics</h2>
+          </a>
+          <a class="banner-class" href="/classes">
             <img class="class-icon" src={math} />
-            <h2>Math</h2>
-          </div>
+            <h2  style={{color: "white"}}>Math</h2>
+          </a>
         </div>
         <div class="why-us">
 
