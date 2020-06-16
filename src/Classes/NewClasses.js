@@ -41,8 +41,7 @@ export default function NewClasses() {
                 <div class="class-con-item">
                     <h2 class="h">Chemistry</h2>
                     <p class="p-team">
-                        Coming Soon
-
+                    In this course, we will study the matter that makes up everything around us. We will study its properties, how it combines, how it changes, and how it interacts with surrounding matter. We will also learn about the physical laws governing these interactions, and how we can predict the results of these interactions. This course follows a high school Chemistry curriculum, and it is helpful to have a basic understanding of algebra.
                     </p>
                     {/* <Carousel /> */}
                     <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
@@ -114,7 +113,7 @@ export default function NewClasses() {
 
 
                     <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>Coming Soon!</h2>
+                    <h2>diwgc7t</h2>
                     <button class="btn btn-danger">
                         <a href="https://classroom.google.com/u/0/h" style={{
                             textDecoration: "none",
@@ -159,7 +158,7 @@ export default function NewClasses() {
                 <div class="class-con-item">
                     <h2 class="h">Geometry/Algebra</h2>
                     <p class="p-team">
-                        Coming Soon!
+                    Introductory course about the fundamentals of Algebra 1 and Geometry. We will focus on solving different types of equations in algebra and on proofs in geometry. This will provide the foundation for IM1, IM2, and the beginning of IM3 in the Common Core Curriculum
                     </p>
                     {/* <Carousel /> */}
                     <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
@@ -170,7 +169,7 @@ export default function NewClasses() {
                     </div>
 
                     <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>Coming Soon</h2>
+                    <h2>h6clzjs</h2>
                     <button class="btn btn-danger">
                         <a href="https://classroom.google.com/u/0/h" style={{
                             textDecoration: "none",
@@ -229,7 +228,7 @@ export default function NewClasses() {
                     </div>
 
                     <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>Coming Soon</h2>
+                    <h2>ps665uc</h2>
                     <button class="btn btn-danger">
                         <a href="https://classroom.google.com/u/0/h" style={{
                             textDecoration: "none",
@@ -246,18 +245,18 @@ export default function NewClasses() {
                 <div class="class-con-item">
                     <h2 class="h">Physics</h2>
                     <p class="p-team">
-                        Coming Soon
+
+                    In this course, we will study the basics of Newtonian mechanics, and develop some of the mindset needed to approach Physics problems. This course approximately follows the first ~2/3 of AP Physics 1 and requires some basic [math] skills, including Algebra, basic Geometry, Trigonometry, and a willingness to learn. 
                     </p>
-                    {/* <Carousel /> */}
-                    {/* <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
+                    <div style={{boxShadow: "0px 0px 10px black", padding: "0 15px"}}>
                     <p><span class="class-des-p">Intended Ages: </span> Grades 5-10</p>
                     <p><span class="class-des-p">Lead Instructor: </span>Diana Poplacenel</p>
-                    <p><span class="class-des-p">Prerequisites: </span>None!</p>
+                    <p><span class="class-des-p">Prerequisites: </span>Algebra, Geometry, Trigonometry</p>
 
                     </div>
 
                     <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>Coming Soon</h2>
+                    <h2>dekgelg</h2>
                     <button class="btn btn-danger">
                         <a href="https://classroom.google.com/u/0/h" style={{
                             textDecoration: "none",
@@ -268,7 +267,7 @@ export default function NewClasses() {
                         }}>
                             SIGN UP
                         </a>
-                    </button> */}
+                    </button>
 
                 </div>
 
