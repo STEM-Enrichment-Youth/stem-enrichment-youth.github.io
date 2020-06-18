@@ -12,13 +12,14 @@ import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png";
 import katherine from "./NewTeam/InstructorImages/katherine.jpg"; 
 import christian from "./NewTeam/InstructorImages/christian.png"; 
-
+// import Alert from "./Components/Alert"; 
 
 function Home() {
   const [scale, setScale] = React.useState(false);
 
   return (
     <div class="whole-home">
+
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
         <div class="head-txt" >
           <div class="head-con">
@@ -28,6 +29,7 @@ function Home() {
               A high-school led organization committed to encouraging interest in STEM especially among middle schoolers. 
               STEMEY provides virtual classes built by high schoolers to grades 5-10. 
               </p>
+              
             </div>
             <img class="stemey-logo" src={stemey} />
             {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
@@ -41,8 +43,12 @@ function Home() {
         </div>
 
       </div>
-      <section class="who">
-        <div class="banner">
+      <div class="announcement">
+      <h2 style={{marginBottom: "20px"}}>Special Announcement</h2>
+      <p style={{lineHeight: "180%"}}>This Friday, June 19, STEMEY will have a Zoom meeting open to the public for anyone who wants to 
+              ask questions about the program! Link to the meeting will be on this page Friday!</p>
+      </div>
+      <div class="banner">
           <a class="banner-class"  href="/classes">
             <img class="class-icon" src={coding}  />
             <h2  style={{color: "white"}}>Coding</h2>
@@ -68,6 +74,8 @@ function Home() {
             <h2  style={{color: "white"}}>Math</h2>
           </a>
         </div>
+      <section class="who">
+        
         <div class="why-us">
 
           <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
@@ -148,11 +156,11 @@ function Home() {
         </div>
 
       </section>
-      <h1 style={{textAlign: "center", fontSize: "500%"}}>Founders</h1>
+      <h1 style={{textAlign: "center", fontSize: "500%", marginTop: "20px"}}>Founders</h1>
       <div class="banner">
           <div class="banner-class">
-            <img style={{width: "200px",  marginTop: '15px'}} src="https://stemenrichmentyouth.weebly.com/uploads/1/3/1/7/131772821/diana_orig.jpg" />
-            <h2>Diana Poplacenel</h2>
+            <img style={{width: "120px",  marginTop: '15px'}} src="https://stemenrichmentyouth.weebly.com/uploads/1/3/1/7/131772821/diana_orig.jpg" />
+            <h2 style={{fontSize: "100%"}}>Diana Poplacenel</h2>
           </div>
           <div class="banner-class">
           <img style={{width: "50%", marginTop: '15px'}} src={katherine} />
