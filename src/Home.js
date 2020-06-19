@@ -10,26 +10,31 @@ import chemistry from "./icons/beaker-atom.png"; import biology from "./icons/ge
 import physics from "./icons/Newtons-cradle.png";
 import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png";
-import katherine from "./NewTeam/InstructorImages/katherine.jpg"; 
-import christian from "./NewTeam/InstructorImages/christian.png"; 
-// import Alert from "./Components/Alert"; 
+import katherine from "./NewTeam/InstructorImages/katherine.jpg";
+import christian from "./NewTeam/InstructorImages/christian.png";
+import Alert from "./Components/Alert";
 
 function Home() {
   const [scale, setScale] = React.useState(false);
 
   return (
     <div class="whole-home">
-
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
+        <div style={{ margin: '20px 0', width: "100%" }}>
+          <Alert message="STEMEY's Neuroscience Class is now available! Check out the Neuroscience class page for more information!" button={false} />
+        </div>
+        <div style={{ width: "100%"}}>
+          <Alert message="This Monday we will have a Zoom meeting to introduce our program and instructors to the public! Link will be on this page Monday! Feel free to drop by if you have any questions whatsoever about the program." button={true} />
+        </div>
         <div class="head-txt" >
           <div class="head-con">
             <div class="head-txt-2">
               <h1 class="biggest-header">stemey</h1>
               <p class="head-p">
-              A high-school led organization committed to encouraging interest in STEM especially among middle schoolers. 
-              STEMEY provides virtual classes built by high schoolers to grades 5-10. 
+                A high-school led organization committed to encouraging interest in STEM especially among middle schoolers.
+                STEMEY provides virtual classes built by high schoolers to grades 5-10.
               </p>
-              
+
             </div>
             <img class="stemey-logo" src={stemey} />
             {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
@@ -49,33 +54,33 @@ function Home() {
               ask questions about the program! Link to the meeting will be on this page Friday!</p>
       </div> */}
       <div class="banner">
-          <a class="banner-class"  href="/classes">
-            <img class="class-icon" src={coding}  />
-            <h2  style={{color: "white"}}>Coding</h2>
-          </a>
-          <a class="banner-class" href="/classes">
-            <img class="class-icon" src={biology} />
-            <h2 style={{color: "white"}}>Biology</h2>
-          </a>
-          <a class="banner-class"  href="/classes">
-            <img class="class-icon" src={chemistry} />
-            <h2  style={{color: "white"}}>Chemistry</h2>
-          </a>
-          <a class="banner-class"  href="/classes">
-            <img class="class-icon" src={neuroscience} />
-            <h2  style={{color: "white"}}>Neuroscience</h2>
-          </a>
-          <a class="banner-class"  href="/classes">
-            <img class="class-icon" src={physics} />
-            <h2  style={{color: "white"}}>Physics</h2>
-          </a>
-          <a class="banner-class" href="/classes">
-            <img class="class-icon" src={math} />
-            <h2  style={{color: "white"}}>Math</h2>
-          </a>
-        </div>
+        <a class="banner-class" href="/classes">
+          <img class="class-icon" src={coding} />
+          <h2 style={{ color: "white" }}>Coding</h2>
+        </a>
+        <a class="banner-class" href="/classes">
+          <img class="class-icon" src={biology} />
+          <h2 style={{ color: "white" }}>Biology</h2>
+        </a>
+        <a class="banner-class" href="/classes">
+          <img class="class-icon" src={chemistry} />
+          <h2 style={{ color: "white" }}>Chemistry</h2>
+        </a>
+        <a class="banner-class" href="/classes">
+          <img class="class-icon" src={neuroscience} />
+          <h2 style={{ color: "white" }}>Neuroscience</h2>
+        </a>
+        <a class="banner-class" href="/classes">
+          <img class="class-icon" src={physics} />
+          <h2 style={{ color: "white" }}>Physics</h2>
+        </a>
+        <a class="banner-class" href="/classes">
+          <img class="class-icon" src={math} />
+          <h2 style={{ color: "white" }}>Math</h2>
+        </a>
+      </div>
       <section class="who">
-        
+
         <div class="why-us">
 
           <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
@@ -156,26 +161,26 @@ function Home() {
         </div>
 
       </section>
-      <h1 style={{textAlign: "center", fontSize: "500%", marginTop: "20px"}}>Founders</h1>
+      <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Founders</h1>
       <div class="banner">
-          <div class="banner-class">
-            <img style={{width: "120px",  marginTop: '15px'}} src="https://stemenrichmentyouth.weebly.com/uploads/1/3/1/7/131772821/diana_orig.jpg" />
-            <h2 style={{fontSize: "100%"}}>Diana Poplacenel</h2>
-          </div>
-          <div class="banner-class">
-          <img style={{width: "50%", marginTop: '15px'}} src={katherine} />
-            <h2>Katherine Liu</h2>
-          </div>
-          <div class="banner-class">
-          <img style={{width: "50%", marginTop: '15px'}} src={christian} />
-            <h2>Christian Kim</h2>
-          </div>
-          <div class="banner-class">
-            <img class="class-icon" src={neuroscience} style={{marginTop: '15px'}} />
-            <h2>Aniketh Prasad</h2>
-          </div>
-          
+        <div class="banner-class">
+          <img style={{ width: "120px", marginTop: '15px' }} src="https://stemenrichmentyouth.weebly.com/uploads/1/3/1/7/131772821/diana_orig.jpg" />
+          <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
         </div>
+        <div class="banner-class">
+          <img style={{ width: "50%", marginTop: '15px' }} src={katherine} />
+          <h2>Katherine Liu</h2>
+        </div>
+        <div class="banner-class">
+          <img style={{ width: "50%", marginTop: '15px' }} src={christian} />
+          <h2>Christian Kim</h2>
+        </div>
+        <div class="banner-class">
+          <img class="class-icon" src={neuroscience} style={{ marginTop: '15px' }} />
+          <h2>Aniketh Prasad</h2>
+        </div>
+
+      </div>
     </div>
 
 

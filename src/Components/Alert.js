@@ -15,14 +15,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function TransitionAlerts() {
+export default function TransitionAlerts(props) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);
 
   return (
     <div className={classes.root}>
       <Collapse in={open}>
-        <Alert
+        <Alert severity="info"
           action={
             <IconButton
               aria-label="close"
@@ -32,14 +32,17 @@ export default function TransitionAlerts() {
                 setOpen(false);
               }}
             >
+
               <CloseIcon fontSize="inherit" />
             </IconButton>
           }
         >
-          Close me!
+        {props.message}
         </Alert>
       </Collapse>
+      
       <Button
+        style={props.button==true ? {marginBottom: "10px"} : {display: "none"} }
         disabled={open}
         variant="outlined"
         onClick={() => {
