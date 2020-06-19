@@ -43,11 +43,11 @@ function Home() {
         </div>
 
       </div>
-      <div class="announcement">
+      {/* <div class="announcement">
       <h2 style={{marginBottom: "20px"}}>Special Announcement</h2>
       <p style={{lineHeight: "180%"}}>This Friday, June 19, STEMEY will have a Zoom meeting open to the public for anyone who wants to 
               ask questions about the program! Link to the meeting will be on this page Friday!</p>
-      </div>
+      </div> */}
       <div class="banner">
           <a class="banner-class"  href="/classes">
             <img class="class-icon" src={coding}  />
