@@ -9,11 +9,12 @@
     padding-top: 0px; 
 }
 .home-header {
-    height: 90vh; 
+    height: 110vh; 
     display: grid; 
     grid-template-columns: 1fr; 
     align-items: center; 
     justify-items: center; 
+    margin-bottom: 50px; 
 }
 .head-txt {
     padding: 50px; 
@@ -160,12 +161,15 @@
         grid-template-columns: 1fr; 
         justify-items: center; 
     }
-    .home-header { height: 100vh; }
+    .home-header { height: 120vh; }
 
     .head-txt-2 { display: grid; grid-template-columns: 1fr; justify-items: center; }
     .head-p { width: 80%; }
+    .stemey-logo { width: 300px; }
+
 }
 @media only screen and (max-width: 767px) {
+
     .biggest-header {
       font-size: 400%; 
       letter-spacing: 5px; 
@@ -208,21 +212,22 @@
     .who {
         justify-items: center; 
     }
-    .stemey-logo { width: 300px; }
-    .home-header { height: 90vh; }
+    .home-header { height: 110vh; }
 }
 
 @media only screen and (max-width: 510px) {
     .why-us { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
         justify-items: center; 
     }
-    .home-header { height: 90vh; }
+
+        .home-header { height: 120vh; }
 
 }
 
 
   @media only screen and (max-width: 480px) {
     
+    .home-header { height: 130vh; }
 
     .big-title {
         font-size: 3rem;
