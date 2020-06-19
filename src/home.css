@@ -212,7 +212,7 @@
     .who {
         justify-items: center; 
     }
-    .home-header { height: 110vh; }
+    .home-header { height: 130vh; }
 }
 
 @media only screen and (max-width: 510px) {
@@ -220,14 +220,12 @@
         justify-items: center; 
     }
 
-        .home-header { height: 120vh; }
-
 }
 
 
   @media only screen and (max-width: 480px) {
     
-    .home-header { height: 130vh; }
+    .home-header { height: 140vh; }
 
     .big-title {
         font-size: 3rem;
