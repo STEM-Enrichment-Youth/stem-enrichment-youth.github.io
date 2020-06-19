@@ -38,7 +38,7 @@ export default function Navbar(props) {
           <li class="nav-item dropdown nav-link active">
             <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
             class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Teams</a>
+            Instructors</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/biology">Biology</a>
               <a class="dropdown-item" href="/chemistry">Chemistry</a>
@@ -49,6 +49,20 @@ export default function Navbar(props) {
 
             </div>
           </li>
+          <li class="nav-item dropdown nav-link active">
+            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
+            class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Classes</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/biology-class">Biology</a>
+              <a class="dropdown-item" href="/chemistry-class">Chemistry</a>
+              <a class="dropdown-item" href="/physics-class">Physics</a>
+              <a class="dropdown-item" href="/neuroscience-class">Neuroscience</a>
+              <a class="dropdown-item" href="/math-class">Math</a>
+              <a class="dropdown-item" href="/coding-class">Coding</a>
+
+            </div>
+          </li>
           <li class="nav-item active nav-link">
             <Button href="/contact" variant="contained">Contact Us</Button>
           </li>
@@ -56,14 +70,9 @@ export default function Navbar(props) {
             <Button href="/teach" variant="contained">Teach</Button>
           </li>
           {/* <li class="nav-item active nav-link">
-            <Button href="/login" variant="contained">Login</Button>
-          </li>
-          <li class="nav-item active nav-link">
-            <Button href="/register" variant="contained">Register</Button>
-          </li> */}
-          <li class="nav-item active nav-link">
             <Button href="/classes" variant="contained">Classes</Button>
-          </li>
+          </li> */}
+          
         </ul>
       </div>
     </nav>

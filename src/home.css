@@ -209,13 +209,15 @@
         justify-items: center; 
     }
     .stemey-logo { width: 300px; }
-    .home-header { height: 80vh; }
+    .home-header { height: 90vh; }
 }
 
 @media only screen and (max-width: 510px) {
     .why-us { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
         justify-items: center; 
     }
+    .home-header { height: 90vh; }
+
 }
 
 
