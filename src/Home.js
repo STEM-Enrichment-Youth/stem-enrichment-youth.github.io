@@ -20,13 +20,13 @@ function Home() {
   return (
     <div class="whole-home">
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
-      <div style={{ margin: '20px 0', width: "100%" }}>
-          <Alert message="STEMEY's Neuroscience Class is now available! Check out the Neuroscience class page for more information!" button={false} />
+      <div style={{width: "100%", marginTop: "20px"}}>
+        <Alert message="Our Neuroscience Class is now available! Check out the Neuroscience Class Page for more information!"/>
+      </div>
+      <div style={{ width: "100%", marginTop: "20px"}}>
+          <Alert
+            message="This Monday we will have a Zoom meeting to introduce our program and instructors to the public! Link will be on this page Monday! Feel free to drop by if you have any questions whatsoever about the program." button={true} />
         </div>
-        <div style={{ width: "100%"}}>
-          <Alert message="This Monday we will have a Zoom meeting to introduce our program and instructors to the public! Link will be on this page Monday! Feel free to drop by if you have any questions whatsoever about the program." button={true} />
-        </div>
-
         <div class="head-txt" >
           <div class="head-con">
             <div class="head-txt-2">
