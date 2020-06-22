@@ -15,7 +15,7 @@ function Contact() {
   const [scale, setScale] = React.useState(false);
 
   return (
-    <div class="whole-home">
+    <div class="whole-home" style={{marginTop: "70px"}}>
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
         <div class="head-txt" >
           <div class="head-con">
