@@ -35,7 +35,9 @@ function Home() {
                 A high-school led organization committed to encouraging interest in STEM especially among middle schoolers.
                 STEMEY provides virtual classes built by high schoolers to grades 5-10.
               </p>
-
+              <a style={{color: "white"}} class="btn btn-full" href="https://us04web.zoom.us/j/75079520112?pwd=emFqUEVQZ1RIakxPaG5nZGI0Mkg3Zz09">Join Our 5 pm Zoom Meeting Here!</a>
+              <p style={{marginTop: "20px"}}>Meeting ID: 750 7952 0112</p>
+              <p>Password: stemey</p>
             </div>
             <img class="stemey-logo" src={stemey} />
             {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
