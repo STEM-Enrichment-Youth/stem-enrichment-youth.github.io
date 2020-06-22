@@ -25,7 +25,7 @@ function Home() {
       </div>
       <div style={{ width: "100%", marginTop: "20px"}}>
           <Alert
-            message="This Monday we will have a Zoom meeting to introduce our program and instructors to the public! Link will be on this page Monday! Feel free to drop by if you have any questions whatsoever about the program." button={true} />
+            message="This Monday at 5 we will have a Zoom meeting to introduce our program and instructors to the public! Link will be on this page Monday! Feel free to drop by if you have any questions whatsoever about the program." button={true} />
         </div>
         <div class="head-txt" >
           <div class="head-con">
@@ -55,27 +55,27 @@ function Home() {
               ask questions about the program! Link to the meeting will be on this page Friday!</p>
       </div> */}
       <div class="banner">
-        <a class="banner-class" href="/classes">
+        <a class="banner-class" href="/coding-class">
           <img class="class-icon" src={coding} />
           <h2 style={{ color: "white" }}>Coding</h2>
         </a>
-        <a class="banner-class" href="/classes">
+        <a class="banner-class" href="/biology-class">
           <img class="class-icon" src={biology} />
           <h2 style={{ color: "white" }}>Biology</h2>
         </a>
-        <a class="banner-class" href="/classes">
+        <a class="banner-class" href="/chemistry-class">
           <img class="class-icon" src={chemistry} />
           <h2 style={{ color: "white" }}>Chemistry</h2>
         </a>
-        <a class="banner-class" href="/classes">
+        <a class="banner-class" href="/neuroscience-class">
           <img class="class-icon" src={neuroscience} />
           <h2 style={{ color: "white" }}>Neuroscience</h2>
         </a>
-        <a class="banner-class" href="/classes">
+        <a class="banner-class" href="/physics-class">
           <img class="class-icon" src={physics} />
           <h2 style={{ color: "white" }}>Physics</h2>
         </a>
-        <a class="banner-class" href="/classes">
+        <a class="banner-class" href="/math-class">
           <img class="class-icon" src={math} />
           <h2 style={{ color: "white" }}>Math</h2>
         </a>
