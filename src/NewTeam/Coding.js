@@ -49,7 +49,7 @@ Domi is a rising sophomore at Leigh High School. He has been teaching 10-12 year
 "
                 /> 
                 <Card
-                name='Sakshi Srinivasan'
+                name='Sakshi Sivaraman'
                 imgURL={defaultInstructor}
                 position="Coding Instructor"
                 des="

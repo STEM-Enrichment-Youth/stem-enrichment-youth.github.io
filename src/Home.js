@@ -11,7 +11,7 @@ import physics from "./icons/Newtons-cradle.png";
 import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png";
 import katherine from "./NewTeam/InstructorImages/katherine.jpg";
-import christian from "./NewTeam/InstructorImages/christian.png";
+import diana from "./NewTeam/InstructorImages/diana.png";
 import Alert from "./Components/Alert";
 
 function Home() {
@@ -162,11 +162,11 @@ function Home() {
       <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Founders</h1>
       <div class="banner">
         <div class="banner-class">
-          <img style={{width: "40%", marginTop: '15px' }} src="https://stemenrichmentyouth.weebly.com/uploads/1/3/1/7/131772821/diana_orig.jpg" />
+          <img style={{width: "150px", marginTop: '15px' }} src={diana} />
           <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
         </div>
         <div class="banner-class">
-          <img style={{ width: "40%", marginTop: '15px' }} src={katherine} />
+          <img style={{ width: "150px", marginTop: '15px' }} src={katherine} />
           <h2>Katherine Liu</h2>
         </div>
         
