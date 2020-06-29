@@ -183,35 +183,7 @@ export default function NewClasses() {
                     </button>
 
                 </div>
-                <div class="class-con-item">
-                    <h2 class="h">USACO Prep</h2>
-                    <p class="p-team">
-
-                        We will start from the basics and build up, preparing for the USACO contests and learning about computing optimization and algorithms. The course will be taught in java but if you know any language well you will be fine.
-                    </p>
-                    {/* <Carousel /> */}
-                    <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
-                        <p><span class="class-des-p">Intended Ages: </span> Grades 8-10</p>
-                        <p><span class="class-des-p">Lead Instructor: </span>Sasmit Agarwal</p>
-                        <p><span class="class-des-p">Prerequisites: </span>Knowledge of Programming</p>
-
-                    </div>
-
-                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>wvbikmk</h2>
-                    <button class="btn btn-danger">
-                        <a href="https://classroom.google.com/u/0/h" style={{
-                            textDecoration: "none",
-                            color: "white",
-                            letterSpacing: "3px",
-                            fontWeight: "200",
-                            fontSize: "20px"
-                        }}>
-                            SIGN UP
-                        </a>
-                    </button>
-
-                </div>
+                
                 <div class="class-con-item">
                     <h2 class="h">Intro to Coding</h2>
                     <p class="p-team">

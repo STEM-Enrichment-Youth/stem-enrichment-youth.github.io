@@ -22,13 +22,13 @@
     background-color: rgba(0, 0, 0, 0.7); 
 }
 
-.biggest-header, .biggest-header-2{
+.biggest-header, .biggest-header-4, .biggest-header-2{
     font-size: 700%; 
     text-transform: uppercase;
     letter-spacing: 12px; 
 }
 .biggest-header-2 { font-size: 250%; }
-
+.biggest-header-4 { font-size: 500%; }
 .biggest-header-3 { font-size: 140%; }
 
 .big-title {
@@ -178,6 +178,7 @@
         font-size: 150%; 
         letter-spacing: 4px; 
     }
+    .biggest-header-4 { font-size: 300%; }
 
     /*
     style={{fontSize: "120%", paddingTop: "3%"}}

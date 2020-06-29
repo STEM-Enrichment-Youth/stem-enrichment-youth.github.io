@@ -73,6 +73,13 @@ Claire Jin is a rising senior at Leigh High School. She is president of the Scie
                     imgURL = {defaultInstructor}
                 />
                 <Card 
+                name="Arjun Ranade"
+                des="
+Arjun Ranade is a rising Junior at Leigh High School. He has been on the Leigh Swim Team for 2 years now and has qualified for CCS in multiple events. He also participates in CSF and volunteers regularly at the Almaden Library, helping kids learn to read and develop new skill sets and abilities. Outside of school he participated in Taekwon-Do and club swimming as well, he received the Award of Excellence and reached a II Degree Black Belt as well. Although he does not have any previous tutoring experience he has taught classes at his Taekwon-do school and loves to work with and teach kids. Arjun is excited to meet his fellow instructors and work with everyone involved in the STEMEY program!
+"
+                position="Geometry/Algebra Instructor"
+                />
+                <Card 
                     name="Kaeshav Mandyam"
                     position = "Calculus Instructor"
                     imgURL = {defaultInstructor}

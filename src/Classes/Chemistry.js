@@ -81,10 +81,6 @@ export default function NewClasses() {
                         </div>
                         <div class="step">
                             <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Quizzes</p>
-                        </div>
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
                             <p>Activities</p>
                         </div>
                         <div class="step">

@@ -16,16 +16,14 @@ import Alert from "./Components/Alert";
 
 function Home() {
   const [scale, setScale] = React.useState(false);
-
   return (
     <div class="whole-home">
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
-      <div style={{width: "100%", marginTop: "20px"}}>
-        <Alert message="Our Neuroscience Class is now available! Check out the Neuroscience Class Page for more information!"/>
-      </div>
+      
       <div style={{ width: "100%", marginTop: "20px"}}>
           <Alert
-            message="This Monday at 5 we will have a Zoom meeting to introduce our program and instructors to the public! Link will be on this page Monday! Feel free to drop by if you have any questions whatsoever about the program." button={true} />
+            message="STEMEY has now partnered with SND, Students Next Door, a high-school led organization that provides one-on-one tutoring 
+            for grades K-12! Go to the GET A TUTOR page to learn more about SND or sign up for one-on-one tutoring!" button={true} />
         </div>
         <div class="head-txt" >
           <div class="head-con">
@@ -35,9 +33,6 @@ function Home() {
                 A high-school led organization committed to encouraging interest in STEM especially among middle schoolers.
                 STEMEY provides virtual classes built by high schoolers to grades 5-10.
               </p>
-              <a style={{color: "white"}} class="btn btn-full" href="https://us04web.zoom.us/j/75079520112?pwd=emFqUEVQZ1RIakxPaG5nZGI0Mkg3Zz09">Join Our 5 pm Zoom Meeting Here!</a>
-              <p style={{marginTop: "20px"}}>Meeting ID: 750 7952 0112</p>
-              <p>Password: stemey</p>
             </div>
             <img class="stemey-logo" src={stemey} />
             {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
@@ -167,21 +162,14 @@ function Home() {
       <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Founders</h1>
       <div class="banner">
         <div class="banner-class">
-          <img style={{ width: "120px", marginTop: '15px' }} src="https://stemenrichmentyouth.weebly.com/uploads/1/3/1/7/131772821/diana_orig.jpg" />
+          <img style={{width: "40%", marginTop: '15px' }} src="https://stemenrichmentyouth.weebly.com/uploads/1/3/1/7/131772821/diana_orig.jpg" />
           <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
         </div>
         <div class="banner-class">
-          <img style={{ width: "50%", marginTop: '15px' }} src={katherine} />
+          <img style={{ width: "40%", marginTop: '15px' }} src={katherine} />
           <h2>Katherine Liu</h2>
         </div>
-        <div class="banner-class">
-          <img style={{ width: "50%", marginTop: '15px' }} src={christian} />
-          <h2>Christian Kim</h2>
-        </div>
-        <div class="banner-class">
-          <img class="class-icon" src={neuroscience} style={{ marginTop: '15px' }} />
-          <h2>Aniketh Prasad</h2>
-        </div>
+        
 
       </div>
     </div>

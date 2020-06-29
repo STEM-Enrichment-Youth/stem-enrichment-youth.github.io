@@ -64,14 +64,14 @@ export default function Navbar(props) {
             </div>
           </li>
           <li class="nav-item active nav-link">
+            <Button href="/snd" variant="contained">Get a Tutor</Button>
+          </li>
+          <li class="nav-item active nav-link">
             <Button href="/contact" variant="contained">Contact Us</Button>
           </li>
           <li class="nav-item active nav-link">
-            <Button href="/teach" variant="contained">Teach</Button>
+            <Button href="/teach" variant="contained">Apply</Button>
           </li>
-          {/* <li class="nav-item active nav-link">
-            <Button href="/classes" variant="contained">Classes</Button>
-          </li> */}
           
         </ul>
       </div>
