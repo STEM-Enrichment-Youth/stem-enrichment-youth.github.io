@@ -12,6 +12,7 @@ import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png";
 import katherine from "./NewTeam/InstructorImages/katherine.jpg";
 import diana from "./NewTeam/InstructorImages/diana.png";
+import christian from "./NewTeam/InstructorImages/christian.png";
 import Alert from "./Components/Alert";
 
 function Home() {
@@ -169,7 +170,10 @@ function Home() {
           <img style={{ width: "150px", marginTop: '15px' }} src={katherine} />
           <h2>Katherine Liu</h2>
         </div>
-        
+        <div class="banner-class">
+          <img style={{ width: "150px", marginTop: '15px' }} src={christian} />
+          <h2>Christian Kim</h2>
+        </div>
 
       </div>
     </div>
