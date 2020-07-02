@@ -14,6 +14,7 @@ import katherine from "./NewTeam/InstructorImages/katherine.jpg";
 import diana from "./NewTeam/InstructorImages/diana.png";
 import christian from "./NewTeam/InstructorImages/christian.png";
 import Alert from "./Components/Alert";
+import defaultInstructor from "./icons/head-cross.png"; 
 
 function Home() {
   const [scale, setScale] = React.useState(false);
@@ -173,6 +174,10 @@ function Home() {
         <div class="banner-class">
           <img style={{ width: "150px", marginTop: '15px' }} src={christian} />
           <h2>Christian Kim</h2>
+        </div>
+        <div class="banner-class">
+          <img style={{ width: "150px", marginTop: '15px' }} src={defaultInstructor} />
+          <h2>Aniketh Prasad</h2>
         </div>
 
       </div>
