@@ -13,6 +13,8 @@ import neuroscience from "./icons/head-brains.png";
 import katherine from "./NewTeam/InstructorImages/katherine.jpg";
 import diana from "./NewTeam/InstructorImages/diana.png";
 import christian from "./NewTeam/InstructorImages/christian.png";
+import aryan from "./NewTeam/InstructorImages/aryan.JPG";
+import deven from "./NewTeam/InstructorImages/deven.jpg"; 
 import Alert from "./Components/Alert";
 import defaultInstructor from "./icons/head-cross.png"; 
 
@@ -161,24 +163,25 @@ function Home() {
         </div>
 
       </section>
-      <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Founders</h1>
+      <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Executive Board</h1>
       <div class="banner">
         <div class="banner-class">
           <img style={{width: "150px", marginTop: '15px' }} src={diana} />
           <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
         </div>
         <div class="banner-class">
+          <img style={{ width: "150px", marginTop: '15px' }} src={deven} />
+          <h2>Deven Shah</h2>
+        </div>
+        <div class="banner-class">
           <img style={{ width: "150px", marginTop: '15px' }} src={katherine} />
           <h2>Katherine Liu</h2>
         </div>
         <div class="banner-class">
-          <img style={{ width: "150px", marginTop: '15px' }} src={christian} />
-          <h2>Christian Kim</h2>
+          <img style={{ width: "150px", marginTop: '15px' }} src={aryan} />
+          <h2>Aryan Mathur</h2>
         </div>
-        <div class="banner-class">
-          <img style={{ width: "150px", marginTop: '15px' }} src={defaultInstructor} />
-          <h2>Aniketh Prasad</h2>
-        </div>
+        
 
       </div>
     </div>
