@@ -8,7 +8,7 @@ function SND() {
   return (
     <div class="whole-home" style={{marginTop: "70px"}}>
       <div style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover"}}>
-        <div class="head-txt" style={{width: "90%", marginLeft: "5%"}}>
+        <div class="head-txt" style={{width: "90%", marginLeft: "5%", overflow: "scroll"}}>
           <div>
             <div>
                 
@@ -19,14 +19,14 @@ function SND() {
               STEMEY will be holding a virtual international STEM Convention through Slack and Zoom that would cater to STEM enthusiasts around the world. The convention will host guest speakers who discuss their research and academic experiences in STEM for 20-30 minutes via Zoom Webinar and will also provide exciting interactive activities. Our guest speakers are professors and researchers from the TOP US UNIVERSITIES, including Stanford, Princeton, Cornell, CalTech, and they are seeking to inspire the next generation of scientists, mathematicians, and engineers.
               </p>
               <div style={{width: "100%", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center"}}>
-                <a class="btn btn-full" style={{marginBottom: "20px"}} href="https://tinyurl.com/rsvpstemworld">RSVP Here to Receive Updates on the Convention</a>
+                <a class="btn btn-full" style={{marginBottom: "20px"}} href="https://tinyurl.com/rsvpstemworld">RSVP Here to Receive Updates</a>
                 <a class="btn btn-full" style={{marginBottom: "50px"}} href="/stemworldspeakers">SEE OUR SPEAKERS</a>
               </div>
 
               <h1 class="biggest-header-2">Schedule</h1>
               <div class="stem-world" style={{height: "auto"}}>
                 <div style={{display: "grid",  gridGap: "20px"}}>
-                <h1 style={{textAlign: "center"}}>Saturday, August 15</h1>
+                <h1>Saturday, August 15</h1>
                 <a class="btn btn-full" href="#">8:00-8:30 AM PST Opening Remarks</a>
                 <a class="btn btn-full" href="#">8:30-9:00 AM PST Biology Speaker 1</a>
                 <a class="btn btn-full" href="#">9:00-9:30 AM PST Biology Speaker 2</a>
@@ -55,7 +55,7 @@ function SND() {
 
                 </div>
                 <div style={{display: "grid",  gridGap: "20px"}}>
-                <h1 style={{textAlign: 'center'}}> Sunday, August 16</h1>
+                <h1> Sunday, August 16</h1>
                 <a class="btn btn-full stem-btn" href="#">8:00-8:30 AM PST Physics Speaker 1</a>
                 <a class="btn btn-full stem-btn" href="#">8:30-9:00 AM PST Physics Speaker 2</a>
                 <a class="btn btn-full stem-btn" href="#">9:00-9:30 AM PST Physics Speaker 3</a>
