@@ -16,7 +16,7 @@ body {
   }
   
   p { font-weight: 200; letter-spacing: 2.5px; font-size: 16px; }
-  h1, h2, h3  { font-weight: 100; letter-spacing: 4px; }
+  h1, h2, h3  { font-weight: 100; letter-spacing: 4px; text-align: center; }
   h3 { font-size: 120%; text-transform: uppercase; }
   
   /* BASIC ELEMENTS */
@@ -116,17 +116,31 @@ body {
   background-color: rgb(0, 0, 0, 0.5) !important; 
 }
 
-.snd-stemey {
+.snd-stemey, .stem-world{
   margin-top: "30px"; 
   margin-top: 50px; 
   margin-bottom: 50px; 
+}
+
+.snd-stemey {
   display: grid; 
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr; 
   justify-items: center; 
   grid-gap: 20px; 
-
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr; 
 }
+
+a { color: white}
+
+/* width: "90%", marginLeft: "5%", display: "grid", gridTemplateColumns: "1fr 1fr", gridGap: "50px" */
+.stem-world { justify-items: stretch; 
+width: 90%; 
+margin-left: 5%; 
+display: grid; 
+grid-template-columns: 1fr 1fr;
+grid-gap: 50px; 
+}
+
 
   /** --  MEDIA QUERIES  -- **/
   

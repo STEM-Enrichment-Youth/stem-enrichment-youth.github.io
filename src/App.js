@@ -18,6 +18,8 @@ import Neuroscience from "./NewTeam/Neuroscience"; import Math from "./NewTeam/M
 import Physics from "./NewTeam/Physics"; import Coding from "./NewTeam/Coding";
 import Join from "./Join";
 import Contact from "./Contact";
+import STEMWorld from "./STEMWorld"; 
+import STEMSpeakers from "./STEMSpeakers";
 
 export default function App() {
   return (
@@ -54,6 +56,15 @@ export default function App() {
           <Route path="/snd">
             <Navbar/> 
             < SND /> 
+          </Route>
+
+          <Route path="/stemworld">
+            <Navbar/> 
+            < STEMWorld /> 
+          </Route>
+          <Route path="/stemworldspeakers">
+            <Navbar/> 
+            < STEMSpeakers /> 
           </Route>
 
           <Route path="/chemistry-class">

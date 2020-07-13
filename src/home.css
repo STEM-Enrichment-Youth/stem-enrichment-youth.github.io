@@ -1,6 +1,7 @@
 
 .whole-home {
     margin: 0 4% 50px 4%; 
+    margin-top: 70px; 
 }
 
 .who {
@@ -58,7 +59,6 @@
     padding: 10%; 
     color: white; 
     justify-items: center; 
-    max-width: 650px; 
     transition: 0.3s;
     background-color: rgba(0, 0, 0, 0.7); 
 }
@@ -190,6 +190,7 @@
 
     .big-title {
         font-size: 3rem; 
+        text-align: center; 
     }
 
     .head-txt {

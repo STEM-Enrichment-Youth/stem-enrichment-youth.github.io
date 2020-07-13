@@ -90,11 +90,6 @@ Landon, a Junior at Leigh High School, is passionate in varying medical and tech
                     position = "Biology Instructor"
                     name="Emma Whitehead"
                 />
-
-            
-                
-                
-                
                
             </div>
         </div>
