@@ -15,7 +15,6 @@ export default function NewClasses() {
                     <p class="p-team">
                     In this course, we will explore the inner workings of the brain and central nervous system. We will thoroughly consider the different parts of the brain and learn how and why neurological disorders occur.
                     </p>
-                    {/* <Carousel /> */}
                     <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
                         <p><span class="class-des-p">Intended Ages: </span>Grades 5-10</p>
                         <p><span class="class-des-p">Lead Instructor: </span>Diana Poplacenel</p>

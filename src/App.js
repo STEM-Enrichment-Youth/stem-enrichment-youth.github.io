@@ -62,6 +62,10 @@ export default function App() {
             <Navbar/> 
             < STEMWorld /> 
           </Route>
+          <Route path="/nerdcon">
+            <Navbar/> 
+            < STEMWorld /> 
+          </Route>
           <Route path="/stemworldspeakers">
             <Navbar/> 
             < STEMSpeakers /> 

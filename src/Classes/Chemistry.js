@@ -16,7 +16,7 @@ export default function NewClasses() {
                     </p>
                     {/* <Carousel /> */}
                     <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
-                        <p><span class="class-des-p">Intended Ages: </span>Grades 6-9</p>
+                        <p><span class="class-des-p">Intended Ages: </span>Grades 5-10</p>
                         <p><span class="class-des-p">Lead Instructor: </span>Christian Kim</p>
                         <p><span class="class-des-p">Prerequisites: </span>None!</p>
 
