@@ -34,8 +34,7 @@ function Home() {
             <div class="head-txt-2">
               <h1 class="biggest-header">stemey</h1>
               <p class="head-p">
-                A high-school led organization committed to encouraging interest in STEM especially among middle schoolers.
-                STEMEY provides virtual classes built by high schoolers to grades 5-10.
+A high school led nonprofit organization that aims to inspire students to pursue STEM from an early age and to advance the public’s STEM education and experience.
               </p>
             </div>
             <img class="stemey-logo" src={stemey} />
