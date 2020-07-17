@@ -1,6 +1,12 @@
 import React from "react";
 import Card from "./NewTeam/TeamCard";
-import jamie from "./Speakers/Jamie.JPG"
+import jamie from "./Speakers/Jamie.JPG"; 
+import yang from "./Speakers/Yang.jpg"; 
+import sandoval from "./Speakers/Sandoval.png"; 
+import henry from "./Speakers/Henry.png"; 
+import birman from "./Speakers/Birman.jpg"; 
+import kitchloo from "./Speakers/Kitchloo.jpg"; 
+
 
 export default function NewTeam() {
     return (<div class="new-team-con">
@@ -36,8 +42,44 @@ and mechanistic insights to re-engineer existing proteins and design new protein
 therapeutically modulate the immune response. In particular, her group is interested in
 engineering immune molecules such as cytokines, growth factors, and antibodies for
 targeted treatment of diseases such as cancer and autoimmune disorders."
-                    position="JHU Biomedical Engineering"
+                    position="JHU Professor"
                 /> 
+
+
+                <Card 
+                    name = "Xia Yang"
+                    imgURL = {yang}
+                    position = "UCLA Professor"
+                    des = "Xia Yang, Ph.D. is currently a tenured Professor in the Department of Integrative Biology and Physiology and a faculty member of the Institute for Quantitative and Computational Biosciences at UCLA. Her lab focuses on developing and applying multi-tissue multi-omics systems biology approaches to understand the gene networks perturbed by genetic and environmental risks of complex human diseases, ranging from cardiometabolic diseases to neurodegenerative and neurological disorders. She received her PhD in Molecular Genetics with an emphasis on Bioinformatics from Georgia State University and obtained postdoctoral training in Systems Genetics at UCLA under the guidance of Dr. A. Jake Lusis. She subsequently worked as Senior Scientist at Rosetta Inpharmatics/Merck & Co. and Director of Systems Biology at Sage Bionetworks before returning to UCLA as a faculty member."
+
+                /> 
+
+                <Card 
+                    name = "Isaac Cervantes Sandoval"
+                    imgURL = {sandoval}
+                    position = "Georgetown Professor"
+                    des = "I received my MSc and Ph.D. in Chemical and Biological Sciences from the National School for Biological Sciences of the National Polytechnic Institute in Mexico City, Mexico. During my graduate work, I focused on the physiopathology and host immune response in free-living amoebae infections, using both in vivo and in vitro approaches. These studies included the characterization of proteases of Acanthamoeba spp and Naegleria spp as possible virulence mechanisms. In addition, we also studied the role of inflammation in the amoebic meningoencephalitis using CD38-/- knockout mice and the importance of mucins in the innate resistance to Naegleria infections.
+
+Upon the completion of my Ph.D., I decided to move into the more challenging field of Neuroscience. I joined the Neuroscience Department at The Scripps Research Institute in 2009 to expand my technical skills and neuroscience knowledge. There, my research has focused on understanding how memories are encoded, consolidated, retrieved, and, most recently, how these are forgotten. For this, I use the fruit fly as an animal model. One of our significant findings is that normal forgetting is an active, well-regulated process that involves dopaminergic signals, which depend on the behavioral state of the animal. 
+
+In 2019 I moved as an Assistant Professor at Georgetown University, where I will continue to develop a research program to understand how memories are encoded in the brain and how they are forgotten.
+"
+                /> 
+                <Card
+                    name = "Ken Birman"
+                    imgURL = {birman}
+                    position = "Cornell Professor"
+                    des = "Ken Birman is the N. Rama Rao Professor of Computer Science at Cornell. An ACM Fellow and the winner of the IEEE Tsutomu Kanai Award, Ken has written 3 textbooks and published more than 150 papers in prestigious journals and conferences. Software he developed operated the New York Stock Exchange for more than a decade without trading disruptions, and plays central roles in the French Air Traffic Control System and the US Navy AEGIS warship. Other technologies from his group found their way into IBM’s Websphere product, Amazon’s EC2 and S3 systems, Microsoft’s cluster management solutions, and the US Northeast bulk power grid. His new Derecho and Cascade systems are intended for demanding settings such as the smart power grid, smart highways and homes, and scalable vision applications. Both can be downloaded from GitHub.com/Derecho-Project."
+                
+                /> 
+
+                <Card 
+                    name = "Nitu Kitchloo"
+                    imgURL = {kitchloo}
+                    position = "JHU Professor"
+                    des = "Ken Birman is the N. Rama Rao Professor of Computer Science at Cornell. An ACM Fellow and the winner of the IEEE Tsutomu Kanai Award, Ken has written 3 textbooks and published more than 150 papers in prestigious journals and conferences. Software he developed operated the New York Stock Exchange for more than a decade without trading disruptions, and plays central roles in the French Air Traffic Control System and the US Navy AEGIS warship. Other technologies from his group found their way into IBM’s Websphere product, Amazon’s EC2 and S3 systems, Microsoft’s cluster management solutions, and the US Northeast bulk power grid. His new Derecho and Cascade systems are intended for demanding settings such as the smart power grid, smart highways and homes, and scalable vision applications. Both can be downloaded from GitHub.com/Derecho-Project."
+                /> 
+
 
             </div>
         </div>

@@ -141,6 +141,11 @@ grid-template-columns: 1fr 1fr;
 grid-gap: 50px; 
 }
 
+img {
+  object-fit: cover; 
+  height: 150px; 
+  margin-bottom: 10px; 
+}
 
   /** --  MEDIA QUERIES  -- **/
   

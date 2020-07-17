@@ -3,7 +3,6 @@ import "./home.css";
 import stemey from "./GoodStemeyLogo.png";
 
 function SND() {
-  const [scale, setScale] = React.useState(false);
 
   return (
     <div class="whole-home" style={{marginTop: "70px"}}>

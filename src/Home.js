@@ -1,8 +1,4 @@
 import React from "react";
-import Carousel from "./Carousel";
-import { withStyles } from "@material-ui/core/styles";
-import clsx from "clsx";
-import AddLocationIcon from '@material-ui/icons/AddLocation';
 import "./home.css";
 import stemey from "./GoodStemeyLogo.png";
 import coding from "./icons/head-cross.png";
@@ -12,7 +8,7 @@ import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png";
 import katherine from "./NewTeam/InstructorImages/katherine.jpg";
 import diana from "./NewTeam/InstructorImages/diana.png";
-import christian from "./NewTeam/InstructorImages/christian.png";
+import faith from "./NewTeam/InstructorImages/faith.jpg";
 import aryan from "./NewTeam/InstructorImages/aryan2.jpg";
 import deven from "./NewTeam/InstructorImages/deven.jpg"; 
 import Alert from "./Components/Alert";
@@ -165,21 +161,36 @@ A high school led nonprofit organization that aims to inspire students to pursue
       <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Executive Board</h1>
       <div class="banner">
         <div class="banner-class">
-          <img style={{width: "200px", marginTop: '15px' }} src={diana} />
-          <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
+        <div class="image-cropper">
+            <img style={{ width: "150px", marginTop: '15px' }} src={diana} />
+          </div>          <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
         </div>
         <div class="banner-class">
-          <img style={{ width: "150px", marginTop: '15px' }} src={deven} />
+          <div class="image-cropper">
+            <img style={{ width: "150px", marginTop: '15px' }} src={deven} />
+          </div>
           <h2>Deven Shah</h2>
         </div>
         <div class="banner-class">
-          <img style={{ width: "200px", marginTop: '15px' }} src={katherine} />
+        <div class="image-cropper">
+            <img style={{ width: "150px", marginTop: '15px' }} src={katherine} />
+          </div>
           <h2>Katherine Liu</h2>
         </div>
         <div class="banner-class">
-          <img style={{ width: "150px", marginTop: '15px' }} src={aryan} />
+          <div class="image-cropper">
+            <img style={{ width: "150px", marginTop: '15px' }} src={aryan} />
+          </div>          
           <h2>Aryan Mathur</h2>
         </div>
+        <div class="banner-class">
+          <div class="image-cropper">
+            <img style={{ width: "150px", marginTop: '15px' }} src={faith} />
+          </div>          
+          <h2>Faith Han</h2>
+        </div>
+        
+        
         
 
       </div>

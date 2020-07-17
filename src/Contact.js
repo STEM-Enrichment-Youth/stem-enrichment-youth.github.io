@@ -1,8 +1,4 @@
 import React from "react";
-import Carousel from "./Carousel";
-import { withStyles } from "@material-ui/core/styles";
-import clsx from "clsx";
-import AddLocationIcon from '@material-ui/icons/AddLocation';
 import "./home.css";
 import stemey from "./GoodStemeyLogo.png";
 import coding from "./icons/head-cross.png"; 

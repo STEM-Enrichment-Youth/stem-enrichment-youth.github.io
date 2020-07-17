@@ -1,8 +1,5 @@
 import React from "react";
 import "./NewClasses.css";
-import AddLocationIcon from '@material-ui/icons/AddLocation';
-import Form from "../Form";
-import Carousel from "./PhotoCarousel";
 
 const gcCode1 = "659323"
 const gcCode2 = "3423232"

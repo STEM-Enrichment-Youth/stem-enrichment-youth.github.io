@@ -74,22 +74,7 @@ Landon, a Junior at Leigh High School, is passionate in varying medical and tech
                     Aashvi, a rising junior at Leigh, is interested in the medical field, and is passionate about biology and chemistry. She enjoys taking classes outside of school in the STEM field that advance her knowledge in science and math. Aashvi is involved in Leadership at Leigh, and is the Junior class Secretary/Treasurer. She is also a member of both the National Honor Society and the California Scholarship Federation. Outside of school, Aashvi helps out at the public library, volunteers at Good Samaritan Hospital, and likes to dance at Capitol Dance Company. She’s very thrilled to work with everyone as a part of STEMEY for the next few months!
 "
                 />
-                <Card
-                    imgURL = {defaultInstructor}
-                    position = "Biology Instructor"
-                    name="Abby Fernandes"
-                    
-                />
-                <Card
-                    imgURL = {defaultInstructor}
-                    position = "Biology Instructor"
-                    name="Alexandra Guo"
-                />
-                 <Card
-                    imgURL = {defaultInstructor}
-                    position = "Biology Instructor"
-                    name="Emma Whitehead"
-                />
+                
                
             </div>
         </div>

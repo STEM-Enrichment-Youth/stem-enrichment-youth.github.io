@@ -12,7 +12,6 @@ import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png"; 
 
 function SND() {
-  const [scale, setScale] = React.useState(false);
 
   return (
     <div class="whole-home" style={{marginTop: "70px"}}>
