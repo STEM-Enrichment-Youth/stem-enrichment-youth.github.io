@@ -105,6 +105,7 @@ body {
 
   .team-card {
     background-color: rgb(0, 0, 0, 0.3); 
+    
   }
 
   a:hover {
@@ -141,7 +142,7 @@ grid-template-columns: 1fr 1fr;
 grid-gap: 50px; 
 }
 
-img {
+.image-cropper img {
   object-fit: cover; 
   height: 150px; 
   margin-bottom: 10px; 
