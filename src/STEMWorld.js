@@ -3,7 +3,6 @@ import "./home.css";
 import "./timeline.css";
 import stemey from "./GoodStemeyLogo.png";
 import Timeline, {TimelineEntry, TimelineMarker} from './Timeline';
-import { withGoogleSheets } from 'react-db-google-sheets';
 
 function SND() {
   return (
