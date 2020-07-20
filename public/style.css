@@ -15,9 +15,9 @@ body {
       height: 300px; 
   }
   
-  p { font-weight: 200; letter-spacing: 2.5px; font-size: 16px; }
-  h1, h2, h3  { font-weight: 100; letter-spacing: 4px; text-align: center; }
-  h3 { font-size: 120%; text-transform: uppercase; }
+  p:not(.timeline-description) { font-weight: 200; letter-spacing: 2.5px; font-size: 16px; }
+  h1, h2, h3:not(.timeline-title)  { font-weight: 100; letter-spacing: 4px; text-align: center; }
+  h3:not(.timeline-title) { font-size: 120%; text-transform: uppercase; }
   
   /* BASIC ELEMENTS */
   a:hover { text-decoration: none ; }
@@ -134,12 +134,24 @@ body {
 a { color: white}
 
 /* width: "90%", marginLeft: "5%", display: "grid", gridTemplateColumns: "1fr 1fr", gridGap: "50px" */
-.stem-world { justify-items: stretch; 
-width: 90%; 
-margin-left: 5%; 
-display: grid; 
-grid-template-columns: 1fr 1fr;
-grid-gap: 50px; 
+.stem-world {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-items: stretch;  */
+  width: 90%; 
+  margin-left: 5%; 
+  /* display: grid;  */
+  /* grid-template-columns: 1fr 1fr; */
+  grid-gap: 50px; 
+}
+
+.sw-timeline {
+  width: 100%;
+}
+
+.sw-timeline-inner {
+  width: 100%;
 }
 
 .image-cropper img {
