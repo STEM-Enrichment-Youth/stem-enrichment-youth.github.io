@@ -22,7 +22,8 @@ function Home() {
       
       <div style={{ width: "100%", marginTop: "20px"}}>
           <Alert
-            message="STEMEY is hosting an international, virtual convention on AUGUST 15/16! Check out the STEM World tab for more details!" button={true} />
+            message="STEMEY is hosting an international, virtual convention on AUGUST 15/16 with professional guest speakers from the top ranking US Universities and virtual STEM competitions and demonstrations!  
+            Check out the STEM World tab for more details!" button={true} />
         </div>
         <div class="head-txt" >
           <div class="head-con">
