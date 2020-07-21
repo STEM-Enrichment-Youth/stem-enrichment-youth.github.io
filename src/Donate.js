@@ -6,7 +6,7 @@ function Donate() {
     return (
     <div class="whole-home" style={{marginTop: "70px"}}>
         <div class="column-flex" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover"}}>
-            <div class="head-txt column-flex" style={{width: "90%", overflow: "scroll"}}>
+            <div class="head-txt column-flex" style={{width: "90%"}}>
                 <h1 style={{textAlign: "center"}} class="biggest-header-4">DONATE</h1>
                 <br/>
                 <p class="description">
