@@ -8,7 +8,7 @@ function SND() {
   return (
     <div class="whole-home" style={{marginTop: "70px"}}>
       <div style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover"}}>
-        <div class="head-txt" style={{width: "90%", marginLeft: "5%", overflow: "scroll"}}>
+        <div class="head-txt" style={{width: "90%", marginLeft: "5%"}}>
           <div>
             <div>
                 
