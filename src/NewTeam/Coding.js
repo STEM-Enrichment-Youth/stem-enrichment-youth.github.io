@@ -7,6 +7,9 @@ import liza from "./InstructorImages/liza.jpg";
 import aryan from "./InstructorImages/aryan.JPG"; 
 import domonkos from "./InstructorImages/domonkos.jpeg"; 
 import defaultInstructor from "../icons/head-brains.png";
+import vaibhav from "./InstructorImages/vaibhav.png";
+import sakshi from "./InstructorImages/sakshi.png";
+import arun from "./InstructorImages/arun.png";
  
 
 export default function NewTeam() {
@@ -37,7 +40,7 @@ export default function NewTeam() {
                 <Card
                 name="Vaibhav Shukla"
                 position="Coding Instructor"
-                imgURL={defaultInstructor}
+                imgURL={vaibhav}
                 des="Vaibhav is a rising sophomore at Leigh. He’s self-learned programming since middle school, and does it for fun, along with playing the piano.  Math, however, led him to score as the highest individual scorer in his school for Mathcounts. He also participated and represented his school in the SCVMA Math Field Day (The LeapFrog Competition) with his partner and won 7th place."
                  /> 
                 <Card
@@ -50,11 +53,11 @@ Domi is a rising sophomore at Leigh High School. He has been teaching 10-12 year
                 /> 
                 <Card
                 name='Sakshi Sivaraman'
-                imgURL={defaultInstructor}
+                imgURL={sakshi}
                 position="Coding Instructor"
                 des="
-Sakshi is a rising junior at Leigh High School. She is a member of the National Honor Society and Coding Club, as well as vice president of the Girls Who Code Club at Leigh. She has completed programming courses in and outside of school, including the Programming Methodologies in Java course at Foothill College, as well as AP Computer Science A in the past year. She serves as an assistant instructor at CodeLinkd to teach elementary schoolers coding and lego robotics, and has 3+ years of experience tutoring in various subjects (mainly math) at the Sunnyvale Public Library. She has tutored other high schoolers in math up to Algebra 2/Trig at the Students for Success Center at Fremont High School. Additionally, she has participated and won prizes in a few hackathons. She is looking forward to co-instructing the Coding and Algebra/Geometry classes at STEMEY :).
-"   
+                Sakshi is a rising junior at Leigh High School. She is a member of the National Honor Society and Coding Club, as well as vice president of the Girls Who Code Club at Leigh. She has completed programming courses in and outside of school, including the Programming Methodologies in Java course at Foothill College, as well as AP Computer Science A in the past year. She serves as an assistant instructor at CodeLinkd to teach elementary schoolers coding and lego robotics, and has 3+ years of experience tutoring in various subjects (mainly math) at the Sunnyvale Public Library. She has tutored other high schoolers in math up to Algebra 2/Trig at the Students for Success Center at Fremont High School. Additionally, she has participated and won prizes in a few hackathons. She is looking forward to instructing the Coding and Math Innovation classes at STEMEY :).
+                " 
                  /> 
                 
                 <Card
@@ -63,7 +66,7 @@ Sakshi is a rising junior at Leigh High School. She is a member of the National 
                 des="
 Arun is a rising junior at Leigh. He is an officer of LEOs at Leigh, an organizing committee member of the badminton team, varsity badminton player, a member of the Leigh robotics club, California Scholarship Federation, Leigh Science Olympiad for two years and a member of Dartmouth science olympiad for three years. He has taken AP Computer Science A as well as some others and has experience coding in JAVA. Arun has a keen interest in robotics and has won awards in multiple FTC robotics competitions. As of now he is making software for a company,  scheduling meetings with various professional badminton players  around the globe for online meetings with the Leigh Badminton team, and also studying for the deadly SAT. In his spare time Arun practices violin, talks to his friends, bakes, cooks, bikes, and codes. He is looking forward to teaching some JAVA :)
 "       
-                imgURL={defaultInstructor}
+                imgURL={arun}
                 /> 
                 <Card
                     name="Joshua Li"

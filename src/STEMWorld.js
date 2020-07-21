@@ -38,14 +38,59 @@ function SND() {
                         description="Opening Remarks"
                     />
                     <TimelineEntry
+                        time="8:30-9:00 AM PST"
+                        speaker="Biology Speaker TBD"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="9:00-9:30 AM PST"
+                        speaker="Biology Speaker TBD"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="9:30-10:00 AM PST"
+                        speaker="Dr. Olga Zhaxybayeva"
+                        description="Genomic clues to origin, evolution and diversity of life"
+                    />
+                    <TimelineEntry
                         time="10:00-10:30 AM PST"
-                        speaker="Dr. Cervantes Sandoval"
+                        speaker="Dr. Isaac Cervantes Sandoval"
                         description="Where did I leave my keys: Why do we forget?"
                     />
                     <TimelineEntry
                         time="10:30-11:00 AM PST"
-                        speaker="Dr. Yang"
+                        speaker="Dr. Xia Yang"
                         description="Dissecting Complex Human Diseases via Big Data Bioinformatics and Systems Biology"
+                    />
+                    <TimelineEntry
+                        time="11:00-11:30 AM PST"
+                        speaker="Biology Speaker TBD"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="11:30-12:00 PM PST"
+                        speaker="Biology Competition"
+                        description="Middle and High School Level Biology Competitions"
+                    />
+                    <TimelineEntry
+                        time="12:00-12:30 PM PST"
+                        speaker="Chemistry Speaker TBD"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="12:30-1:00 PM PST"
+                        speaker="Dr. Jane Frommer"
+                        description="Nanotech"
+                    />
+                    <TimelineEntry
+                        time="1:00-1:30 PM PST"
+                        speaker="Dr. Ramesh"
+                        description="Biological and Chemical Engineering"
+                    />
+                    <TimelineEntry
+                        time="1:30-2:00 PM PST"
+                        speaker="Chemistry Speaker TBD"
+                        description=""
                     />
                     <TimelineEntry
                         time="2:00-2:30 PM PST"
@@ -53,9 +98,39 @@ function SND() {
                         description="Engineering proteins to reprogram the immune response"
                     />
                     <TimelineEntry
+                        time="2:30-3:00 PM PST"
+                        speaker="Chemistry Demonstration"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="3:00-3:30 PM PST"
+                        speaker="Middle and High School Level Chemistry Competitions"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="3:30-4:00 PM PST"
+                        speaker="Math Speaker TBD"
+                        description=""
+                    />
+                    <TimelineEntry
                         time="4:00-4:30 PM PST"
-                        speaker="Nitu Kitchloo"
+                        speaker="Dr. Nitu Kitchloo"
                         description="The close relationship between Algebra and Geometry"
+                    />
+                    <TimelineEntry
+                        time="4:30-5:00 PM PST"
+                        speaker="Math Speaker TBD"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="5:00-5:30 PM PST"
+                        speaker="Math Speaker TBD"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="5:30-6:00 PM PST"
+                        speaker="Katherine Liu"
+                        description="Math Demonstration"
                     />
                     <TimelineMarker
                         title="Sunday, August 16"
@@ -66,29 +141,99 @@ function SND() {
                         description="Physics is Simple!"
                     />
                     <TimelineEntry
+                        time="8:30-9:00 AM PST"
+                        speaker="Dr. Jens Koch"
+                        description="LIGO"
+                    />
+                    <TimelineEntry
+                        time="9:00-9:30 AM PST"
+                        speaker="Dr. Micheal Schmitt"
+                        description="Nuclear Physics"
+                    />
+                    <TimelineEntry
                         time="9:30-10:00 AM PST"
                         speaker="Dr. Daniel Holz"
                         description="Listening to the Universe"
                     />
                     <TimelineEntry
                         time="10:00-10:30 AM PST"
-                        speaker="Dr. Aidala"
+                        speaker="Dr. Christine Aidala"
                         description="Physics"
                     />
                     <TimelineEntry
+                        time="10:30-11:00 AM PST"
+                        speaker="Arun Yadavalli"
+                        description="Physics Demonstration"
+                    />
+                    <TimelineEntry
+                        time="11:00-11:30 AM PST"
+                        speaker="Physics Competition"
+                        description=""
+                    />
+                    <TimelineEntry
                         time="11:30-12:00 PM PST"
-                        speaker="Dr. Kundaje"
+                        speaker="Dr. Anshul Kundaje"
+                        description="Deep learning the regulatory code of the human genome"
+                    />
+                    <TimelineEntry
+                        time="12:00-12:30 PM PST"
+                        speaker="Dr. Loeb"
                         description="Computer Science"
                     />
                     <TimelineEntry
                         time="12:30-1:00 PM PST"
                         speaker="Dr. Ken Birman"
-                        description="Cloud Computing and the Intelligent Internet of Things."
+                        description="Cloud Computing and the Intelligent Internet of Things"
                     />
                     <TimelineEntry
                         time="1:00-1:30 PM PST"
-                        speaker="Dr. Chakrabarty"
-                        description="Computer Science"
+                        speaker="Dr. Krishnedu Chakrabarty"
+                        description="Computational Intelligence in the Design and Optimization of Digital Microfluidic Biochips"
+                    />
+                    <TimelineEntry
+                        time="1:30-2:00 PM PST"
+                        speaker="CS Speaker TBD"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="2:00-2:30 PM PST"
+                        speaker="Arun Yadavalli"
+                        description="CS Demonstration"
+                    />
+                    <TimelineEntry
+                        time="2:30-3:00 PM PST"
+                        speaker="CS Competition"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="3:00-3:30 PM PST"
+                        speaker="Math Competition"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="3:30-4:00 PM PST"
+                        speaker="Life Sciences High School Panel"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="4:00-4:30 PM PST"
+                        speaker="College Panel"
+                        description=""
+                    />
+                    <TimelineEntry
+                        time="4:30-5:00 PM PST"
+                        speaker="College Nursing Students Panel"
+                        description="Nursing Students from UCLA and Case Western University"
+                    />
+                    <TimelineEntry
+                        time="5:00-5:30 PM PST"
+                        speaker="Medical Science College Students Panel"
+                        description="UCLA and UC Berkeley College Students from different Medical Majors"
+                    />
+                    <TimelineEntry
+                        time="5:30-6:00 PM PST"
+                        speaker="Diana Poplacenel"
+                        description="Awards Ceremony"
                     />
                 </ul>
                 <Timeline/>

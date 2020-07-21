@@ -8,6 +8,7 @@ import aashvi from "./InstructorImages/aashvi.jpg";
 import maariyah from "./InstructorImages/maariyah.jpg"; 
 import defaultInstructor from "../icons/head-cross.png"; 
 import diana from "./InstructorImages/diana.png"; 
+import landon from "./InstructorImages/LandonBattin.jpg"; 
 
 export default function Biology() {
     return (<div class="new-team-con">
@@ -57,7 +58,7 @@ Yulia Anashkina is a rising sophomore with a passion for STEM. She earned straig
 
                 />
                 <Card
-                    imgURL = {defaultInstructor}
+                    imgURL = {landon}
                     position = "Biology Instructor"
                     name="Landon Battin"
                     des="

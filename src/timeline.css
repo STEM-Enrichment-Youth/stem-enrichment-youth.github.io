@@ -8,11 +8,18 @@
     padding: 0;
     width: 100%;
   }
-  .timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
+
+  .timeline-title {
+    line-height: 1;
+}
+
+  .timeline h1, .timeline h2, .timeline h4, .timeline h5, .timeline h6 {
     line-height: inherit;
   }
 
   .timeline-description {
+      margin-top: 16px;
+      padding-bottom: 10px;
       font-size: 14px;
   }
 
@@ -109,6 +116,7 @@
   .period .timeline-title {
     margin: 0;
   }
+
   /*----------------------------------------------
    MOD: TIMELINE SPLIT
    ----------------------------------------------*/

@@ -13,7 +13,10 @@ import natasha from "./InstructorImages/natasha.jpeg";
 import aashvi from "./InstructorImages/aashvi.jpg"; 
 import casey from "./InstructorImages/casey.jpg"; 
 import claire from "./InstructorImages/claire.jpg"; 
-
+import arjun from "./InstructorImages/arjun.jpeg"; 
+import clairejin from "./InstructorImages/ClaireJin.png";
+import sakshi from "./InstructorImages/sakshi.png";
+import vaibhav from "./InstructorImages/vaibhav.png";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
@@ -70,7 +73,7 @@ Catherine Luu is a rising junior at Leigh High School. She is a member of the Na
 Claire Jin is a rising senior at Leigh High School. She is president of the Science National Honor Society and officer of Leigh CSF, and also a member of SOS and National Art Honors Society. She is part of leadership and is the senior class vice president. She has tutored young students from working at Kumon Math and Reading and peer students at Leigh from National Honors Society Club. She has been volunteering at Good Samaritan Hospital working in patient services. She volunteers working with young kids doing art activities and translating English to Korean. She will be part of the Chemistry course.
 "
                     position="Algebra/Geometry Instructor"
-                    imgURL = {defaultInstructor}
+                    imgURL = {clairejin}
                 />
                 <Card 
                 name="Arjun Ranade"
@@ -78,6 +81,7 @@ Claire Jin is a rising senior at Leigh High School. She is president of the Scie
 Arjun Ranade is a rising Junior at Leigh High School. He has been on the Leigh Swim Team for 2 years now and has qualified for CCS in multiple events. He also participates in CSF and volunteers regularly at the Almaden Library, helping kids learn to read and develop new skill sets and abilities. Outside of school he participated in Taekwon-Do and club swimming as well, he received the Award of Excellence and reached a II Degree Black Belt as well. Although he does not have any previous tutoring experience he has taught classes at his Taekwon-do school and loves to work with and teach kids. Arjun is excited to meet his fellow instructors and work with everyone involved in the STEMEY program!
 "
                 position="Geometry/Algebra Instructor"
+                imgURL={arjun}
                 />
                 <Card 
                     name="Kaeshav Mandyam"
@@ -96,8 +100,8 @@ Kaeshav is a rising senior at Leigh High School. He has tutoring experience from
                 />
                 <Card
                 name='Sakshi Sivaraman'
-                imgURL={defaultInstructor}
-                position="Algebra/Geometry Instructor"
+                imgURL={sakshi}
+                position="Math Innovation Instructor"
                 des="
 Sakshi is a rising junior at Leigh High School. She is a member of the National Honor Society and Coding Club, as well as vice president of the Girls Who Code Club at Leigh. She has completed programming courses in and outside of school, including the Programming Methodologies in Java course at Foothill College, as well as AP Computer Science A in the past year. She serves as an assistant instructor at CodeLinkd to teach elementary schoolers coding and lego robotics, and has 3+ years of experience tutoring in various subjects (mainly math) at the Sunnyvale Public Library. She has tutored other high schoolers in math up to Algebra 2/Trig at the Students for Success Center at Fremont High School. Additionally, she has participated and won prizes in a few hackathons. She is looking forward to instructing the Coding and Math Innovation classes at STEMEY :).
 "   
@@ -109,12 +113,6 @@ Sakshi is a rising junior at Leigh High School. She is a member of the National 
                     des="
                     Aashvi, a rising junior at Leigh, is interested in the medical field, and is passionate about biology and chemistry. She enjoys taking classes outside of school in the STEM field that advance her knowledge in science and math. Aashvi is involved in Leadership at Leigh, and is the Junior class Secretary/Treasurer. She is also a member of both the National Honor Society and the California Scholarship Federation. Outside of school, Aashvi helps out at the public library, volunteers at Good Samaritan Hospital, and likes to dance at Capitol Dance Company. She’s very thrilled to work with everyone as a part of STEMEY for the next few months!
 "
-                />
-                <Card
-                    imgURL = {defaultInstructor}
-                    position = "Algebra/Geometry Instructor"
-                    name="Abby Fernandes"
-                    
                 />
                 <Card
                     name="Casey Lin"
@@ -150,7 +148,7 @@ Claire Kwon is a rising sophomore at Leigh High School who is a part of the STEM
                 name="Vaibhav Shukla"
                 des = "Vaibhav is a rising sophomore at Leigh. He’s self-learned programming since middle school, and does it for fun, along with playing the piano.  Math, however, led him to score as the highest individual scorer in his school for Mathcounts. He also participated and represented his school in the SCVMA Math Field Day (The LeapFrog Competition) with his partner and won 7th place."
                 position="Algebra/Geometry Instructor"
-                imgURL = {defaultInstructor}
+                imgURL = {vaibhav}
                 /> 
                
             </div>

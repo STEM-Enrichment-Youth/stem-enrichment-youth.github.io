@@ -9,6 +9,10 @@ import deven from "./InstructorImages/deven.jpg";
 import catherine from "./InstructorImages/catherine.jpg";
 import defaultInstructor from "../icons/head-brains.png";
 import daniel from "./InstructorImages/daniel.png";
+import sarah from "./InstructorImages/SarahChang.png";
+import amy from "./InstructorImages/AmyNam.png";
+import claire from "./InstructorImages/ClaireJin.png";
+import landon from "./InstructorImages/LandonBattin.jpg"; 
 
 export default function NewTeam() {
     return (<div class="new-team-con">
@@ -62,13 +66,14 @@ Kaeshav is a rising senior at Leigh High School. He has tutoring experience from
                 />
                 <Card
                     name="Sarah Chang"
-                    imgURL={defaultInstructor}
+                    imgURL={sarah}
                     position="Chemistry Lead Instructor"
+                    des="Sarah Chang is a rising senior at Leigh High School. She is a tutor for National Honor Society and a Link Crew Leader. She also participates in clubs, including Vitas Memory Bears, Help for Her, and Tri-M Music Honor Society. She also plays violin for the California Youth Symphony Senior Orchestra. She has taken the Chemistry Honors and AP Chemistry courses at Leigh, and is looking to pass on her knowledge to new students."
                 />
 
                 <Card
                     name="Amy Nam"
-                    imgURL={defaultInstructor}
+                    imgURL={amy}
                     position="Chemistry Instructor"
                     des="
 Amy is a rising senior at Leigh HIgh School She is a member of the California Scholarship Federation and National Honors Society. She also plays clarinet in the Leigh Wind Ensemble and San Jose Youth Symphony and has performed in the California All-State Honor Band and various charity orchestras. She has tutoring experience from NHS tutoring and volunteering as a teacher assistant at the Holy Korean Martyrs Catholic Church Korean School. She is excited to be teaching chemistry at STEMEY!
@@ -82,7 +87,7 @@ Amy is a rising senior at Leigh HIgh School She is a member of the California Sc
 Claire Jin is a rising senior at Leigh High School. She is president of the Science National Honor Society and officer of Leigh CSF, and also a member of SOS and National Art Honors Society. She is part of leadership and is the senior class vice president. She has tutored young students from working at Kumon Math and Reading and peer students at Leigh from National Honors Society Club. She has been volunteering at Good Samaritan Hospital working in patient services. She volunteers working with young kids doing art activities and translating English to Korean. She will be part of the Chemistry course.
 "
                     position="Chemistry Instructor"
-                    imgURL={defaultInstructor}
+                    imgURL={claire}
 
                 />
                 <Card
@@ -92,7 +97,7 @@ Claire Jin is a rising senior at Leigh High School. She is president of the Scie
                     Landon, a Junior at Leigh High School, is passionate in varying medical and tech fields including Chemistry and Biology. He also enjoys taking charge and sharing his interests with others of the same interest. He is the LHS Class of 2022 Junior Class President, a LHS Superintendent Student Advisory Council Site Rep, and a member of National Honor Society. In addition to youth leadership positions, Landon has made endeavours in Varsity Track and Field and Captain of the Junior Varsity Soccer team. Outside of school, Landon works part-time at Holy Cross After-school Children’s Center as a Junior Aide. Landon looks to pursue Biochemistry or a Biotech field in the near future and is excited to share his leadership as a Chemistry and Biology STEMEY instructor.
 "
                     position="Chemistry Instructor"
-                    imgURL={defaultInstructor}
+                    imgURL={landon}
 
                 />
                 <Card

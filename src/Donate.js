@@ -10,20 +10,17 @@ function Donate() {
                 <h1 style={{textAlign: "center"}} class="biggest-header-4">DONATE</h1>
                 <br/>
                 <p class="description">
-                STEMEY is sponsored by Carry The Vision, a non-profit organization dedicated to promoting and providing non-violence education through exercises like mindfulness training, helping to cultivate inner peace. To donate to Carry The Vision and ensure that it reaches us:
+                STEMEY is sponsored by Carry the Vision, a non-profit organization which restores lives and communities 
+                through nonviolence education creating a peaceful and compassionate world. <br/><br/>There are two ways 
+                to donate to Carry the Vision and ensure that it reaches us:
                 </p>
-                <br/>
                 <p class="description">
-                1. Send a check directed to Carry The Vision, and specify it's intent for STEMEY in the notes
-                </p>
-                <p class="description" style={{fontSize: "30px"}}>
-                OR
+                1. Send a check directed to Carry the Vision, and specify it's intent for STEMEY in the notes.
                 </p>
                 <p class="description">
                 2. Use the donate button below to donate through PayPal.
                 </p>
-                <br/>
-                <div style={{textAlign: "center", width: "90%"}}>
+                <div style={{textAlign: "center", width: "90%", marginTop: "6%"}}>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                         <input type="hidden" name="cmd" value="_s-xclick" />
                         <input type="hidden" name="hosted_button_id" value="LQGSQ93QXMGCG" />

@@ -21,7 +21,7 @@
   
   .class-con, .class-con2 {
     display: grid;  
-    grid-template-columns: repeat(2, minmax(600px, 1fr)); 
+    grid-template-columns: repeat(2, minmax(300px, 1fr)); 
     grid-gap: 70px; 
     color: white; 
     padding: 0; 
