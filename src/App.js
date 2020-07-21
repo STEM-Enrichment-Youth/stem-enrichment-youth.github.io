@@ -17,6 +17,7 @@ import Biology from "./NewTeam/Biology"; import Chemistry from "./NewTeam/Chemis
 import Neuroscience from "./NewTeam/Neuroscience"; import Math from "./NewTeam/Math";
 import Physics from "./NewTeam/Physics"; import Coding from "./NewTeam/Coding";
 import Join from "./Join";
+import Donate from "./Donate";
 import Contact from "./Contact";
 import STEMWorld from "./STEMWorld"; 
 import STEMSpeakers from "./STEMSpeakers";
@@ -92,6 +93,11 @@ export default function App() {
 
           <Route path="/teach">
             <Join />
+          </Route>
+
+          <Route path="/donate">
+            <Navbar/>
+            <Donate />
           </Route>
 
 

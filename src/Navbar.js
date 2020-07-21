@@ -34,7 +34,7 @@ export default function Navbar(props) {
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-        <li class="nav-item active nav-link">
+          <li class="nav-item active nav-link">
             <Button href="/stemworld" variant="contained">STEM WORLD</Button>
           </li>
           <li class="nav-item dropdown nav-link active">
@@ -74,7 +74,9 @@ export default function Navbar(props) {
           <li class="nav-item active nav-link">
             <Button href="/teach" variant="contained">Apply</Button>
           </li>
-          
+          <li class="nav-item active nav-link">
+            <Button href="/donate" variant="contained">DONATE</Button>
+          </li>
         </ul>
       </div>
     </nav>

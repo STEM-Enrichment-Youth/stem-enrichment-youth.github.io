@@ -51,29 +51,29 @@ A high school led nonprofit organization that aims to inspire students to pursue
               ask questions about the program! Link to the meeting will be on this page Friday!</p>
       </div> */}
       <div class="banner">
+        <a class="banner-class" href="/math-class">
+          <img class="class-icon" src={math} />
+          <h2 style={{ color: "white" }}>Math</h2>
+        </a>
         <a class="banner-class" href="/coding-class">
           <img class="class-icon" src={coding} />
           <h2 style={{ color: "white" }}>Coding</h2>
-        </a>
-        <a class="banner-class" href="/biology-class">
-          <img class="class-icon" src={biology} />
-          <h2 style={{ color: "white" }}>Biology</h2>
         </a>
         <a class="banner-class" href="/chemistry-class">
           <img class="class-icon" src={chemistry} />
           <h2 style={{ color: "white" }}>Chemistry</h2>
         </a>
-        <a class="banner-class" href="/neuroscience-class">
-          <img class="class-icon" src={neuroscience} />
-          <h2 style={{ color: "white" }}>Neuroscience</h2>
+        <a class="banner-class" href="/biology-class">
+          <img class="class-icon" src={biology} />
+          <h2 style={{ color: "white" }}>Biology</h2>
         </a>
         <a class="banner-class" href="/physics-class">
           <img class="class-icon" src={physics} />
           <h2 style={{ color: "white" }}>Physics</h2>
         </a>
-        <a class="banner-class" href="/math-class">
-          <img class="class-icon" src={math} />
-          <h2 style={{ color: "white" }}>Math</h2>
+        <a class="banner-class" href="/neuroscience-class">
+          <img class="class-icon" src={neuroscience} />
+          <h2 style={{ color: "white" }}>Neuroscience</h2>
         </a>
       </div>
       <section class="who">

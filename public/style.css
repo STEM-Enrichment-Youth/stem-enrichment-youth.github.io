@@ -14,6 +14,19 @@ body {
   .new-test-yay {
       height: 300px; 
   }
+
+  .description {
+    text-align: center;
+    width: 90%;
+    line-height: 2;
+  }
+
+  .column-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   
   p:not(.timeline-description) { font-weight: 200; letter-spacing: 2.5px; font-size: 16px; }
   h1, h2, h3:not(.timeline-title)  { font-weight: 100; letter-spacing: 4px; text-align: center; }
