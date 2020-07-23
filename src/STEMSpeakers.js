@@ -7,6 +7,8 @@ import henry from "./Speakers/Henry.png";
 import birman from "./Speakers/Birman.jpg"; 
 import kitchloo from "./Speakers/Kitchloo.jpg";
 import krishnedu from "./Speakers/Krishnedu.jpg";
+import zhaxybayeva from "./Speakers/Zhaxybayeva.jpg";
+import holz from "./Speakers/Holz.jpeg";
 
 
 export default function NewTeam() {
@@ -102,6 +104,30 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                     position = "Professor and Chair of Mathematics at Johns Hopkins University"
                     des = "Nitu Kitchloo is a professor in the Department of Mathematics at Johns Hopkins. In the early part of Professor Kitchloo's career, he was an assistant professor at Johns Hopkins before moving to the University of California, San Diego as an associate professor in 2004. In 2010, he returned to Johns Hopkins as a professor."
                 /> 
+
+                <Card 
+                    name = "Dr. Richard Conn Henry"
+                    imgURL = {henry}
+                    position = "Professor of Physics and Astronomy at Johns Hopkins University"
+                    des = "Dick Henry is an astronomer, who has fallen in love with physics, and who loves to talk about the nature of physics! Dick always thought physics was very difficult; indeed incomprehensible; until he finally saw through it! He will tell you how to get there fast! The essential discovery was made thousands of years ago by Pythagoras in Greece, and even earlier by others in India and China. The universe is mathematical in its very bones. And high-school mathematics is all that you need to grasp that. "
+                />
+
+                <Card 
+                    name = "Dr. Olga Zhaxybayeva"
+                    imgURL = {zhaxybayeva}
+                    position = "Associate Professor of Biological Sciences at Dartmouth College"
+                    des = "My research interests are to understand how microbes change over time. Recent advances in DNA sequencing technologies brought us an avalanche of data: thousands of genomes and terabases of environmental DNA (metagenomes). I mine these data sets to assess the impact of horizontal gene transfer on microbial populations, find new ways to characterize microbial communities, and track down genomic signatures of microbial adaptations."
+                />
+
+                <Card 
+                    name = "Dr. Daniel Holz"
+                    imgURL = {holz}
+                    position = "Professor of Astronomy and Astrophysics at UChicago"
+                    des = "I spend my time thinking about colliding black holes in distant galaxies at the edge of the Universe. I will give an overview of some of my research, and also discuss the path I took to becoming a professor."
+                />
+
+
+
 
 
             </div>
