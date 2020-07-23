@@ -37,6 +37,9 @@ export default function Navbar(props) {
           <li class="nav-item active nav-link">
             <Button href="/stemworld" variant="contained">STEM WORLD</Button>
           </li>
+          <li class="nav-item active nav-link">
+            <Button href="/donate" variant="contained">Donate</Button>
+          </li>
           <li class="nav-item dropdown nav-link active">
             <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
             class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -74,17 +77,11 @@ export default function Navbar(props) {
           <li class="nav-item active nav-link">
             <Button href="/teach" variant="contained">Apply</Button>
           </li>
-          <li class="nav-item active nav-link">
-            <Button href="/donate" variant="contained">DONATE</Button>
-          </li>
         </ul>
       </div>
     </nav>
   )
 }
-
-
-
 
 // "/team", "/login", "/register"
 

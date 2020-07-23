@@ -5,7 +5,8 @@ import yang from "./Speakers/Yang.jpg";
 import sandoval from "./Speakers/Sandoval.png"; 
 import henry from "./Speakers/Henry.png"; 
 import birman from "./Speakers/Birman.jpg"; 
-import kitchloo from "./Speakers/Kitchloo.jpg"; 
+import kitchloo from "./Speakers/Kitchloo.jpg";
+import krishnedu from "./Speakers/Krishnedu.jpg";
 
 
 export default function NewTeam() {
@@ -21,6 +22,28 @@ export default function NewTeam() {
                     des="
                     Anshul Kundaje is an Assistant Professor of Genetics and Computer Science at Stanford University. The Kundaje lab develops statistical and machine learning methods for large-scale integrative analysis of functional genomic data to decode regulatory elements and pathways across diverse cell types and tissues and understand their role in cellular function and disease. Anshul completed his Ph.D. in Computer Science in 2008 from Columbia University. As a postdoc at Stanford University from 2008-2012 and a research scientist at MIT and the Broad Institute from 2012-2014, he led the integrative analysis efforts for two of the largest functional genomics consortia - The Encyclopedia of DNA Elements (ENCODE) and The Roadmap Epigenomics Project. Dr. Kundaje is a recipient of the 2019 Chen Award of Excellence from the Human Genome Organization, 2016 NIH Director’s New Innovator Award and The 2014 Alfred Sloan Foundation Fellowship. Anshul is also a member of the NIH Director's Advisory Committee for Artificial Intelligence in Biomedical Research."
                     position="Assistant Professor at Stanford"
+                />
+
+                <Card
+                    name="Dr. Krishnendu Chakrabarty"
+                    imgURL={krishnedu}
+                    des="Krishnendu Chakrabarty is the John Cocke Distinguished Professor and Department Chair of Electrical
+                    and Computer Engineering (ECE), and Professor of Computer Science, at Duke University. He has held
+                    Visiting Professor positions and Chair Professorships at University of Tokyo (Japan), University of
+                    Bremen (Germany), Tsinghua University (China), National Tsinghua University (Taiwan) and National
+                    Cheng-Kung University (Taiwan).
+                    Prof. Chakrabarty is a recipient of the National Science Foundation CAREER award, the Office of Naval
+                    Research Young Investigator award, the Humboldt Research Award from the Alexander von Humboldt
+                    Foundation, Germany, the IEEE Computer Society Technical Achievement Award (2015), the IEEE
+                    Circuits and Systems Society Charles A. Desoer Technical Achievement Award (2017), the
+                    Semiconductor Research Corporation Technical Excellence Award (2018), and the Japan Society for the
+                    Promotion of Science (JSPS) Invitational Fellowship in the “Short Term S: Nobel Prize Level” category
+                    (2018).
+                    Prof. Chakrabarty’s current research projects include: design-for-testability of integrated circuits and
+                    systems (especially 3D integration and system-on-chip); microfluidic biochips; hardware security;
+                    machine learning for eHealth; neuromorphic computing systems. He is a Fellow of ACM, IEEE, AAAS,
+                    and a Golden Core Member of the IEEE Computer Society."
+                    position="John Cocke Distinguished Professor of Electrical and Computer Engineering"
                 />
 
                 

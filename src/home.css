@@ -147,7 +147,7 @@
 
 @media screen and (max-width: 1215px) {
     .head-txt h3, 
-    .head-txt h4 {
+    .head-txt h4:not(.timeline-title) {
         text-align: center; 
     }
 

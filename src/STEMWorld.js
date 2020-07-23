@@ -147,7 +147,7 @@ function SND() {
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"
-                        speaker="Dr. Micheal Schmitt"
+                        speaker="Dr. Michael Schmitt"
                         description="Nuclear Physics"
                     />
                     <TimelineEntry
