@@ -6,7 +6,7 @@ import catherine from "./InstructorImages/catherineZhou.jpeg";
 import yulia from "./InstructorImages/yulia.JPG"; 
 import deven from "./InstructorImages/deven.jpg"; 
 import vijaya from "./InstructorImages/vijaya.jpg"; 
-import diana from "./InstructorImages/diana.png"; 
+import diana from "./InstructorImages/diana.jpg"; 
 
 export default function NewTeam() {
     return (<div class="new-team-con">
