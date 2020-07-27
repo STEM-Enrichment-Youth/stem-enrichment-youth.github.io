@@ -7,7 +7,6 @@ import yulia from "./InstructorImages/yulia.JPG";
 import aashvi from "./InstructorImages/aashvi.jpg"; 
 import maariyah from "./InstructorImages/maariyah.jpg"; 
 import defaultInstructor from "../icons/head-cross.png"; 
-import diana from "./InstructorImages/diana.png"; 
 import landon from "./InstructorImages/LandonBattin.jpg"; 
 
 export default function Biology() {
@@ -24,13 +23,7 @@ export default function Biology() {
 Aniketh is a rising senior at Leigh High School. He is a passionate biology student who has taken AP Biology and qualified as a USA Biology Olympiad Semifinalist. He is also studying Neuroscience and Human Biology at Mission College. Aniketh is currently an officer of the California Scholarship Federation and Biology Olympiad Clubs. He has various tutoring experience through his job at the Kumon Math and Reading Center as well as through a tutoring program for underprivileged kids. Aniketh has also participated in peer tutoring through the National Honors Society. During his summer, he attended COSMOS at UCSD and volunteered for various organizations.
 "
                 />
-                <Card
-                    imgURL={diana}
-                    name="Diana Poplacenel"
-                    des="Diana Poplacenel is the Biology and Chemistry Olympiad President at Leigh High School, as well as the treasurer of the Science National Honors Society and a founding member of Science Bowl and Science Olympiad. She is the co-founder of STEM Enrichment Youth and will be leading the neuroscience class. She has experience working with middle school students as an official percussion instructor for Union Middle School. She has completed Harvard’s three Fundamentals of Neuroscience courses as well as four of John Hopkins Bioinformatics courses through Coursera, and is currently in the Biomedical Engineering Innovation program at John Hopkins.  She is also a semifinalist in the USA Biology Olympiad."
-                    position = "President of Operations"
-
-                />
+                
                 <Card
                     imgURL = {maariyah}
                     position = "Biology Lead Instructor"

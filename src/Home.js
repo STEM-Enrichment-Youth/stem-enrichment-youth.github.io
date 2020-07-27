@@ -7,7 +7,7 @@ import physics from "./icons/Newtons-cradle.png";
 import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png";
 import katherine from "./NewTeam/InstructorImages/katherine.jpg";
-import diana from "./NewTeam/InstructorImages/diana.png";
+import diana from "./NewTeam/InstructorImages/diana.jpg";
 import faith from "./NewTeam/InstructorImages/faith.jpg";
 import aryan from "./NewTeam/InstructorImages/aryan2.jpg";
 import deven from "./NewTeam/InstructorImages/deven.jpg"; 
@@ -163,7 +163,8 @@ A high school led nonprofit organization that aims to inspire students to pursue
         <div class="banner-class">
         <div class="image-cropper">
             <img style={{ width: "150px", marginTop: '15px' }} src={diana} />
-          </div>          <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
+          </div>          
+          <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
         </div>
         <div class="banner-class">
           <div class="image-cropper">

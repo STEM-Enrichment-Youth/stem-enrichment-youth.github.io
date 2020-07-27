@@ -129,9 +129,16 @@ function SND() {
                     />
                     <TimelineEntry
                         time="5:30-6:00 PM PST"
+                        speaker="Math Speaker TBD"
+                        description=""
+                    />
+
+                    <TimelineEntry
+                        time="6:00-6:30 PM PST"
                         speaker="Katherine Liu"
                         description="Math Demonstration"
-                    />
+                    />    
+
                     <TimelineMarker
                         title="Sunday, August 16"
                     />
@@ -142,13 +149,13 @@ function SND() {
                     />
                     <TimelineEntry
                         time="8:30-9:00 AM PST"
-                        speaker="Dr. Jens Koch"
+                        speaker="Physics Speaker TBD"
                         description="LIGO"
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"
-                        speaker="Dr. Michael Schmitt"
-                        description="Nuclear Physics"
+                        speaker="Dr. Jens Koch"
+                        description="LIGO"
                     />
                     <TimelineEntry
                         time="9:30-10:00 AM PST"
@@ -208,16 +215,16 @@ function SND() {
                     <TimelineEntry
                         time="3:00-3:30 PM PST"
                         speaker="Math Competition"
-                        description=""
+                        description="IMO"
                     />
                     <TimelineEntry
                         time="3:30-4:00 PM PST"
                         speaker="Life Sciences High School Panel"
-                        description=""
+                        description="INTEL"
                     />
                     <TimelineEntry
                         time="4:00-4:30 PM PST"
-                        speaker="College Panel"
+                        speaker="CS and Engineering College Student Panel (Brown)"
                         description=""
                     />
                     <TimelineEntry
