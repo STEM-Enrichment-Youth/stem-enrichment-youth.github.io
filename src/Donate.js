@@ -20,7 +20,10 @@ function Donate() {
                 <p class="description">
                 2. Use the donate button below to donate through PayPal.
                 </p>
-                <div style={{textAlign: "center", width: "90%", marginTop: "6%"}}>
+                <br/>
+                <a class="btn btn-full" style={{marginBottom: "50px"}} href="/sponsorshiplevels">See Donation Benefits</a>
+                <br/>
+                <div style={{textAlign: "center", width: "90%"}}>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                         <input type="hidden" name="cmd" value="_s-xclick" />
                         <input type="hidden" name="hosted_button_id" value="LQGSQ93QXMGCG" />

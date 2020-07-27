@@ -9,7 +9,7 @@ function SND() {
     <div class="whole-home" style={{marginTop: "70px"}}>
       <div style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover"}}>
         <div class="head-txt" style={{width: "90%", marginLeft: "5%"}}>
-          <div>
+          <div >
             <div>
                 
                 <h1 style={{textAlign: "center"}} class="biggest-header-4">STEM World</h1>
@@ -44,8 +44,8 @@ function SND() {
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"
-                        speaker="Biology Speaker TBD"
-                        description=""
+                        speaker="Dr. Helen Vuong"
+                        description="Microbiology"
                     />
                     <TimelineEntry
                         time="9:30-10:00 AM PST"
@@ -64,7 +64,7 @@ function SND() {
                     />
                     <TimelineEntry
                         time="11:00-11:30 AM PST"
-                        speaker="Biology Speaker TBD"
+                        speaker="Biology Demonstration"
                         description=""
                     />
                     <TimelineEntry

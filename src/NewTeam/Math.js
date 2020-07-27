@@ -122,14 +122,6 @@ Sakshi is a rising junior at Leigh High School. She is a member of the National 
 Casey Lin, a rising junior at Leigh High School, is a member of the National Honors Society and the California Scholarship Federation. Additionally, she is the secretary of the Leigh High School Biomedical Engineering Society. Involved in field hockey at Leigh, she was the JV team captain this past year and was part of the varsity team at the end of the season. She is a field hockey coach and referee, coaching in a youth league, and at Union Middle School. She’s competed in the Berkeley Biomedical High School Competition twice, and has won second overall and first in the video category freshman year. She looks forward to working in both chemistry and math in STEMEY. 
 "
                 />
-                <Card
-                    name="Catherine Luu"
-                    des="
-Catherine Luu is a rising junior at Leigh High School. She is a member of the National Honors Society and is a future officer of Seoul to San Jose. Since her middle school days, she has been a peer tutor for her fellow classmates. She is also a member of the Leigh High School’s swimming team. Outside of the school campus, she volunteers at King’s Martial Arts Academy as a second degree assistant instructor and is aiming for her third degree. She also swims competitively for South Valley Stingrays and Santa Teresa Sea Otters where she has worked in leadership positions. She will be working on the math and chemistry courses at STEMEY.
-"
-                    position="Algebra/Geometry Instructor"
-                    imgURL={catherine}
-                />
                 <Card 
                     name="Claire Kwon"
                     des = " 
