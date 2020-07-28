@@ -39,8 +39,8 @@ function SND() {
                     />
                     <TimelineEntry
                         time="8:30-9:00 AM PST"
-                        speaker="Biology Speaker TBD"
-                        description=""
+                        speaker="Dr. Swartz"
+                        description="Biotechnology"
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"
@@ -104,13 +104,13 @@ function SND() {
                     />
                     <TimelineEntry
                         time="3:00-3:30 PM PST"
-                        speaker="Middle and High School Level Chemistry Competitions"
-                        description=""
+                        speaker="Chemistry Competition"
+                        description="Middle and High School Level Chemistry Competitions"
                     />
                     <TimelineEntry
                         time="3:30-4:00 PM PST"
-                        speaker="Math Speaker TBD"
-                        description=""
+                        speaker="Dr. Marcelo Gleiser"
+                        description="Mysteries of the Universe: What We Know and What We Don't Know"
                     />
                     <TimelineEntry
                         time="4:00-4:30 PM PST"
@@ -137,7 +137,13 @@ function SND() {
                         time="6:00-6:30 PM PST"
                         speaker="Katherine Liu"
                         description="Math Demonstration"
-                    />    
+                    />   
+
+                    <TimelineEntry
+                        time="6:30 PM PST"
+                        speaker="William Lin"
+                        description="IOI 2019 Silver Medalist"
+                    />
 
                     <TimelineMarker
                         title="Sunday, August 16"
@@ -149,8 +155,8 @@ function SND() {
                     />
                     <TimelineEntry
                         time="8:30-9:00 AM PST"
-                        speaker="Physics Speaker TBD"
-                        description="LIGO"
+                        speaker="Elyssa's Aunt"
+                        description="Electrical Engineering"
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"
@@ -194,7 +200,7 @@ function SND() {
                     />
                     <TimelineEntry
                         time="1:00-1:30 PM PST"
-                        speaker="Dr. Krishnedu Chakrabarty"
+                        speaker="Dr. Krishnendu Chakrabarty"
                         description="Computational Intelligence in the Design and Optimization of Digital Microfluidic Biochips"
                     />
                     <TimelineEntry
@@ -214,13 +220,13 @@ function SND() {
                     />
                     <TimelineEntry
                         time="3:00-3:30 PM PST"
-                        speaker="Math Competition"
-                        description="IMO"
+                        speaker="William Lin"
+                        description="IMO Math Competition"
                     />
                     <TimelineEntry
                         time="3:30-4:00 PM PST"
-                        speaker="Life Sciences High School Panel"
-                        description="INTEL"
+                        speaker="Charles Huang"
+                        description="INTEL Life Sciences High School Panel"
                     />
                     <TimelineEntry
                         time="4:00-4:30 PM PST"
@@ -229,7 +235,7 @@ function SND() {
                     />
                     <TimelineEntry
                         time="4:30-5:00 PM PST"
-                        speaker="College Nursing Students Panel"
+                        speaker="Nursing College Students Panel"
                         description="Nursing Students from UCLA and Case Western University"
                     />
                     <TimelineEntry
