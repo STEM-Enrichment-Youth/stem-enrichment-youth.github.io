@@ -9,6 +9,9 @@ import kitchloo from "./Speakers/Kitchloo.jpg";
 import krishnedu from "./Speakers/Krishnedu.jpg";
 import zhaxybayeva from "./Speakers/Zhaxybayeva.jpg";
 import holz from "./Speakers/Holz.jpeg";
+import vuong from "./Speakers/Vuong.jpg";
+import gleiser from "./Speakers/Gleiser.jpg";
+import frommer from "./Speakers/Frommer.jpg";
 
 
 export default function NewTeam() {
@@ -90,6 +93,7 @@ Upon the completion of my Ph.D., I decided to move into the more challenging fie
 In 2019 I moved as an Assistant Professor at Georgetown University, where I will continue to develop a research program to understand how memories are encoded in the brain and how they are forgotten.
 "
                 /> 
+
                 <Card
                     name = "Dr. Ken Birman"
                     imgURL = {birman}
@@ -126,7 +130,60 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                     des = "I spend my time thinking about colliding black holes in distant galaxies at the edge of the Universe. I will give an overview of some of my research, and also discuss the path I took to becoming a professor."
                 />
 
+                <Card 
+                    name = "Dr. Helen Vuong"
+                    imgURL = {vuong}
+                    position = "Professor of Integrative Biology and Physiology at UCLA"
+                    des = "Helen Vuong earned her B.S. in neuroscience from the University of California, Los Angeles (UCLA). She continued her graduate education at UCLA, earning her Ph.D. in molecular, cellular and integrative physiology under the mentorship of Dr. Nicholas C. Brecha. During her graduate studies, Vuong investigated the anatomical and electrophysiological regulation of retinal microcircuits by neuropeptides, including somatostatin and vasoactive intestinal polypeptide. She began her postdoctoral tenure in Dr. Elaine Y. Hsiao’s lab. In her postdoctoral research, Vuong aims to elucidate the role of the maternal microbiome in fetal brain development, including modulation of neuronal connectivity, activity and function. In particular, she will focus on specific bacteria species that affect serotonin synthesis and serotonin’s role in brain development. Vuong is also interested in understanding how changes in the maternal microbiome may affect offspring social and communicative behavior. Additionally, as an IRACDA fellow in UCLA’s UPLIFT program, she hopes to continue her research and pursue her passion in education and outreach, eventually developing and implementing an introductory gut—brain axis laboratory course."
+                />
 
+                <Card 
+                    name = "Dr. Marcelo Gleiser"
+                    imgURL = {gleiser}
+                    position = "Professor of Physics and Astronomy at Dartmouth College"
+                    des = "Marcelo Gleiser is the Appleton Professor of Natural
+                    Philosophy and a professor of physics and astronomy at
+                    Dartmouth College. He obtained his Ph.D. from Kings
+                    College London and received the 1994 Presidential Faculty
+                    Fellows Award from the White House. He is a Fellow and
+                    past General Councilor of the American Physical Society. He
+                    is the 2019 Templeton Prize Laureate, an honor he shares
+                    with Mother Tereza, Archbishop Desmond Tutu, the Dalai
+                    Lama, and scientists Freeman Dyson and Martin Rees. Also
+                    in 2019, he won the Education Leadership Award from
+                    Educando by Worldfund Foundation.
+                    His books have been published in 15 languages and include
+                    The Island of Knowledge: The Limits of Science and The
+                    Search for Meaning, A Tear at the Edge of Creation, and
+                    The Simple Beauty of the Unexpected. A leading public
+                    intellectual and world-renowned theoretical physicist
+                    interested in cosmology and astrobiology, he has published
+                    hundreds of peer-reviewed articles, and more than a
+                    thousand essays and op-eds, and frequently participates in
+                    TV documentaries and radio shows in the US and abroad.
+                    He is the co-founder of the NPR blog on science and
+                    culture. He currently directs the Institute for Cross-
+                    Disciplinary Engagement at Dartmouth College."
+                />
+
+                <Card 
+                    name = "Dr. Jane Frommer"
+                    imgURL = {frommer}
+                    position = "Research Scientist at IBM Research"
+                    des = "Dr. Jane Frommer received the 2020 Perkin Medal for bringing chemical awareness to
+                    pioneering research areas in physics and engineering. She has authored over 100
+                    articles and is co-inventor on over 50 issued patents in the fields of electronically
+                    conducting polymers and scanning probes based on tunneling and atomic force.
+                    The analytical methods she developed are critical in the growth of nanotechnology, vital
+                    in the feedback loop of creating nanostructures. Dr. Frommer’s research labs bridged
+                    the gap between academia and industry. Through fundamental research she fostered
+                    generations of students and upheld international presence as a scientist, collaborator,
+                    and mentor. Dr. Frommer’s research environments have included bio-organic undergraduate
+                    research at MIT, Vitamin D research at the Mass General Hospital, organometallic
+                    synthesis at Caltech, electronically conducting polymers at Honeywell (Allied), and
+                    atomic force measurements in material science at IBM Research. Her chemistry
+                    degrees are from Tufts University (BS) and Caltech (PhD)."
+                />
 
 
 
