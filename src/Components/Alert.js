@@ -42,7 +42,7 @@ export default function TransitionAlerts(props) {
       </Collapse>
       
       <Button
-        style={props.button==true ? {marginBottom: "10px"} : {display: "none"} }
+        style={{display: "none"} }
         disabled={open}
         variant="outlined"
         onClick={() => {
