@@ -43,13 +43,6 @@ export default function NewTeam() {
                     Visiting Professor positions and Chair Professorships at University of Tokyo (Japan), University of
                     Bremen (Germany), Tsinghua University (China), National Tsinghua University (Taiwan) and National
                     Cheng-Kung University (Taiwan).
-                    Prof. Chakrabarty is a recipient of the National Science Foundation CAREER award, the Office of Naval
-                    Research Young Investigator award, the Humboldt Research Award from the Alexander von Humboldt
-                    Foundation, Germany, the IEEE Computer Society Technical Achievement Award (2015), the IEEE
-                    Circuits and Systems Society Charles A. Desoer Technical Achievement Award (2017), the
-                    Semiconductor Research Corporation Technical Excellence Award (2018), and the Japan Society for the
-                    Promotion of Science (JSPS) Invitational Fellowship in the “Short Term S: Nobel Prize Level” category
-                    (2018).
                     Prof. Chakrabarty’s current research projects include: design-for-testability of integrated circuits and
                     systems (especially 3D integration and system-on-chip); microfluidic biochips; hardware security;
                     machine learning for eHealth; neuromorphic computing systems. He is a Fellow of ACM, IEEE, AAAS,
@@ -70,10 +63,7 @@ Garcia’s lab in the Molecular and Cellular Physiology and Structural Biology d
 at Stanford University School of Medicine, focusing on engineering cytokine systems to
 bias immune homeostasis. Dr. Spangler launched her independent research group at
 Johns Hopkins University in July 2017, jointly between the departments of Biomedical
-Engineering and Chemical and Biomolecular Engineering. Her lab, located in the
-Translational Tissue Engineering Center at the School of Medicine, applies structural
-and mechanistic insights to re-engineer existing proteins and design new proteins that
-therapeutically modulate the immune response. In particular, her group is interested in
+Engineering and Chemical and Biomolecular Engineering. In particular, her group is interested in
 engineering immune molecules such as cytokines, growth factors, and antibodies for
 targeted treatment of diseases such as cancer and autoimmune disorders."
                     position="Assistant Professor at Johns Hopkins University"
@@ -92,9 +82,9 @@ targeted treatment of diseases such as cancer and autoimmune disorders."
                     name = "Dr. Isaac Cervantes Sandoval"
                     imgURL = {sandoval}
                     position = "Assistant Professor at Georgetown"
-                    des = "I received my MSc and Ph.D. in Chemical and Biological Sciences from the National School for Biological Sciences of the National Polytechnic Institute in Mexico City, Mexico. During my graduate work, I focused on the physiopathology and host immune response in free-living amoebae infections, using both in vivo and in vitro approaches. These studies included the characterization of proteases of Acanthamoeba spp and Naegleria spp as possible virulence mechanisms. In addition, we also studied the role of inflammation in the amoebic meningoencephalitis using CD38-/- knockout mice and the importance of mucins in the innate resistance to Naegleria infections.
+                    des = "I received my MSc and Ph.D. in Chemical and Biological Sciences from the National School for Biological Sciences of the National Polytechnic Institute in Mexico City, Mexico. During my graduate work, I focused on the physiopathology and host immune response in free-living amoebae infections, using both in vivo and in vitro approaches. 
 
-Upon the completion of my Ph.D., I decided to move into the more challenging field of Neuroscience. I joined the Neuroscience Department at The Scripps Research Institute in 2009 to expand my technical skills and neuroscience knowledge. There, my research has focused on understanding how memories are encoded, consolidated, retrieved, and, most recently, how these are forgotten. For this, I use the fruit fly as an animal model. One of our significant findings is that normal forgetting is an active, well-regulated process that involves dopaminergic signals, which depend on the behavioral state of the animal. 
+Upon the completion of my Ph.D., I decided to move into the more challenging field of Neuroscience. I joined the Neuroscience Department at The Scripps Research Institute in 2009 to expand my technical skills and neuroscience knowledge. There, my research has focused on understanding how memories are encoded, consolidated, retrieved, and, most recently, how these are forgotten. 
 
 In 2019 I moved as an Assistant Professor at Georgetown University, where I will continue to develop a research program to understand how memories are encoded in the brain and how they are forgotten.
 "
@@ -104,7 +94,7 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                     name = "Dr. Ken Birman"
                     imgURL = {birman}
                     position = "N. Rama Rao Professor of Computer Science at Cornell"
-                    des = "Ken Birman is the N. Rama Rao Professor of Computer Science at Cornell. An ACM Fellow and the winner of the IEEE Tsutomu Kanai Award, Ken has written 3 textbooks and published more than 150 papers in prestigious journals and conferences. Software he developed operated the New York Stock Exchange for more than a decade without trading disruptions, and plays central roles in the French Air Traffic Control System and the US Navy AEGIS warship. Other technologies from his group found their way into IBM’s Websphere product, Amazon’s EC2 and S3 systems, Microsoft’s cluster management solutions, and the US Northeast bulk power grid. His new Derecho and Cascade systems are intended for demanding settings such as the smart power grid, smart highways and homes, and scalable vision applications. Both can be downloaded from GitHub.com/Derecho-Project."
+                    des = "Ken Birman is the N. Rama Rao Professor of Computer Science at Cornell. An ACM Fellow and the winner of the IEEE Tsutomu Kanai Award, Ken has written 3 textbooks and published more than 150 papers in prestigious journals and conferences. Software he developed operated the New York Stock Exchange for more than a decade without trading disruptions, and plays central roles in the French Air Traffic Control System and the US Navy AEGIS warship. Other technologies from his group found their way into IBM’s Websphere product, Amazon’s EC2 and S3 systems, Microsoft’s cluster management solutions, and the US Northeast bulk power grid. His new Derecho and Cascade systems are intended for demanding settings such as the smart power grid, smart highways and homes, and scalable vision applications."
                 
                 /> 
 
@@ -140,7 +130,7 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                     name = "Dr. Helen Vuong"
                     imgURL = {vuong}
                     position = "Professor of Integrative Biology and Physiology at UCLA"
-                    des = "Helen Vuong earned her B.S. in neuroscience from the University of California, Los Angeles (UCLA). She continued her graduate education at UCLA, earning her Ph.D. in molecular, cellular and integrative physiology under the mentorship of Dr. Nicholas C. Brecha. During her graduate studies, Vuong investigated the anatomical and electrophysiological regulation of retinal microcircuits by neuropeptides, including somatostatin and vasoactive intestinal polypeptide. She began her postdoctoral tenure in Dr. Elaine Y. Hsiao’s lab. In her postdoctoral research, Vuong aims to elucidate the role of the maternal microbiome in fetal brain development, including modulation of neuronal connectivity, activity and function. In particular, she will focus on specific bacteria species that affect serotonin synthesis and serotonin’s role in brain development. Vuong is also interested in understanding how changes in the maternal microbiome may affect offspring social and communicative behavior. Additionally, as an IRACDA fellow in UCLA’s UPLIFT program, she hopes to continue her research and pursue her passion in education and outreach, eventually developing and implementing an introductory gut—brain axis laboratory course."
+                    des = "Helen Vuong earned her B.S. in neuroscience from the University of California, Los Angeles (UCLA). She continued her graduate education at UCLA, earning her Ph.D. in molecular, cellular and integrative physiology under the mentorship of Dr. Nicholas C. Brecha. She began her postdoctoral tenure in Dr. Elaine Y. Hsiao’s lab. In her postdoctoral research, Vuong aims to elucidate the role of the maternal microbiome in fetal brain development, including modulation of neuronal connectivity, activity and function. In particular, she will focus on specific bacteria species that affect serotonin synthesis and serotonin’s role in brain development. Additionally, as an IRACDA fellow in UCLA’s UPLIFT program, she hopes to continue her research and pursue her passion in education and outreach, eventually developing and implementing an introductory gut—brain axis laboratory course."
                 />
 
                 <Card 
@@ -158,15 +148,6 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                     Lama, and scientists Freeman Dyson and Martin Rees. Also
                     in 2019, he won the Education Leadership Award from
                     Educando by Worldfund Foundation.
-                    His books have been published in 15 languages and include
-                    The Island of Knowledge: The Limits of Science and The
-                    Search for Meaning, A Tear at the Edge of Creation, and
-                    The Simple Beauty of the Unexpected. A leading public
-                    intellectual and world-renowned theoretical physicist
-                    interested in cosmology and astrobiology, he has published
-                    hundreds of peer-reviewed articles, and more than a
-                    thousand essays and op-eds, and frequently participates in
-                    TV documentaries and radio shows in the US and abroad.
                     He is the co-founder of the NPR blog on science and
                     culture. He currently directs the Institute for Cross-
                     Disciplinary Engagement at Dartmouth College."
@@ -180,9 +161,7 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                     pioneering research areas in physics and engineering. She has authored over 100
                     articles and is co-inventor on over 50 issued patents in the fields of electronically
                     conducting polymers and scanning probes based on tunneling and atomic force.
-                    The analytical methods she developed are critical in the growth of nanotechnology, vital
-                    in the feedback loop of creating nanostructures. Dr. Frommer’s research labs bridged
-                    the gap between academia and industry. Through fundamental research she fostered
+                    The analytical methods she developed are critical in the growth of nanotechnology. Through fundamental research she fostered
                     generations of students and upheld international presence as a scientist, collaborator,
                     and mentor. Dr. Frommer’s research environments have included bio-organic undergraduate
                     research at MIT, Vitamin D research at the Mass General Hospital, organometallic
@@ -202,7 +181,7 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                     name = "Dr. Michael Schmitt"
                     imgURL = {schmitt}
                     position = "Professor of Public International Law at the University of Reading Law School (UK)"
-                    des = "Michael Schmitt is Professor of Public International Law at the University of Reading Law School in the United Kingdom. Additionally, he serves as the Francis Lieber Distinguished Scholar at the Lieber Institute of the United States Military Academy at West Point, Senior Fellow at the NATO Cyber Defence Centre of Excellence, and professor emeritus at the United States Naval War College.  Professor Schmitt is the General Editor of International Law Studies and the Lieber Studies series (Oxford UP)."
+                    des = "Michael Schmitt is Professor of Public International Law at the University of Reading Law School in the United Kingdom. Additionally, he serves as the Francis Lieber Distinguished Scholar at the Lieber Institute of the United States Military Academy at West Point, Senior Fellow at the NATO Cyber Defence Centre of Excellence, and professor emeritus at the United States Naval War College. Professor Schmitt is the General Editor of International Law Studies and the Lieber Studies series (Oxford UP)."
                 />
                 
                 <Card 
