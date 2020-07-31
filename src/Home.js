@@ -8,9 +8,9 @@ import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png";
 import katherine from "./NewTeam/InstructorImages/katherine.jpg";
 import diana from "./NewTeam/InstructorImages/diana.jpg";
-import faith from "./NewTeam/InstructorImages/faith.jpg";
+import faith from "./NewTeam/InstructorImages/faith.png";
 import aryan from "./NewTeam/InstructorImages/aryan2.jpg";
-import deven from "./NewTeam/InstructorImages/deven.jpg"; 
+import deven from "./NewTeam/InstructorImages/deven.png"; 
 import Alert from "./Components/Alert";
 import defaultInstructor from "./icons/head-cross.png"; 
 

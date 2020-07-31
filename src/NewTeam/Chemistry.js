@@ -5,7 +5,7 @@ import Card from "./TeamCard";
 import christian from "./InstructorImages/christian.png";
 import alex from "./InstructorImages/alex.JPG";
 import casey from "./InstructorImages/casey.jpg";
-import deven from "./InstructorImages/deven.jpg";
+import deven from "./InstructorImages/deven.png";
 import catherine from "./InstructorImages/catherine.jpg";
 import defaultInstructor from "../icons/head-brains.png";
 import daniel from "./InstructorImages/daniel.png";

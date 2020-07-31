@@ -4,7 +4,7 @@ import Navbar from "../Navbar.js";
 import Card from "./TeamCard"; 
 import catherine from "./InstructorImages/catherineZhou.jpeg"; 
 import yulia from "./InstructorImages/yulia.JPG"; 
-import deven from "./InstructorImages/deven.jpg"; 
+import deven from "./InstructorImages/deven.png"; 
 import vijaya from "./InstructorImages/vijaya.jpg"; 
 import diana from "./InstructorImages/diana.jpg"; 
 
