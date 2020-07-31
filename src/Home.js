@@ -152,9 +152,6 @@ A high school led nonprofit organization that aims to inspire students to pursue
               individual online tutoring will also be available! All completely free!
             </p>
           </div>
-
-
-
         </div>
 
       </section>

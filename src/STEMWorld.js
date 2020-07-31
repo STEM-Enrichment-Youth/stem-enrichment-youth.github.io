@@ -119,8 +119,8 @@ function SND() {
                     />
                     <TimelineEntry
                         time="4:30-5:00 PM PST"
-                        speaker="Math Speaker TBD"
-                        description=""
+                        speaker="Dr. My T. Le"
+                        description="Finding Your North Star: My Journey from a refugee camp to the heart of Silicon Valley"
                     />
                     <TimelineEntry
                         time="5:00-5:30 PM PST"
@@ -155,8 +155,8 @@ function SND() {
                     />
                     <TimelineEntry
                         time="8:30-9:00 AM PST"
-                        speaker="Elyssa's Aunt"
-                        description="Electrical Engineering"
+                        speaker="Physics Speaker TBD"
+                        description=""
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"

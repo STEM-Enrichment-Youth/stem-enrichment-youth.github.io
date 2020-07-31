@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./timeline.css";
-import Tabletop from 'tabletop';
 
 
 class Timeline extends Component {
@@ -9,22 +8,6 @@ class Timeline extends Component {
     this.state = {
       data: []
     }
-  }
-
-  componentDidMount() {
-    Tabletop.init({
-      key: 'https://docs.google.com/spreadsheets/d/13apeTyXK3A9LB7RimIq4PjACZmW90xKLghNxnTT-4QU/pubhtml',
-      // key: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS2PndbsYkCuYAES6e0ZMXwbgNcwciMVrXbeuDUAjZaAgEfjGShhewromODRYn4m0lmCZw2ca0GX5zD/pubhtml', 
-      callback: (googleData, tabletop) => {
-        this.setState({
-          data: googleData
-        })
-      },
-      simpleSheet: true
-    })
-    console.log("--------");
-    console.log(this.state.data);
-    console.log("--------");
   }
 
   render() {
