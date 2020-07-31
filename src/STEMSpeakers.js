@@ -12,6 +12,12 @@ import holz from "./Speakers/Holz.jpeg";
 import vuong from "./Speakers/Vuong.jpg";
 import gleiser from "./Speakers/Gleiser.jpg";
 import frommer from "./Speakers/Frommer.jpg";
+import koch from "./Speakers/Koch.jpg";
+import schmitt from "./Speakers/Schmitt.jpg";
+import aidala from "./Speakers/Aidala.jpg";
+import swartz from "./Speakers/Swartz.png";
+import loeb from "./Speakers/Loeb.jpg";
+import le from "./Speakers/Le.jpg";
 
 
 export default function NewTeam() {
@@ -184,6 +190,49 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                     atomic force measurements in material science at IBM Research. Her chemistry
                     degrees are from Tufts University (BS) and Caltech (PhD)."
                 />
+
+                <Card 
+                    name = "Dr. Jens Koch"
+                    imgURL = {koch}
+                    position = "Associate Professor of Physics at Northwestern University"
+                    des = "Jens Koch’s research interests in theoretical condensed matter physics include strongly correlated quantum systems, quantum information processing with solid-state devices as well as transport and coherence in nanoscale systems. Koch explores the exciting prospects of applying quantum circuit devices as artificial atoms in quantum computation and quantum optics and, in collaboration with several experimental groups, studies coherence of novel quantum circuits. His second research thrust focuses on larger array systems composed of Josephson-junction based circuits (superconducting qubits) and superconducting microwave resonators."
+                />
+
+                <Card 
+                    name = "Dr. Michael Schmitt"
+                    imgURL = {schmitt}
+                    position = "Professor of Public International Law at the University of Reading Law School (UK)"
+                    des = "Michael Schmitt is Professor of Public International Law at the University of Reading Law School in the United Kingdom. Additionally, he serves as the Francis Lieber Distinguished Scholar at the Lieber Institute of the United States Military Academy at West Point, Senior Fellow at the NATO Cyber Defence Centre of Excellence, and professor emeritus at the United States Naval War College.  Professor Schmitt is the General Editor of International Law Studies and the Lieber Studies series (Oxford UP)."
+                />
+                
+                <Card 
+                    name = "Dr. Christine Aidala"
+                    imgURL = {aidala}
+                    position = "Associate Professor of Physics at UMichigan"
+                    des = "Professor Aidala works in experimental high-energy nuclear physics, on the border between nuclear and particle physics. Her research is focused on nucleon structure and quantum chromodynamics (QCD), the theory of the strong force. She’s particularly interested in spin-momentum correlations inside the proton, loosely analogous to the quantum electrodynamical spin-orbit and spin-spin couplings in the hydrogen atom."
+                />
+
+                <Card 
+                    name = "Dr. James Robert Swartz"
+                    imgURL = {swartz}
+                    position = "James H. Clark Professor in the School of Engineering and Professor of Chemical Engineering and Bioengineering at Stanford"
+                    des = "Dr. Swartz obtained his B.S.Ch.E. from South Dakota School of Mines and Technology. After working for two years for Union Oil Co. of California, he attended M.I.T. where he earned his M.S. and D.Sc. in chemical engineering and biochemical engineering, respectively. His focus on the development and control of fermentation processes led him to a scientific exchange visit to the U.S.S.R. and to an initial research position at Eli Lilly and Co. in Indianapolis. In 1981, he joined Genentech, where he served in both scientific and managerial positions related to rDNA protein production for nearly 18 years. In 1998, he moved to Stanford University as a Professor of Chemical Engineering focusing on cell-free biology."
+                />
+
+                <Card 
+                    name = "Dr. Lorie Loeb"
+                    imgURL = {loeb}
+                    position = "Research Associate Professor of Computer Science at Dartmouth College"
+                    des = "My work is about creating well-designed technology tools that change the way people think and behave. Information is everywhere, in large quantity and questionable quality—monitors are ubiquitous, over 100 hours of video are uploaded to YouTube every minute, and the Internet contains over 3.3 billion pages. People quickly shut down or ignore information when too much is given, is hard to understand, or difficult to accept. My research focuses on effective methods for presenting and visualizing information in order to get people’s attention, communicate effectively, and change behavior."
+                />
+
+                <Card 
+                    name = "Dr. My T. Le"
+                    imgURL = {le}
+                    position = "Professor of Electrical Engineering at Stanford"
+                    des = "My T. Le is a technologist, entrepreneur, and educator. She received her Ph.D. in Electrical Engineering and Computer Sciences from University of California, Berkeley. She works, advises and invests in start-ups. She co-teaches EE15 - a popular Freshman Seminar and teaches EE46 - Engineering for Good - at Stanford University. In her spare time, she can be found telling bad jokes to her daughters and being a member of Dub Nation."
+                />
+
 
 
 
