@@ -146,8 +146,8 @@
 .banner-class h2 { font-size: 110%; margin-top: 10px; text-align: center; }
 
 @media screen and (max-width: 1215px) {
-    .head-txt h3, 
-    .head-txt h4:not(.timeline-title) {
+    .head-txt h3:not(.timeline-title), 
+    .head-txt h4 {
         text-align: center; 
     }
 

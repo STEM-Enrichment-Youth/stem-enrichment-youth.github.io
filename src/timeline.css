@@ -82,9 +82,22 @@
   .timeline-content {
     padding-bottom: 40px;
   }
-  .timeline-content p:last-child {
+  .timeline-content p {
     margin-bottom: 0;
   }
+
+  .timeline-detailed {
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .timeline-content:hover .timeline-detailed {
+    transition: max-height 0.25s ease-in;
+    max-height: 1000px;
+  }
+
   /*----- TIMELINE PERIOD -----*/
   .period {
     padding: 0;

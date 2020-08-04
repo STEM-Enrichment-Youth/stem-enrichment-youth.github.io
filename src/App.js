@@ -21,7 +21,7 @@ import Donate from "./Donate";
 import Contact from "./Contact";
 import STEMWorld from "./STEMWorld"; 
 import STEMSpeakers from "./STEMSpeakers";
-import DonateBenefits from "./DonateBenefits";
+import Sponsorship from "./Sponsorship";
 
 export default function App() {
   return (
@@ -72,9 +72,9 @@ export default function App() {
             <Navbar/> 
             < STEMSpeakers /> 
           </Route>
-          <Route path="/sponsorshiplevels">
+          <Route path="/sponsorship">
             <Navbar/> 
-            < DonateBenefits /> 
+            < Sponsorship /> 
           </Route>
           <Route path="/chemistry-class">
             <Navbar /><ChemistryClass />
