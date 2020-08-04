@@ -35,12 +35,12 @@ function SND() {
                     <TimelineEntry
                         time="8:00-8:30 AM PST"
                         speaker="Deven Shah"
-                        description="Opening Remarks"
+                        description="Opening Ceremony"
                     />
                     <TimelineEntry
                         time="8:30-9:00 AM PST"
-                        speaker="Biology Speaker TBD"
-                        description="Biotechnology"
+                        speaker="Akshaya Annapragada"
+                        description="Putting the M in STEM: Math AND Medicine"
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"
@@ -70,22 +70,22 @@ function SND() {
                     <TimelineEntry
                         time="11:30-12:00 PM PST"
                         speaker="Biology Competition"
-                        description="Middle and High School Level Biology Competitions"
+                        description="Diana Poplacenel"
                     />
                     <TimelineEntry
                         time="12:00-12:30 PM PST"
-                        speaker="Chemistry Speaker TBD"
-                        description=""
+                        speaker="Dr. Jane Frommer"
+                        description="The Molecular Underpinings of Nanotechnology"
                     />
                     <TimelineEntry
                         time="12:30-1:00 PM PST"
                         speaker="Chemistry Speaker TBD"
-                        description="Nanotech"
+                        description=""
                     />
                     <TimelineEntry
                         time="1:00-1:30 PM PST"
                         speaker="Chemistry Speaker TBD"
-                        description="Biological and Chemical Engineering"
+                        description=""
                     />
                     <TimelineEntry
                         time="1:30-2:00 PM PST"
@@ -95,7 +95,7 @@ function SND() {
                     <TimelineEntry
                         time="2:00-2:30 PM PST"
                         speaker="Chemistry Speaker TBD"
-                        description="Immunoengineering"
+                        description=""
                     />
                     <TimelineEntry
                         time="2:30-3:00 PM PST"
@@ -105,7 +105,7 @@ function SND() {
                     <TimelineEntry
                         time="3:00-3:30 PM PST"
                         speaker="Chemistry Competition"
-                        description="Middle and High School Level Chemistry Competitions"
+                        description="Middle and High School Level Chem Competitions"
                     />
                     <TimelineEntry
                         time="3:30-4:00 PM PST"
@@ -124,30 +124,40 @@ function SND() {
                     />
                     <TimelineEntry
                         time="5:00-5:30 PM PST"
-                        speaker="Math Speaker TBD"
-                        description=""
+                        speaker="Dr. Tom Hull"
+                        description="Origami in Mathematics"
                     />
                     <TimelineEntry
                         time="5:30-6:00 PM PST"
                         speaker="Math Speaker TBD"
                         description=""
                     />
-
                     <TimelineEntry
                         time="6:00-6:30 PM PST"
-                        speaker="Katherine Liu"
-                        description="Math Demonstration"
+                        speaker="Math Competition"
+                        description=""
                     />   
-
                     <TimelineEntry
                         time="6:30 PM PST"
                         speaker="William Lin"
                         description="IOI 2019 Silver Medalist"
                     />
+                    <TimelineEntry
+                        time="TBD"
+                        speaker="Dr. James Swartz (TBD)"
+                        description="Chemistry Speaker"
+                    />
+                    <TimelineEntry
+                        time="TBD"
+                        speaker="Dr. Lorie Loeb (TBD)"
+                        description="CS Speaker"
+                    />
+
 
                     <TimelineMarker
                         title="Sunday, August 16"
                     />
+
                     <TimelineEntry
                         time="8:00-8:30 AM PST"
                         speaker="Dr. Richard Henry"
@@ -190,8 +200,8 @@ function SND() {
                     />
                     <TimelineEntry
                         time="12:00-12:30 PM PST"
-                        speaker="CS Speaker TBD"
-                        description=""
+                        speaker="Dr. Jamie Spangler"
+                        description="Engineering proteins to reprogram the immune response"
                     />
                     <TimelineEntry
                         time="12:30-1:00 PM PST"
@@ -215,17 +225,17 @@ function SND() {
                     />
                     <TimelineEntry
                         time="2:30-3:00 PM PST"
-                        speaker="Math Competition"
-                        description="Middle and High School Level Competitions"
+                        speaker="CS Demonstration"
+                        description=""
                     />
                     <TimelineEntry
                         time="3:00-3:30 PM PST"
-                        speaker="High School Panel (Math and Engineering)"
+                        speaker="Break"
                         description=""
                     />
                     <TimelineEntry
                         time="3:30-4:00 PM PST"
-                        speaker="High School Panel (Life Science)"
+                        speaker="Life Science High School Panel"
                         description=""
                     />
                     <TimelineEntry
@@ -248,6 +258,17 @@ function SND() {
                         speaker="Diana Poplacenel"
                         description="Awards Ceremony"
                     />
+                    <TimelineEntry
+                        time="TBD"
+                        speaker="CS Demonstration (TBD)"
+                        description="Schmal Science"
+                    />
+                    <TimelineEntry
+                        time="TBD"
+                        speaker="Allison Jia (TBD)"
+                        description="Winner of the $50,000 Intel Foundation Young Scientist Award"
+                    />
+
                 </ul>
                 <Timeline/>
 
