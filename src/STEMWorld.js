@@ -23,7 +23,7 @@ function SND() {
               <div style={{width: "100%", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center"}}>
                 <a class="btn btn-full" style={{marginBottom: "20px"}} href="https://tinyurl.com/rsvpstemworld">RSVP Here to Receive Updates</a>
                 <a class="btn btn-full" style={{marginBottom: "20px"}} href="/stemworldspeakers">See Our Speakers</a>
-                <a class="btn btn-full" style={{marginBottom: "50px"}} href="/sponsorship">Sponsorships</a>
+                <a class="btn btn-full" style={{marginBottom: "50px"}} href="/sponsorship">Sponsors</a>
               </div>
 
               <h1 class="biggest-header-2">Schedule</h1>
