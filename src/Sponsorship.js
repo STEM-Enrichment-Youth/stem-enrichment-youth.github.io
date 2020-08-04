@@ -70,7 +70,7 @@ function Sponsorship() {
                         <span>$1000+</span>
                     </div>
                 </div>
-                <p style={{marginTop: "50px"}}>If you donate to us, because our fiscal sponsors are filed as a 501(c)(3), you may eligible for tax deductions.</p> 
+                <p style={{marginTop: "50px"}}>If you donate to us, because our fiscal sponsors are filed as a 501(c)(3), you may be eligible for tax deductions.</p> 
             </div>
         </div>
     </div>

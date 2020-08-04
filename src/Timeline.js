@@ -61,6 +61,7 @@ export function TimelineEntry(props) {
         <div class="timeline-marker"></div>
         <div class="timeline-content">
             <h3 class="timeline-title">{props.speaker}</h3>
+            <p class="timeline-professor">{props.professor}</p>
             <p class="timeline-description">{props.description}</p>
     <div class="timeline-detailed"><p>{talkDescription}</p></div>
         </div>

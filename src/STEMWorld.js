@@ -43,26 +43,31 @@ function SND() {
                     <TimelineEntry
                         time="8:30-9:00 AM PST"
                         speaker="Akshaya Annapragada"
+                        professor = "JHU PhD Student"
                         description="Putting the M in STEM: Math AND Medicine"
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"
                         speaker="Dr. Helen Vuong"
+                        professor = "UCLA Professor"
                         description="Microbiome, Brain and Behaviors"
                     />
                     <TimelineEntry
                         time="9:30-10:00 AM PST"
                         speaker="Dr. Olga Zhaxybayeva"
+                        professor = "Dartmouth Professor"
                         description="Genomic clues to origin, evolution and diversity of life"
                     />
                     <TimelineEntry
                         time="10:00-10:30 AM PST"
                         speaker="Dr. Isaac Cervantes Sandoval"
+                        professor = "Georgetown Professor"
                         description="Where did I leave my keys: Why do we forget?"
                     />
                     <TimelineEntry
                         time="10:30-11:00 AM PST"
                         speaker="Dr. Xia Yang"
+                        professor = "UCLA Professor"
                         description="Dissecting Complex Human Diseases via Big Data Bioinformatics and Systems Biology"
                     />
                     <TimelineEntry
@@ -73,17 +78,17 @@ function SND() {
                     <TimelineEntry
                         time="11:30-12:00 PM PST"
                         speaker="Biology Competition"
-                        description="Diana Poplacenel"
+                        description="AP Biology and USABO Based High School Competition"
                     />
                     <TimelineEntry
                         time="12:00-12:30 PM PST"
                         speaker="Dr. Jane Frommer"
+                        professor = "IBM Chemist"
                         description="The Molecular Underpinings of Nanotechnology"
                     />
                     <TimelineEntry
                         time="12:30-1:00 PM PST"
                         speaker="Chemistry Speaker TBD"
-                        description=""
                     />
                     <TimelineEntry
                         time="1:00-1:30 PM PST"
@@ -93,7 +98,6 @@ function SND() {
                     <TimelineEntry
                         time="1:30-2:00 PM PST"
                         speaker="Chemistry Speaker TBD"
-                        description=""
                     />
                     <TimelineEntry
                         time="2:00-2:30 PM PST"
@@ -113,17 +117,19 @@ function SND() {
                     <TimelineEntry
                         time="3:30-4:00 PM PST"
                         speaker="Dr. Marcelo Gleiser"
+                        professor = "Dartmouth Professor"
                         description="Mysteries of the Universe: What We Know and What We Don't Know"
                     />
                     <TimelineEntry
                         time="4:00-4:30 PM PST"
                         speaker="Dr. Nitu Kitchloo"
+                        professor = "John Hopkins Professor"
                         description="The close relationship between Algebra and Geometry"
                     />
                     <TimelineEntry
                         time="4:30-5:00 PM PST"
-                        speaker="Dr. My T. Le"
-                        description="Finding Your North Star: My Journey from a refugee camp to the heart of Silicon Valley"
+                        speaker="Math Speaker TBD"
+                        description=""
                     />
                     <TimelineEntry
                         time="5:00-5:30 PM PST"
@@ -153,6 +159,7 @@ function SND() {
                     <TimelineEntry
                         time="TBD"
                         speaker="Dr. Lorie Loeb (TBD)"
+                        professor = "Dartmouth Professor"
                         description="CS Speaker"
                     />
 
@@ -164,27 +171,30 @@ function SND() {
                     <TimelineEntry
                         time="8:00-8:30 AM PST"
                         speaker="Dr. Richard Henry"
+                        professor = "JHU Professor"
                         description="Physics is Simple!"
                     />
                     <TimelineEntry
                         time="8:30-9:00 AM PST"
                         speaker="Physics Speaker TBD"
-                        description=""
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"
                         speaker="Dr. Jens Koch"
+                        professor = "Northwestern Professor"
                         description="Theoretical Condensed Matter Physics"
                     />
                     <TimelineEntry
                         time="9:30-10:00 AM PST"
                         speaker="Dr. Daniel Holz"
+                        professor = "UChicago Professor"
                         description="Listening to the Universe"
                     />
                     <TimelineEntry
                         time="10:00-10:30 AM PST"
                         speaker="Dr. Christine Aidala"
-                        description="Parton Dynamics in Quantum Chromodynamics"
+                        professor = "UMichigan Professor"
+                        description="Peering into the Proton"
                     />
                     <TimelineEntry
                         time="10:30-11:00 AM PST"
@@ -199,20 +209,24 @@ function SND() {
                     <TimelineEntry
                         time="11:30-12:00 PM PST"
                         speaker="Dr. Anshul Kundaje"
+                        professor = "Stanford Professor"
                         description="Deep learning the regulatory code of the human genome"
                     />
                     <TimelineEntry
                         time="12:00-12:30 PM PST"
                         speaker="Dr. Jamie Spangler"
+                        professor = "JHU Professor"
                         description="Engineering proteins to reprogram the immune response"
                     />
                     <TimelineEntry
                         time="12:30-1:00 PM PST"
                         speaker="Dr. Ken Birman"
+                        professor = "Cornell Professor"
                         description="Cloud Computing and the Intelligent Internet of Things"
                     />
                     <TimelineEntry
                         time="1:00-1:30 PM PST"
+                        professor = "Duke Professor"
                         speaker="Dr. Krishnendu Chakrabarty"
                         description="Computational Intelligence in the Design and Optimization of Digital Microfluidic Biochips"
                     />
@@ -233,8 +247,9 @@ function SND() {
                     />
                     <TimelineEntry
                         time="3:00-3:30 PM PST"
-                        speaker="Break"
-                        description=""
+                        speaker="Dr. My T. Le"
+                        professor = "Stanford Professor"
+                        description="Finding Your North Star: My Journey from a refugee camp to the heart of Silicon Valley"
                     />
                     <TimelineEntry
                         time="3:30-4:00 PM PST"
@@ -259,7 +274,7 @@ function SND() {
                     <TimelineEntry
                         time="5:30-6:00 PM PST"
                         speaker="Diana Poplacenel"
-                        description="Awards Ceremony"
+                        description="Awards and Closing Ceremony"
                     />
                     <TimelineEntry
                         time="TBD"
@@ -275,59 +290,9 @@ function SND() {
                 </ul>
                 <Timeline/>
 
-                {/* <a class="btn btn-full" href="#">8:00-8:30 AM PST Opening Remarks</a>
-                <a class="btn btn-full" href="#">8:30-9:00 AM PST Biology Speaker 1</a>
-                <a class="btn btn-full" href="#">9:00-9:30 AM PST Biology Speaker 2</a>
-                <a class="btn btn-full" href="#">9:30-10:00 AM PST Biology Speaker 3</a>
-                <a class="btn btn-full" href="#">10:00-10:30 AM PST Biology Speaker 4</a>
-                <a class="btn btn-full" href="#">10:30-11:00 AM PST Biology Speaker 5</a>
-                <a class="btn btn-full" href="#">11:00-11:30 AM PST Biology Demonstration</a>
-                <a class="btn btn-full" href="#">11:30-12:00 PM PST Biology HS Competition</a>
-
-                <a class="btn btn-full" href="#">12:00-12:30 PM PST Chemistry Speaker 1</a>
-                <a class="btn btn-full" href="#">12:30-1:00 PM PST Chemistry Speaker 2</a>
-                <a class="btn btn-full" href="#">1:00-1:30 PM PST Chemistry Speaker 3</a>
-                <a class="btn btn-full" href="#">1:30-2:00 AM PST Chemistry Speaker 4</a>
-                <a class="btn btn-full" href="#">2:00-2:30 PM PST Chemistry Speaker 5</a>
-                <a class="btn btn-full" href="#">2:30-3:00 PM PST Chemistry Demonstration</a>
-                <a class="btn btn-full" href="#">3:00-3:30 PM PST Chemistry HS Competition</a>
-
-                <a class="btn btn-full" href="#">3:30-4:00 PM PST Math Speaker 1</a>
-                <a class="btn btn-full" href="#">4:00-4:30 PM PST Math Speaker 2</a>
-                <a class="btn btn-full" href="#">4:30-5:00 AM PST Math Speaker 3</a>
-                <a class="btn btn-full" href="#">5:00-5:30 PM PST Math Speaker 4</a>
-                <a class="btn btn-full" href="#">5:30-6:00 PM PST Math Speaker 5</a>
-                <a class="btn btn-full" href="#">6:00-6:30 PM PST Math Demonstration</a>
-                <a class="btn btn-full" href="#">6:30-7:00 PM PST Math HS Competition</a> */}
-
-
+                
                 </div>
-                {/* <div style={{display: "grid",  gridGap: "20px"}}>
-                <h1> Sunday, August 16</h1>
-                <a class="btn btn-full stem-btn" href="#">8:00-8:30 AM PST Physics Speaker 1</a>
-                <a class="btn btn-full stem-btn" href="#">8:30-9:00 AM PST Physics Speaker 2</a>
-                <a class="btn btn-full stem-btn" href="#">9:00-9:30 AM PST Physics Speaker 3</a>
-                <a class="btn btn-full stem-btn" href="#">9:30-10:00 AM PST Physics Speaker 4</a>
-                <a class="btn btn-full stem-btn" href="#">10:00-10:30 AM PST Physics Speaker 5</a>
-                <a class="btn btn-full stem-btn" href="#">10:30-11:00 AM PST Physics Demonstration</a>
-                <a class="btn btn-full stem-btn" href="#">11:00-11:30 AM PST Physics HS Competition</a>
-
-                <a class="btn btn-full stem-btn" href="#">11:30-12:00 PM PST Computer Science Speaker 1</a>
-                <a class="btn btn-full stem-btn" href="#">12:00-12:30 PM PST Computer Science Speaker 2</a>
-                <a class="btn btn-full stem-btn" href="#">12:30-1:00 PM PST Computer Science Speaker 3</a>
-                <a class="btn btn-full stem-btn" href="#">1:00-1:30 PM PST Computer Science Speaker 4</a>
-                <a class="btn btn-full stem-btn" href="#">1:30-2:00 AM PST Computer Science Speaker 5</a>
-                <a class="btn btn-full stem-btn" href="#">2:00-2:30 PM PST Computer Science Demonstration</a>
-                <a class="btn btn-full stem-btn" href="#">2:30-3:00 PM PST Computer Science Competition</a>
-                <a class="btn btn-full stem-btn" href="#">3:00-3:30 PM PST High School Panel 1</a>
-                <a class="btn btn-full stem-btn" href="#">3:30-4:00 PM PST High School Panel 2</a>
-                <a class="btn btn-full stem-btn" href="#">4:00-4:30 PM PST High School Panel 3</a>
-                <a class="btn btn-full stem-btn" href="#">4:30-5:00 PM PST High School Panel 4</a>
-                <a class="btn btn-full stem-btn" href="#">5:00-5:30 PM PST College Panel 1</a>
-                <a class="btn btn-full stem-btn" href="#">5:30-6:00 PM PST College Panel 2</a>
-                <a class="btn btn-full stem-btn" href="#">6:00-6:30 PM PST College Panel 3</a>
-                <a class="btn btn-full stem-btn" href="#">6:30-7:00 PM PST College Panel 4</a>
-                </div> */}
+                
                 
 
               </div>
@@ -336,8 +301,6 @@ function SND() {
             
            
           </div>
-
-          {/* <img class="stemey-logo-no stemey-logo" src={stemey} /> */}
 
         </div>
 

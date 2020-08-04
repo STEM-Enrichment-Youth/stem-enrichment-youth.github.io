@@ -30,7 +30,7 @@ function Home() {
             <div class="head-txt-2">
               <h1 class="biggest-header">STEMEY</h1>
               <p class="head-p">
-A high school led nonprofit organization that aims to inspire students to pursue STEM from an early age and to advance the public’s STEM education and experience.
+A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
               </p>
             </div>
             <img class="stemey-logo" src={stemey} />

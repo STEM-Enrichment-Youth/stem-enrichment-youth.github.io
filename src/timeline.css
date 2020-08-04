@@ -18,10 +18,12 @@
   }
 
   .timeline-description {
-      margin-top: 16px;
+      margin-top: 10px;
       padding-bottom: 10px;
       font-size: 14px;
   }
+
+  .timeline-professor { font-weight: 500 !important; font-size: 18px; margin-top: 10px; }
 
   /*----- TIMELINE ITEM -----*/
   .timeline-item {
