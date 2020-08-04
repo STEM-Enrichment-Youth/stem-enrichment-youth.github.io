@@ -18,9 +18,43 @@ import aidala from "./Speakers/Aidala.jpg";
 import swartz from "./Speakers/Swartz.png";
 import loeb from "./Speakers/Loeb.jpg";
 import le from "./Speakers/Le.jpg";
+import Papa from 'papaparse';
+import speakers from './speakers.csv';
 
 
 export default function NewTeam() {
+    // const [rows, setRows] = React.useState([]);
+    // React.useEffect(() => {
+    //     async function getData() {
+    //       const response = await fetch(speakers)
+    //       const reader = response.body.getReader()
+    //       const result = await reader.read() // raw array
+    //       const decoder = new TextDecoder('utf-8')
+    //       const csv = decoder.decode(result.value) // the csv text
+    //       const results = Papa.parse(csv, { header: true }) // object with { data, errors, meta }
+    //       const rows = results.data // array of objects
+    //       setRows(rows)
+    //     }
+    //     getData()
+    // }, [])
+    // console.log(rows)
+    // const items = rows.map((item, key) => 
+    // <Card
+    //     name={item.speaker}
+    //     des={item.speakerBio}
+    //     position={item.university}
+    // />)
+    // return (
+    //     <div class="new-team-con">
+    //         <div class="new-team">
+    //             <h1>Meet Our Speakers</h1>
+    //             <h2>More to come soon!</h2>
+    //             <div class="con">
+    //                 {items}
+    //             </div>
+    //         </div>
+    //     </div>
+    // )
     return (<div class="new-team-con">
         <div class="new-team">
             <h1>Meet Our Speakers</h1>
@@ -211,10 +245,6 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                     position = "Professor of Electrical Engineering at Stanford"
                     des = "My T. Le is a technologist, entrepreneur, and educator. She received her Ph.D. in Electrical Engineering and Computer Sciences from University of California, Berkeley. She works, advises and invests in start-ups. She co-teaches EE15 - a popular Freshman Seminar and teaches EE46 - Engineering for Good - at Stanford University. In her spare time, she can be found telling bad jokes to her daughters and being a member of Dub Nation."
                 />
-
-
-
-
             </div>
         </div>
     </div>

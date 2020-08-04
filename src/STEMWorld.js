@@ -3,9 +3,11 @@ import "./home.css";
 import "./timeline.css";
 import stemey from "./GoodStemeyLogo.png";
 import Timeline, {TimelineEntry, TimelineMarker} from './Timeline';
+import Papa from 'papaparse';
+import speakers from './speakers.csv';
 
 function SND() {
-  return (
+    return (
     <div class="whole-home" style={{marginTop: "70px"}}>
       <div style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover"}}>
         <div class="head-txt" style={{width: "90%", marginLeft: "5%"}}>
@@ -20,7 +22,8 @@ function SND() {
               </p>
               <div style={{width: "100%", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center"}}>
                 <a class="btn btn-full" style={{marginBottom: "20px"}} href="https://tinyurl.com/rsvpstemworld">RSVP Here to Receive Updates</a>
-                <a class="btn btn-full" style={{marginBottom: "50px"}} href="/stemworldspeakers">See Our Speakers</a>
+                <a class="btn btn-full" style={{marginBottom: "20px"}} href="/stemworldspeakers">See Our Speakers</a>
+                <a class="btn btn-full" style={{marginBottom: "50px"}} href="/sponsorship">Sponsorships</a>
               </div>
 
               <h1 class="biggest-header-2">Schedule</h1>

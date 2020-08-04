@@ -1,14 +1,32 @@
 import React from "react";
 import "./home.css";
 import stemey from "./GoodStemeyLogo.png";
-import "./sponsorship.css"
+import "./sponsorship.css";
+import ctv from "./carrythevision.png";
+import smarterd from "./smarterd.png";
+import nxstep from "./nxstep.png";
 
-function DonateBenefits() {
+function Sponsorship() {
     return (
     <div class="whole-home" style={{marginTop: "70px"}}>
         <div class="column-flex" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover"}}>
             <div class="head-txt column-flex" style={{width: "90%"}}>
-                <h1 style={{textAlign: "center"}} class="biggest-header-4">SPONSORSHIP LEVELS</h1>
+                <h1 style={{textAlign: "center"}} class="biggest-header-4">SPONSORSHIPS</h1>
+                <div id="current-sponsors">
+                    <h1 class="biggest-header-2">Current Sponsors</h1>
+                    <h2 style={{color:"#B7D1E2", fontWeight:"400"}}>Platinum</h2>
+                    <div class="sponsors-grid">
+                        <div><img src={ctv}/></div> 
+                        <div><img src={nxstep}/></div> 
+                    </div>
+                    {/* <h2 style={{color:"#FAD766", fontWeight:"400"}}>Gold</h2> */}
+                    <h2 style={{color:"#C0C0C0", fontWeight:"400"}}>Silver</h2>
+                    <div class="sponsors-grid">
+                        <div><img src={smarterd}/></div> 
+                    </div>
+                    {/* <h2 style={{color:"#DBA670", fontWeight:"400"}}>Bronze</h2> */}
+                </div>
+                <h1 class="biggest-header-2">Sponsor Tiers</h1>
                 <br/>   
                 <div class="column-flex tiers-cont">
                     <div class="donate-row tier-row">
@@ -21,13 +39,13 @@ function DonateBenefits() {
                         <div class="description-cont">
                             <span>
                                 -&emsp;Promote at STEM World (Opening & Closing Ceremony) <br/>
-                                -&emsp;On Our Website
+                                -&emsp;On Front Page of Our Website
                             </span>
                         </div>
                         <div class="description-cont">
                             <span>
                                 -&emsp;Promote at STEM World (Opening & Closing Ceremony) <br/>
-                                -&emsp;On Our Website <br/>
+                                -&emsp;On Front Page of Our Website <br/>
                                 -&emsp;Promote on Our Posters
                             </span>
                         </div>
@@ -35,27 +53,28 @@ function DonateBenefits() {
                             <span>
                                 -&emsp;T-Shirts <br/>
                                 -&emsp;Promote at STEM World (Opening & Closing Ceremony, Beginning of Each Panel) <br/>
-                                -&emsp;On Our Website
+                                -&emsp;On Front Page of Our Website
                             </span>
                         </div>
                         <div class="description-cont">
                             <span>
-                                -&emsp;All Features of Gold<br/>
+                                -&emsp;All Benefits of Gold<br/>
                                 -&emsp;3-5 Minute Segment During Convention
                             </span>
                         </div>
                     </div>
                     <div class="donate-row amt-row">
                         <span>$50-$250</span>
-                        <span>$250-$500</span>
+                        <span>$250-$300</span>
                         <span>$500-$1000</span>
                         <span>$1000+</span>
                     </div>
                 </div>
+                <p style={{marginTop: "50px"}}>If you donate to us, because our fiscal sponsors are filed as a 501(c)(3), you may eligible for tax deductions.</p> 
             </div>
         </div>
     </div>
     )
 }
 
-export default DonateBenefits;
+export default Sponsorship;
