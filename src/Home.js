@@ -10,17 +10,20 @@ import katherine from "./NewTeam/InstructorImages/katherine.jpg";
 import diana from "./NewTeam/InstructorImages/diana.jpg";
 import faith from "./NewTeam/InstructorImages/faith.png";
 import aryan from "./NewTeam/InstructorImages/aryan2.jpg";
-import deven from "./NewTeam/InstructorImages/deven.png"; 
+import deven from "./NewTeam/InstructorImages/deven.png";
 import Alert from "./Components/Alert";
-import defaultInstructor from "./icons/head-cross.png"; 
+import carryTheVision from "./Partners/Logos/carrythevision.png";
+import nxstep from "./Partners/Logos/nxstep.png";
+import polygence from "./Partners/Logos/polygence.png";
+import solveit from "./Partners/Logos/solveit.jpg";
 
 function Home() {
   const [scale, setScale] = React.useState(false);
   return (
     <div class="whole-home">
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
-      
-      <div style={{ width: "100%", marginTop: "20px", marginBottom: "20px"}}>
+
+        <div style={{ width: "100%", marginTop: "20px", marginBottom: "20px" }}>
           <Alert
             message="STEMEY is hosting an international, virtual convention on AUGUST 15/16 with professional guest speakers from the top ranking US Universities and virtual STEM competitions and demonstrations!  
             Check out the STEM World tab for more details!" button={true} />
@@ -30,7 +33,7 @@ function Home() {
             <div class="head-txt-2">
               <h1 class="biggest-header">STEMEY</h1>
               <p class="head-p">
-A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
+                A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
               </p>
             </div>
             <img class="stemey-logo" src={stemey} />
@@ -155,12 +158,32 @@ A high school led nonprofit organization that aims to inspire middle and high sc
         </div>
 
       </section>
+      <div>
+        <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Partners</h1>
+        <div class="partners">
+          <a href="http://carrythevision.org/">
+            <img src={carryTheVision} />
+          </a>
+          <a href="https://polygence.org">
+            <img src={polygence} />
+          </a>
+          <a href="https://solveitforkids.com">
+            <img src={solveit} />
+          </a>
+          <a href="https://nxstep.co/">
+            <img src={nxstep} />
+          </a>
+        </div>
+
+
+      </div>
+
       <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Executive Board</h1>
       <div class="banner">
         <div class="banner-class">
-        <div class="image-cropper">
+          <div class="image-cropper">
             <img style={{ width: "150px", marginTop: '15px' }} src={diana} />
-          </div>          
+          </div>
           <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
         </div>
         <div class="banner-class">
@@ -170,7 +193,7 @@ A high school led nonprofit organization that aims to inspire middle and high sc
           <h2>Deven Shah</h2>
         </div>
         <div class="banner-class">
-        <div class="image-cropper">
+          <div class="image-cropper">
             <img style={{ width: "150px", marginTop: '15px' }} src={katherine} />
           </div>
           <h2>Katherine Liu</h2>
@@ -178,18 +201,18 @@ A high school led nonprofit organization that aims to inspire middle and high sc
         <div class="banner-class">
           <div class="image-cropper">
             <img style={{ width: "150px", marginTop: '15px' }} src={aryan} />
-          </div>          
+          </div>
           <h2>Aryan Mathur</h2>
         </div>
         <div class="banner-class">
           <div class="image-cropper">
             <img style={{ width: "150px", marginTop: '15px' }} src={faith} />
-          </div>          
+          </div>
           <h2>Faith Han</h2>
         </div>
-        
-        
-        
+
+
+
 
       </div>
     </div>

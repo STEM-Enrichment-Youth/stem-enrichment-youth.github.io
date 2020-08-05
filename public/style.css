@@ -38,6 +38,7 @@ body {
   p:not(.timeline-description) { font-weight: 200; letter-spacing: 2.5px; font-size: 16px; }
   h1, h2, h3:not(.timeline-title)  { font-weight: 100; letter-spacing: 4px; text-align: center; }
   h3:not(.timeline-title) { font-size: 120%; text-transform: uppercase; }
+  .timeline-title { line-height: 150% !important; }
   
   /* BASIC ELEMENTS */
   a:hover { text-decoration: none ; }
@@ -178,6 +179,10 @@ a { color: white}
   object-fit: cover; 
   height: 150px; 
   margin-bottom: 10px; 
+}
+
+.partners img {
+  width: 150px; 
 }
 
   /** --  MEDIA QUERIES  -- **/

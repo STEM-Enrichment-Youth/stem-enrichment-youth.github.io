@@ -88,7 +88,9 @@ function SND() {
                     />
                     <TimelineEntry
                         time="12:30-1:00 PM PST"
-                        speaker="Chemistry Speaker TBD"
+                        speaker="Dr. Teri Odom"
+                        professor = "Northwestern Professor"
+                        description = "Follow the Nano-Brick Road."
                     />
                     <TimelineEntry
                         time="1:00-1:30 PM PST"
@@ -116,9 +118,7 @@ function SND() {
                     />
                     <TimelineEntry
                         time="3:30-4:00 PM PST"
-                        speaker="Dr. Marcelo Gleiser"
-                        professor = "Dartmouth Professor"
-                        description="Mysteries of the Universe: What We Know and What We Don't Know"
+                        speaker="Math Speaker TBD"
                     />
                     <TimelineEntry
                         time="4:00-4:30 PM PST"
@@ -176,7 +176,9 @@ function SND() {
                     />
                     <TimelineEntry
                         time="8:30-9:00 AM PST"
-                        speaker="Physics Speaker TBD"
+                        speaker="Dr. Marcelo Gleiser" 
+                        professor = "Dartmouth Professor"
+                        description = "Mysteries of the Universe: What We know and What we Don’t Know."
                     />
                     <TimelineEntry
                         time="9:00-9:30 AM PST"

@@ -145,6 +145,19 @@
 }
 .banner-class h2 { font-size: 110%; margin-top: 10px; text-align: center; }
 
+.partners {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    grid-gap: 10px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    grid-template-rows: 1fr; 
+    align-items: center; 
+    padding: 20px 10px; 
+}
+
+
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 1215px) {
     .head-txt h3:not(.timeline-title), 
     .head-txt h4 {
