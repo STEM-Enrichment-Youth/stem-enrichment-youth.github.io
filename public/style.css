@@ -185,6 +185,17 @@ a { color: white}
   width: 150px; 
 }
 
+.partners {
+  padding: 0px 20px;
+}
+
+.partners a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
   /** --  MEDIA QUERIES  -- **/
   
   @media only screen and (max-width: 1200px) {

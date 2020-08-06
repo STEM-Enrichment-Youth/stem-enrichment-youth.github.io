@@ -24,6 +24,22 @@
     background-color: rgba(0, 0, 0, 0.7); 
 }
 
+.main-header {
+    letter-spacing: 12px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header h1:nth-child(odd) {
+    width: 100%;
+    font-size: 700%;
+}
+
+.main-header h1:nth-child(even) {
+    width: 100%;
+    font-size: 500%;
+}
+
 .biggest-header, .biggest-header-4, .biggest-header-2{
     font-size: 700%; 
     text-transform: uppercase;
@@ -152,7 +168,13 @@
     background-color: rgba(0, 0, 0, 0.7); 
     grid-template-rows: 1fr; 
     align-items: center; 
-    padding: 20px 10px; 
+    padding: 40px 20px; 
+}
+
+.section-header {
+    text-align: center;
+    font-size: 500%;
+    margin: 20px 0px;
 }
 
 

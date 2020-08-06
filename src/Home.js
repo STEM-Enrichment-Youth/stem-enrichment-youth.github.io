@@ -31,7 +31,10 @@ function Home() {
         <div class="head-txt" >
           <div class="head-con">
             <div class="head-txt-2">
-              <h1 class="biggest-header">STEMEY</h1>
+              <div class="main-header">
+                  <h1>STEM</h1>
+                  <h1>Enrichment Youth</h1>
+              </div>
               <p class="head-p">
                 A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
               </p>
@@ -159,7 +162,7 @@ function Home() {
 
       </section>
       <div>
-        <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Partners</h1>
+        <h1 class="section-header">Partners</h1>
         <div class="partners">
           <a href="http://carrythevision.org/">
             <img src={carryTheVision} />
@@ -178,7 +181,7 @@ function Home() {
 
       </div>
 
-      <h1 style={{ textAlign: "center", fontSize: "500%", marginTop: "20px" }}>Executive Board</h1>
+      <h1 class="section-header">Executive Board</h1>
       <div class="banner">
         <div class="banner-class">
           <div class="image-cropper">
