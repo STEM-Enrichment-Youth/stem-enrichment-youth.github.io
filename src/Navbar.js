@@ -40,7 +40,7 @@ export default function Navbar(props) {
           <li class="nav-item active nav-link">
             <Button href="/donate" variant="contained">Donate</Button>
           </li>
-          <li class="nav-item dropdown nav-link active">
+          {/* <li class="nav-item dropdown nav-link active">
             <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
             class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Instructors</a>
@@ -53,7 +53,7 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/coding">Coding</a>
 
             </div>
-          </li>
+          </li> */}
           <li class="nav-item dropdown nav-link active">
             <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
             class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -69,7 +69,7 @@ export default function Navbar(props) {
             </div>
           </li>
           <li class="nav-item active nav-link">
-            <Button href="/snd" variant="contained">Get a Tutor</Button>
+            <Button href="/partnerships" variant="contained">Partners</Button>
           </li>
           <li class="nav-item active nav-link">
             <Button href="/contact" variant="contained">Contact Us</Button>

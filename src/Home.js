@@ -188,30 +188,29 @@ function Home() {
             <img style={{ width: "150px", marginTop: '15px' }} src={diana} />
           </div>
           <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
+          <h3>CEO and Co-Founder</h3>
         </div>
-        <div class="banner-class">
-          <div class="image-cropper">
-            <img style={{ width: "150px", marginTop: '15px' }} src={deven} />
-          </div>
-          <h2>Deven Shah</h2>
-        </div>
+        
         <div class="banner-class">
           <div class="image-cropper">
             <img style={{ width: "150px", marginTop: '15px' }} src={katherine} />
           </div>
           <h2>Katherine Liu</h2>
+          <h3>Co-Founder</h3>
         </div>
         <div class="banner-class">
           <div class="image-cropper">
             <img style={{ width: "150px", marginTop: '15px' }} src={aryan} />
           </div>
           <h2>Aryan Mathur</h2>
+          <h3>CNO</h3>
         </div>
         <div class="banner-class">
           <div class="image-cropper">
             <img style={{ width: "150px", marginTop: '15px' }} src={faith} />
           </div>
           <h2>Faith Han</h2>
+          <h3>Executive Coordinator</h3>
         </div>
 
 

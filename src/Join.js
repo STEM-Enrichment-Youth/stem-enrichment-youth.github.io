@@ -9,7 +9,7 @@ export default function Join() {
         <div class="new-team-con" style={{minHeight: "100vh", marginBottom: "50px"}}>
             <Navbar />
             <div class="new-team-join">
-                <h1>Interested in teaching STEM this summer?</h1>
+                <h1>Interested in joining the STEMEY team?</h1>
                 <p>Fill Out this Application Form and we will get back to you as soon as we can!</p>
                 <div class="typeform-widget"
                     data-url="https://form.typeform.com/to/Wnxscz"

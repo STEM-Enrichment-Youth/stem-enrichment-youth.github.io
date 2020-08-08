@@ -37,13 +37,13 @@ function SND() {
                     />
                     <TimelineEntry
                         time="8:00-8:30 AM PST"
-                        speaker="Deven Shah"
+                        speaker="Diana Poplacenel"
                         description="Opening Ceremony"
                     />
                     <TimelineEntry
                         time="8:30-9:00 AM PST"
                         speaker="Akshaya Annapragada"
-                        professor = "JHU PhD Student"
+                        professor = "JHU MD/PhD Student"
                         description="Putting the M in STEM: Math AND Medicine"
                     />
                     <TimelineEntry
@@ -93,9 +93,9 @@ function SND() {
                         description = "Follow the Nano-Brick Road."
                     />
                     <TimelineEntry
-                        time="1:00-1:30 PM PST"
-                        speaker="Chemistry Speaker TBD"
-                        description=""
+                        time = "1:00-1:30 PM PST"
+                        speaker = "Dr. Stephen Boyer"
+                        description = "Cheminformatics"
                     />
                     <TimelineEntry
                         time="1:30-2:00 PM PST"
@@ -128,18 +128,18 @@ function SND() {
                     />
                     <TimelineEntry
                         time="4:30-5:00 PM PST"
-                        speaker="Math Speaker TBD"
-                        description=""
+                        speaker="Dr. Corrine Yap"
+                        description="Probabilistic Combinatorics"
                     />
                     <TimelineEntry
                         time="5:00-5:30 PM PST"
                         speaker="Dr. Tom Hull"
-                        description="Origami in Mathematics"
+                        description="Origami and Math: Paper, Polymers, and Robots"
                     />
                     <TimelineEntry
                         time="5:30-6:00 PM PST"
-                        speaker="Math Speaker TBD"
-                        description=""
+                        description="BINARY, TERNARY, BASE-TEN, BASE ONE-AND-A-HALF: Do we understand place-value?"
+                        speaker="Dr. James Tanton"
                     />
                     <TimelineEntry
                         time="6:00-6:30 PM PST"
@@ -153,14 +153,13 @@ function SND() {
                     />
                     <TimelineEntry
                         time="TBD"
-                        speaker="Dr. James Swartz (TBD)"
+                        speaker="Dr. Vicki Colvin"
                         description="Chemistry Speaker"
                     />
                     <TimelineEntry
                         time="TBD"
-                        speaker="Dr. Lorie Loeb (TBD)"
-                        professor = "Dartmouth Professor"
-                        description="CS Speaker"
+                        speaker="Dr. Michael Marletta" 
+                        description="Chemistry Speaker"
                     />
 
 
@@ -255,8 +254,8 @@ function SND() {
                     />
                     <TimelineEntry
                         time="3:30-4:00 PM PST"
-                        speaker="Life Science High School Panel"
-                        description=""
+                        speaker="Allison Jia"
+                        description="Winner of the $50,000 Intel Foundation Young Scientist Award"
                     />
                     <TimelineEntry
                         time="4:00-4:30 PM PST"
@@ -277,16 +276,6 @@ function SND() {
                         time="5:30-6:00 PM PST"
                         speaker="Diana Poplacenel"
                         description="Awards and Closing Ceremony"
-                    />
-                    <TimelineEntry
-                        time="TBD"
-                        speaker="CS Demonstration (TBD)"
-                        description="Schmal Science"
-                    />
-                    <TimelineEntry
-                        time="TBD"
-                        speaker="Allison Jia (TBD)"
-                        description="Winner of the $50,000 Intel Foundation Young Scientist Award"
                     />
 
                 </ul>

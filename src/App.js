@@ -55,7 +55,7 @@ export default function App() {
             <Coding />
           </Route>
 
-          <Route path="/snd">
+          <Route path="/partnerships">
             <Navbar/> 
             < SND /> 
           </Route>
