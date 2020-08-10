@@ -32,8 +32,7 @@ function Home() {
           <div class="head-con">
             <div class="head-txt-2">
               <div class="main-header">
-                  <h1>STEM</h1>
-                  <h1>Enrichment Youth</h1>
+                  <h1 style={{textAlign: "left"}}>STEMEY</h1>
               </div>
               <p class="head-p">
                 A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
@@ -181,7 +180,7 @@ function Home() {
 
       </div>
 
-      <h1 class="section-header">Executive Board</h1>
+      {/* <h1 class="section-header">Executive Board</h1>
       <div class="banner">
         <div class="banner-class">
           <div class="image-cropper">
@@ -216,7 +215,7 @@ function Home() {
 
 
 
-      </div>
+      </div> */}
     </div>
 
 

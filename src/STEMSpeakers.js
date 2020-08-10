@@ -20,6 +20,13 @@ import loeb from "./Speakers/Loeb.jpg";
 import le from "./Speakers/Le.jpg";
 import Papa from 'papaparse';
 import speakers from './speakers.csv';
+import akshaya from "./Speakers/akshaya.jpg"; 
+import allison from "./Speakers/jia.jpg"; 
+import william from "./Speakers/lin.jpg"; 
+import constantinescu from "./Speakers/constantinescu.jpg"; 
+import odom from "./Speakers/odom.jpg"; 
+import boyer from "./Speakers/boyer.png"; 
+import tanton from "./Speakers/tanton.jpg"; 
 
 
 export default function NewTeam() {
@@ -154,11 +161,40 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                 />
 
                 <Card 
+                    name = "Dr. Teri Odom"
+                    position = "Charles E. and Emma H. Morrison Professor of Chemistry at Northwestern University"
+                    des = "Teri W. Odom is an expert in designing structured nanoscale materials that exhibit extraordinary size and shape-dependent optical properties. Odom has pioneered a suite of multi-scale nanofabrication tools that has resulted in flat optics that can manipulate light at the nanoscale and beat the diffraction limit, plasmon-based nanoscale lasers that exhibit tunable color, and hierarchical substrates that show controlled wetting and super-hydrophobicity. She has also invented a class of biological nanoconstructs that are facilitating unique insight into nanoparticle-cell interactions and that show superior imaging and therapeutic properties because of their gold nanostar shape."
+                    imgURL = {odom}
+                /> 
+
+                <Card 
+                    name = "Dr. Corina Constantinescu"
+                    imgURL = {constantinescu}
+                    position = "Professor of Mathematics at the University of Liverpool" 
+                    des = "Corina Constantinescu is Professor of Mathematics and Director of the Institute for Financial and Actuarial Mathematics, in the Department of Mathematical Sciences, at the University of Liverpool. Prior to being an academic, Corina worked as an actuary and led the life insurance department of one of the first private Romanian insurance companies. Her academic career spans the US, Austria, France, and Switzerland and she often travels to Europe, Africa, Australia, India, China and Japan on research visits or conference meetings. Given her practical perspective, many of her papers are published in actuarial journals, however she also publishes in applied probability journals. She serves as associate editor in a number of actuarial journals and is part of the publicity team of Bernoulli Society for Mathematical Statistics and Probability. During 2012-2016, she coordinated a large European grant under the Marie Curie framework, on Risk Analysis, Ruin and Extremes (RARE), that connected 12 higher education institutions and over 60 researchers from all over the world working on extreme events and their applications to insurance modelling. Her expertise is in analytical methods for deriving exact or asymptotic results for ruin probabilities, with light or heavy-tailed assumptions in complex insurance risk models. A more recent research interest of hers is financial inclusion, namely correctly pricing and regulating microfinance and microinsurance practices."
+                /> 
+
+                <Card 
                     name = "Dr. Daniel Holz"
                     imgURL = {holz}
                     position = "Professor of Astronomy and Astrophysics at UChicago"
-                    des = "I spend my time thinking about colliding black holes in distant galaxies at the edge of the Universe. I will give an overview of some of my research, and also discuss the path I took to becoming a professor."
+                    des = "I am a Professor at the University of Chicago, in the Enrico Fermi Institute, the Department of Physics, the Department of Astronomy and Astrophysics, and the Kavli Institute for Cosmological Physics.
+
+My research focuses on gravitational waves. I am particularly interested in what we can learn about physics, astronomy, and cosmology from our detections of gravitational wave sources.
+
+I am a member of LIGO."
                 />
+                
+                <Card 
+                    name = "Dr. Stephen Boyer"
+                    imgURL = {boyer}
+                    position = "Google Cheminformatics Scientific Advisor"
+                    des = "Steve Boyer is a researcher in the interdisciplinary space of chemistry and
+computer science. He pioneered the use of computers to curate patents and
+scientific literature in the life and physical sciences.
+Has has worked in synthesis at Novartis, in data science at IBM Research, and
+currently as a scientific advisor at Google."
+                /> 
 
                 <Card 
                     name = "Dr. Helen Vuong"
@@ -212,11 +248,33 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                 />
 
                 <Card 
-                    name = "Dr. Michael Schmitt"
-                    imgURL = {schmitt}
-                    position = "Professor of Public International Law at the University of Reading Law School (UK)"
-                    des = "Michael Schmitt is Professor of Public International Law at the University of Reading Law School in the United Kingdom. Additionally, he serves as the Francis Lieber Distinguished Scholar at the Lieber Institute of the United States Military Academy at West Point, Senior Fellow at the NATO Cyber Defence Centre of Excellence, and professor emeritus at the United States Naval War College. Professor Schmitt is the General Editor of International Law Studies and the Lieber Studies series (Oxford UP)."
-                />
+                    name = "Corrine Yap"
+                    position = "Mathematics PhD Student at Rutgers University"
+                    des = "Corrine is currently in the mathematics Ph.D. program at Rutgers University doing research in probabilistic combinatorics. She received a B.A. in mathematics and theater from Sarah Lawrence College, and as an undergraduate, she spent time studying math in Budapest and theater in Moscow. In 2016, she first performed her original one-woman play called Uniform Convergence, which explores the struggles of two women (historical mathematician Sofia Kovalevskaya and a fictional Asian-American math professor) trying to find their place in the academic world. Over the past three years, Corrine has performed at over 15 venues, including college math departments, high school programs, the national conference MAA MathFest, and Off-Broadway with the Pan-Asian Repertory Theater."
+                    imgURL = "https://www.math.rutgers.edu/images/comprofiler/934_59b73dd363883.jpg"
+                /> 
+
+                <Card
+                    name = "Dr. Tom Hull"
+                    des = "Thomas Hull, an Associate Professor of mathematics at Western New England University, is considered a leading expert on origami mathematics as well as an accomplished paper folder. He has written origami instruction books, numerous origami-math research papers, and authored Project Origami (AK Peters/CRC Press), a book on encorporating the mathematics of paper folding into college-level math classes. He received his Ph.D. in graph theory from the University of Rhode Island, and his research papers on origami-math were helpful in generating interest in the subject during the 1990s. He has been invited to speak on origami-math to audiences all over the USA as well as Japan, Puerto Rico, and Europe. His most popular origami creations are the PHiZZ unit, which has infected the fingers of procrastinators world-wide, and the Five Intersecting Tetrahedra model, which was voted by the British Origami Society as one of the top 10 origami models of all time."
+                    position = "Associate Professor of Mathematics Western New England University"
+                    imgURL = "https://www1.wne.edu/faculty/images/photos/fdbs_tompic1.jpg"
+
+                /> 
+
+                <Card 
+                    name = "Dr. James Tanton" 
+                    des = "James Tanton earned his PhD in mathematics from Princeton University. He is an author, a consultant, and ambassador for the Mathematical Association of America in Washington D.C., chair of the Advisory Council for the National Museum of Mathematics, and a founder of the Global Math Project, an initiative to transform the entire world’s perception of what mathematics can, and should, be. This program has now reached over 6 million students and teachers across the planet."
+                    position = "Mathematician in Residence at the Mathematical Association of America in Washington D.C."
+                    imgURL = {tanton}
+                /> 
+
+                <Card 
+                    name = "Akshaya Annapragada"
+                    position = "John Hopkins University MD/PhD Student"
+                    des = "Akshaya is an MD-PhD student at the Johns Hopkins University School of Medicine. She is broadly interested in computer science, mathematics and biology, and the ways that these fields intersect with medicine, health care and policy. Akshaya grew up in Houston, TX and moved to Cambridge, MA for college at Harvard University. At Harvard, she graduated magna cum laude with highest honors in Applied Mathematics and also earned an MS in Engineering Sciences. She served as a research assistant at the School of Engineering and Applied Sciences and School of Public Health. She also wrote and edited for the Harvard Political Review, and was involved in advocacy and mentorship through Women in Computer Science. Her current research focuses on how computational and engineering tools can be used to advance health care and medicine."
+                    imgURL = {akshaya}
+                /> 
                 
                 <Card 
                     name = "Dr. Christine Aidala"
@@ -226,11 +284,34 @@ In 2019 I moved as an Assistant Professor at Georgetown University, where I will
                 />
 
                 <Card 
-                    name = "Dr. James Robert Swartz"
-                    imgURL = {swartz}
-                    position = "James H. Clark Professor in the School of Engineering and Professor of Chemical Engineering and Bioengineering at Stanford"
-                    des = "Dr. Swartz obtained his B.S.Ch.E. from South Dakota School of Mines and Technology. After working for two years for Union Oil Co. of California, he attended M.I.T. where he earned his M.S. and D.Sc. in chemical engineering and biochemical engineering, respectively. His focus on the development and control of fermentation processes led him to a scientific exchange visit to the U.S.S.R. and to an initial research position at Eli Lilly and Co. in Indianapolis. In 1981, he joined Genentech, where he served in both scientific and managerial positions related to rDNA protein production for nearly 18 years. In 1998, he moved to Stanford University as a Professor of Chemical Engineering focusing on cell-free biology."
-                />
+                    name = "Dr. Vicki Colvin"
+                    imgURL = "https://www.brown.edu/academics/chemistry/sites/academics-chemistry/files/styles/large/public/images/people/Colvin_Vicki%20%281%29.jpg?itok=m2OlyAHA"
+                    des = "Dr. Vicki Colvin is a Professor of Chemistry, Engineering, Molecular Pharmacology, Physiology, and Biotechnology, as well as the director for the center of Biomedical Engineering at Brown University. Her research interests include nanomaterials synthesis, magnetic materials, environmental fate and transport of colloids, biologically compatible nanomaterials, and magnetic and electrical imaging in complex environments."
+                    position = "Professor of Chemistry at Brown University"
+
+                /> 
+                
+                <Card 
+                    name = "Dr. Michael Marletta"
+                    imgURL = "https://vcresearch.berkeley.edu/sites/default/files/styles/faculty_photo_full/public/2018-08/marletta_michael_0.jpg?itok=BcLRCEOH"
+                    des = "Questions under investigation in the Marletta laboratory lie at the interface of chemistry and biology with a particular emphasis on the study of protein function and enzyme reaction mechanisms and a focus on molecular answers to complex function in biology."
+                    position = "Professor of Chemistry and Molecular Biology at UC Berkeley" 
+                /> 
+
+                <Card
+                    name = "William Lin"
+                    position = "IOI 2019 Finalist"
+                    imgURL = {william}
+                    des = "I am an incoming freshman at MIT and I'm planning to study CS. My passion for programming began in third grade and throughout secondary school, I've participated in various related contests, such as the AMC series and USACO."
+                /> 
+
+                <Card
+                    name = "Allison Jia"
+                    position = "Stanford Undergraduate Student" 
+                    des = "Allison Jia is a student researcher, aspiring biomedical engineer, and recently graduated senior from The Harker School in San Jose, California. In 2019, Allison received the Intel Foundation Young Scientist Award at the International Science and Engineering Fair for her work in creating a live-imaging platform to visualize the neurodegeneration process responsible for diseases like Alzheimer's. Throughout high school, Allison served as the President of the Bay Area Society for Neuroscience and the Vice President of her school's research club. She is an avid supporter of STEM education and especially women in STEM. Allison is looking forward to continuing her studies at Stanford University in the fall." 
+                    imgURL = {allison}
+                /> 
+
 
                 <Card 
                     name = "Dr. Lorie Loeb"
