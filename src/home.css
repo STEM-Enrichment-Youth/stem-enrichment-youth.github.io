@@ -135,9 +135,11 @@
 }
 
 .head-con { 
-    display: flex; 
+    display: grid; 
+    grid-template-columns: 2fr 1fr;  
     align-items: center;
 }
+
 
 .class-icon { 
     width: 80px; 

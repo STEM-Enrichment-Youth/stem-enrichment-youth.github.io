@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import stemey from "./GoodStemeyLogo.png";
+import stemworld from "./stemworldlogo.png"; 
 import coding from "./icons/head-cross.png";
 import chemistry from "./icons/beaker-atom.png"; import biology from "./icons/genetics.png";
 import physics from "./icons/Newtons-cradle.png";
@@ -34,7 +35,7 @@ function Home() {
               <div class="main-header">
                   <h1 style={{textAlign: "left"}}>STEMEY</h1>
               </div>
-              <p class="head-p">
+              <p class="head-p" style={{maxWidth: "800px"}}>
                 A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
               </p>
             </div>

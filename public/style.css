@@ -152,6 +152,13 @@ body {
   grid-template-rows: 1fr 1fr; 
 }
 
+.MuiAlert-standardInfo {
+  color: white !important;  
+  background-color: rgb(0, 0, 0, 0.8) !important;  
+  font-size: 17px !important; 
+}
+
+
 a { color: white}
 
 /* width: "90%", marginLeft: "5%", display: "grid", gridTemplateColumns: "1fr 1fr", gridGap: "50px" */
