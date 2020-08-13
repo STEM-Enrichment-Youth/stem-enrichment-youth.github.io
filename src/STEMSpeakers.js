@@ -323,7 +323,7 @@ currently as a scientific advisor at Google."
                 <Card 
                     name = "Dr. My T. Le"
                     imgURL = {le}
-                    position = "Professor of Electrical Engineering at Stanford"
+                    position = "Visiting Lecturer at Stanford for Electrical Engineering" 
                     des = "My T. Le is a technologist, entrepreneur, and educator. She received her Ph.D. in Electrical Engineering and Computer Sciences from University of California, Berkeley. She works, advises and invests in start-ups. She co-teaches EE15 - a popular Freshman Seminar and teaches EE46 - Engineering for Good - at Stanford University. In her spare time, she can be found telling bad jokes to her daughters and being a member of Dub Nation."
                 />
             </div>

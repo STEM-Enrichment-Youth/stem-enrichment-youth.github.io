@@ -37,6 +37,7 @@
 
 .con-item {
   box-shadow: 0px 0px 20px black ; 
+  background-color: rgb(0, 0, 0, 0.7); 
   height: auto; 
   display: grid; 
   grid-template-rows: auto auto auto 1fr; 

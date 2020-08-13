@@ -33,7 +33,7 @@ function SND() {
                             <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}> Our professional speakers are experts in their fields, and many come from the top ranking US universities. We have speakers focusing on biology, chemistry, mathematics, computer science, physics, and engineering. Each speaker will provide a 30 minute presentation where they present for the first 20-25 minutes and answer Q&A from the audience for the last 5-10 minutes. Zoom Webinar links will be provided the days of the convention.</p>
 
                             <h2 style={{marginTop: "50px"}}>Competitions</h2>
-                            <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>For biology, mathematics, chemistry, and physics, we will host a live virtual competition for middle and high schoolers, and the top 8-10 competitors will receive prizes pertaining to the subject they competed in. Our prizes will be released on the STEM World Slack Workspace. </p>
+                            <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>For biology, mathematics, chemistry, and physics, we will host a live virtual competition for high schoolers, and the top 8-10 competitors will receive prizes pertaining to the subject they competed in. Our prizes will be released on the STEM World Slack Workspace. </p>
 
                             <h2 style={{marginTop: "50px"}}>Demonstrations</h2>
                             <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>Information about our live science demonstrations will be released within the next two weeks. We will be hosting a demonstration for biology, chemistry, and computer science. The demonstration will take the form of showcasing and explaining a project or activity related to that subject. 
@@ -62,31 +62,31 @@ function SND() {
                                         <TimelineEntry
                                             time="9:00-9:30 AM PST"
                                             speaker="Dr. Helen Vuong"
-                                            professor="UCLA Professor"
+                                            professor="UCLA Researcher"
                                             description="Microbiome, Brain and Behaviors"
                                         />
                                         <TimelineEntry
                                             time="9:30-10:00 AM PST"
                                             speaker="Dr. Olga Zhaxybayeva"
-                                            professor="Dartmouth Professor"
+                                            professor="Dartmouth Researcher"
                                             description="Genomic clues to origin, evolution and diversity of life"
                                         />
                                         <TimelineEntry
                                             time="10:00-10:30 AM PST"
                                             speaker="Dr. Isaac Cervantes Sandoval"
-                                            professor="Georgetown Professor"
+                                            professor="Georgetown Researcher"
                                             description="Where did I leave my keys: Why do we forget?"
                                         />
                                         <TimelineEntry
                                             time="10:30-11:00 AM PST"
                                             speaker="Dr. Xia Yang"
-                                            professor="UCLA Professor"
+                                            professor="UCLA Researcher"
                                             description="Dissecting Complex Human Diseases via Big Data Bioinformatics and Systems Biology"
                                         />
                                         <TimelineEntry
                                             time="11:00-11:30 AM PST"
-                                            speaker="Biology Demonstration"
-                                            description=""
+                                            speaker="Networking Session"
+                                            description="Converse and Connect with STEM Enthusiasts from Around the World"
                                         />
                                         <TimelineEntry
                                             time="11:30-12:00 PM PST"
@@ -96,18 +96,19 @@ function SND() {
                                         <TimelineEntry
                                             time="12:00-12:30 PM PST"
                                             speaker="Dr. Jane Frommer"
-                                            professor="IBM Chemist"
+                                            professor="2020 Perkins Medal Recipient" 
                                             description="The Molecular Underpinings of Nanotechnology"
                                         />
                                         <TimelineEntry
                                             time="12:30-1:00 PM PST"
                                             speaker="Dr. Teri Odom"
-                                            professor="Northwestern Professor"
+                                            professor="Northwestern Researcher"
                                             description="Follow the Nano-Brick Road."
                                         />
                                         <TimelineEntry
                                             time="1:00-1:30 PM PST"
                                             speaker="Dr. Stephen Boyer"
+                                            professor = "Google/Collabra Scientific Advisor"
                                             description="Cheminformatics"
                                         />
                                         <TimelineEntry
@@ -116,8 +117,9 @@ function SND() {
                                         />
                                         <TimelineEntry
                                             time="2:00-2:30 PM PST"
-                                            speaker="Chemistry Speaker TBD"
-                                            description=""
+                                            speaker="Dr. Vicki Colvin"
+                                            professor = "PROFESSOR OF CHEMISTRY AT BROWN UNIVERSITY"
+                                            description="Using Nanotechnology to Improve Our World: From Cleaning Water to Curing Disease"
                                         />
                                         <TimelineEntry
                                             time="2:30-3:00 PM PST"
@@ -127,7 +129,7 @@ function SND() {
                                         <TimelineEntry
                                             time="3:00-3:30 PM PST"
                                             speaker="Chemistry Competition"
-                                            description="Middle and High School Level Chem Competitions"
+                                            description="High School Level Chem Competitions"
                                         />
                                         <TimelineEntry
                                             time="3:30-4:00 PM PST"
@@ -165,17 +167,7 @@ function SND() {
                                             speaker="William Lin"
                                             description="IOI 2019 Silver Medalist"
                                         />
-                                        <TimelineEntry
-                                            time="TBD"
-                                            speaker="Dr. Vicki Colvin"
-                                            description="Chemistry Speaker"
-                                        />
-                                        <TimelineEntry
-                                            time="TBD"
-                                            speaker="Dr. Michael Marletta"
-                                            description="Chemistry Speaker"
-                                        />
-
+                                        
 
                                         <TimelineMarker
                                             title="Sunday, August 16"
@@ -184,64 +176,66 @@ function SND() {
                                         <TimelineEntry
                                             time="8:00-8:30 AM PST"
                                             speaker="Dr. Richard Henry"
-                                            professor="JHU Professor"
+                                            professor="John Hopkins University Researcher"
                                             description="Physics is Simple!"
                                         />
                                         <TimelineEntry
                                             time="8:30-9:00 AM PST"
                                             speaker="Dr. Marcelo Gleiser"
-                                            professor="Dartmouth Professor"
+                                            professor="Dartmouth University Researcher"
                                             description="Mysteries of the Universe: What We know and What we Don’t Know."
                                         />
                                         <TimelineEntry
                                             time="9:00-9:30 AM PST"
                                             speaker="Dr. Jens Koch"
-                                            professor="Northwestern Professor"
+                                            professor="Northwestern University Researcher"
                                             description="What's a quantum computer and why do we care?"
                                         />
                                         <TimelineEntry
                                             time="9:30-10:00 AM PST"
                                             speaker="Dr. Daniel Holz"
-                                            professor="UChicago Professor"
+                                            professor="UChicago Researcher"
                                             description="Listening to the Universe"
                                         />
                                         <TimelineEntry
                                             time="10:00-10:30 AM PST"
                                             speaker="Dr. Christine Aidala"
-                                            professor="UMichigan Professor"
+                                            professor="UMichigan Researcher"
                                             description="Peering into the Proton"
                                         />
+                                        
                                         <TimelineEntry
                                             time="10:30-11:00 AM PST"
-                                            speaker="Physics Demonstration"
-                                            description=""
+                                            speaker="Physics Competition"
+                                            description="High School Level Physics Competitions"
                                         />
                                         <TimelineEntry
                                             time="11:00-11:30 AM PST"
-                                            speaker="Physics Competition"
-                                            description="Middle and High School Level Physics Competitions"
+                                            speaker="Biochemistry Demonstration"
+                                            professor = "Dr. Sonia Cuellar"
+                                            description="This Demonstration will be based off the Molecules of Life Research Seminar"
                                         />
                                         <TimelineEntry
                                             time="11:30-12:00 PM PST"
                                             speaker="Dr. Anshul Kundaje"
-                                            professor="Stanford Professor"
+                                            professor="Stanford University Researcher"
                                             description="Deep learning the regulatory code of the human genome"
                                         />
                                         <TimelineEntry
                                             time="12:00-12:30 PM PST"
                                             speaker="Dr. Jamie Spangler"
-                                            professor="JHU Professor"
+                                            professor="John Hopkins University Researcher"
                                             description="Engineering proteins to reprogram the immune response"
                                         />
                                         <TimelineEntry
                                             time="12:30-1:00 PM PST"
                                             speaker="Dr. Ken Birman"
-                                            professor="Cornell Professor"
+                                            professor="Cornell University Researcher"
                                             description="Cloud Computing and the Intelligent Internet of Things"
                                         />
                                         <TimelineEntry
                                             time="1:00-1:30 PM PST"
-                                            professor="Duke Professor"
+                                            professor="Duke University Researcher"
                                             speaker="Dr. Krishnendu Chakrabarty"
                                             description="Computational Intelligence in the Design and Optimization of Digital Microfluidic Biochips"
                                         />
@@ -251,19 +245,15 @@ function SND() {
                                             professor = "Principal Engineer at Jitterbit"
                                         />
                                         <TimelineEntry
-                                            time="2:00-2:30 PM PST"
-                                            speaker="CS Demonstration"
-                                            description=""
-                                        />
-                                        <TimelineEntry
-                                            time="2:30-3:00 PM PST"
-                                            speaker="CS Demonstration"
+                                            time="2:00-3:00 PM PST"
+                                            speaker="Dr. Graham's CS Demonstration"
+                                            professor = "Planet Bee Researcher"
                                             description=""
                                         />
                                         <TimelineEntry
                                             time="3:00-3:30 PM PST"
                                             speaker="Dr. My T. Le"
-                                            professor="Stanford Professor"
+                                            professor="Visiting Lecturer at Stanford University"
                                             description="Finding Your North Star: My Journey from a refugee camp to the heart of Silicon Valley"
                                         />
                                         <TimelineEntry
