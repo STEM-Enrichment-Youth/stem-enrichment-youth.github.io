@@ -36,7 +36,7 @@ function SND() {
                             <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>For biology, mathematics, chemistry, and physics, we will host a live virtual competition for high schoolers, and the top 8-10 competitors will receive prizes pertaining to the subject they competed in. Our prizes will be released on the STEM World Slack Workspace. </p>
 
                             <h2 style={{marginTop: "50px"}}>Demonstrations</h2>
-                            <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>Information about our live science demonstrations will be released within the next two weeks. We will be hosting a demonstration for biology, chemistry, and computer science. The demonstration will take the form of showcasing and explaining a project or activity related to that subject. 
+                            <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>Dr. Sonia Cuellar and Dr. Jason Graham will be hosting a demonstration for biology, chemistry, and computer science. The demonstration will take the form of showcasing and explaining a project or activity related to that subject. 
 </p>
 
                             <h1 class="biggest-header-2" style={{marginTop: "50px"}}>Schedule</h1>
@@ -96,7 +96,7 @@ function SND() {
                                         <TimelineEntry
                                             time="12:00-12:30 PM PST"
                                             speaker="Dr. Jane Frommer"
-                                            professor="2020 Perkins Medal Recipient" 
+                                            professor="Collabra Science Advisor" 
                                             description="The Molecular Underpinings of Nanotechnology"
                                         />
                                         <TimelineEntry
@@ -111,20 +111,24 @@ function SND() {
                                             professor = "Google/Collabra Scientific Advisor"
                                             description="Cheminformatics"
                                         />
+                                        
                                         <TimelineEntry
                                             time="1:30-2:00 PM PST"
-                                            speaker="Chemistry Speaker TBD"
-                                        />
-                                        <TimelineEntry
-                                            time="2:00-2:30 PM PST"
                                             speaker="Dr. Vicki Colvin"
-                                            professor = "PROFESSOR OF CHEMISTRY AT BROWN UNIVERSITY"
+                                            professor = "Professor of Chemistry at Brown University"
                                             description="Using Nanotechnology to Improve Our World: From Cleaning Water to Curing Disease"
                                         />
                                         <TimelineEntry
+                                            time = "2:00-2:30 PM PST"
+                                            speaker = "Jed Doherty and Dr. Jennifer Swanson Interview with Dr. Jane Frommer"
+                                            description = "Join us as the co-hosts of the Solve it! for Kids Podcast as they 
+                                            interview Dr. Jane Frommer, the 2020 Recipient of the Perkins Medal to discuss the life of a researcher and scientist"
+                                            
+                                        /> 
+                                        <TimelineEntry
                                             time="2:30-3:00 PM PST"
-                                            speaker="Chemistry Demonstration"
-                                            description=""
+                                            speaker="Networking Session"
+                                            description="Converse and Connect with STEM Enthusiasts from Around the World"
                                         />
                                         <TimelineEntry
                                             time="3:00-3:30 PM PST"
@@ -246,7 +250,7 @@ function SND() {
                                         />
                                         <TimelineEntry
                                             time="2:00-3:00 PM PST"
-                                            speaker="Dr. Graham's CS Demonstration"
+                                            speaker="Dr. Graham's CS Demonstration for Bee Research"
                                             professor = "Planet Bee Researcher"
                                             description=""
                                         />
