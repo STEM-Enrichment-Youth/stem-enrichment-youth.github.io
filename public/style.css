@@ -152,6 +152,16 @@ body {
   grid-template-rows: 1fr 1fr; 
 }
 
+.ctv-stemey {
+  display: grid; 
+  grid-template-columns: 1fr;
+  justify-items: center; 
+  grid-gap: 20px; 
+  grid-template-rows: repeat(6, 1fr); 
+  margin-bottom: 20px; 
+
+}
+
 .MuiAlert-standardInfo {
   color: white !important;  
   background-color: rgb(0, 0, 0, 0.8) !important;  
