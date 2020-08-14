@@ -176,7 +176,7 @@ function SND() {
                                         <TimelineEntry
                                             time="4:00-4:30 PM PST"
                                             speaker="Dr. Nitu Kitchloo"
-                                            professor="John Hopkins Professor"
+                                            professor="Johns Hopkins Professor"
                                             description="The close relationship between Algebra and Geometry"
                                             link = "https://us02web.zoom.us/j/86389838038"                                            
 

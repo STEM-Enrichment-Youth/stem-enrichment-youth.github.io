@@ -27,6 +27,7 @@ import constantinescu from "./Speakers/constantinescu.jpg";
 import odom from "./Speakers/odom.jpg"; 
 import boyer from "./Speakers/boyer.png"; 
 import tanton from "./Speakers/tanton.jpg"; 
+import hull from "./Speakers/thomas-hull-origami.jpg";
 
 
 export default function NewTeam() {
@@ -258,7 +259,7 @@ currently as a scientific advisor at Google."
                     name = "Dr. Tom Hull"
                     des = "Thomas Hull, an Associate Professor of mathematics at Western New England University, is considered a leading expert on origami mathematics as well as an accomplished paper folder. He has written origami instruction books, numerous origami-math research papers, and authored Project Origami (AK Peters/CRC Press), a book on encorporating the mathematics of paper folding into college-level math classes. He received his Ph.D. in graph theory from the University of Rhode Island, and his research papers on origami-math were helpful in generating interest in the subject during the 1990s. He has been invited to speak on origami-math to audiences all over the USA as well as Japan, Puerto Rico, and Europe. His most popular origami creations are the PHiZZ unit, which has infected the fingers of procrastinators world-wide, and the Five Intersecting Tetrahedra model, which was voted by the British Origami Society as one of the top 10 origami models of all time."
                     position = "Associate Professor of Mathematics Western New England University"
-                    imgURL = "https://www1.wne.edu/faculty/images/photos/fdbs_tompic1.jpg"
+                    imgURL = {hull}
 
                 /> 
 
