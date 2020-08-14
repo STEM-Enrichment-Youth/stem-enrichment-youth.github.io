@@ -29,6 +29,7 @@
   .timeline-item {
     padding-left: 40px;
     position: relative;
+    margin: 0 40px; 
   }
   .timeline-item:last-child {
     padding-bottom: 0;
@@ -84,6 +85,12 @@
   .timeline-content {
     padding-bottom: 40px;
   }
+
+.timeline-content:hover {
+  color: lightgrey; 
+  
+}
+
   .timeline-content p {
     margin-bottom: 0;
   }

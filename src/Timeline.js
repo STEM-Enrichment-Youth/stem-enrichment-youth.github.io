@@ -59,12 +59,12 @@ export function TimelineEntry(props) {
             <span>{props.time}</span>
         </div>
         <div class="timeline-marker"></div>
-        <div class="timeline-content">
+        <a class="timeline-content" href={props.link} >
             <h3 class="timeline-title">{props.speaker}</h3>
             <p class="timeline-professor">{props.professor}</p>
             <p class="timeline-description">{props.description}</p>
     <div class="timeline-detailed"><p>{talkDescription}</p></div>
-        </div>
+        </a>
       </li>
     );
 }
