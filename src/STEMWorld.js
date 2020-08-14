@@ -133,7 +133,7 @@ function SND() {
                                             time="1:00-1:30 PM PST"
                                             speaker="Dr. Stephen Boyer"
                                             professor = "Google/Collabra Scientific Advisor"
-                                            description="Cheminformatics"
+                                            description="Curating the Chemical Universe"
                                             link = "https://us02web.zoom.us/j/86389838038"                                            
 
                                         />
@@ -149,7 +149,7 @@ function SND() {
                                         <TimelineEntry
                                             time = "2:00-2:30 PM PST"
                                             speaker = "Jed Doherty, Jennifer Swanson, and Dr. Jane Frommer"
-                                            description = "A Special Solve it! for Kids LIVE Podcast Episode"
+                                            description = "A Special Solve it! for Kids LIVE Podcast Episode!! Join us as the co-hosts of the Solve it! for Kids Podcast interview Dr. Jane Frommer to discuss her life as a researcher and scientist."
                                             link = "https://us02web.zoom.us/j/86389838038"                                            
     
                                         /> 

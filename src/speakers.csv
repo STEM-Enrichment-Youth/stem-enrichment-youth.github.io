@@ -53,7 +53,7 @@ Christine Aidala,UMichigan,,,Peering Into the Proton,"Protons are at the core of
 ",
 Marcelo Gleiser,,,,,"Marcelo Gleiser is the Appleton Professor of Natural
 Philosophy and a professor of physics and astronomy at
-Dartmouth College. He obtained his Ph.D. from King&#39;s
+Dartmouth College. He obtained his Ph.D. from King's
 College London and received the 1994 Presidential Faculty
 Fellows Award from the White House. He is a Fellow and
 past General Councilor of the American Physical Society. He
@@ -98,7 +98,7 @@ He is the co-founder of the NPR blog on science and
 culture,13.7. He currently directs the Institute for Cross-
 Disciplinary Engagement at Dartmouth College.
 More details at http://www.marcelogleiser.com"
-Jane Frommer,CalTech (not a professor though),Chem,Nanotech,"the molecular underpinnings of nanotechnology
+Dr. Jane Frommer,CalTech (not a professor though),Chem,Nanotech,"the molecular underpinnings of nanotechnology
 ","Creating objects on the nanometer scale - the scale of single molecules - requires unambiguous tracking of features produced (steps performed) at each stage along the preparative pathway.  Complicating this tracking is the tendency for materials to display properties that are different on this very small scale than on larger and visible scales, a non-scaling behavior that is both intriguing and challenging.   
 
 The evolution of instrumentation that is capable of reliably monitoring material behavior has been essential to ushering in the nanotech age.  Furthermore, the design of instruments that accurately analyze materials has been cleverly redirected toward manipulating and constructing landscapes on the nanometer scale, leading to the rapid growth in R&D of nanomanufacturing.  In this talk, the origin and evolution of molecular identification and manipulation will be traced through current day applications of nanotechnology. ","Dr. Jane Frommer received the 2020 Perkin Medal for bringing chemical awareness to
@@ -127,4 +127,5 @@ High School Level Biology Competition, ., ., ., ., The Biology High School Compe
 High School Level Math Competition, sdsdf, CS,Systems and Networking,Probabilistic Combinatorics,"The Competition Math High School Competition will test mathematical problem solving with arithmetic, algebra, counting, geometry, number theory, and probability, and other high school math topics. The more difficult questions will be comparative to those on the AMC 10/12 Competitions.", "." 
 High School Level Physics Competition, sdsdf, CS,Systems and Networking,Probabilistic Combinatorics,"The Physics High School Competition will focus on topics covered in AP Physics 1 and the F=ma, specifically kinematics, dynamics, energy, momentum, gravity, oscillations, uncertainties, and dimensional analysis. A few questions will require the use of a calculator and an equation sheet will be provided. The difficulty of problems will range from easy Physics 1 problems to more challenging and conceptual F=ma exam questions.", "." 
 High School Level Chemistry Competition, sdsdf, CS,Systems and Networking,Probabilistic Combinatorics,"The Chemistry High School Competition will focus on topics covered in AP Chemistry and the USA Chemistry Olympiad, specifically periodic trends, stoichiometry, acids and bases, ideal gas law, and chemical equilibrium. The questions will come in a range of difficulty and a few will require a calculator (periodic table and equation sheet will be provided). ", "." 
-"Jed Doherty, Jennifer Swanson, and Dr. Jane Frommer", sdsdf, CS,Systems and Networking,Probabilistic Combinatorics,"Join us as the co-hosts of the Solve it! for Kids Podcast interview Dr. Jane Frommer to discuss her life as a researcher and scientist.", "." 
+Dr. Stephen Boyer, sdsdf, CS,Systems and Networking,Probabilistic Combinatorics,"The science of exploring, extracting, and proposing molecular entities and their properties lies at the heart of cheminformatics.   I'll take you on a tour of the cheminformatics landscape.
+
