@@ -29,6 +29,7 @@
     "react-bootstrap": "^1.0.1",
     "react-db-google-sheets": "^2.1.1",
     "react-dom": "^16.13.1",
+    "react-grid-system": "^7.0.3",
     "react-native-dash": "0.0.11",
     "react-native-timeline-flatlist": "^0.7.3",
     "react-native-timeline-theme": "0.0.9",

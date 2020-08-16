@@ -5,6 +5,9 @@ import stemey from "./GoodStemeyLogo.png";
 import Timeline, { TimelineEntry, TimelineMarker } from './Timeline';
 import Papa from 'papaparse';
 import speakers from './speakers.csv';
+import { Container, Row, Col } from 'react-grid-system';
+
+
 
 function SND() {
     return (
@@ -15,35 +18,69 @@ function SND() {
                         <div>
 
                             <h1 style={{ textAlign: "center" }} class="biggest-header-4">STEM World</h1>
-                            <h2 style={{ textAlign: "center", fontSize: "23px", marginBottom: "30px" }}> An International Virtual STEM Convention</h2>
+                            <h2 style={{ textAlign: "center", fontSize: "23px", marginBottom: "30px" }}> Free Virtual Stem Convention</h2>
+                            
+                            <div class="container">
+                            <Container>
+                                <Row>
+                                    <Col sm={6}>
+                                        <div style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
+                                            <h2 style={{ textAlign: "left", lineHeight: "2"}}> Speakers </h2>
+                                            <p>- Professors and Students from the Top 20 US Universities</p>
+                                            <p>- 25 STEM Professionals</p>
+                                            <p>- IOI and Intel Finalists</p>
+                                        </div>
+                                    </Col>
+                                    <Col sm={6}>
+                                        <div style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
+                                            <h2 style={{ textAlign: "left", lineHeight: "2"}}> Demonstrations </h2>
+                                            <p>- Live demonstrations for computer science and biochemistry</p>
+                                        </div>
+                                    </Col>
+                                    <Col sm={6}>
+                                        <div style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
+                                            <h2 style={{ textAlign: "left", lineHeight: "2"}}> Competitions </h2>
+                                            <p>- Live competitions in Math, Physics, Chemistry, and Biology</p>
+                                            <p>- Prizes for the top 8-10 competitors</p>
+                                        </div>
+                                    </Col>
+                                    <Col sm={6}>
+                                        <div style={{ textAlign: "center", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
+                                            <h2 style={{ textAlign: "left", lineHeight: "2"}}> How to Participate </h2>
+                                            <p><a class="btn btn-full" href="https://tinyurl.com/rsvpstemworld">RSVP Here</a></p>
+                                            <p><a class="btn btn-full" href="https://tinyurl.com/stemworldslack">STEM World Slack</a></p>
+                                            <p><a class="btn btn-full" href="https://www.youtube.com/channel/UClH63PzuvNWKH9U_8Li0R_Q">Youtube Livestream</a></p>
+                                        </div>
+                                    </Col>
+                                </Row>
 
-                            <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
+                            </Container>
+                            </div>
+
+                            {/* <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
                                 STEM World will consist of three components: speaker panels, demonstrations, and competitions. We will have 50 speakers in total, 30 of which are STEM professionals and 20 of which are high achieving STEM college students. Our speakers will be describing their experiences and research in STEM. Our college student speakers will also detail the programs and activities that they participated in throughout their academic careers.
                             </p>
-
-{/* 
-                            <h2> Speakers </h2>
-                            <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}> Our professional speakers are experts in their fields, and many come from the top ranking US universities. We have speakers focusing on biology, chemistry, mathematics, computer science, physics, and engineering. Each speaker will provide a 30 minute presentation where they present for the first 20-25 minutes and answer Q&A from the audience for the last 5-10 minutes. Zoom Webinar links will be provided the days of the convention.</p>
-
+                  
                             <h2 style={{marginTop: "50px"}}>Competitions</h2>
                             <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>For biology, mathematics, chemistry, and physics, we will host a live virtual competition for high schoolers, and the top 8-10 competitors will receive prizes pertaining to the subject they competed in. Our prizes will be released on the STEM World Slack Workspace. </p>
 
                             <h2 style={{marginTop: "50px"}}>Demonstrations</h2>
                             <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>Dr. Sonia Cuellar and Dr. Jason Graham will be hosting a demonstration for biochemistry and computer science. The demonstration will take the form of showcasing and explaining a project or activity related to that subject. 
-                            </p> */}
+                            </p> 
 
                             <h2 style={{marginTop: "50px"}}>HOW CAN I JOIN?</h2>
                             <p style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>We will be live streaming most of these presentations through our Youtube Channel as well as through Zoom. You can access the link to each presentation by clicking on the presentation you wish to attend! If you want to connect with our attendees and receive more immediate updates about
                             the convention, please join our Slack Workspace! 
-                            </p>
+                            </p> */}
 
-                            <div style={{ width: "100%", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center" }}>
+
+                            {/* <div style={{ width: "100%", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center" }}>
                                 <a class="btn btn-full" style={{ marginBottom: "20px" }} href="https://tinyurl.com/stemworldslack">Join the STEM World Slack Workspace</a>
                                 <a class="btn btn-full" style={{ marginBottom: "20px" }} href="https://www.youtube.com/channel/UClH63PzuvNWKH9U_8Li0R_Q">Watch the Youtube Livestream</a>
                                 <a class="btn btn-full" style={{ marginBottom: "20px" }} href="/stemworldspeakers">See Our Speakers</a>
                                 <a class="btn btn-full" style={{ marginBottom: "20px" }} href="https://tinyurl.com/rsvpstemworld">RSVP Here</a>
                                 <a class="btn btn-full" style={{ marginBottom: "50px" }} href="/sponsorship">Sponsors</a>
-                            </div>
+                            </div> */}
 
                             <h1 class="biggest-header-2" style={{marginTop: "50px"}}>Schedule</h1>
                             <div class="stem-world" style={{ height: "auto" }}>
