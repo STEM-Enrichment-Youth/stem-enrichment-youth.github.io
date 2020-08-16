@@ -51,7 +51,7 @@ function SND() {
                                             <h2 style={{ textAlign: "left", lineHeight: "2"}}> How to Participate </h2>
                                             <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://us02web.zoom.us/j/83242398658">Join the Zoom</a></p>
                                             <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://tinyurl.com/stemworldslack">STEM World Slack</a></p>
-                                            <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://www.youtube.com/channel/UClH63PzuvNWKH9U_8Li0R_Q">Watch our Youtube Livestream</a></p>
+                                            <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Watch our Youtube Livestream</a></p>
                                         </div>
                                     </Col>
                                 </Row>
