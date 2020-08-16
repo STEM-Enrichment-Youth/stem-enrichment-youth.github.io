@@ -76,7 +76,7 @@ function SND() {
 
                             {/* <div style={{ width: "100%", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center" }}>
                                 <a class="btn btn-full" style={{ marginBottom: "20px" }} href="https://tinyurl.com/stemworldslack">Join the STEM World Slack Workspace</a>
-                                <a class="btn btn-full" style={{ marginBottom: "20px" }} href="https://www.youtube.com/channel/UClH63PzuvNWKH9U_8Li0R_Q">Watch the Youtube Livestream</a>
+                                <a class="btn btn-full" style={{ marginBottom: "20px" }} href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w/featured?view_as=subscriber">Watch the Youtube Livestream</a>
                                 <a class="btn btn-full" style={{ marginBottom: "20px" }} href="/stemworldspeakers">See Our Speakers</a>
                                 <a class="btn btn-full" style={{ marginBottom: "20px" }} href="https://tinyurl.com/rsvpstemworld">RSVP Here</a>
                                 <a class="btn btn-full" style={{ marginBottom: "50px" }} href="/sponsorship">Sponsors</a>
