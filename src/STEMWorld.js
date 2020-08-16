@@ -26,30 +26,32 @@ function SND() {
                                     <Col sm={6}>
                                         <div style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
                                             <h2 style={{ textAlign: "left", lineHeight: "2"}}> Speakers </h2>
-                                            <p>- Professors and Students from the Top 20 US Universities</p>
-                                            <p>- 25 STEM Professionals</p>
-                                            <p>- IOI and Intel Finalists</p>
+                                            <p>Researchers and Students from the Top US Universities and Companies</p>
+                                            <p>25+ STEM Professionals</p>
+                                            <p style={{textAlign: "left"}}><a class="btn btn-full" href="/stemworldspeakers">View our Speakers!</a></p>
                                         </div>
                                     </Col>
                                     <Col sm={6}>
                                         <div style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
                                             <h2 style={{ textAlign: "left", lineHeight: "2"}}> Demonstrations </h2>
-                                            <p>- Live demonstrations for computer science and biochemistry</p>
+                                            <p>Live demonstrations for computer science and biochemistry</p>
+                                            <p>Explore how computer science can be used to advance bee research!</p>
+
                                         </div>
                                     </Col>
                                     <Col sm={6}>
                                         <div style={{ textAlign: "left", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
                                             <h2 style={{ textAlign: "left", lineHeight: "2"}}> Competitions </h2>
-                                            <p>- Live competitions in Math, Physics, Chemistry, and Biology</p>
-                                            <p>- Prizes for the top 8-10 competitors</p>
+                                            <p>Live, High school level competitions in Math, Physics, Chemistry, and Biology</p>
+                                            <p>Prizes for the top 8-10 competitors</p>
                                         </div>
                                     </Col>
                                     <Col sm={6}>
                                         <div style={{ textAlign: "center", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
                                             <h2 style={{ textAlign: "left", lineHeight: "2"}}> How to Participate </h2>
-                                            <p><a class="btn btn-full" href="https://tinyurl.com/rsvpstemworld">RSVP Here</a></p>
-                                            <p><a class="btn btn-full" href="https://tinyurl.com/stemworldslack">STEM World Slack</a></p>
-                                            <p><a class="btn btn-full" href="https://www.youtube.com/channel/UClH63PzuvNWKH9U_8Li0R_Q">Youtube Livestream</a></p>
+                                            <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://us02web.zoom.us/j/83242398658">Join the Zoom</a></p>
+                                            <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://tinyurl.com/stemworldslack">STEM World Slack</a></p>
+                                            <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://www.youtube.com/channel/UClH63PzuvNWKH9U_8Li0R_Q">Watch our Youtube Livestream</a></p>
                                         </div>
                                     </Col>
                                 </Row>
@@ -302,7 +304,7 @@ s
                                             time="11:00-11:30 AM PST"
                                             speaker="Biochemistry Demonstration"
                                             professor = "Dr. Sonia Cuellar"
-                                            description="This Demonstration will be based off the Molecules of Life Research Seminar"
+                                            description="Shape, function and milk protein"
                                             link = "https://us02web.zoom.us/j/83242398658"
                                         />
                                         <TimelineEntry

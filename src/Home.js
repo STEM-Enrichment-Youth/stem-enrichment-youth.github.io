@@ -26,7 +26,7 @@ function Home() {
 
         <div style={{ width: "100%", marginTop: "20px", marginBottom: "20px" }}>
           <Alert
-            message="STEMEY is hosting an international, virtual convention on AUGUST 15/16 with professional guest speakers from the top ranking US Universities and virtual STEM competitions and demonstrations!  
+            message="STEMEY is hosting an international, virtual convention TODAY with professional guest speakers from the top ranking US Universities and virtual STEM competitions and demonstrations!  
             Check out the STEM World tab for more details!" button={true} />
         </div>
         <div class="head-txt" >
@@ -120,7 +120,6 @@ function Home() {
           </div>
         </div>
 
-
         <div class="why-us">
           <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
             <h1 class="big-title">What do we provide?</h1>
@@ -161,25 +160,61 @@ function Home() {
         </div>
 
       </section>
-      <div>
-        <h1 class="section-header">Partners</h1>
-        <div class="partners">
-          <a href="http://carrythevision.org/">
-            <img src={carryTheVision} />
-          </a>
-          <a href="https://polygence.org">
-            <img src={polygence} />
-          </a>
-          <a href="https://solveitforkids.com">
-            <img src={solveit} />
-          </a>
-          <a href="https://nxstep.co/">
-            <img src={nxstep} />
-          </a>
+
+      <h1 style={{backgroundColor: "rgb(0, 0, 0, 0.7)", padding: "20px"}}>Partners/Supporters</h1>
+      
+      <section class="who">
+
+        <div class="why-us">
+
+        <div class="motivate item steps-item">
+          <img style={{ width: "200px", marginTop: '15px' }} src={nxstep} />
+          <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://nxstep.co">An amazing tool to find the perfect college for you!</a>
+            <div class="step step1">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>1-on-1 live virtual discussions with a real college student- matched specifically to them by major, personality, etc</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Open, honest, and comfortable environment to ask questions that you find important about college</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Receive honest, raw feedback about different universities</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>The ultimate tool to help high school students find the college that's perfect for them!</p>
+            </div>
+            
+          </div>
+
+          <div class="motivate item steps-item">
+          <img style={{ width: "200px", margin: '15px 0'}} src={carryTheVision} />
+            <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://carrythevision.org">A 501(c)(3) nonprofit organization dedicated to restoring and promoting nonviolence</a>
+            
+            <div class="step step1">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Offers nonviolence training, workshops, retreats, and community wide events providing support and inspiration</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Restoring lives and communities through nonviolence education creating a peaceful and compassionate world.</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Building Compassionate Communities in a Peaceful World</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Transforming the world by restoring our human potential one person at a time</p>
+            </div>
+            
+          </div>
         </div>
+      </section>
 
 
-      </div>
 
       {/* <h1 class="section-header">Executive Board</h1>
       <div class="banner">
@@ -213,9 +248,6 @@ function Home() {
           <h3>Executive Coordinator</h3>
         </div>
 
-
-
-
       </div> */}
     </div>
 
@@ -224,5 +256,4 @@ function Home() {
 }
 
 export default Home;
-
 

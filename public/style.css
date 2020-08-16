@@ -215,6 +215,10 @@ a { color: white}
   align-items: center;
 }
 
+a:hover {
+  color: lightgrey; 
+}
+
   /** --  MEDIA QUERIES  -- **/
   
   @media only screen and (max-width: 1200px) {
