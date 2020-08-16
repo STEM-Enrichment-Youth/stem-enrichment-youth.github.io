@@ -266,13 +266,13 @@ currently as a scientific advisor at Google."
                 <Card 
                     name = "Dr. James Tanton" 
                     des = "James Tanton earned his PhD in mathematics from Princeton University. He is an author, a consultant, and ambassador for the Mathematical Association of America in Washington D.C., chair of the Advisory Council for the National Museum of Mathematics, and a founder of the Global Math Project, an initiative to transform the entire world’s perception of what mathematics can, and should, be. This program has now reached over 6 million students and teachers across the planet."
-                    position = "Mathematician in Residence at the Mathematical Association of America in Washington D.C."
+                    position = "Mathematician-at-Large at the Mathematical Association of America in Washington D.C."
                     imgURL = {tanton}
                 /> 
 
                 <Card 
                     name = "Akshaya Annapragada"
-                    position = "John Hopkins University MD/PhD Student"
+                    position = "Johns Hopkins University MD/PhD Student"
                     des = "Akshaya is an MD-PhD student at the Johns Hopkins University School of Medicine. She is broadly interested in computer science, mathematics and biology, and the ways that these fields intersect with medicine, health care and policy. Akshaya grew up in Houston, TX and moved to Cambridge, MA for college at Harvard University. At Harvard, she graduated magna cum laude with highest honors in Applied Mathematics and also earned an MS in Engineering Sciences. She served as a research assistant at the School of Engineering and Applied Sciences and School of Public Health. She also wrote and edited for the Harvard Political Review, and was involved in advocacy and mentorship through Women in Computer Science. Her current research focuses on how computational and engineering tools can be used to advance health care and medicine."
                     imgURL = {akshaya}
                 /> 
