@@ -7,16 +7,13 @@ import chemistry from "./icons/beaker-atom.png"; import biology from "./icons/ge
 import physics from "./icons/Newtons-cradle.png";
 import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png";
-import katherine from "./NewTeam/InstructorImages/katherine.jpg";
-import diana from "./NewTeam/InstructorImages/diana.jpg";
-import faith from "./NewTeam/InstructorImages/faith.png";
-import aryan from "./NewTeam/InstructorImages/aryan2.jpg";
-import deven from "./NewTeam/InstructorImages/deven.png";
 import Alert from "./Components/Alert";
 import carryTheVision from "./Partners/Logos/carrythevision.png";
 import nxstep from "./Partners/Logos/nxstep.png";
 import polygence from "./Partners/Logos/polygence.png";
 import solveit from "./Partners/Logos/solveit.jpg";
+import readwithkids from "./Partners/Logos/readwithkids.png";
+import simply from "./Partners/Logos/simply.png"; 
 
 function Home() {
   const [scale, setScale] = React.useState(false);
@@ -160,9 +157,37 @@ function Home() {
         </div>
 
       </section>
+      
 
       <h1 style={{backgroundColor: "rgb(0, 0, 0, 0.7)", padding: "20px"}}>Partners/Supporters</h1>
       
+      <div class="banner" style={{marginBottom: "40px"}}>
+        <a class="banner-class" href="/math-class">
+          <img class="class-icon" src={solveit} />
+          <h2 style={{ color: "white" }}>Solve it! For Kids</h2>
+        </a>
+        <a class="banner-class" href="/coding-class">
+          <img class="class-icon" src={readwithkids} />
+          <h2 style={{ color: "white" }}>Reading with Your Kids</h2>
+        </a>
+        <a class="banner-class" href="/chemistry-class">
+          <img class="class-icon" style={{width: "150px", marginTop: "30px"}} src={polygence} />
+          <h2 style={{ color: "white" }}>Polygence</h2>
+        </a>
+        <a class="banner-class" href="/biology-class">
+        <img class="class-icon" style={{width: "150px", marginTop: "30px"}} src={carryTheVision} />
+          <h2 style={{ color: "white" }}>Carry the Vision</h2>
+        </a>
+        <a class="banner-class" href="/physics-class">
+        <img class="class-icon" style={{width: "150px", marginTop: "40px"}} src={nxstep} />
+          <h2 style={{ color: "white" }}>NXStep</h2>
+        </a>
+        <a class="banner-class" href="/neuroscience-class">
+          <img class="class-icon" style={{marginTop: '25px'}} src={simply} />
+          <h2 style={{ color: "white" }}>Simply Neuroscience</h2>
+        </a>
+      </div>
+
       <section class="who">
 
         <div class="why-us">
@@ -213,42 +238,9 @@ function Home() {
           </div>
         </div>
       </section>
+      
 
 
-
-      {/* <h1 class="section-header">Executive Board</h1>
-      <div class="banner">
-        <div class="banner-class">
-          <div class="image-cropper">
-            <img style={{ width: "150px", marginTop: '15px' }} src={diana} />
-          </div>
-          <h2 style={{ fontSize: "100%" }}>Diana Poplacenel</h2>
-          <h3>CEO and Co-Founder</h3>
-        </div>
-        
-        <div class="banner-class">
-          <div class="image-cropper">
-            <img style={{ width: "150px", marginTop: '15px' }} src={katherine} />
-          </div>
-          <h2>Katherine Liu</h2>
-          <h3>Co-Founder</h3>
-        </div>
-        <div class="banner-class">
-          <div class="image-cropper">
-            <img style={{ width: "150px", marginTop: '15px' }} src={aryan} />
-          </div>
-          <h2>Aryan Mathur</h2>
-          <h3>CNO</h3>
-        </div>
-        <div class="banner-class">
-          <div class="image-cropper">
-            <img style={{ width: "150px", marginTop: '15px' }} src={faith} />
-          </div>
-          <h2>Faith Han</h2>
-          <h3>Executive Coordinator</h3>
-        </div>
-
-      </div> */}
     </div>
 
 

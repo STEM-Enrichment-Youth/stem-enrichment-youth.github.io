@@ -19,7 +19,8 @@ function SND() {
 
                             <h1 style={{ textAlign: "center" }} class="biggest-header-4">STEM World</h1>
                             <h2 style={{ textAlign: "center", fontSize: "23px", marginBottom: "30px" }}> Free Virtual Stem Convention</h2>
-                            
+                            <p style={{textAlign: "center"}}><a class="btn btn-full" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Watch STEM World on Youtube</a></p>
+
                             <div class="container">
                             <Container>
                                 <Row>
@@ -49,8 +50,7 @@ function SND() {
                                     <Col sm={6}>
                                         <div style={{ textAlign: "center", lineHeight: "2", width: "90%", marginLeft: "5%" }}>
                                             <h2 style={{ textAlign: "left", lineHeight: "2"}}> How to Participate </h2>
-                                            <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://us02web.zoom.us/j/83242398658">Join the Zoom</a></p>
-                                            <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://tinyurl.com/stemworldslack">STEM World Slack</a></p>
+                                            <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://tinyurl.com/stemworldslack">Join the STEM World Slack</a></p>
                                             <p style={{textAlign: "left"}}><a class="btn btn-full" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Watch our Youtube Livestream</a></p>
                                         </div>
                                     </Col>
@@ -97,14 +97,14 @@ function SND() {
                                             time="8:00-8:30 AM PST"
                                             speaker="Diana Poplacenel"
                                             description="Opening Ceremony"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="8:30-9:00 AM PST"
                                             speaker="Akshaya Annapragada"
                                             professor="JHU MD/PhD Student"
                                             description="Putting the M in STEM: Math AND Medicine"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
@@ -112,7 +112,7 @@ function SND() {
                                             speaker="Dr. Helen Vuong"
                                             professor="UCLA Researcher"
                                             description="Microbiome, Brain and Behaviors"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
@@ -120,7 +120,7 @@ function SND() {
                                             speaker="Dr. Olga Zhaxybayeva"
                                             professor="Dartmouth Researcher"
                                             description="Genomic clues to origin, evolution and diversity of life"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
@@ -135,20 +135,20 @@ function SND() {
                                             time="10:30-11:00 AM PST"
                                             speaker="Dr. Xia Yang"
                                             professor="UCLA Researcher"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
                                             time="11:00-11:30 AM PST"
                                             speaker="Networking Session"
                                             description="Converse and Connect with STEM Enthusiasts from Around the World"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
                                             time="11:30-12:00 PM PST"
                                             speaker="High School Level Biology Competition"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         
@@ -157,14 +157,14 @@ function SND() {
                                             speaker="Dr. Jane Frommer"
                                             professor="Collabra Science Advisor" 
                                             description="The Molecular Underpinings of Nanotechnology"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="12:30-1:00 PM PST"
                                             speaker="Dr. Teri Odom"
                                             professor="Northwestern Researcher"
                                             description="Follow the Nano-Brick Road."
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                        />
                                         <TimelineEntry
@@ -172,7 +172,7 @@ function SND() {
                                             speaker="Dr. Stephen Boyer"
                                             professor = "Google/Collabra Scientific Advisor"
                                             description="Curating the Chemical Universe"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         
@@ -181,26 +181,26 @@ function SND() {
                                             speaker="Dr. Vicki Colvin"
                                             professor = "Professor of Chemistry at Brown University"
                                             description="Using Nanotechnology to Improve Our World: From Cleaning Water to Curing Disease"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
                                             time = "2:00-2:30 PM PST"
                                             speaker = "Jed Doherty, Jennifer Swanson, and Dr. Jane Frommer"
                                             description = "A Special Solve it! for Kids LIVE Podcast Episode!! Join us as the co-hosts of the Solve it! for Kids Podcast interview Dr. Jane Frommer to discuss her life as a researcher and scientist."
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
     
                                         /> 
                                         <TimelineEntry
                                             time="2:30-3:00 PM PST"
                                             speaker="Networking Session"
                                             description="Converse and Connect with STEM Enthusiasts from Around the World"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="3:00-3:30 PM PST"
                                             speaker="High School Level Chemistry Competition"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
@@ -208,7 +208,7 @@ function SND() {
                                             speaker="Dr. Corina Constantinescu"
                                             professor = "University of Liverpool Mathematics Professor"
                                             description = "A journey through actuarial mathematics"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
@@ -216,41 +216,41 @@ function SND() {
                                             speaker="Dr. Nitu Kitchloo"
                                             professor="Johns Hopkins Professor"
                                             description="The close relationship between Algebra and Geometry"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
                                             time="4:30-5:00 PM PST"
                                             speaker="Corrine Yap"
                                             description="Crossing Disciplines: Probabilistic Combinatorics and Mathematical Theater"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
                                             time="5:00-5:30 PM PST"
                                             speaker="Dr. Tom Hull"
                                             description="Origami and Math: Paper, Polymers, and Robots"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
                                             time="5:30-6:00 PM PST"
                                             description="BINARY, TERNARY, BASE-TEN, BASE ONE-AND-A-HALF: Do we understand place-value?"
                                             speaker="Dr. James Tanton"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 
                                         />
                                         <TimelineEntry
                                             time="6:00-6:30 PM PST"
                                             speaker="High School Level Math Competition"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         
                                         />
                                         <TimelineEntry
                                             time="6:30 PM PST"
                                             speaker="William Lin"
                                             description="IOI 2019 Silver Medalist"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
 s
                                         />
                                         
@@ -264,82 +264,82 @@ s
                                             speaker="Dr. Richard Henry"
                                             professor="John Hopkins University Researcher"
                                             description="Physics is Simple!"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="8:30-9:00 AM PST"
                                             speaker="Dr. Marcelo Gleiser"
                                             professor="Dartmouth University Researcher"
                                             description="Mysteries of the Universe: What We know and What we Don’t Know."
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="9:00-9:30 AM PST"
                                             speaker="Dr. Jens Koch"
                                             professor="Northwestern University Researcher"
                                             description="What's a quantum computer and why do we care?"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="9:30-10:00 AM PST"
                                             speaker="Dr. Daniel Holz"
                                             professor="UChicago Researcher"
                                             description="Listening to the Universe"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="10:00-10:30 AM PST"
                                             speaker="Dr. Christine Aidala"
                                             professor="UMichigan Researcher"
                                             description="Peering into the Proton"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         
                                         <TimelineEntry
                                             time="10:30-11:00 AM PST"
                                             speaker="High School Level Physics Competition"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="11:00-11:30 AM PST"
                                             speaker="Biochemistry Demonstration"
                                             professor = "Dr. Sonia Cuellar"
                                             description="Shape, function and milk protein"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="11:30-12:00 PM PST"
                                             speaker="Dr. Anshul Kundaje"
                                             professor="Stanford University Researcher"
                                             description="Deep learning the regulatory code of the human genome"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="12:00-12:30 PM PST"
                                             speaker="Dr. Jamie Spangler"
                                             professor="John Hopkins University Researcher"
                                             description="Engineering proteins to reprogram the immune response"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="12:30-1:00 PM PST"
                                             speaker="Dr. Ken Birman"
                                             professor="Cornell University Researcher"
                                             description="Cloud Computing and the Intelligent Internet of Things"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="1:00-1:30 PM PST"
                                             professor="Duke University Researcher"
                                             speaker="Dr. Krishnendu Chakrabarty"
                                             description="Computational Intelligence in the Design and Optimization of Digital Microfluidic Biochips"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />  
                                         <TimelineEntry
                                             time="1:30-2:00 PM PST"
                                             speaker="Vasile Patrascu"
                                             professor = "Principal Engineer at Jitterbit"
-                                            link = "https://us02web.zoom.us/j/83242398658"
+                                            
                                         />
                                         <TimelineEntry
                                             time="2:00-3:00 PM PST"

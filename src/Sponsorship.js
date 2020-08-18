@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import stemey from "./GoodStemeyLogo.png";
 import "./sponsorship.css";
-import ctv from "./carrythevision.png";
+import ctv from "./Partners/Logos/carrythevision.png";
 import smarterd from "./smarterd.png";
 import nxstep from "./nxstep.png";
 
@@ -13,18 +13,19 @@ function Sponsorship() {
             <div class="head-txt column-flex" style={{width: "90%"}}>
                 <h1 style={{textAlign: "center"}} class="biggest-header-4">SPONSORSHIPS</h1>
                 <div id="current-sponsors">
-                    <h1 class="biggest-header-2">Current Sponsors</h1>
+                    <h1 class="biggest-header-2">Our STEM World Sponsors</h1>
                     <h2 style={{color:"#B7D1E2", fontWeight:"400"}}>Platinum</h2>
                     <div class="sponsors-grid">
                         <div><img src={ctv}/></div> 
-                        <div><img src={nxstep}/></div> 
                     </div>
                     {/* <h2 style={{color:"#FAD766", fontWeight:"400"}}>Gold</h2> */}
-                    <h2 style={{color:"#C0C0C0", fontWeight:"400"}}>Silver</h2>
+                    {/* <h2 style={{color:"#C0C0C0", fontWeight:"400"}}>Silver</h2> */}
+                    
+                    <h2 style={{color:"#DBA670", fontWeight:"400"}}>Bronze</h2>
                     <div class="sponsors-grid">
-                        <div><img src={smarterd}/></div> 
+                        <div><img src={nxstep}/></div> 
                     </div>
-                    {/* <h2 style={{color:"#DBA670", fontWeight:"400"}}>Bronze</h2> */}
+
                 </div>
                 <h1 class="biggest-header-2">Sponsor Tiers</h1>
                 <br/>   
@@ -70,7 +71,7 @@ function Sponsorship() {
                         <span>$1000+</span>
                     </div>
                 </div>
-                <p style={{marginTop: "50px"}}>If you donate to us, because our fiscal sponsors are filed as a 501(c)(3), you may be eligible for tax deductions.</p> 
+                <p style={{marginTop: "50px"}}>If you donate to us, because our fiscal sponsors are filed as a 501(c)(3), you will be eligible for tax deductions as permitted by the extent of the law.</p> 
             </div>
         </div>
     </div>

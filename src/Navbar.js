@@ -34,26 +34,21 @@ export default function Navbar(props) {
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active nav-link">
-            <Button href="/stemworld" variant="contained">STEM WORLD</Button>
+        <li class="nav-item dropdown nav-link active">
+            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
+            class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            STEM World</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/stemworldspeakers">Speakers</a>
+              <a class="dropdown-item" href="/sponsorship">Sponsors</a>
+              <a class="dropdown-item" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Watch STEM World</a>
+
+            </div>
           </li>
           <li class="nav-item active nav-link">
             <Button href="/donate" variant="contained">Donate</Button>
           </li>
-          {/* <li class="nav-item dropdown nav-link active">
-            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
-            class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Instructors</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/biology">Biology</a>
-              <a class="dropdown-item" href="/chemistry">Chemistry</a>
-              <a class="dropdown-item" href="/physics">Physics</a>
-              <a class="dropdown-item" href="/neuroscience">Neuroscience</a>
-              <a class="dropdown-item" href="/math">Math</a>
-              <a class="dropdown-item" href="/coding">Coding</a>
-
-            </div>
-          </li> */}
+          
           <li class="nav-item dropdown nav-link active">
             <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
             class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -66,6 +61,19 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/math-class">Math</a>
               <a class="dropdown-item" href="/coding-class">Coding</a>
 
+            </div>
+          </li>
+          <li class="nav-item dropdown nav-link active">
+            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
+            class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Team</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/executives">Executive Team</a>
+              <a class="dropdown-item" href="/biology-class">Biology</a>
+              <a class="dropdown-item" href="/chemistry-class">Chemistry</a>
+              <a class="dropdown-item" href="/physics-class">Physics</a>
+              <a class="dropdown-item" href="/math-class">Math</a>
+              <a class="dropdown-item" href="/coding-class">Coding</a>
             </div>
           </li>
           <li class="nav-item active nav-link">

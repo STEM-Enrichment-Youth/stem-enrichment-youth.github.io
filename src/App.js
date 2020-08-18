@@ -22,6 +22,7 @@ import Contact from "./Contact";
 import STEMWorld from "./STEMWorld"; 
 import STEMSpeakers from "./STEMSpeakers";
 import Sponsorship from "./Sponsorship";
+import Executives from "./NewTeam/Executives"; 
 
 export default function App() {
   return (
@@ -78,6 +79,9 @@ export default function App() {
           </Route>
           <Route path="/chemistry-class">
             <Navbar /><ChemistryClass />
+          </Route>
+          <Route path="/executives">
+            <Navbar /><Executives />
           </Route>
           <Route path="/biology-class">
             <Navbar /><BiologyClass />

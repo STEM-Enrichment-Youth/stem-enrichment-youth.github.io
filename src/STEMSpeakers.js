@@ -28,41 +28,10 @@ import odom from "./Speakers/odom.jpg";
 import boyer from "./Speakers/boyer.png"; 
 import tanton from "./Speakers/tanton.jpg"; 
 import hull from "./Speakers/thomas-hull-origami.jpg";
-
+import jed from "./Speakers/jed.jpg"; 
 
 export default function NewTeam() {
-    // const [rows, setRows] = React.useState([]);
-    // React.useEffect(() => {
-    //     async function getData() {
-    //       const response = await fetch(speakers)
-    //       const reader = response.body.getReader()
-    //       const result = await reader.read() // raw array
-    //       const decoder = new TextDecoder('utf-8')
-    //       const csv = decoder.decode(result.value) // the csv text
-    //       const results = Papa.parse(csv, { header: true }) // object with { data, errors, meta }
-    //       const rows = results.data // array of objects
-    //       setRows(rows)
-    //     }
-    //     getData()
-    // }, [])
-    // console.log(rows)
-    // const items = rows.map((item, key) => 
-    // <Card
-    //     name={item.speaker}
-    //     des={item.speakerBio}
-    //     position={item.university}
-    // />)
-    // return (
-    //     <div class="new-team-con">
-    //         <div class="new-team">
-    //             <h1>Meet Our Speakers</h1>
-    //             <h2>More to come soon!</h2>
-    //             <div class="con">
-    //                 {items}
-    //             </div>
-    //         </div>
-    //     </div>
-    // )
+   
     return (<div class="new-team-con">
         <div class="new-team">
             <h1>Meet Our Speakers</h1>
@@ -327,6 +296,29 @@ currently as a scientific advisor at Google."
                     position = "Visiting Lecturer at Stanford for Electrical Engineering" 
                     des = "My T. Le is a technologist, entrepreneur, and educator. She received her Ph.D. in Electrical Engineering and Computer Sciences from University of California, Berkeley. She works, advises and invests in start-ups. She co-teaches EE15 - a popular Freshman Seminar and teaches EE46 - Engineering for Good - at Stanford University. In her spare time, she can be found telling bad jokes to her daughters and being a member of Dub Nation."
                 />
+                <Card 
+                    name = "Jed Doherty"
+                    imgURL = {jed}
+                    position = "Co-Host of Solve it! for Kids and Host ofReading with your Kids Podcast" 
+                />
+                <Card 
+                    name = "Jennifer Swanson"
+                    imgURL = {jed}
+
+                    position = "Speaker. Author. Teacher. " 
+                    des = "Science Rocks! And so do Jennifer Swanson’s books. She is the award-winning author of over 40 nonfiction books for children, mostly about science and technology.  Jennifer’s love of STEM began when she started a science club in her garage at the age of 7. While no longer working from the garage, Jennifer's passion for science and technology resonates in all her books but especially, BRAIN GAMES (NGKids) and SUPER GEAR: Nanotechnology and Sports Team Up (Charlesbridge), Astronaut-Aquanaut, and Save the Crash-test Dummies. Her books have received many accolades including the Green Earth Book Honor Award, a Florida Book Award, and multiple California Reading Association awards, and National Science Teaching BEST STEM awards."
+                />
+                <Card
+                    name = "Vasile Patrascu"
+                    // https://www.linkedin.com/in/vpatrascu/
+                /> 
+                <Card 
+                    name = "Sonia Cuellar"
+                    // use stem world (9) compressed pdf 
+                /> 
+                <Card 
+                    name = "Jason Graham"
+                /> 
             </div>
         </div>
     </div>

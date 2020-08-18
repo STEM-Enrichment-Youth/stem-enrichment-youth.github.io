@@ -5,7 +5,7 @@ export default function TeamCard(props) {
         <div class="con-item team-card">
                     <div class="con-img">
                         <div class="image-cropper">
-                            <img src={props.imgURL} alt="instructor image" style={{maxWidth: "150px"}}/>
+                            <img src={props.imgURL} style={{maxWidth: "150px"}}/>
                         </div>
                     </div>
                     <h2 class="h">{props.name}</h2>
