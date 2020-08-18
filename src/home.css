@@ -65,6 +65,7 @@
 }
 
 
+
 .item {
     margin: 0; 
     min-height: 350px; 
@@ -180,7 +181,13 @@
     margin: 20px 0px;
 }
 
-
+/* YOUTUBE VIDEOS */
+.youtube-videos {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+    margin-top: 50px; 
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1215px) {
@@ -242,6 +249,7 @@
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
         justify-items: center; 
     }
+    
     /* .who { justify-items: center } */
 
     .p-home { width: 100%; }

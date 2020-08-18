@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import stemey from "./GoodStemeyLogo.png";
-import stemworld from "./stemworldlogo.png"; 
+import stemworld from "./stemworldlogo.png";
 import coding from "./icons/head-cross.png";
 import chemistry from "./icons/beaker-atom.png"; import biology from "./icons/genetics.png";
 import physics from "./icons/Newtons-cradle.png";
@@ -13,7 +13,7 @@ import nxstep from "./Partners/Logos/nxstep.png";
 import polygence from "./Partners/Logos/polygence.png";
 import solveit from "./Partners/Logos/solveit.jpg";
 import readwithkids from "./Partners/Logos/readwithkids.png";
-import simply from "./Partners/Logos/simply.png"; 
+import simply from "./Partners/Logos/simply.png";
 
 function Home() {
   const [scale, setScale] = React.useState(false);
@@ -23,16 +23,16 @@ function Home() {
 
         <div style={{ width: "100%", marginTop: "20px", marginBottom: "20px" }}>
           <Alert
-            message="STEMEY is hosting an international, virtual convention TODAY with professional guest speakers from the top ranking US Universities and virtual STEM competitions and demonstrations!  
+            message="STEMEY just hosted an international, virtual convention with professional guest speakers from the top ranking US Universities and virtual STEM competitions and demonstrations!  
             Check out the STEM World tab for more details!" button={true} />
         </div>
         <div class="head-txt" >
           <div class="head-con">
             <div class="head-txt-2">
               <div class="main-header">
-                  <h1 style={{textAlign: "left"}}>STEMEY</h1>
+                <h1 style={{ textAlign: "left" }}>STEMEY</h1>
               </div>
-              <p class="head-p" style={{maxWidth: "800px"}}>
+              <p class="head-p" style={{ maxWidth: "800px" }}>
                 A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
               </p>
             </div>
@@ -79,6 +79,53 @@ function Home() {
           <h2 style={{ color: "white" }}>Neuroscience</h2>
         </a>
       </div>
+
+
+      <div class="why-us">
+
+        <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
+          <h1 class="big-title" style={{fontSize: "70px"}}>Free Virtual Speaker Conventions</h1>
+        </div>
+        <div class="motivate item steps-item">
+          <ion-icon name="people-circle"></ion-icon>
+          <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World</h2>
+          <div class="step step1">
+            <i class="fas fa-arrow-alt-circle-right"></i>
+            <p>22 Hours Worth of STEM Lectures and Events</p>
+          </div>
+          <div class="step">
+            <i class="fas fa-arrow-alt-circle-right"></i>
+            <p>Explore Interdisciplinary and Innovative Areas of Science</p>
+          </div>
+          <div class="step">
+            <i class="fas fa-arrow-alt-circle-right"></i>
+            <p>Watch all of our lectures from STEM World on Youtube</p>
+          </div>
+          <div class="step">
+            <i class="fas fa-arrow-alt-circle-right"></i>
+            <p>Advice and Tips on College Advimissions and STEM Opportunities</p>
+          </div>
+          <div class="step">
+            <i class="fas fa-arrow-alt-circle-right"></i>
+            <p>SUBSCRIBE TO OUR YOUTUBE CHANNEL FOR MORE VIDEOS!!</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div style={{backgroundColor: "rgb(0, 0, 0, 0.7)", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center", marginTop: "50px"}}>
+        <h1 style={{marginTop: "20px"}}>Didn't get to watch our last STEM Convention?</h1>
+        <p>No Worries! Watch all of our videos on YouTube by clicking any of the links below!!</p>
+      </div>
+
+      <div class='youtube-videos'>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp1H11ozNCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yVdLvW_Xvik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zG7mJaH4OaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+
       <section class="who">
 
         <div class="why-us">
@@ -118,9 +165,6 @@ function Home() {
         </div>
 
         <div class="why-us">
-          <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-            <h1 class="big-title">What do we provide?</h1>
-          </div>
           <div class="inspire item">
             <ion-icon name="logo-electron"></ion-icon>
             <h2>Fun Classes</h2>
@@ -131,8 +175,6 @@ function Home() {
               what concepts you want to learn about and what activities you perform!
             </p>
           </div>
-        </div>
-        <div class="why-us">
           <div class="motivate item">
             <ion-icon name="color-filter"></ion-icon>
             <h2>Great Instruction</h2>
@@ -144,6 +186,10 @@ function Home() {
               Check out our TEAM page to learn more about our team!
              </p>
           </div>
+
+        </div>
+        {/* <div class="why-us">
+          
           <div class="motivate item">
             <ion-icon name="color-wand"></ion-icon>
             <h2>We're Super Flexible!</h2>
@@ -154,14 +200,14 @@ function Home() {
               individual online tutoring will also be available! All completely free!
             </p>
           </div>
-        </div>
+        </div> */}
 
       </section>
-      
 
-      <h1 style={{backgroundColor: "rgb(0, 0, 0, 0.7)", padding: "20px"}}>Partners/Supporters</h1>
-      
-      <div class="banner" style={{marginBottom: "40px"}}>
+
+      <h1 style={{ backgroundColor: "rgb(0, 0, 0, 0.7)", padding: "20px" }}>Partners/Supporters</h1>
+
+      <div class="banner" style={{ marginBottom: "40px" }}>
         <a class="banner-class" href="/math-class">
           <img class="class-icon" src={solveit} />
           <h2 style={{ color: "white" }}>Solve it! For Kids</h2>
@@ -171,19 +217,19 @@ function Home() {
           <h2 style={{ color: "white" }}>Reading with Your Kids</h2>
         </a>
         <a class="banner-class" href="/chemistry-class">
-          <img class="class-icon" style={{width: "150px", marginTop: "30px"}} src={polygence} />
+          <img class="class-icon" style={{ width: "150px", marginTop: "30px" }} src={polygence} />
           <h2 style={{ color: "white" }}>Polygence</h2>
         </a>
         <a class="banner-class" href="/biology-class">
-        <img class="class-icon" style={{width: "150px", marginTop: "30px"}} src={carryTheVision} />
+          <img class="class-icon" style={{ width: "150px", marginTop: "30px" }} src={carryTheVision} />
           <h2 style={{ color: "white" }}>Carry the Vision</h2>
         </a>
         <a class="banner-class" href="/physics-class">
-        <img class="class-icon" style={{width: "150px", marginTop: "40px"}} src={nxstep} />
+          <img class="class-icon" style={{ width: "150px", marginTop: "40px" }} src={nxstep} />
           <h2 style={{ color: "white" }}>NXStep</h2>
         </a>
         <a class="banner-class" href="/neuroscience-class">
-          <img class="class-icon" style={{marginTop: '25px'}} src={simply} />
+          <img class="class-icon" style={{ marginTop: '25px' }} src={simply} />
           <h2 style={{ color: "white" }}>Simply Neuroscience</h2>
         </a>
       </div>
@@ -192,9 +238,9 @@ function Home() {
 
         <div class="why-us">
 
-        <div class="motivate item steps-item">
-          <img style={{ width: "200px", marginTop: '15px' }} src={nxstep} />
-          <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://nxstep.co">An amazing tool to find the perfect college for you!</a>
+          <div class="motivate item steps-item">
+            <img style={{ width: "200px", marginTop: '15px' }} src={nxstep} />
+            <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://nxstep.co">An amazing tool to find the perfect college for you!</a>
             <div class="step step1">
               <i class="fas fa-arrow-alt-circle-right"></i>
               <p>1-on-1 live virtual discussions with a real college student- matched specifically to them by major, personality, etc</p>
@@ -211,13 +257,13 @@ function Home() {
               <i class="fas fa-arrow-alt-circle-right"></i>
               <p>The ultimate tool to help high school students find the college that's perfect for them!</p>
             </div>
-            
+
           </div>
 
           <div class="motivate item steps-item">
-          <img style={{ width: "200px", margin: '15px 0'}} src={carryTheVision} />
+            <img style={{ width: "200px", margin: '15px 0' }} src={carryTheVision} />
             <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://carrythevision.org">A 501(c)(3) nonprofit organization dedicated to restoring and promoting nonviolence</a>
-            
+
             <div class="step step1">
               <i class="fas fa-arrow-alt-circle-right"></i>
               <p>Offers nonviolence training, workshops, retreats, and community wide events providing support and inspiration</p>
@@ -234,11 +280,11 @@ function Home() {
               <i class="fas fa-arrow-alt-circle-right"></i>
               <p>Transforming the world by restoring our human potential one person at a time</p>
             </div>
-            
+
           </div>
         </div>
       </section>
-      
+
 
 
     </div>
