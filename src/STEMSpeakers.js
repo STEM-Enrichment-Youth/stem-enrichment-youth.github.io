@@ -15,7 +15,7 @@ import frommer from "./Speakers/Frommer.jpg";
 import koch from "./Speakers/Koch.jpg";
 import schmitt from "./Speakers/Schmitt.jpg";
 import aidala from "./Speakers/Aidala.jpg";
-import swartz from "./Speakers/Swartz.png";
+import cuellar from "./Speakers/cuellar.png";
 import loeb from "./Speakers/Loeb.jpg";
 import le from "./Speakers/Le.jpg";
 import Papa from 'papaparse';
@@ -29,6 +29,8 @@ import boyer from "./Speakers/boyer.png";
 import tanton from "./Speakers/tanton.jpg"; 
 import hull from "./Speakers/thomas-hull-origami.jpg";
 import jed from "./Speakers/jed.jpg"; 
+import graham from "./Speakers/graham.jpg";
+import patrascu from "./Speakers/patrascu.jpeg";  
 
 export default function NewTeam() {
    
@@ -310,15 +312,26 @@ currently as a scientific advisor at Google."
                 />
                 <Card
                     name = "Vasile Patrascu"
-                    // https://www.linkedin.com/in/vpatrascu/
+                    imgURL = {patrascu}
+                    position = "Principal Engineer at Jitterbit"
+                    des = "A 'hands-on' principal software engineer with a 'can do' attitude that delivers high-quality projects on time. My objective is to have significant impact in a role that leverages my extensive experience in product definition, architecture, design and development."
                 /> 
                 <Card 
-                    name = "Sonia Cuellar"
+                    name = "Dr. Sonia Cuellar"
+                    imgURL={cuellar}
+                    position = "Schmahl Science Workshops Mentor & Biological Sciences Educator"
+                    des="I attended college at National University of Colombia where I became interested in crop’s biology. Moved to Mexico for graduate studies at UNAM’s Biotechnology Institute where I obtained Master and PhD degrees in 2001 and 2008. Always interested in plant’s responses to stress, in grad school I focused my attention on cell wall proteins and carbon metabolism. In 2009 accepted a postdoctoral position at UC -Davis where I continued studying plants’ adaptation to stress and entered the world of genomics and large data set analysis. In 2017 I joined SJSU’s College of science where I teach Introduction to biology, introduction to chemistry and biochemistry.
+
+I love teaching sciences and mentoring teenagers in their research projects. When I am not doing that you may find me walking around downtown San Jose with my dog Frankie"
                     // use stem world (9) compressed pdf 
                 /> 
                 <Card 
                     name = "Jason Graham"
+                    position = "Schmahl Science Workshops Mentor & Entomologist"
+                    des="Dr. Jason Graham is a bee researcher and has worked with honey bees and beekeepers for 12+ years. He earned his PhD in the Honey Bee Research and Extension Laboratory at University of Florida. For his post-doctoral work, Dr. Graham studied the known populations of Hawaiian yellow-faced bees and contributed data that helped to list these pollinators as endangered species. He has presented his bee research at the Smithsonian Museum in Washington DC, has led field trips for the IUCN (International Union for Conservation of Nature), and his research has been featured by National Geographic."
+                    imgURL = {graham}
                 /> 
+
             </div>
         </div>
     </div>

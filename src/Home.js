@@ -14,6 +14,7 @@ import polygence from "./Partners/Logos/polygence.png";
 import solveit from "./Partners/Logos/solveit.jpg";
 import readwithkids from "./Partners/Logos/readwithkids.png";
 import simply from "./Partners/Logos/simply.png";
+import schmahl from "./schmahl.jpg"; 
 
 function Home() {
   const [scale, setScale] = React.useState(false);
@@ -208,13 +209,17 @@ function Home() {
       <h1 style={{ backgroundColor: "rgb(0, 0, 0, 0.7)", padding: "20px" }}>Partners/Supporters</h1>
 
       <div class="banner" style={{ marginBottom: "40px" }}>
-        <a class="banner-class" href="/math-class">
+        <a class="banner-class" href="https://solveitforkids.com/">
           <img class="class-icon" src={solveit} />
           <h2 style={{ color: "white" }}>Solve it! For Kids</h2>
         </a>
-        <a class="banner-class" href="/coding-class">
+        <a class="banner-class">
           <img class="class-icon" src={readwithkids} />
           <h2 style={{ color: "white" }}>Reading with Your Kids</h2>
+        </a>
+        <a class="banner-class" href="https://schmahlscience.org/">
+          <img class="class-icon" src={schmahl}/>
+          <h2 style={{ color: "white" }}>Schmahl Science Workshops</h2>
         </a>
         <a class="banner-class" href="/chemistry-class">
           <img class="class-icon" style={{ width: "150px", marginTop: "30px" }} src={polygence} />
@@ -233,6 +238,8 @@ function Home() {
           <h2 style={{ color: "white" }}>Simply Neuroscience</h2>
         </a>
       </div>
+
+      <h1>Sponsors</h1>
 
       <section class="who">
 

@@ -304,9 +304,9 @@ s
                                         />
                                         <TimelineEntry
                                             time="11:00-11:30 AM PST"
-                                            speaker="Biochemistry Demonstration"
+                                            speaker="Biochemistry Demonstration: Shape, function, and milk protein"
                                             professor = "Dr. Sonia Cuellar"
-                                            description="Shape, function and milk protein"
+                                            description="In the frame of a home experiment we will discuss the relationship between form, function and protein structure."
                                             
                                         />
                                         <TimelineEntry
