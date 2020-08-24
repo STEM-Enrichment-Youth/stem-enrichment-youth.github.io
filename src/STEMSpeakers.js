@@ -95,12 +95,7 @@ targeted treatment of diseases such as cancer and autoimmune disorders."
                     name = "Dr. Isaac Cervantes Sandoval"
                     imgURL = {sandoval}
                     position = "Assistant Professor at Georgetown"
-                    des = "I received my MSc and Ph.D. in Chemical and Biological Sciences from the National School for Biological Sciences of the National Polytechnic Institute in Mexico City, Mexico. During my graduate work, I focused on the physiopathology and host immune response in free-living amoebae infections, using both in vivo and in vitro approaches. 
-
-Upon the completion of my Ph.D., I decided to move into the more challenging field of Neuroscience. I joined the Neuroscience Department at The Scripps Research Institute in 2009 to expand my technical skills and neuroscience knowledge. There, my research has focused on understanding how memories are encoded, consolidated, retrieved, and, most recently, how these are forgotten. 
-
-In 2019 I moved as an Assistant Professor at Georgetown University, where I will continue to develop a research program to understand how memories are encoded in the brain and how they are forgotten.
-"
+                    des = "I received my MSc and Ph.D. in Chemical and Biological Sciences from the National School for Biological Sciences of the National Polytechnic Institute in Mexico City, Mexico. During my graduate work, I focused on the physiopathology and host immune response in free-living amoebae infections, using both in vivo and in vitro approaches.  Upon the completion of my Ph.D., I decided to move into the more challenging field of Neuroscience. I joined the Neuroscience Department at The Scripps Research Institute in 2009 to expand my technical skills and neuroscience knowledge. There, my research has focused on understanding how memories are encoded, consolidated, retrieved, and, most recently, how these are forgotten.  In 2019 I moved as an Assistant Professor at Georgetown University, where I will continue to develop a research program to understand how memories are encoded in the brain and how they are forgotten. "
                 /> 
 
                 <Card
@@ -301,9 +296,7 @@ currently as a scientific advisor at Google."
                 <Card 
                     name = "Jed Doherty"
                     imgURL = {jed}
-                    des = "I have had the honor of inspiring kids and families to practice kindness, make healthy choices and grow closer through reading. I am currently the host of the Reading With Your Kids Podcast. We are committed to inspiring families to read more together. I also present motivational presentations throughout the United States and Puerto Rico. I have presented at thousands of schools and special events including Connectfest Christian Music Festival, New Bedford New Year's Eve Celebration, Archdiocese of Boston Multicultural Family Day, Diocese of Brooklyn Anti Bullying Summit, Pennsylvania State Association of School Nurses, Norwalk CT DARE Graduation and Harvard School of Medicine. I also produced and wrote the award winning disabilities awareness video "MELTDOWN!!!" featuring the music of Gloria Estefan. 
-
-"
+                    des = "I have had the honor of inspiring kids and families to practice kindness, make healthy choices and grow closer through reading. I am currently the host of the Reading With Your Kids Podcast. We are committed to inspiring families to read more together. I also present motivational presentations throughout the United States and Puerto Rico. I have presented at thousands of schools and special events including Connectfest Christian Music Festival, New Bedford New Year's Eve Celebration, Archdiocese of Boston Multicultural Family Day, Diocese of Brooklyn Anti Bullying Summit, Pennsylvania State Association of School Nurses, Norwalk CT DARE Graduation and Harvard School of Medicine. I also produced and wrote the award winning disabilities awareness video Meltdown! featuring the music of Gloria Estefan. "
                     position = "Co-Host of Solve it! for Kids and Host ofReading with your Kids Podcast" 
                 />
                 <Card 
