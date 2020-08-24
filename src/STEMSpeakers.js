@@ -301,6 +301,9 @@ currently as a scientific advisor at Google."
                 <Card 
                     name = "Jed Doherty"
                     imgURL = {jed}
+                    des = "I have had the honor of inspiring kids and families to practice kindness, make healthy choices and grow closer through reading. I am currently the host of the Reading With Your Kids Podcast. We are committed to inspiring families to read more together. I also present motivational presentations throughout the United States and Puerto Rico. I have presented at thousands of schools and special events including Connectfest Christian Music Festival, New Bedford New Year's Eve Celebration, Archdiocese of Boston Multicultural Family Day, Diocese of Brooklyn Anti Bullying Summit, Pennsylvania State Association of School Nurses, Norwalk CT DARE Graduation and Harvard School of Medicine. I also produced and wrote the award winning disabilities awareness video "MELTDOWN!!!" featuring the music of Gloria Estefan. 
+
+"
                     position = "Co-Host of Solve it! for Kids and Host ofReading with your Kids Podcast" 
                 />
                 <Card 
@@ -326,7 +329,7 @@ I love teaching sciences and mentoring teenagers in their research projects. Whe
                     // use stem world (9) compressed pdf 
                 /> 
                 <Card 
-                    name = "Jason Graham"
+                    name = "Dr. Jason Graham"
                     position = "Schmahl Science Workshops Mentor & Entomologist"
                     des="Dr. Jason Graham is a bee researcher and has worked with honey bees and beekeepers for 12+ years. He earned his PhD in the Honey Bee Research and Extension Laboratory at University of Florida. For his post-doctoral work, Dr. Graham studied the known populations of Hawaiian yellow-faced bees and contributed data that helped to list these pollinators as endangered species. He has presented his bee research at the Smithsonian Museum in Washington DC, has led field trips for the IUCN (International Union for Conservation of Nature), and his research has been featured by National Geographic."
                     imgURL = {graham}
