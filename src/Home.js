@@ -267,7 +267,7 @@ function Home() {
 
           </div>
 
-          <div class="motivate item steps-item">
+          <a class="motivate item steps-item" href="http://carrythevision.org">
             <img style={{ width: "200px", margin: '15px 0' }} src={carryTheVision} />
             <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://carrythevision.org">A 501(c)(3) nonprofit organization dedicated to restoring and promoting nonviolence</a>
 
@@ -288,7 +288,7 @@ function Home() {
               <p>Transforming the world by restoring our human potential one person at a time</p>
             </div>
 
-          </div>
+          </a>
         </div>
       </section>
 

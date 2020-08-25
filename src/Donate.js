@@ -10,8 +10,8 @@ function Donate() {
                 <h1 style={{textAlign: "center"}} class="biggest-header-4">DONATE</h1>
                 <br/>
                 <p class="description">
-                STEMEY is sponsored by Carry the Vision, a non-profit organization which restores lives and communities 
-                through nonviolence education creating a peaceful and compassionate world. <br/><br/>There are two ways 
+                Carry the Vision is a 501(c)(3) non-profit organization that restores lives and communities 
+                through nonviolence education creating a peaceful and compassionate world. Carry the Vision <br/><br/>There are two ways 
                 to donate to Carry the Vision and ensure that it reaches us:
                 </p>
                 <p class="description">

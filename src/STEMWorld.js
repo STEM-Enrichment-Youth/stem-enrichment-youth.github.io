@@ -345,9 +345,9 @@ s
                                         />
                                         <TimelineEntry
                                             time="2:00-3:00 PM PST"
-                                            speaker="Computer Science's Role in Bee Research"
+                                            speaker="Dr. Jason Graham"
                                             professor = "Schmahl Science Mentor and Planet Bee Researcher"
-                                            description="Dr. Jason Graham"
+                                            description="Computer Science's Role in Bee Research"
                                             link="https://us02web.zoom.us/j/83242398658"
                                         />
                                         <TimelineEntry
