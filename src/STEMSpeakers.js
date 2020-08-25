@@ -384,13 +384,13 @@ I love teaching sciences and mentoring teenagers in their research projects. Whe
 
                 <Card 
                     name = "Jisu Lee"
-                    des="Jisu Lee was co-president and founder of CSF as well as a KP Launch intern in high school. Currently she is an intern for Peacefully where she writes public"
+                    des="Jisu Lee was co president and founder of CSF as well as a KP Launch intern in high school. Currently she is an intern for Peacefully where she writes public health articles and Breathe, an anti tobacco organization. In the future she hopes to get involved in public health but is exploring various healthcare sectors including nursing and occupational therapy."
                     imgURL = {}
                 />
 
                 <Card 
                     name = "Kylie Ha"
-                    des="..."
+                    des="Kylie Ha is a rising sophomore at Case Western Reserve University, majoring in nursing and minoring in Business Management. She was a co-founder of CSF and a member of NHS and Interact Club in high school. She is currently an active member in NSNA and is a part of morale committee in SpartanTHON at her college. She hopes to go into pediatrics and become a nurse practitioner in the future."
                     imgURL = {}
                 />
 
