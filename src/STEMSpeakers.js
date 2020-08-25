@@ -31,6 +31,11 @@ import hull from "./Speakers/thomas-hull-origami.jpg";
 import jed from "./Speakers/jed.jpg"; 
 import graham from "./Speakers/graham.jpg";
 import patrascu from "./Speakers/patrascu.jpeg";  
+import nick from "./Speakers/nick.png";
+import yoo from "./Speakers/yoo.jpg";
+import chon from "./Speakers/chon.jpg";
+import dang from "./Speakers/dang.jpg";
+import tiffanyu from "./Speakers/tiffanyu.jpeg"
 
 export default function NewTeam() {
    
@@ -334,6 +339,91 @@ I love teaching sciences and mentoring teenagers in their research projects. Whe
                     des="Dr. Jason Graham is a bee researcher and has worked with honey bees and beekeepers for 12+ years. He earned his PhD in the Honey Bee Research and Extension Laboratory at University of Florida. For his post-doctoral work, Dr. Graham studied the known populations of Hawaiian yellow-faced bees and contributed data that helped to list these pollinators as endangered species. He has presented his bee research at the Smithsonian Museum in Washington DC, has led field trips for the IUCN (International Union for Conservation of Nature), and his research has been featured by National Geographic."
                     imgURL = {graham}
                 /> 
+
+                <Card 
+                    name = "Nick Young"
+                    des="Nick Young is a rising sophomore at Brown University studying Pure Mathematics and Computer Science. Back in high school, he was heavily interested in public speaking and international affairs, but made a pivot towards STEM, having explored engineering, pure maths, applied maths, chemistry, and finally settling on computer science in university. He is currently working at a fashion-tech startup and a machine learning hardware accelerator and is interested in web development, deep learning, and databasing."
+                    imgURL = {nick}
+                />
+
+                <Card 
+                    name = "Lauren Young"
+                    des="Lauren is a sophomore at Brown University studying computer science with a focus on software design and UI/UX. She enjoys web/app development and all things frontend, and she currently researches human-computer interaction at Brown HCI Lab. Lauren is involved with Hack@Brown, Women in Computer Science, and the Meiklejohn Peer Advising Program."
+                    imgURL = {}
+                />
+
+                <Card 
+                    name = "Ellen Yoo"
+                    des="Ellen is a sophomore at Brown studying Environmental Engineering. She is currently researching in a paleoclimate lab and studying the potential of ocean biomarkers in collecting climate change data."
+                    imgURL = {yoo}
+                />
+
+                <Card 
+                    name = "Ashley Chon"
+                    des="At Brown, Ashley is currently involved in the Society of Women Engineers ExecutiveBoard, Meiklejohn Peer Advising Leadership Committee, Brown University Orchestra, and Brown Entrepreneurship Program’s Women’s Empowerment Team. Before Brown, she was a finance lead on the Dublin Lemelson-MIT InvenTeam through her high school’s engineering and design academy."
+                    imgURL = {chon}
+                />
+
+                <Card 
+                    name = "David Han"
+                    des="David Han is hoping to major in Applied Math-Computer Science. He has contributed to multiple web and phone based projects as a member of Full Stack at Brown and is currently conducting research with the Brown Visual Computing Lab. Within this lab, he is building on interface to create and store a database of 3-Dimensional indoor scenes."
+                    imgURL = {}
+                />
+
+                <Card 
+                    name = "Anna Zhao"
+                    des="She is working as an intern for a non-profit startup where she is developing a website portal, and she is interested in pursuing data science and graphics! Anna's favorite CS class this year was Object Oriented Programming where she created fun games such as Tetris and Pacman."
+                    imgURL = {}
+                />
+
+                <Card 
+                    name = "Samantha Hong"
+                    des="She is considering pursuing a degree in computational biology and has been interested in computer science since taking her first course in the field her freshman year in college. She is also planning on going to medical school after undergrad. In high school, she participated in the school orchestra and the girls soccer team and graduated as valedictorian."
+                    imgURL = {}
+                />
+
+                <Card 
+                    name = "Jisu Lee"
+                    des="Jisu Lee was co-president and founder of CSF as well as a KP Launch intern in high school. Currently she is an intern for Peacefully where she writes public"
+                    imgURL = {}
+                />
+
+                <Card 
+                    name = "Kylie Ha"
+                    des="..."
+                    imgURL = {}
+                />
+
+                <Card 
+                    name = "Adela Kim"
+                    des="Adela Kim is a 3rd-year nursing student at UCLA. Her plan is to be a nurse practitioner specializing in neonatal care or pediatrics. She aspires to be a better communicator and advocate for underprivileged groups. Currently, she is partnered with Project Roomkey to provide housing and meals for homeless people in Los Angeles County. She also has experience working with patients in hospitals and studies cells and proteins in a research lab."
+                    imgURL = {}
+                />
+
+                <Card 
+                    name = "Helen Zhao"
+                    des="Helen Zhao is a second-year nursing student at UCLA. She is  interested in specializing in neonatology and working in the NICU. During her time at UCLA, she volunteered at a pediatrics office, Ronald Reagan UCLA Medical Center, and a research lab studying chorioamnionitis. She was also the public relations chair of Nursing Students at UCLA and an illustrator for the Daily Bruin."
+                    imgURL = {}
+                />
+
+                <Card 
+                    name = "Cynthia Dang"
+                    des="Cynthia Dang is currently involved in the Care Extenders Internship Program as the Pediatric Department Coordinator where she works  on the Pediatric Floor of Ronald Reagan UCLA Medical Center to train volunteers of the program and assist the pediatric patients and their family members. She is also in Team HBV as VP of Recruitment and Training of the UCLA Chapter and Public Relations Advisor of the Collegiate Advisory Board."
+                    imgURL = {dang}
+                />
+
+                <Card 
+                    name = "Tiffany Yu"
+                    des="Tiffany Yu is a rising senior at UC Berkeley and double majors in Public Health and Data Science. She is involved with Team HBV and served as VP of Outreach for the UC Berkeley Chapter, and delivered a presentation on Asian American health advocacy strategies at the 2019 Team HBV National Collegiate Conference at Harvard University. Beyond her passion for health promotion and community outreach, she is also interested in American health policy, health innovation, and the growing intersection between healthcare and technology."
+                    imgURL = {tiffanyu}
+                />
+
+                <Card 
+                    name = "Jessica Lee"
+                    des="Jessica Lee is currently a Master's student at Keck Graduate Institute with a Biology degree from UC Irvine. Her passion for healthcare grew in college when she worked in a stem cell lab at the UCI School of Medicine to determine stem cell-based therapies to treat retinal degeneration. She later became involved in Team HBV during graduate school, where she served as VP Finance and later as Co-Chair of the National Advisory Board for this year. She also serves as a board member of her school's newly-formed Free Clinic where we serve underserved populations in the Pomona area. She is also excited to be conducting clinical research this year for her Master's Thesis that aims to improve stroke outcomes."
+                    imgURL = {}
+                />
+
 
             </div>
         </div>
