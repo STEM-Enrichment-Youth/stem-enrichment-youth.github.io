@@ -11,7 +11,7 @@ function Donate() {
                 <br/>
                 <p class="description">
                 Carry the Vision is a 501(c)(3) non-profit organization that restores lives and communities 
-                through nonviolence education creating a peaceful and compassionate world. Carry the Vision <br/><br/>There are two ways 
+                through nonviolence education to create a peaceful and compassionate world. Carry the Vision serves as the fiscal sponsor of STEM World, STEMEY's August Convention, so if you would like to donate to STEMEY, you can do so through Carry the Vision. <br/><br/>There are two ways 
                 to donate to Carry the Vision and ensure that it reaches us:
                 </p>
                 <p class="description">
