@@ -123,8 +123,6 @@ function Home() {
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp1H11ozNCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/yVdLvW_Xvik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zG7mJaH4OaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
       </div>
 
       <section class="who">
@@ -245,30 +243,13 @@ function Home() {
 
         <div class="why-us">
 
-          <div class="motivate item steps-item">
-            <img style={{ width: "200px", marginTop: '15px' }} src={nxstep} />
-            <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://nxstep.co">An amazing tool to find the perfect college for you!</a>
-            <div class="step step1">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>1-on-1 live virtual discussions with a real college student- matched specifically to them by major, personality, etc</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Open, honest, and comfortable environment to ask questions that you find important about college</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Receive honest, raw feedback about different universities</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>The ultimate tool to help high school students find the college that's perfect for them!</p>
-            </div>
-
-          </div>
+        
 
           <a class="motivate item steps-item" href="http://carrythevision.org">
-            <img style={{ width: "200px", margin: '15px 0' }} src={carryTheVision} />
+            <a href="http://carrythevision.org">
+            <img style={{ width: "400px", margin: '15px 0' }} src={carryTheVision} />
+
+            </a>
             <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://carrythevision.org">A 501(c)(3) nonprofit organization dedicated to restoring and promoting nonviolence</a>
 
             <div class="step step1">

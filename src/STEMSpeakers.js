@@ -342,7 +342,7 @@ I love teaching sciences and mentoring teenagers in their research projects. Whe
                 <Card 
                     name = "Lauren Young"
                     des="Lauren is a sophomore at Brown University studying computer science with a focus on software design and UI/UX. She enjoys web/app development and all things frontend, and she currently researches human-computer interaction at Brown HCI Lab. Lauren is involved with Hack@Brown, Women in Computer Science, and the Meiklejohn Peer Advising Program."
-                    imgURL = {}
+                    
                 />
 
                 <Card 
@@ -360,43 +360,36 @@ I love teaching sciences and mentoring teenagers in their research projects. Whe
                 <Card 
                     name = "David Han"
                     des="David Han is hoping to major in Applied Math-Computer Science. He has contributed to multiple web and phone based projects as a member of Full Stack at Brown and is currently conducting research with the Brown Visual Computing Lab. Within this lab, he is building on interface to create and store a database of 3-Dimensional indoor scenes."
-                    imgURL = {}
                 />
 
                 <Card 
                     name = "Anna Zhao"
                     des="She is working as an intern for a non-profit startup where she is developing a website portal, and she is interested in pursuing data science and graphics! Anna's favorite CS class this year was Object Oriented Programming where she created fun games such as Tetris and Pacman."
-                    imgURL = {}
                 />
 
                 <Card 
                     name = "Samantha Hong"
                     des="She is considering pursuing a degree in computational biology and has been interested in computer science since taking her first course in the field her freshman year in college. She is also planning on going to medical school after undergrad. In high school, she participated in the school orchestra and the girls soccer team and graduated as valedictorian."
-                    imgURL = {}
                 />
 
                 <Card 
                     name = "Jisu Lee"
                     des="Jisu Lee was co president and founder of CSF as well as a KP Launch intern in high school. Currently she is an intern for Peacefully where she writes public health articles and Breathe, an anti tobacco organization. In the future she hopes to get involved in public health but is exploring various healthcare sectors including nursing and occupational therapy."
-                    imgURL = {}
                 />
 
                 <Card 
                     name = "Kylie Ha"
                     des="Kylie Ha is a rising sophomore at Case Western Reserve University, majoring in nursing and minoring in Business Management. She was a co-founder of CSF and a member of NHS and Interact Club in high school. She is currently an active member in NSNA and is a part of morale committee in SpartanTHON at her college. She hopes to go into pediatrics and become a nurse practitioner in the future."
-                    imgURL = {}
                 />
 
                 <Card 
                     name = "Adela Kim"
                     des="Adela Kim is a 3rd-year nursing student at UCLA. Her plan is to be a nurse practitioner specializing in neonatal care or pediatrics. She aspires to be a better communicator and advocate for underprivileged groups. Currently, she is partnered with Project Roomkey to provide housing and meals for homeless people in Los Angeles County. She also has experience working with patients in hospitals and studies cells and proteins in a research lab."
-                    imgURL = {}
                 />
 
                 <Card 
                     name = "Helen Zhao"
                     des="Helen Zhao is a second-year nursing student at UCLA. She is  interested in specializing in neonatology and working in the NICU. During her time at UCLA, she volunteered at a pediatrics office, Ronald Reagan UCLA Medical Center, and a research lab studying chorioamnionitis. She was also the public relations chair of Nursing Students at UCLA and an illustrator for the Daily Bruin."
-                    imgURL = {}
                 />
 
                 <Card 
@@ -414,7 +407,6 @@ I love teaching sciences and mentoring teenagers in their research projects. Whe
                 <Card 
                     name = "Jessica Lee"
                     des="Jessica Lee is currently a Master's student at Keck Graduate Institute with a Biology degree from UC Irvine. Her passion for healthcare grew in college when she worked in a stem cell lab at the UCI School of Medicine to determine stem cell-based therapies to treat retinal degeneration. She later became involved in Team HBV during graduate school, where she served as VP Finance and later as Co-Chair of the National Advisory Board for this year. She also serves as a board member of her school's newly-formed Free Clinic where we serve underserved populations in the Pomona area. She is also excited to be conducting clinical research this year for her Master's Thesis that aims to improve stroke outcomes."
-                    imgURL = {}
                 />
 
 
