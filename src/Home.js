@@ -15,6 +15,7 @@ import solveit from "./Partners/Logos/solveit.jpg";
 import readwithkids from "./Partners/Logos/readwithkids.png";
 import simply from "./Partners/Logos/simply.png";
 import schmahl from "./schmahl.jpg"; 
+import wlf from "./Partners/wlf.png"; 
 
 function Home() {
   const [scale, setScale] = React.useState(false);
@@ -231,9 +232,13 @@ function Home() {
           <img class="class-icon" style={{ width: "150px", marginTop: "40px" }} src={nxstep} />
           <h2 style={{ color: "white" }}>NXStep</h2>
         </a>
-        <a class="banner-class" href="/neuroscience-class">
+        {/* <a class="banner-class" href="/neuroscience-class">
           <img class="class-icon" style={{ marginTop: '25px' }} src={simply} />
           <h2 style={{ color: "white" }}>Simply Neuroscience</h2>
+        </a> */}
+        <a class="banner-class" href="/neuroscience-class">
+          <img class="class-icon" style={{ marginTop: '25px' }} src={wlf} />
+          <h2 style={{ color: "white" }}>Wave Learning Festival</h2>
         </a>
       </div>
 
