@@ -350,7 +350,7 @@ I love teaching sciences and mentoring teenagers in their research projects. Whe
                 <Card 
                     name = "Lauren Young"
                     des="Lauren is a sophomore at Brown University studying computer science with a focus on software design and UI/UX. She enjoys web/app development and all things frontend, and she currently researches human-computer interaction at Brown HCI Lab. Lauren is involved with Hack@Brown, Women in Computer Science, and the Meiklejohn Peer Advising Program."
-                    imgURL = {}
+                    
                 />
 
                 <Card 
@@ -404,7 +404,7 @@ I love teaching sciences and mentoring teenagers in their research projects. Whe
                 <Card 
                     name = "Helen Zhao"
                     des="Helen Zhao is a second-year nursing student at UCLA. She is  interested in specializing in neonatology and working in the NICU. During her time at UCLA, she volunteered at a pediatrics office, Ronald Reagan UCLA Medical Center, and a research lab studying chorioamnionitis. She was also the public relations chair of Nursing Students at UCLA and an illustrator for the Daily Bruin."
-                    imgURL = {}
+                    
                 />
 
                 <Card 
@@ -422,7 +422,7 @@ I love teaching sciences and mentoring teenagers in their research projects. Whe
                 <Card 
                     name = "Jessica Lee"
                     des="Jessica Lee is currently a Master's student at Keck Graduate Institute with a Biology degree from UC Irvine. Her passion for healthcare grew in college when she worked in a stem cell lab at the UCI School of Medicine to determine stem cell-based therapies to treat retinal degeneration. She later became involved in Team HBV during graduate school, where she served as VP Finance and later as Co-Chair of the National Advisory Board for this year. She also serves as a board member of her school's newly-formed Free Clinic where we serve underserved populations in the Pomona area. She is also excited to be conducting clinical research this year for her Master's Thesis that aims to improve stroke outcomes."
-                    imgURL = {}
+                    
                />
 
 
