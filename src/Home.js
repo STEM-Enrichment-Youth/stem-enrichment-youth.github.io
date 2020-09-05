@@ -16,6 +16,11 @@ import readwithkids from "./Partners/Logos/readwithkids.png";
 import simply from "./Partners/Logos/simply.png";
 import schmahl from "./schmahl.jpg"; 
 import wlf from "./Partners/wlf.png"; 
+import antarexxa from "./Partners/Logos/antarexxa.jpeg"; 
+import mip from "./Partners/Logos/mip.png"; 
+import selfie from "./Partners/Logos/selfie.jpeg"; 
+import medicine from "./Partners/Logos/medicine.jpeg"; 
+import lemonslife from "./Partners/Logos/lemonslife.jpeg"; 
 
 function Home() {
   const [scale, setScale] = React.useState(false);
@@ -220,24 +225,44 @@ function Home() {
           <img class="class-icon" src={schmahl}/>
           <h2 style={{ color: "white" }}>Schmahl Science Workshops</h2>
         </a>
-        <a class="banner-class" href="/chemistry-class">
+        <a class="banner-class" href="https://www.polygence.org/">
           <img class="class-icon" style={{ width: "150px", marginTop: "30px" }} src={polygence} />
           <h2 style={{ color: "white" }}>Polygence</h2>
         </a>
-        <a class="banner-class" href="/biology-class">
+        <a class="banner-class" href="https://www.carrythevision.org/">
           <img class="class-icon" style={{ width: "150px", marginTop: "30px" }} src={carryTheVision} />
           <h2 style={{ color: "white" }}>Carry the Vision</h2>
         </a>
-        <a class="banner-class" href="/physics-class">
+        <a class="banner-class" href="https://nxstep.co/">
           <img class="class-icon" style={{ width: "150px", marginTop: "40px" }} src={nxstep} />
           <h2 style={{ color: "white" }}>NXStep</h2>
+        </a>
+        <a class="banner-class" href="https://linktr.ee/jessicazhengorg">
+          <img class="class-icon" style={{ marginTop: "20px" }} src={lemonslife} />
+          <h2 style={{ color: "white" }}>Lemons and Life</h2>
+        </a>
+        <a class="banner-class" href="https://www.google.com/url?q=https://linktr.ee/CellfieMagazine&sa=D&ust=1599293130338000&usg=AFQjCNGkG1RKMINFEO0h9qMv33ez7qf9Ww">
+          <img class="class-icon"  src={selfie} />
+          <h2 style={{ color: "white" }}>Cellfie Magazine</h2>
+        </a>
+        <a class="banner-class" href="https://linktr.ee/missionimpassionible">
+          <img class="class-icon" src={mip} />
+          <h2 style={{ color: "white" }}>Mission Impassionible</h2>
+        </a>
+        <a class="banner-class" href="https://linktr.ee/medicine.encompassed">
+          <img class="class-icon" style={{ width: "140px"}} src={medicine} />
+          <h2 style={{ color: "white" }}>Medicine Encompassed</h2>
+        </a>
+        <a class="banner-class" href="http://antarexxa.com/">
+          <img class="class-icon" src={antarexxa} />
+          <h2 style={{ color: "white" }}>Antarexxa Space Global</h2>
         </a>
         {/* <a class="banner-class" href="/neuroscience-class">
           <img class="class-icon" style={{ marginTop: '25px' }} src={simply} />
           <h2 style={{ color: "white" }}>Simply Neuroscience</h2>
         </a> */}
-        <a class="banner-class" href="/neuroscience-class">
-          <img class="class-icon" style={{ marginTop: '25px' }} src={wlf} />
+        <a class="banner-class" href="https://www.wavelf.org/">
+          <img class="class-icon" style={{ marginTop: '15px' }} src={wlf} />
           <h2 style={{ color: "white" }}>Wave Learning Festival</h2>
         </a>
       </div>
