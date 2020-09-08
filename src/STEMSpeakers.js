@@ -42,7 +42,7 @@ import annazhao from "./Speakers/annazhao.jpeg";
 import jisulee from "./Speakers/jisulee.jpeg";
 import davidhan from "./Speakers/davidhan.JPG";
 import samanthahong from "./Speakers/samanthahong.jpg";
-
+import jennifer from "./Speakers/jennifer.jpg"; 
 
 
 export default function NewTeam() {
@@ -314,7 +314,7 @@ currently as a scientific advisor at Google."
                 />
                 <Card 
                     name = "Jennifer Swanson"
-                    imgURL = {jed}
+                    imgURL = {jennifer}
 
                     position = "Speaker. Author. Teacher. " 
                     des = "Science Rocks! And so do Jennifer Swanson’s books. She is the award-winning author of over 40 nonfiction books for children, mostly about science and technology.  Jennifer’s love of STEM began when she started a science club in her garage at the age of 7. While no longer working from the garage, Jennifer's passion for science and technology resonates in all her books but especially, BRAIN GAMES (NGKids) and SUPER GEAR: Nanotechnology and Sports Team Up (Charlesbridge), Astronaut-Aquanaut, and Save the Crash-test Dummies. Her books have received many accolades including the Green Earth Book Honor Award, a Florida Book Award, and multiple California Reading Association awards, and National Science Teaching BEST STEM awards."
