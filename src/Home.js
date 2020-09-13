@@ -91,7 +91,7 @@ function Home() {
       <div class="why-us">
 
         <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-          <h1 class="big-title" style={{fontSize: "70px"}}>Free Virtual Speaker Conventions</h1>
+          <h1 class="big-title" style={{fontSize: "70px"}}>Free Speaker Events</h1>
         </div>
         <div class="motivate item steps-item">
           <ion-icon name="people-circle"></ion-icon>
@@ -120,16 +120,16 @@ function Home() {
 
       </div>
 
-      <div style={{backgroundColor: "rgb(0, 0, 0, 0.7)", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center", marginTop: "50px"}}>
+      {/* <div style={{backgroundColor: "rgb(0, 0, 0, 0.7)", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center", marginTop: "50px"}}>
         <h1 style={{marginTop: "20px"}}>Didn't get to watch our last STEM Convention?</h1>
         <p>No Worries! Watch all of our videos on YouTube by clicking any of the links below!!</p>
-      </div>
+      </div> */}
 
-      <div class='youtube-videos'>
+      {/* <div class='youtube-videos'>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp1H11ozNCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/yVdLvW_Xvik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      </div> */}
 
       <section class="who">
 
@@ -210,7 +210,7 @@ function Home() {
       </section>
 
 
-      <h1 style={{ backgroundColor: "rgb(0, 0, 0, 0.7)", padding: "20px" }}>Partners/Supporters</h1>
+      <h1 style={{ backgroundColor: "rgb(0, 0, 0, 0.7)", padding: "20px", marginTop: "50px" }}>Partners/Supporters</h1>
 
       <div class="banner" style={{ marginBottom: "40px" }}>
         <a class="banner-class" href="https://solveitforkids.com/">
@@ -277,7 +277,7 @@ function Home() {
 
           <a class="motivate item steps-item" href="http://carrythevision.org">
             <a href="http://carrythevision.org">
-            <img style={{ width: "400px", margin: '15px 0' }} src={carryTheVision} />
+            <img style={{margin: '15px 0' }} src={carryTheVision} />
 
             </a>
             <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://carrythevision.org">A 501(c)(3) nonprofit organization dedicated to restoring and promoting nonviolence</a>

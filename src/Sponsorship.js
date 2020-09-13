@@ -11,12 +11,12 @@ function Sponsorship() {
     <div class="whole-home" style={{marginTop: "70px"}}>
         <div class="column-flex" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover"}}>
             <div class="head-txt column-flex" style={{width: "90%"}}>
-                <h1 style={{textAlign: "center"}} class="biggest-header-4">SPONSORSHIPS</h1>
+                <h1 style={{textAlign: "center"}} class="biggest-header-4">Sponsors</h1>
                 <div id="current-sponsors">
-                    <h1 class="biggest-header-2">Our STEM World Sponsors</h1>
+                    <h1 style={{fontSize: "120%"}}>Our STEM World Sponsors</h1>
                     <h2 style={{color:"#B7D1E2", fontWeight:"400"}}>Platinum</h2>
                     <div class="sponsors-grid">
-                        <div><img src={ctv}/></div> 
+                        <div><img src={ctv} style={{width: "100%"}}/></div> 
                     </div>
                     {/* <h2 style={{color:"#FAD766", fontWeight:"400"}}>Gold</h2> */}
                     {/* <h2 style={{color:"#C0C0C0", fontWeight:"400"}}>Silver</h2> */}
@@ -27,9 +27,9 @@ function Sponsorship() {
                     </div>
 
                 </div>
-                <h1 class="biggest-header-2">Sponsor Tiers</h1>
-                <br/>   
-                <div class="column-flex tiers-cont">
+                {/* <h1 class="biggest-header-2">Sponsor Tiers</h1> */}
+                {/* <br/>    */}
+                {/* <div class="column-flex tiers-cont">
                     <div class="donate-row tier-row">
                         <span style={{color:"#DBA670"}}>Bronze</span>
                         <span style={{color:"#C0C0C0"}}>Silver</span>
@@ -70,8 +70,8 @@ function Sponsorship() {
                         <span>$500-$1000</span>
                         <span>$1000+</span>
                     </div>
-                </div>
-                <p style={{marginTop: "50px"}}>If you donate to us, because our fiscal sponsors are filed as a 501(c)(3), you will be eligible for tax deductions as permitted by the extent of the law.</p> 
+                </div> */}
+                <p style={{margin: "20px"}}>If you donate to us, because our fiscal sponsors are filed as a 501(c)(3), you will be eligible for tax deductions as permitted by the extent of the law.</p> 
             </div>
         </div>
     </div>
