@@ -2,21 +2,16 @@ import React from "react";
 import "./NewTeam.css"; 
 import Navbar from "../Navbar.js"; 
 import Card from "./TeamCard"; 
-import fiona from "./InstructorImages/fiona.png"; 
+import yana from "./InstructorImages/yana.jpeg"; 
 import emily from "./InstructorImages/emily.jpg"; 
 import katherine from "./InstructorImages/katherine.jpg"; 
 import justin from "./InstructorImages/justin.jpg"; 
-import catherine from "./InstructorImages/catherine.jpg"; 
+import catherine from "./InstructorImages/catherine.jpeg"; 
 import daniel from "./InstructorImages/daniel.png"; 
-import defaultInstructor from "../icons/head-brains.png";
-import natasha from "./InstructorImages/natasha.jpeg"; 
-import aashvi from "./InstructorImages/aashvi.jpg"; 
 import casey from "./InstructorImages/casey.jpg"; 
-import claire from "./InstructorImages/claire.jpg"; 
 import arjun from "./InstructorImages/arjun.jpeg"; 
-import clairejin from "./InstructorImages/ClaireJin.png";
-import sakshi from "./InstructorImages/sakshi.png";
-import vaibhav from "./InstructorImages/vaibhav.png";
+import avery from "./InstructorImages/avery.jpeg";
+import srishti from "./InstructorImages/srishti.jpeg";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
@@ -31,117 +26,78 @@ export default function NewTeam() {
 
                     Katherine Liu is a rising senior at Leigh High School, and she is an officer in Leigh’s Math Club, Physics Olympiad Club, and Science National Honor Society Club. She has tutoring experience through her job at the Kumon Math and Reading Center as well as through volunteering at Friends of Children with Special Needs and with Leigh’s National Honors Society. She has participated in math competitions since middle school, and she is an AIME Qualifier, scoring a 9 on the AIME this year. Her other activities include competitive dance and drawing, which she has won several awards and achievements in.
 "   
-                    position="Competition Math Class Director" 
+                    position="Competition Math Class Lead" 
                 />
                 
             
+               
                 <Card
+                    name="Justin Liu"
+                    imgURL={justin}
+                    des="
+                    Justin Liu is a rising senior at Leigh High School. He is an officer of the Science National Honors Society and co-president of the Physics Olympiad. He is a member of National Honors Society and California Scholarship Federation, Link Crew, and he is also a peer tutor at Leigh. He got a 36 on the ACT. Outside of school, he volunteers at Friends of Children with Special Needs and works at Kumon. He is fluent in Mandarin and English. He plays the bassoon, clarinet, and piano. Also, Justin does fencing competitively and is the alternate for the 2020 USA National Team while also part of the mentor program on his club team. He is looking forward to teaching Math at STEMEY."
+                    position="Algebra/Geometry Class Lead"
+                />
+                <Card
+                    name = "Srishti Venkatesan"
+                    imgURL = {srishti}
+                    des = "Srishti Venkatesan is a freshman at Leigh High School. She is passionate about all things STEM, but especially loves the fields of mathematics and biology. As someone who appreciates community engagement, Srishti actively volunteers in her neighborhood by tutoring and helping out in any way she can. Aside from STEMEY, she is part of her high school’s leadership class, serves as a student representative for the Bay Area Youth Society for Neuroscience, and is a member of several STEM clubs at Leigh. In her free time, she loves to dance, play the trumpet, and travel. In STEMEY, she is part of the math team, specifically an algebra instructor, and she is super exited for this upcoming year!"
+                    position = "Algebra Class Instructor"
+
+                /> 
+                <Card
+                    imgURL = {yana}
+                    name="Yana Samoylova"
+                    des= "Yana Samoylova is a senior at Leigh High School who is interested in STEM, education, and art. At school, she has taken AP Chemistry and AP Calculus, and is a member of CSF and NAHS. Outside of school, she works at Kumon and helps kids with reading and math as well as volunteers over Zoom. She runs a weekly educational podcast called Explained: Simply for which she manages research, promotion, and design. She’s done art for the past ten years and been in Leigh’s art program for the past three, taking AP Art and Art 4 this year. She is a Design Team co-lead, algebra instructor and a member of the events and outreach committee. She’s excited to be working with STEMEY!"
+                    position="Algebra Class Instructor"
+
+                />
+                 <Card
+                    imgURL = {emily}
+                    name="Emily Agur"
+                    des="Emily Agur is a rising senior at Leigh High School. She is a co-founder and officer in Leigh's Science National Honor Society Club. She has tutoring experience through National Honor Society Club at leigh. She also volunteers at local events through the California Scholarship Federation at Leigh. At school she is also a part of sideline cheerleading,as well as competitive cheerleading where they took home 1st place at CCS championships and 3rd place at USA nationals. She is a devoted pianist and has been playing since she was 5 years old. She is also fluent in Chinese and English and has been studying Spanish for 4 years. She will be a part of the Mathematics 2 course. "
+                    position="Algebra Class Instructor & FCSN Math Class Lead"
+
+                />
+                <Card
+                    name="Catherine Luu"
+                    des="
+                    Catherine Luu is a junior at Leigh High School. She is a member of the National Honors Society and is the vice president of Seoul to San Jose. Since her middle school days, she has been a peer tutor for her fellow classmates. She is also a member of the Leigh High School’s swimming team. Outside of the school campus, she volunteers at King’s Martial Arts Academy as a third degree instructor. She also swims competitively for South Valley Stingrays and Santa Teresa Sea Otters where she has worked in leadership positions. Over the summer, she taught math and chemistry classes at STEMEY. Currently, she is an instructor of the algebra class."
+                    position="Algebra Class Instructor"
+                    imgURL= {catherine}
+                />
+                <Card 
+                name="Arjun Ranade"
+                des="
+                Arjun Ranade is currently a junior at Leigh High School. He is very passionate about STEM and wishes to pursue either Mechanical or Electrical Engineering in the future. He is currently taking AP Physics 1, AP Calculus AB, and AP English Language Composition. He was part of STEMEY over the summer and helped teach the Math Innovation Course. He was also one of the people that brought in the most participants into STEM World! He loves to work with younger students and was volunteering at the Almaden Library regularly to help teach kids strategies on how to understand and analyze a text. He is also a competitive swimmer on the Leigh Swim Team and also swims for Alto Swim Club as a club swimmer. He also qualified for CCS the previous year but due to COVID he was not able to compete. "
+                position="Algebra Class Instructor"
+                imgURL={arjun}
+                />
+                 <Card 
+                name="Avery Shaffer"
+                des="
+                Avery Shaffer is a junior at Leigh High School. She has a passion for Math and Science and aspires to have a career in the medical field. She is a member of multiple clubs at Leigh including Embrace Relief, which raises money for refugees, HeForShe club which helps fight against and raise awareness of gender inequalities, and SADD club which discusses the risk and pressures of everyday teenagers. Avery also played for Leigh's softball team and hopes to continue this year. She took English 2H as a sophmore, and is currently taking IM3 STEM and APLang as a junior. Outside of school, Avery is a mentor for the Keystone and Operation Purpose programs and for STEMEY, she helps teach the live algebra classes."
+                position="Algebra Class Instructor"
+                imgURL={avery}
+                />
+               
+                <Card
+                    name="Casey Lin"
+                    imgURL={casey}
+                    position="Geometry Class Instructor"
+                    des="
+                    Casey Lin is a junior at Leigh High School. She is a member of multiple groups including the National Honors Society, the California Scholarship Federation, Link Crew, and Keystone. She’s the secretary of the Leigh High School Biomedical Engineering Society. Casey and her team competed in, and won, the Berkeley Biomedical Engineering High School Competition. Casey is a field hockey coach and referee and hopes to continue playing at Leigh later in the year. She is now taking AP Physics 1, AP Calculus, and AP English Language and Composition. Over the summer, Casey taught both math and chemistry classes with STEMEY, and made chemistry activities. Moving forward, she is excited to be the Science Lead for the FCSN class, and to teach the FCSN math class and live geometry class. "
+                />
+                 <Card
                     name="Daniel Lee"
                     imgURL={daniel}
                     des="
 
                     Daniel Lee is a rising senior at Leigh HIgh School. He has been a member of Leigh’s Science Olympiad, Math Club, California Scholarship Federation, National Honors Society for 3 years and is the founder of Leigh Science Bowl Team. He has also been the captain of Leigh’s School Varsity Golf team for the last 2 years. He has won several awards including AIME, President’s Volunteer Service Award, Silicon Valley Korean Unification Competition Silver Medal. He has tutoring experience through volunteering at Silicon Valley Korean School. He is currently studying Multivariable Calculus in Mission College. 
 "
-                    position="Calculus Class Director"
+                    position="Calculus Class Lead"
                 />
-                <Card
-                    name="Justin Liu"
-                    imgURL={justin}
-                    des="
-                    Justin Liu is a rising senior at Leigh High School. He is an officer of the Science National Honors Society and co-president of the Physics Olympiad. He is a member of National Honors Society and California Scholarship Federation, and he is also a peer tutor at Leigh. Outside of school, he volunteers at Friends of Children with Special Needs. He is fluent in Mandarin and English. He plays the bassoon, clarinet, and piano. Also, Justin does fencing competitively and is the alternate for the 2020 USA National Team while also part of the mentor program on his club team. He is looking forward to teaching Math at STEMEY.
-"
-                    position="Algebra/Geometry Class Director"
-                />
-                 <Card
-                    imgURL = {emily}
-                    name="Emily Agur"
-                    des="Emily Agur is a rising senior at Leigh High School. She is a co-founder and officer in Leigh's Science National Honor Society Club. She has tutoring experience through National Honor Society Club at leigh. She also volunteers at local events through the California Scholarship Federation at Leigh. At school she is also a part of sideline cheerleading,as well as competitive cheerleading where they took home 1st place at CCS championships and 3rd place at USA nationals. She is a devoted pianist and has been playing since she was 5 years old. She is also fluent in Chinese and English and has been studying Spanish for 4 years. She will be a part of the Mathematics 2 course. "
-                    position="Algebra/Geometry Instructor"
-
-                />
-                <Card
-                    name="Catherine Luu"
-                    des="
-Catherine Luu is a rising junior at Leigh High School. She is a member of the National Honors Society and is a future officer of Seoul to San Jose. Since her middle school days, she has been a peer tutor for her fellow classmates. She is also a member of the Leigh High School’s swimming team. Outside of the school campus, she volunteers at King’s Martial Arts Academy as a second degree assistant instructor and is aiming for her third degree. She also swims competitively for South Valley Stingrays and Santa Teresa Sea Otters where she has worked in leadership positions. She will be working on the math and chemistry courses at STEMEY.
-"
-                    position="Algebra/Geometry Instructor"
-                    imgURL= {catherine}
-                />
-                <Card
-                name="Claire Jin"
-                    des="
-Claire Jin is a rising senior at Leigh High School. She is president of the Science National Honor Society and officer of Leigh CSF, and also a member of SOS and National Art Honors Society. She is part of leadership and is the senior class vice president. She has tutored young students from working at Kumon Math and Reading and peer students at Leigh from National Honors Society Club. She has been volunteering at Good Samaritan Hospital working in patient services. She volunteers working with young kids doing art activities and translating English to Korean. She will be part of the Chemistry course.
-"
-                    position="Algebra/Geometry Instructor"
-                    imgURL = {clairejin}
-                />
-                <Card 
-                name="Arjun Ranade"
-                des="
-Arjun Ranade is a rising Junior at Leigh High School. He has been on the Leigh Swim Team for 2 years now and has qualified for CCS in multiple events. He also participates in CSF and volunteers regularly at the Almaden Library, helping kids learn to read and develop new skill sets and abilities. Outside of school he participated in Taekwon-Do and club swimming as well, he received the Award of Excellence and reached a II Degree Black Belt as well. Although he does not have any previous tutoring experience he has taught classes at his Taekwon-do school and loves to work with and teach kids. Arjun is excited to meet his fellow instructors and work with everyone involved in the STEMEY program!
-"
-                position="Geometry/Algebra Instructor"
-                imgURL={arjun}
-                />
-                <Card 
-                    name="Kaeshav Mandyam"
-                    position = "Calculus Instructor"
-                    imgURL = {defaultInstructor}
-                    des="
-Kaeshav is a rising senior at Leigh High School. He has tutoring experience from two years of working at Kumon Math and Reading Center, as well as from volunteering as an instructor at Price Middle School’s math club. He is also a member of Leigh High School’s varsity volleyball team. He looks forward to instructing both chemistry and math classes.
-"
-                /> 
-                 <Card
-                    imgURL={fiona}
-                    name="Fiona Sun"
-                    des="Fiona Sun is a rising senior at Leigh High School and percussionist at San Francisco Symphony Youth Orchestra. She is president of the Leigh Chamber Orchestra Club and officer of the California Scholarship Federation Leigh Charter. Fiona is an officer of the Biology Olympiad Club, and is involved in other STEM clubs including Physics and Chemistry. She is a dedicated percussionist, performing in venues globally, with over a decade of experience in violin and piano. Fiona is a Patient Services volunteer at Good Samaritan hospital, a National Honors Society member, and President of UChannel Chamber Music Foundation. Her hobbies include art and reading."
-                    position="Calculus Instructor"
-
-                />
-                <Card
-                name='Sakshi Sivaraman'
-                imgURL={sakshi}
-                position="Math Innovation Instructor"
-                des="
-Sakshi is a rising junior at Leigh High School. She is a member of the National Honor Society and Coding Club, as well as vice president of the Girls Who Code Club at Leigh. She has completed programming courses in and outside of school, including the Programming Methodologies in Java course at Foothill College, as well as AP Computer Science A in the past year. She serves as an assistant instructor at CodeLinkd to teach elementary schoolers coding and lego robotics, and has 3+ years of experience tutoring in various subjects (mainly math) at the Sunnyvale Public Library. She has tutored other high schoolers in math up to Algebra 2/Trig at the Students for Success Center at Fremont High School. Additionally, she has participated and won prizes in a few hackathons. She is looking forward to instructing the Coding and Math Innovation classes at STEMEY :).
-"   
-                 /> 
-                <Card
-                    imgURL = {aashvi}
-                    position = "Algebra/Geometry Instructor"
-                    name="Aashvi Wason"
-                    des="
-                    Aashvi, a rising junior at Leigh, is interested in the medical field, and is passionate about biology and chemistry. She enjoys taking classes outside of school in the STEM field that advance her knowledge in science and math. Aashvi is involved in Leadership at Leigh, and is the Junior class Secretary/Treasurer. She is also a member of both the National Honor Society and the California Scholarship Federation. Outside of school, Aashvi helps out at the public library, volunteers at Good Samaritan Hospital, and likes to dance at Capitol Dance Company. She’s very thrilled to work with everyone as a part of STEMEY for the next few months!
-"
-                />
-                <Card
-                    name="Casey Lin"
-                    imgURL={casey}
-                    position="Algebra/Geometry Instructor"
-                    des="
-Casey Lin, a rising junior at Leigh High School, is a member of the National Honors Society and the California Scholarship Federation. Additionally, she is the secretary of the Leigh High School Biomedical Engineering Society. Involved in field hockey at Leigh, she was the JV team captain this past year and was part of the varsity team at the end of the season. She is a field hockey coach and referee, coaching in a youth league, and at Union Middle School. She’s competed in the Berkeley Biomedical High School Competition twice, and has won second overall and first in the video category freshman year. She looks forward to working in both chemistry and math in STEMEY. 
-"
-                />
-                <Card 
-                    name="Claire Kwon"
-                    des = " 
-Claire Kwon is a rising sophomore at Leigh High School who is a part of the STEMEY instructors this year. She is a youth volunteer for the Silicon Valley Korean School, where she helps students from pre-kindergarten to eighth grade with Korean. She is also the treasurer for Key Club and Tri-M Honor Society this coming school year. She has also taken part in the California All-State High School Symphony Orchestra and California Youth Symphony. She also has experience tutoring younger children from early elementary grades English and Science. She is a part of the Science National Honor Society and Science Olympiad. 
-"
-                    imgURL = {claire}
-                    position = "Algebra/Geometry Instructor"
-                /> 
-                <Card 
-                name="Natasha Li"
-                des = "Natasha Li is a rising junior at Leigh High School with a passion for engineering. She is a member of Leigh’s Biomedical Engineering Society and Technical Theatre department, where she works as an audio tech. Outside of school, Natasha has participated in various programs, including the PixelHacks hackathon and the Tech Challenge at the Tech Museum Innovative, where her team won a Judge’s Choice Award for building a hovercraft prototype. She has also attended the Mineta Summer Transportation Institute and the National Flight Academy on scholarships to learn more about the environmental impact of transportation and how to better engineer vehicles that mitigate those effects. "
-                position = "Algebra/Geometry Instructor"
-                imgURL = {natasha}
-                /> 
-                <Card
-                name="Vaibhav Shukla"
-                des = "Vaibhav is a rising sophomore at Leigh. He’s self-learned programming since middle school, and does it for fun, along with playing the piano.  Math, however, led him to score as the highest individual scorer in his school for Mathcounts. He also participated and represented his school in the SCVMA Math Field Day (The LeapFrog Competition) with his partner and won 7th place."
-                position="Algebra/Geometry Instructor"
-                imgURL = {vaibhav}
-                /> 
+                
                
             </div>
         </div>

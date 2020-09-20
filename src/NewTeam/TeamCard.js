@@ -13,6 +13,8 @@ export default function TeamCard(props) {
                     <p class="p-team" style={{width: "80%"}}>
                     {props.des}
                     </p>
+                    
+                    
                 </div>
     )
 

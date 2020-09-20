@@ -4,18 +4,27 @@ import Navbar from "../Navbar.js";
 import Card from "./TeamCard"; 
 import fiona from "./InstructorImages/fiona.png"; 
 import yulia from "./InstructorImages/yulia.JPG"; 
-import aashvi from "./InstructorImages/aashvi.jpg"; 
-import maariyah from "./InstructorImages/maariyah.jpg"; 
+import aashvi from "./InstructorImages/aashvi.jpeg"; 
+import aiswarya from "./InstructorImages/aiswarya.jpeg"; 
+import alexandra from "./InstructorImages/alexandra.jpeg"; 
+import arushi from "./InstructorImages/arushi.jpeg"; 
+import catherine from "./InstructorImages/catherineZhou.jpeg"; 
+import maddy from "./InstructorImages/maddy.jpeg"; 
+import priyanka from "./InstructorImages/priyanka.jpeg"; 
+import srinjoy from "./InstructorImages/srinjoy.png"; 
+import brian from "./InstructorImages/brian.jpeg"; 
+
 import defaultInstructor from "../icons/head-cross.png"; 
-import landon from "./InstructorImages/LandonBattin.jpg"; 
 
 export default function Biology() {
     return (<div class="new-team-con">
         <Navbar/> 
         <div class="new-team">
         <h1>Biology</h1>
+        <h2>Meet our Anatomy and Molecular Biology Team Members</h2>
+
         <div class="con">
-                <Card
+                {/* <Card
                     imgURL = {defaultInstructor}
                     position = "Biology Class Director"
                     name="Aniketh Prasad"
@@ -23,52 +32,80 @@ export default function Biology() {
 Aniketh is a rising senior at Leigh High School. He is a passionate biology student who has taken AP Biology and qualified as a USA Biology Olympiad Semifinalist. He is also studying Neuroscience and Human Biology at Mission College. Aniketh is currently an officer of the California Scholarship Federation and Biology Olympiad Clubs. He has various tutoring experience through his job at the Kumon Math and Reading Center as well as through a tutoring program for underprivileged kids. Aniketh has also participated in peer tutoring through the National Honors Society. During his summer, he attended COSMOS at UCSD and volunteered for various organizations.
 "
                 />
-                
-                <Card
-                    imgURL = {maariyah}
-                    position = "Biology Lead Instructor"
-                    name="Maariyah"
-                    des="
- Maariyah is a recent graduate of Leigh High School. She participated in WiSTEM, the Medical Explorers Program, and volunteered at Good Samaritan Hospital. She is pursuing the Pre-Medical Track at New York University. She looks forward to sharing her passion for the life sciences via the Biology course at STEMEY.
-"
-                />
-               
-                <Card
-                    imgURL={fiona}
-                    name="Fiona Sun"
-                    des="Fiona Sun is a rising senior at Leigh High School and percussionist at San Francisco Symphony Youth Orchestra. She is president of the Leigh Chamber Orchestra Club and officer of the California Scholarship Federation Leigh Charter. Fiona is an officer of the Biology Olympiad Club, and is involved in other STEM clubs including Physics and Chemistry. She is a dedicated percussionist, performing in venues globally, with over a decade of experience in violin and piano. Fiona is a Patient Services volunteer at Good Samaritan hospital, a National Honors Society member, and President of UChannel Chamber Music Foundation. Her hobbies include art and reading."
-                    position="Biology & Physics Instructor"
+                 */}
+            
+                 <Card
+                    name = "Priyanka Kalidindi"
+                    des = "Priyanka is a junior at Beckman High School. She is passionate about biology, A&P, and neuroscience. She has already taken AP Biology and AP Chemistry, and is currently taking AP Physics 1 and AP Calculus BC. She is a part of California Scholarship Federation, National Honors Society, and Medical Certificate Program. She also competes in HOSA and Science Olympiad. Additionally, she serves as a board member for a school-wide tutoring service at her school as well as the Vice President of a nonprofit called Interstem. She has a passion for mentoring and teaching kids and fulfills it through these activities. Outside of school, Priyanka loves to play tennis, do classical Indian dance, and volunteer at her local hospital and through Second Harvest Food Bank. Here at STEMEY, she is the Anatomy class lead and is also a part of the Events and Outreach Team as well as the Neuroscience team."
+                    imgURL = {priyanka}
+                    position = "Anatomy Class Co-Lead"
 
-                />
-                
+                /> 
+                <Card
+                    name = "Arushi Singhal"
+                    imgURL = {arushi}
+                    position = "Anatomy Class Co-Lead"
+                    des = "Arushi Singhal is a sophomore at Leigh High School with a passion in human biology. She loves all things science, and plans to pursue a career as a surgeon. Arushi is also an officer of the internationally recognized Interact Club, and is a member of Model United Nations as well. She has taken multtiple Human Anatomy courses from the University of Michigan, and has applied them to her everyday life. As a someone who loves helping people, Arushi volunteers wherever and whenever there are people in need. Apart of academics, Arushi loves running track and playing the violin in the San Jose Youth Symphony. "
+                /> 
+
+                <Card
+                    name = "Catherine Zhou"
+                    imgURL = {catherine}
+                    position = "Molecular Biology Class Lead & Anatomy Instructor "
+                    des = "Catherine Zhou is a sophomore at Lynbrook. She’s an active member of many STEM-related clubs at her school, and she is an officer of Lynbrook Pre-Med Club. She has self-studied AP biology and chemistry, and has taken biochemistry, organic chemistry, and several other STEM courses online, as she enjoys conducting research in those fields. Additionally, she has placed at regional and state level in Science Olympiad for three years, and she’s an intermediate biology olympiad gold medalist. She is looking forward to leading the molecular biology class as well as being part of the anatomy and events outreach team this fall!"
+                /> 
                 <Card
                     name="Yulia Anashkina"
                     imgURL={yulia}
-                    des="
-Yulia Anashkina is a rising sophomore with a passion for STEM. She earned straight A’s throughout middle school and freshman year. Her interests in STEM led her to complete Harvard’s Fundamentals of Neuroscience, and one of BYU’s math courses. At school she also participates in clubs such as Design Thinking and Bring Change to Mind. Outside of academics Yulia is a figure skater who competes individually as well as in a team. Her team, San Francisco Ice Theater, recently traveled to France and earned a ranking as fifth in the world. She is also a member of the Peninsula Skating Club Junior Board which helps the skating community through volunteering, fundraising, as well as other events. 
-"
-                    position="Biology Instructor"
+                    des = "Yulia Anashkina is a sophomore at Leigh High School. She has a passion for STEM, especially Biology and Neuroscience. She has taken several online courses related to STEM including a neuroscience course from Harvard. Additionally, she is a competitive figure skater who competes individually as well as with SFIT, a team ranked top 5 internationally. She is very excited to be working with STEMEY! "
+                    position="Molecular Biology and Anatomy Instructor"
 
-                />
-                <Card
-                    imgURL = {landon}
-                    position = "Biology Instructor"
-                    name="Landon Battin"
-                    des="
-
-Landon, a Junior at Leigh High School, is passionate in varying medical and tech fields including Chemistry and Biology. He also enjoys taking charge and sharing his interests with others of the same interest. He is the LHS Class of 2022 Junior Class President, a LHS Superintendent Student Advisory Council Site Rep, and a member of National Honor Society. In addition to youth leadership positions, Landon has made endeavours in Varsity Track and Field and Captain of the Junior Varsity Soccer team. Outside of school, Landon works part-time at Holy Cross After-school Children’s Center as a Junior Aide. Landon looks to pursue Biochemistry or a Biotech field in the near future and is excited to share his leadership as a Chemistry and Biology STEMEY instructor.
-
-"
-                />
-                <Card
-                    imgURL = {aashvi}
-                    position = "Biology Instructor"
-                    name="Aashvi Wason"
-                    des="
-                    Aashvi, a rising junior at Leigh, is interested in the medical field, and is passionate about biology and chemistry. She enjoys taking classes outside of school in the STEM field that advance her knowledge in science and math. Aashvi is involved in Leadership at Leigh, and is the Junior class Secretary/Treasurer. She is also a member of both the National Honor Society and the California Scholarship Federation. Outside of school, Aashvi helps out at the public library, volunteers at Good Samaritan Hospital, and likes to dance at Capitol Dance Company. She’s very thrilled to work with everyone as a part of STEMEY for the next few months!
-"
                 />
                 
+                <Card
+                    imgURL = {aashvi}
+                    position = "Anatomy Instructor"
+                    name="Aashvi Wason"
+                    des = "Aashvi Wason, a junior at Leigh High Schoool, is very passionate about STEM. She loves biology, especially human anatomy, and is very interested in pursuing a career in medicine. She is in many clubs relating to healthcare such as Team HBV and Future Medical Professionals. Along with that, she is part of the National Honor Society, California Scholarship Federation, Keystone Mentorship, and is the Outreach Director of Operation Purpose. Aashvi enjoys taking lots of classes in STEM, such as AP Chemistry, AP Physics 1, and AP Calculus. In the past, she has taught Biology and Algebra/Geometry at STEMEY. Now she is part of the anatomy team, and is very excited to share her passion about STEM!"
+                />
+
+                <Card
+                    name = "Aiswarya Saravanan"
+                    imgURL = {aiswarya}
+                    position = "Anatomy and Molecular Biology Instructor"
+                    des = "Aiswarya Saravanan is a rising junior at Plymouth High School from Michigan, USA. She loves all things STEM and activism, and she is super passionate about neuroscience and biomedicial engineering in general. She is part of Simply Neuroscience and STEM Without Boundaries, where she is the Director of Sponsorships. She also recently started her own non-profit organization called Basically Biomedicine to educate people in the biomedical fields. In STEMEY, she is part of the anatomy team, molecular biology team, and the podcast team, and she is super excited to make a difference!"
+                /> 
+
+                <Card
+                    name = "Alexandra Guo"
+                    imgURL = {alexandra}
+                    position = "Molecular Biology Instructor"
+                    des = "Alexandra is a rising senior at Leigh High School. She is a member of the California Scholarship Federation and is a senior officer for National Honors Society. She also leads praise at her church and is the shift leader for volunteering at Kaiser Permanente. She has experience tutoring and leading through NHS peer tutoring, leading freshmen orientation as a Link Crew Leader, and being a youth leader for her church’s vacation bible school. She looks forward to teaching Biology in STEMEY."
+                /> 
+
+                
+                <Card
+                    name = "Maddy Hoekstra"
+                    imgURL = {maddy}
+                    position = "Anatomy and Molecular Biology Instructor"
+                    des = "Maddy Hoekstra is currently a junior at Leigh High School. She is passionate about all things science, including chemistry and biology. Maddy is currently taking AP Chem, Intro to Kinesiology and AP Calc. She is the Founder and President of Toys for Shelter Animals, Vice President of Best Buddies and Treasurer for Community Companions. Maddy is a member of the National Honor Society, California Scholarship Federation, National Honors Society, Link Crew, and Biomedical Engineering Society. Outside of school, she is passionate about field hockey, volunteering, swimming, tutoring and reading with kids. She also loves coaching children in both field hockey and swimming. She is on the Events Outreach team. Maddy is also planning on teaching Molecular Biology and Chemistry in STEMEY! "
+                /> 
+
+                
+                <Card
+                    name = "Srinjoy Chatterjee"
+                    des = "Srinjoy is a junior at Mission San Jose High School and has always been very passionate about teaching. His areas of expertise lie primarily in the areas of biology, physics, and math, and has been tutoring for four years now. He has ranked nationally in the USA Biology Olympiad and has also qualified for the USA Physics Olympiad and AIME, and has also competed in several other competitions, such as the Intermediate Biology Olympiad and the International Medicine Olympiad. In addition, he’s captain of his school’s Science Bowl team, and also competes in Science Olympiad. When he's not studying, teaching, or practicing for Science Bowl, he can also be found arranging music for the piano or cooking! He’s really excited to be teaching the molecular biology and physics classes as part of STEMEY this year."
+                    imgURL = {srinjoy}
+                    position = "Molecular Biology and Physics Instructor"
+
+                /> 
+                <Card
+                    name = "Brian Lam"
+                    position = "Anatomy and Computer Science Instructor"
+                    des = "Brian Lam is a junior at Arcadia High School in California. He enjoys learning anything new and interesting, particularly in STEM. He is planning to be a part of the CS and Anatomy Classes at STEMEY."
+                    imgURL = {brian}
+
+                /> 
                
             </div>
         </div>

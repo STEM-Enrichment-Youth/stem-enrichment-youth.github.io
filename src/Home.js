@@ -30,8 +30,8 @@ function Home() {
 
         <div style={{ width: "100%", marginTop: "20px", marginBottom: "20px" }}>
           <Alert
-            message="STEMEY just hosted an international, virtual convention with professional guest speakers from the top ranking US Universities and virtual STEM competitions and demonstrations!  
-            Check out the STEM World tab for more details!" button={true} />
+            message="STEMEY is hosting a Speaker Event Series in the month of October, called STEM-Tober! Each weekend features four speaker panels from a specific STEM Discipline. Check Out the STEM-Tober Tab for more details!" button={true} />
+       
         </div>
         <div class="head-txt" >
           <div class="head-con">
@@ -91,7 +91,7 @@ function Home() {
       <div class="why-us">
 
         <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-          <h1 class="big-title" style={{fontSize: "70px"}}>Free Speaker Events</h1>
+          <h1 class="big-title">Free Speaker Events</h1>
         </div>
         <div class="motivate item steps-item">
           <ion-icon name="people-circle"></ion-icon>
@@ -212,7 +212,7 @@ function Home() {
 
       <h1 style={{ backgroundColor: "rgb(0, 0, 0, 0.7)", padding: "20px", marginTop: "50px" }}>Partners/Supporters</h1>
 
-      <div class="banner" style={{ marginBottom: "40px" }}>
+      <div class="banner partners-banner" style={{ marginBottom: "40px" }}>
         <a class="banner-class" href="https://solveitforkids.com/">
           <img class="class-icon" src={solveit} />
           <h2 style={{ color: "white" }}>Solve it! For Kids</h2>

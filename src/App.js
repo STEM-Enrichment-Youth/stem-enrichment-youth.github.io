@@ -20,6 +20,7 @@ import Join from "./Join";
 import Donate from "./Donate";
 import Contact from "./Contact";
 import STEMWorld from "./STEMWorld"; 
+import STEMTober from "./STEMTober"; 
 import STEMSpeakers from "./STEMSpeakers";
 import Sponsorship from "./Sponsorship";
 import Executives from "./NewTeam/Executives"; 
@@ -64,6 +65,10 @@ export default function App() {
           <Route path="/stemworld">
             <Navbar/> 
             < STEMWorld /> 
+          </Route>
+          <Route path="/stemtober">
+            <Navbar/> 
+            < STEMTober /> 
           </Route>
           <Route path="/nerdcon">
             <Navbar/> 

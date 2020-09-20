@@ -47,7 +47,7 @@ export default function Navbar(props) {
             </div>
           </li>
           <li class="nav-item active nav-link">
-            <Button href="/donate" variant="contained">Donate</Button>
+            <Button href="/stemtober" variant="contained">STEMTober</Button>
           </li>
           
           <li class="nav-item dropdown nav-link active">
@@ -58,7 +58,6 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/biology-class">Biology</a>
               <a class="dropdown-item" href="/chemistry-class">Chemistry</a>
               <a class="dropdown-item" href="/physics-class">Physics</a>
-              <a class="dropdown-item" href="/neuroscience-class">Neuroscience</a>
               <a class="dropdown-item" href="/math-class">Math</a>
               <a class="dropdown-item" href="/coding-class">Coding</a>
 
@@ -70,11 +69,11 @@ export default function Navbar(props) {
             Team</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/executives">Executive Team</a>
-              <a class="dropdown-item" href="/biology-class">Biology</a>
+              <a class="dropdown-item" href="/biology">Biology</a>
               <a class="dropdown-item" href="/chemistry-class">Chemistry</a>
               <a class="dropdown-item" href="/physics-class">Physics</a>
-              <a class="dropdown-item" href="/math-class">Math</a>
-              <a class="dropdown-item" href="/coding-class">Coding</a>
+              <a class="dropdown-item" href="/math">Math</a>
+              <a class="dropdown-item" href="/coding">Coding</a>
             </div>
           </li>
           <li class="nav-item active nav-link">
