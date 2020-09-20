@@ -81,10 +81,7 @@ function Home() {
           <img class="class-icon" src={physics} />
           <h2 style={{ color: "white" }}>Physics</h2>
         </a>
-        <a class="banner-class" href="/neuroscience-class">
-          <img class="class-icon" src={neuroscience} />
-          <h2 style={{ color: "white" }}>Neuroscience</h2>
-        </a>
+        
       </div>
 
 
