@@ -19,7 +19,7 @@
   justify-items: center; 
 }
 
-.new-team h1 {
+.new-team h1, .help {
   text-align: center;
   padding: 0 20px; 
   font-size: 7rem;
@@ -67,7 +67,7 @@
   padding: 10px; 
   transition: 0.3s;
   line-height: 160%; 
-  max-height: 100px; 
+  max-height: 110px; 
   overflow: scroll;
   margin-bottom: 0; 
 }
@@ -86,7 +86,7 @@
 
 
 @media only screen and (max-width: 760px) {
-  .new-team h1 {
+  .new-team h1, .help {
     font-size: 4rem;
   }
   .con {
@@ -97,7 +97,7 @@
 
 
 @media only screen and (max-width: 480px) {
-  .new-team h1 {
+  .new-team h1, .help {
     font-size: 2rem;
   }
 

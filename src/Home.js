@@ -84,38 +84,40 @@ function Home() {
         
       </div>
 
-
+      <section class="who">
       <div class="why-us">
 
-        <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-          <h1 class="big-title">Free Speaker Events</h1>
-        </div>
-        <div class="motivate item steps-item">
-          <ion-icon name="people-circle"></ion-icon>
-          <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World</h2>
-          <div class="step step1">
-            <i class="fas fa-arrow-alt-circle-right"></i>
-            <p>22 Hours Worth of STEM Lectures and Events</p>
-          </div>
-          <div class="step">
-            <i class="fas fa-arrow-alt-circle-right"></i>
-            <p>Explore Interdisciplinary and Innovative Areas of Science</p>
-          </div>
-          <div class="step">
-            <i class="fas fa-arrow-alt-circle-right"></i>
-            <p>Watch all of our lectures from STEM World on Youtube</p>
-          </div>
-          <div class="step">
-            <i class="fas fa-arrow-alt-circle-right"></i>
-            <p>Advice and Tips on College Advimissions and STEM Opportunities</p>
-          </div>
-          <div class="step">
-            <i class="fas fa-arrow-alt-circle-right"></i>
-            <p>SUBSCRIBE TO OUR YOUTUBE CHANNEL FOR MORE VIDEOS!!</p>
-          </div>
-        </div>
+<div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
+  <h1 class="big-title">Free Speaker Events</h1>
+</div>
+<div class="motivate item steps-item">
+  <ion-icon name="people-circle"></ion-icon>
+  <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World</h2>
+  <div class="step step1">
+    <i class="fas fa-arrow-alt-circle-right"></i>
+    <p>22 Hours Worth of STEM Lectures and Events</p>
+  </div>
+  <div class="step">
+    <i class="fas fa-arrow-alt-circle-right"></i>
+    <p>Explore Interdisciplinary and Innovative Areas of Science</p>
+  </div>
+  <div class="step">
+    <i class="fas fa-arrow-alt-circle-right"></i>
+    <p>Watch all of our lectures from STEM World on Youtube</p>
+  </div>
+  <div class="step">
+    <i class="fas fa-arrow-alt-circle-right"></i>
+    <p>Advice and Tips on College Advimissions and STEM Opportunities</p>
+  </div>
+  <div class="step">
+    <i class="fas fa-arrow-alt-circle-right"></i>
+    <p>SUBSCRIBE TO OUR YOUTUBE CHANNEL FOR MORE VIDEOS!!</p>
+  </div>
+</div>
 
-      </div>
+</div>
+      </section>
+      
 
       {/* <div style={{backgroundColor: "rgb(0, 0, 0, 0.7)", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center", marginTop: "50px"}}>
         <h1 style={{marginTop: "20px"}}>Didn't get to watch our last STEM Convention?</h1>

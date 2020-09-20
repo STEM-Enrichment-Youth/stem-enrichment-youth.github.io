@@ -17,6 +17,7 @@ import Biology from "./NewTeam/Biology"; import Chemistry from "./NewTeam/Chemis
 import Neuroscience from "./NewTeam/Neuroscience"; import Math from "./NewTeam/Math";
 import Physics from "./NewTeam/Physics"; import Coding from "./NewTeam/Coding";
 import Join from "./Join";
+import Login from "./Login";
 import Donate from "./Donate";
 import Contact from "./Contact";
 import STEMWorld from "./STEMWorld"; 
@@ -73,6 +74,10 @@ export default function App() {
           <Route path="/nerdcon">
             <Navbar/> 
             < STEMWorld /> 
+          </Route>
+          <Route path="/login">
+            <Navbar/> 
+            < Login /> 
           </Route>
           <Route path="/stemworldspeakers">
             <Navbar/> 
