@@ -9,6 +9,7 @@ import elyssa from "./InstructorImages/elyssa.jpg";
 import tanvirao from "./InstructorImages/tanvirao.jpeg";
 import keshavnarang from "./InstructorImages/keshavnarang.png";
 import marksandey from "./InstructorImages/marksandey.png";
+import srinjoy from "./InstructorImages/srinjoy.png";
 
 
 export default function NewTeam() {
@@ -19,7 +20,7 @@ export default function NewTeam() {
         <div class="con">
             
                 <Card
-                    imgURL={}
+                    imgURL={srinjoy}
                     name="Srinjoy Chatterjee"
                     position="Physics Instructor"
                     des = "Srinjoy is a junior at Mission San Jose High School and has always been very passionate about teaching. His areas of expertise lie primarily in the areas of biology, physics, and math, and has been tutoring for four years now. He has ranked nationally in the USA Biology Olympiad and has also qualified for the USA Physics Olympiad and AIME, and has also competed in several other competitions, such as the Intermediate Biology Olympiad and the International Medicine Olympiad. In addition, he’s captain of his school’s Science Bowl team, and also competes in Science Olympiad. When he's not studying, teaching, or practicing for Science Bowl, he can also be found arranging music for the piano or cooking! He’s really excited to be teaching the molecular biology and physics classes as part of STEMEY this year."
@@ -33,19 +34,18 @@ export default function NewTeam() {
                 />
 
                 <Card
-                    imgURL={keshavnarang}
-                    name="Keshav Narang"
-                    position="Physics Instructor"
-                    des = ""
-                />
-
-                <Card
                     imgURL={marksandey}
                     name="Mark Sandey"
                     position="Physics Instructor"
                     des = "Mark Sandey is a junior at Arcadia High School in California and is passionate about fields in pure maths and theoretical physics. He is the secretary of the Astrophysics club at AHS and currently spends his free time learning abstract algebra and playing video games. Mark loves to teach other people about topics in mathematics and in physicsand will often opt to help other people with math and physics homework if they need it. He took APCSA last year and got a 5, too. Mark is also a part of AHS's top band as a clarinetist but also has a passion for guitar (if anyone plans to make a class on the physics of music, he'd love to be a part of it). This year he plans to teach Physics at STEMEY and is excited to teach as prart of an organization for the first time ever!"
                 />
                 
+
+                <Card
+                    name="Keshav Narang"
+                    position="Physics Instructor"
+                    des = ""
+                />
                 
             </div>
         </div>

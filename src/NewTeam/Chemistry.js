@@ -19,13 +19,13 @@ export default function NewTeam() {
                     des="
 Christian was the Leigh High School Biology and Chemistry Olympiad Club Vice President this year and will be Chemistry Olympiad President the upcoming school year. He has been a member of Leigh’s Science Olympiad for 3 years and is a founding member of Leigh’s Science Bowl team. He has experience teaching as an Eagle Scout instructor and tutoring in Leigh’s National Honors Society and outside of school. 
 "
-                    position="Chemistry Class Director"
+                    position="Chemistry Class Instructor"
                 />
                 
                 <Card
                     name="Sarah Chang"
                     imgURL={sarahchang}
-                    position="Chemistry Lead Instructor"
+                    position="Chemistry Class Instructor"
                     des="Sarah Chang is a senior at Leigh High School. She is a tutor for National Honor Society and a Link Crew Leader. She also participates in clubs, including Vitas Memory Bears, Help for Her, and Tri-M Music Honor Society. She also plays violin for the California Youth Symphony Senior Orchestra. She has taken the Chemistry Honors and AP Chemistry courses at Leigh, and is looking to pass on her knowledge to new students."
                 />
 

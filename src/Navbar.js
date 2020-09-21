@@ -70,8 +70,8 @@ export default function Navbar(props) {
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/executives">Executive Team</a>
               <a class="dropdown-item" href="/biology">Biology</a>
-              <a class="dropdown-item" href="/chemistry-class">Chemistry</a>
-              <a class="dropdown-item" href="/physics-class">Physics</a>
+              <a class="dropdown-item" href="/chemistry">Chemistry</a>
+              <a class="dropdown-item" href="/physics">Physics</a>
               <a class="dropdown-item" href="/math">Math</a>
               <a class="dropdown-item" href="/coding">Coding</a>
             </div>
