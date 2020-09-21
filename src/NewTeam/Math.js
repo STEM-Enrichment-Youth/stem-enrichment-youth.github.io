@@ -17,7 +17,7 @@ export default function NewTeam() {
     return (<div class="new-team-con">
         <Navbar/> 
         <div class="new-team">
-        <h1>Meet Our Team</h1>
+        <h1>Math</h1>
         <div class="con">
                 <Card
                     imgURL={katherine}
@@ -28,8 +28,6 @@ export default function NewTeam() {
 "   
                     position="Competition Math Class Lead" 
                 />
-                
-            
                
                 <Card
                     name="Justin Liu"
