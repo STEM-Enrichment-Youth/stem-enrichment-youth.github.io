@@ -14,13 +14,13 @@ import polygence from "./Partners/Logos/polygence.png";
 import solveit from "./Partners/Logos/solveit.jpg";
 import readwithkids from "./Partners/Logos/readwithkids.png";
 import simply from "./Partners/Logos/simply.png";
-import schmahl from "./schmahl.jpg"; 
-import wlf from "./Partners/wlf.png"; 
-import antarexxa from "./Partners/Logos/antarexxa.jpeg"; 
-import mip from "./Partners/Logos/mip.png"; 
-import selfie from "./Partners/Logos/selfie.jpeg"; 
-import medicine from "./Partners/Logos/medicine.jpeg"; 
-import lemonslife from "./Partners/Logos/lemonslife.jpeg"; 
+import schmahl from "./schmahl.jpg";
+import wlf from "./Partners/wlf.png";
+import antarexxa from "./Partners/Logos/antarexxa.jpeg";
+import mip from "./Partners/Logos/mip.png";
+import selfie from "./Partners/Logos/selfie.jpeg";
+import medicine from "./Partners/Logos/medicine.jpeg";
+import lemonslife from "./Partners/Logos/lemonslife.jpeg";
 
 function Home() {
   const [scale, setScale] = React.useState(false);
@@ -31,7 +31,7 @@ function Home() {
         <div style={{ width: "100%", marginTop: "20px", marginBottom: "20px" }}>
           <Alert
             message="STEMEY is hosting a Speaker Event Series in the month of October, called STEM-Tober! Each weekend features four speaker panels from a specific STEM Discipline. Check Out the STEM-Tober Tab for more details!" button={true} />
-       
+
         </div>
         <div class="head-txt" >
           <div class="head-con">
@@ -81,43 +81,43 @@ function Home() {
           <img class="class-icon" src={physics} />
           <h2 style={{ color: "white" }}>Physics</h2>
         </a>
-        
+
       </div>
 
       <section class="who">
-      <div class="why-us">
+        <div class="why-us">
 
-<div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-  <h1 class="big-title">Free Speaker Events</h1>
-</div>
-<div class="motivate item steps-item">
-  <ion-icon name="people-circle"></ion-icon>
-  <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World</h2>
-  <div class="step step1">
-    <i class="fas fa-arrow-alt-circle-right"></i>
-    <p>22 Hours Worth of STEM Lectures and Events</p>
-  </div>
-  <div class="step">
-    <i class="fas fa-arrow-alt-circle-right"></i>
-    <p>Explore Interdisciplinary and Innovative Areas of Science</p>
-  </div>
-  <div class="step">
-    <i class="fas fa-arrow-alt-circle-right"></i>
-    <p>Watch all of our lectures from STEM World on Youtube</p>
-  </div>
-  <div class="step">
-    <i class="fas fa-arrow-alt-circle-right"></i>
-    <p>Advice and Tips on College Advimissions and STEM Opportunities</p>
-  </div>
-  <div class="step">
-    <i class="fas fa-arrow-alt-circle-right"></i>
-    <p>SUBSCRIBE TO OUR YOUTUBE CHANNEL FOR MORE VIDEOS!!</p>
-  </div>
-</div>
+          <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
+            <h1 class="big-title">Free Speaker Events</h1>
+          </div>
+          <div class="motivate item steps-item">
+            <ion-icon name="people-circle"></ion-icon>
+            <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World</h2>
+            <div class="step step1">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>22 Hours Worth of STEM Lectures and Events</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Explore Interdisciplinary and Innovative Areas of Science</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Watch all of our lectures from STEM World on Youtube</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Advice and Tips on College Advimissions and STEM Opportunities</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>SUBSCRIBE TO OUR YOUTUBE CHANNEL FOR MORE VIDEOS!!</p>
+            </div>
+          </div>
 
-</div>
+        </div>
       </section>
-      
+
 
       {/* <div style={{backgroundColor: "rgb(0, 0, 0, 0.7)", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center", marginTop: "50px"}}>
         <h1 style={{marginTop: "20px"}}>Didn't get to watch our last STEM Convention?</h1>
@@ -221,7 +221,7 @@ function Home() {
           <h2 style={{ color: "white" }}>Reading with Your Kids</h2>
         </a>
         <a class="banner-class" href="https://schmahlscience.org/">
-          <img class="class-icon" src={schmahl}/>
+          <img class="class-icon" src={schmahl} />
           <h2 style={{ color: "white" }}>Schmahl Science Workshops</h2>
         </a>
         <a class="banner-class" href="https://www.polygence.org/">
@@ -241,7 +241,7 @@ function Home() {
           <h2 style={{ color: "white" }}>Lemons and Life</h2>
         </a>
         <a class="banner-class" href="https://www.google.com/url?q=https://linktr.ee/CellfieMagazine&sa=D&ust=1599293130338000&usg=AFQjCNGkG1RKMINFEO0h9qMv33ez7qf9Ww">
-          <img class="class-icon"  src={selfie} />
+          <img class="class-icon" src={selfie} />
           <h2 style={{ color: "white" }}>Cellfie Magazine</h2>
         </a>
         <a class="banner-class" href="https://linktr.ee/missionimpassionible">
@@ -249,7 +249,7 @@ function Home() {
           <h2 style={{ color: "white" }}>Mission Impassionible</h2>
         </a>
         <a class="banner-class" href="https://linktr.ee/medicine.encompassed">
-          <img class="class-icon" style={{ width: "140px"}} src={medicine} />
+          <img class="class-icon" style={{ width: "140px" }} src={medicine} />
           <h2 style={{ color: "white" }}>Medicine Encompassed</h2>
         </a>
         <a class="banner-class" href="http://antarexxa.com/">
@@ -272,11 +272,11 @@ function Home() {
 
         <div class="why-us">
 
-        
+
 
           <a class="motivate item steps-item" href="http://carrythevision.org">
             <a href="http://carrythevision.org">
-            <img style={{margin: '15px 0' }} src={carryTheVision} />
+              <img style={{ margin: '15px 0' }} src={carryTheVision} />
 
             </a>
             <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://carrythevision.org">A 501(c)(3) nonprofit organization dedicated to restoring and promoting nonviolence</a>

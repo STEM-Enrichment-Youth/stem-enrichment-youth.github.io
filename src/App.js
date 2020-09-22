@@ -25,6 +25,8 @@ import STEMTober from "./STEMTober";
 import STEMSpeakers from "./STEMSpeakers";
 import Sponsorship from "./Sponsorship";
 import Executives from "./NewTeam/Executives"; 
+import About from "./About"; 
+
 
 export default function App() {
   return (
@@ -111,6 +113,10 @@ export default function App() {
 
           <Route path="/teach">
             <Join />
+          </Route>
+          <Route path="/about">
+            <Navbar/> 
+            <About />
           </Route>
 
           <Route path="/donate">
