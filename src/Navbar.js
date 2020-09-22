@@ -37,17 +37,18 @@ export default function Navbar(props) {
         <li class="nav-item dropdown nav-link active">
             <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
             class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            STEM World</a>
+            Events</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/stemworldspeakers">Speakers</a>
-              <a class="dropdown-item" href="/sponsorship">Sponsors</a>
-              <a class="dropdown-item" href="/stemworld">Info</a>
+            <a class="dropdown-item" href="/stemtober">STEM-Tober</a>
+            <a class="dropdown-item" href="/stemworld">STEM World</a>
+              <a class="dropdown-item" href="/stemworldspeakers">STEM World Speakers </a>
+              <a class="dropdown-item" href="/sponsorship">STEM World Sponsors</a>
               <a class="dropdown-item" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Watch STEM World</a>
 
             </div>
           </li>
           <li class="nav-item active nav-link">
-            <Button href="/stemtober" variant="contained">STEMTober</Button>
+            <Button href="/about" variant="contained">About Us</Button>
           </li>
           
           <li class="nav-item dropdown nav-link active">
