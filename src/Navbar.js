@@ -36,6 +36,16 @@ export default function Navbar(props) {
         <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown nav-link active">
             <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
+            class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Us</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/about">Who We Are</a>
+              <a class="dropdown-item" href="/partners">Our Partners</a>
+            </div>
+          </li>
+          
+        <li class="nav-item dropdown nav-link active">
+            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
             class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Events</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,9 +56,6 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Watch STEM World</a>
 
             </div>
-          </li>
-          <li class="nav-item active nav-link">
-            <Button href="/about" variant="contained">About Us</Button>
           </li>
           
           <li class="nav-item dropdown nav-link active">
@@ -77,14 +84,13 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/coding">Coding</a>
             </div>
           </li>
-          <li class="nav-item active nav-link">
-            <Button href="/partnerships" variant="contained">Partners</Button>
-          </li>
-          <li class="nav-item active nav-link">
-            <Button href="/contact" variant="contained">Contact Us</Button>
-          </li>
+          
+      
           <li class="nav-item active nav-link">
             <Button href="/teach" variant="contained">Apply</Button>
+          </li>
+          <li class="nav-item active nav-link">
+            <Button href="http://labs.stemenrichmentyouth.com" variant="contained">Labs</Button>
           </li>
         </ul>
       </div>

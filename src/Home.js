@@ -87,11 +87,9 @@ function Home() {
       <section class="who">
         <div class="why-us">
 
-          <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-            <h1 class="big-title">Free Speaker Events</h1>
-          </div>
+        
           <div class="motivate item steps-item">
-            <ion-icon name="people-circle"></ion-icon>
+            <ion-icon name="globe"></ion-icon>
             <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World</h2>
             <div class="step step1">
               <i class="fas fa-arrow-alt-circle-right"></i>
@@ -109,35 +107,12 @@ function Home() {
               <i class="fas fa-arrow-alt-circle-right"></i>
               <p>Advice and Tips on College Advimissions and STEM Opportunities</p>
             </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>SUBSCRIBE TO OUR YOUTUBE CHANNEL FOR MORE VIDEOS!!</p>
-            </div>
+            <a style={{color: "white"}} class="btn btn-full" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Subscribe & Watch STEM World</a>
+
+
           </div>
 
-        </div>
-      </section>
-
-
-      {/* <div style={{backgroundColor: "rgb(0, 0, 0, 0.7)", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center", marginTop: "50px"}}>
-        <h1 style={{marginTop: "20px"}}>Didn't get to watch our last STEM Convention?</h1>
-        <p>No Worries! Watch all of our videos on YouTube by clicking any of the links below!!</p>
-      </div> */}
-
-      {/* <div class='youtube-videos'>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp1H11ozNCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yVdLvW_Xvik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div> */}
-
-      <section class="who">
-
-        <div class="why-us">
-
-          <div class="inspire item" style={{ gridTemplateRows: "1fr" }}>
-            <h1 class="big-title">Free Virtual Classes!</h1>
-          </div>
-          <div class="motivate item steps-item">
+          <div class="motivate item steps-item-2">
             <ion-icon name="people-circle"></ion-icon>
             <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Summer STEM Classes</h2>
             <div class="step step1">
@@ -156,18 +131,34 @@ function Home() {
               <i class="fas fa-arrow-alt-circle-right"></i>
               <p>Get Help From Experienced and Accomplished High Schoolers</p>
             </div>
-            {/* <p class="p-home"
-            >
-              Stem Enrichment Youth is a team of passionate 
-              high schoolers dedicated to exploring different fields of STEM. 
-              This summer, we will be providing courses in biology, algebra and geometry, precalculus and calculus, competition math preparation,
-              chemistry, coding, and physics. These courses are created by our team of high schoolers 
-              and are free, completely online, and accessible to all. 
-              These classes are aimed towards middle schoolers but anyone is welcome to join!
-            </p> */}
-          </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Classes in eight STEM Disciplines</p>
+            </div>
+            <a style={{color: "white"}} class="btn btn-full" href="https://tinyurl.com/stemeyfallclasses">Sign Up for Classes</a>
+
+
         </div>
 
+        </div>
+      </section>
+
+
+      {/* <div style={{backgroundColor: "rgb(0, 0, 0, 0.7)", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center", marginTop: "50px"}}>
+        <h1 style={{marginTop: "20px"}}>Didn't get to watch our last STEM Convention?</h1>
+        <p>No Worries! Watch all of our videos on YouTube by clicking any of the links below!!</p>
+      </div> */}
+
+      {/* <div class='youtube-videos'>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp1H11ozNCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yVdLvW_Xvik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div> */}
+
+      <h1 class="biggest-header">Why Us?</h1>
+      <section class="who">
+
+  
         <div class="why-us">
           <div class="inspire item">
             <ion-icon name="logo-electron"></ion-icon>
