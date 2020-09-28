@@ -49,7 +49,7 @@ export default function Navbar(props) {
             class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Events</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/stemtober">STEM-Tober</a>
+            <a class="dropdown-item" href="https://www.wavelf.org/event-stemey">STEM-Tober</a>
             <a class="dropdown-item" href="/stemworld">STEM World</a>
               <a class="dropdown-item" href="/stemworldspeakers">STEM World Speakers </a>
               <a class="dropdown-item" href="/sponsorship">STEM World Sponsors</a>

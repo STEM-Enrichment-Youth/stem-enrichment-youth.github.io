@@ -16,11 +16,12 @@ function SND() {
 
             <div style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
                 <div class="head-txt" style={{ width: "90%", marginLeft: "5%" }}>
-                    <div >
-                        <div>
+                    <div>
+                        <div style={{display: "grid"}}>
 
                             <h3> Free STEM Speaker Series in partnership with Wave Learning Festival</h3>
-                            <p style={{textAlign: "center", marginTop: "20px"}}><a class="btn btn-full" href="https://www.tinyurl.com/stemtober">Sign Up Now!</a></p>
+                            <p style={{justifySelf: "center", margin: "0 10%"}}>We have partnered with Wave Learning Festival to host a virtual series of speaker seminars every Saturday of October, and thus we present to you STEMtober! We are hoping to inspire students who have limited contact with STEM to explore the field further, as well as provide guidance to passionate students seeking to become more involved in STEM.</p>
+                            <p style={{textAlign: "center", marginTop: "20px"}}><a class="btn btn-full" href="https://www.wavelf.org/event-stemey">REGISTER NOW!</a></p>
                             <p style={{textAlign: "center"}}><a class="btn btn-full" href="https://www.wavelf.org/">Wave Learning Festival!</a></p>
 
                             <div class="container">
