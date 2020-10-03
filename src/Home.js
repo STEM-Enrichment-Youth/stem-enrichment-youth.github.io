@@ -42,6 +42,7 @@ function Home() {
               <p class="head-p" style={{ maxWidth: "800px" }}>
                 A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
               </p>
+              <a style={{color: "white"}} class="btn btn-full" href="https://tinyurl.com/stemtoberzoom">Join the STEMTober Zoom</a>
             </div>
             <img class="stemey-logo" src={stemey} />
             {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
@@ -157,7 +158,6 @@ function Home() {
 
       <h1 class="biggest-header">Why Us?</h1>
       <section class="who">
-
   
         <div class="why-us">
           <div class="inspire item">
