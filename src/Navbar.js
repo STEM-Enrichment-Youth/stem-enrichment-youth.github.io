@@ -82,6 +82,10 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/physics">Physics</a>
               <a class="dropdown-item" href="/math">Math</a>
               <a class="dropdown-item" href="/coding">Coding</a>
+              <a class="dropdown-item" href="/podcast">Podcast</a>
+              <a class="dropdown-item" href="/events">Events</a>
+              <a class="dropdown-item" href="/tech">Tech</a>
+              <a class="dropdown-item" href="https://tinyurl.com/stemeydiscord">Discord</a>
             </div>
           </li>
           

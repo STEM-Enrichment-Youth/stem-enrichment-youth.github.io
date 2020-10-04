@@ -16,6 +16,8 @@ import PhysicsClass from "./Classes/Physics"; import CodingClass from "./Classes
 import Biology from "./NewTeam/Biology"; import Chemistry from "./NewTeam/Chemistry";
 import Neuroscience from "./NewTeam/Neuroscience"; import Math from "./NewTeam/Math";
 import Physics from "./NewTeam/Physics"; import Coding from "./NewTeam/Coding";
+import Podcast from "./NewTeam/Podcast"; import Events from "./NewTeam/Events";
+import Tech from "./NewTeam/Tech";
 import Join from "./Join";
 import Login from "./Login";
 import Donate from "./Donate";
@@ -58,6 +60,15 @@ export default function App() {
           </Route>
           <Route path="/coding">
             <Coding />
+          </Route>
+          <Route path="/podcast">
+            <Podcast />
+          </Route>
+          <Route path="/events">
+            <Events />
+          </Route>
+          <Route path="/tech">
+            <Tech />
           </Route>
 
           <Route path="/partnerships">
