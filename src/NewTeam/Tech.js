@@ -14,7 +14,7 @@ export default function NewTeam() {
     return (<div class="new-team-con">
         <Navbar />
         <div class="new-team">
-            <h1>Events</h1>
+            <h1>Tech</h1>
             <div class="con">
 
                 <Card
