@@ -13,6 +13,8 @@ import ChemistryClass from "./Classes/Chemistry"; import BiologyClass from "./Cl
 import NeuroscienceClass from "./Classes/Neuroscience"; import MathClass from "./Classes/Math";
 import PhysicsClass from "./Classes/Physics"; import CodingClass from "./Classes/Coding";
 
+import AnimalCellLab from "./Labs/AnimalCellLab"; import PlantCellLab from "./Labs/PlantCellLab";
+
 import Biology from "./NewTeam/Biology"; import Chemistry from "./NewTeam/Chemistry";
 import Neuroscience from "./NewTeam/Neuroscience"; import Math from "./NewTeam/Math";
 import Physics from "./NewTeam/Physics"; import Coding from "./NewTeam/Coding";
@@ -120,6 +122,13 @@ export default function App() {
           </Route>
           <Route path="/coding-class">
             <Navbar /><CodingClass />
+          </Route>
+
+          <Route path="/animalcell-lab">
+            <Navbar /><AnimalCellLab />
+          </Route>
+          <Route path="/plantcell-lab">
+            <Navbar /><PlantCellLab />
           </Route>
 
           <Route path="/teach">

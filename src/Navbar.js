@@ -12,7 +12,7 @@ export default function Navbar(props) {
   React.useEffect(() => {
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY < 200;
-      console.log(window.scrollY, isTop);
+      // console.log(window.scrollY, isTop);
       if (!isTop) {
         setScrolled(true);
       } else {
@@ -89,13 +89,20 @@ export default function Navbar(props) {
             </div>
           </li>
           
+          <li class="nav-item dropdown nav-link active">
+            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
+              class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Labs</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/animalcell-lab">Animal Cell</a>
+              <a class="dropdown-item" href="/plantcell-lab">Plant Cell</a>
+            </div>
+          </li>
       
           <li class="nav-item active nav-link">
             <Button href="/teach" variant="contained">Apply</Button>
           </li>
-          <li class="nav-item active nav-link">
-            <Button href="http://labs.stemenrichmentyouth.com" variant="contained">Labs</Button>
-          </li>
+
         </ul>
       </div>
     </nav>
