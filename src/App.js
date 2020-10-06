@@ -22,6 +22,7 @@ import Podcast from "./NewTeam/Podcast"; import Events from "./NewTeam/Events";
 import Tech from "./NewTeam/Tech";
 import Join from "./Join";
 import Login from "./Login";
+import Discord from "./Discord";
 import Donate from "./Donate";
 import Contact from "./Contact";
 import STEMWorld from "./STEMWorld"; 
@@ -71,6 +72,10 @@ export default function App() {
           </Route>
           <Route path="/tech">
             <Tech />
+          </Route>
+          <Route path="/discord">
+            <Navbar/> 
+            <Discord />
           </Route>
 
           <Route path="/partnerships">

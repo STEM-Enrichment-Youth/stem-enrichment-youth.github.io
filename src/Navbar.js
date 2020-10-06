@@ -40,7 +40,6 @@ export default function Navbar(props) {
             About Us</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/about">Who We Are</a>
-              <a class="dropdown-item" href="/partners">Our Partners</a>
             </div>
           </li>
           
@@ -51,11 +50,11 @@ export default function Navbar(props) {
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="/stemtober">STEM-Tober</a>
             <a class="dropdown-item" href="/stemworld">STEM World</a>
-              <a class="dropdown-item" href="/stemworldspeakers">STEM World Speakers </a>
-              <a class="dropdown-item" href="/sponsorship">STEM World Sponsors</a>
-              <a class="dropdown-item" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Watch STEM World</a>
 
             </div>
+          </li>
+         <li class="nav-item active nav-link">
+            <Button href="/discord" variant="contained">Discord</Button>
           </li>
           
           <li class="nav-item dropdown nav-link active">
@@ -85,7 +84,6 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/podcast">Podcast</a>
               <a class="dropdown-item" href="/events">Events</a>
               <a class="dropdown-item" href="/tech">Tech</a>
-              <a class="dropdown-item" href="https://tinyurl.com/stemeydiscord">Discord</a>
             </div>
           </li>
           

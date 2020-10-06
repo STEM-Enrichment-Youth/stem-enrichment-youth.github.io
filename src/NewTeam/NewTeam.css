@@ -3,7 +3,6 @@
 .new-team {
   margin: 0;
   padding: 0;
-  padding-top: 100px; 
   display: grid; 
   grid-template-columns: 1fr; 
   justify-items: center; 
@@ -13,7 +12,6 @@
 .new-team-join {
   margin: 0;
   padding: 0;
-  padding-top: 100px; 
   display: grid; 
   grid-template-columns: 1fr; 
   justify-items: center; 

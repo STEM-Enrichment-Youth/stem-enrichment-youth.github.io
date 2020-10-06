@@ -257,41 +257,6 @@ function Home() {
         </a>
       </div>
 
-      <h1>Sponsors</h1>
-
-      <section class="who">
-
-        <div class="why-us">
-
-
-
-          <a class="motivate item steps-item" href="http://carrythevision.org">
-            <a href="http://carrythevision.org">
-              <img style={{ margin: '15px 0' }} src={carryTheVision} />
-
-            </a>
-            <a style={{ fontWeight: "100", letterSpacing: "4px" }} href="http://carrythevision.org">A 501(c)(3) nonprofit organization dedicated to restoring and promoting nonviolence</a>
-
-            <div class="step step1">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Offers nonviolence training, workshops, retreats, and community wide events providing support and inspiration</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Restoring lives and communities through nonviolence education creating a peaceful and compassionate world.</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Building Compassionate Communities in a Peaceful World</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Transforming the world by restoring our human potential one person at a time</p>
-            </div>
-
-          </a>
-        </div>
-      </section>
 
 
 
