@@ -9,6 +9,7 @@ import faith from "./InstructorImages/faith.png";
 import katherine from "./InstructorImages/katherine.jpg"; 
 import maariyah from "./InstructorImages/maariyah.jpg"; 
 import sophie from "./InstructorImages/sophie.jpeg"; 
+import justin from "./InstructorImages/justin.jpg"; 
 
 export default function NewTeam() {
     return (<div class="new-team-con">
@@ -42,7 +43,13 @@ Faith Han is a rising senior at Leigh High School. She is founder and president 
                     position = "Chief Communications Officer"
 
                 /> 
-                
+                <Card 
+                    name = "Justin Liu"
+                    imgURL = {justin}
+                    position = "Secretary"
+                    des="Justin Liu is a senior at Leigh High School. He is an officer of the Science National Honors Society and co-president of the Physics Olympiad. He is a member of National Honors Society and California Scholarship Federation, Link Crew, and he is also a peer tutor at Leigh. He got a 36 on the ACT. Outside of school, he volunteers at Friends of Children with Special Needs and works at Kumon. He is fluent in Mandarin and English. He plays the bassoon, clarinet, and piano. Also, Justin does fencing competitively and is the alternate for the 2020 USA National Team while also part of the mentor program on his club team. He is looking forward to teaching Math at STEMEY."
+
+                /> 
                 
                 <Card
                 imgURL={aryan}
