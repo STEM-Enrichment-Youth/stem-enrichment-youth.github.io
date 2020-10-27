@@ -1,5 +1,5 @@
 import React from "react";
-
+import physics from "./ClassPics/Physics.png"
 
 export default function NewClasses() {
 
@@ -10,29 +10,39 @@ export default function NewClasses() {
 
             <div class="class-con sign-up">
                 <div class="class-con-item">
-                    <h2 class="h">Course Description</h2>
-                    <p class="p-team" style={{marginBottom: "0"}}>
+                <img class="class-img" src={physics}/> 
+                    <h2 class="h">Physics</h2>
+                    <p class="class-des" style={{marginBottom: "0"}}>
                     In this course, we will study the basics of Newtonian mechanics, and develop some of the mindset needed to approach Physics problems. This course approximately follows the first ~2/3 of AP Physics 1 and requires some basic [math] skills, including Algebra, basic Geometry, Trigonometry, and a willingness to learn.</p>
                     {/* <Carousel /> */}
                     <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
-                        <p><span class="class-des-p">Intended Ages: </span>Grades 5-10</p>
-                        <p><span class="class-des-p">Lead Instructor: </span>Karan Gurazada</p>
+                        <p><span class="class-des-p">Intended Ages: </span>Grades 5-12</p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Tanvi Rao</p>
                         <p><span class="class-des-p">Prerequisites: </span>Algebra, Geometry, Trigonometry</p>
+                        <p><span class="class-des-p">Time: </span>12-1 PM PDT Every Sunday</p>
 
                     </div>
+                    <button class="btn btn-fb">
+                        <a href="/physics" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}> 
+                        See Our Team 
+                        </a>
+                    </button>
 
-
-                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>dekgelg</h2>
                     <button class="btn btn-danger">
-                        <a href="https://classroom.google.com/u/0/h" style={{
+                        <a href="https://www.eventbrite.com/e/stemey-weekly-physics-class-tickets-126925241815" style={{
                             textDecoration: "none",
                             color: "white",
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
                         }}>
-                            SIGN UP
+                            Register Now
                         </a>
                     </button>
 
@@ -75,7 +85,7 @@ export default function NewClasses() {
                         <h2>What we provide</h2>
                         <div class="step step1">
                             <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Video lectures for each chapter</p>
+                            <p>Weekly Live Classes</p>
                         </div>
 
                         <div class="step">

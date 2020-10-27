@@ -4,7 +4,7 @@ import stemey from "./GoodStemeyLogo.png";
 import stemworld from "./stemworldlogo.png";
 import coding from "./icons/head-cross.png";
 import chemistry from "./icons/beaker-atom.png"; import biology from "./icons/genetics.png";
-import physics from "./icons/Newtons-cradle.png";
+import physicsdrawing from "./icons/Newtons-cradle.png";
 import math from "./icons/checkboard-graph.png";
 import neuroscience from "./icons/head-brains.png";
 import Alert from "./Components/Alert";
@@ -21,6 +21,17 @@ import mip from "./Partners/Logos/mip.png";
 import selfie from "./Partners/Logos/selfie.jpeg";
 import medicine from "./Partners/Logos/medicine.jpeg";
 import lemonslife from "./Partners/Logos/lemonslife.jpeg";
+import physics from "./Classes/ClassPics/Physics.png"; 
+import anatomy from "./Classes/ClassPics/Anatomy.png"; 
+import molbio from "./Classes/ClassPics/MolBio.png"; 
+import settheory from "./Classes/ClassPics/SetTheory.png"; 
+import geometry from "./Classes/ClassPics/Geometry.png"; 
+import algebra from "./Classes/ClassPics/Algebra.png"; 
+import tutor from "./Tutor.png"; 
+import labs from "./Labs.png"; 
+import animalcell from "./animalcell.png"; 
+import FallClass from "./ClassPoster.png"; 
+
 
 function Home() {
   const [scale, setScale] = React.useState(false);
@@ -28,11 +39,18 @@ function Home() {
     <div class="whole-home">
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
 
-        <div style={{ width: "100%", marginTop: "20px", marginBottom: "20px" }}>
+        <a href="/classes" style={{ width: "100%", marginTop: "20px", marginBottom: "10px" }}>
           <Alert
-            message="STEMEY is hosting a Speaker Event Series in the month of October, called STEM-Tober! Each weekend features four speaker panels from a specific STEM Discipline. Check Out the STEM-Tober Tab for more details!" button={true} />
+            message="Register for our live Fall Classes in Biology, Physics, or Math!!" button={true} />
+        </a>
 
-        </div>
+        <a href="https://tinyurl.com/stemeytutoring" style={{ width: "100%", marginBottom: "20px" }}>
+          <Alert
+         message="Apply for our Global STEM Tutoring Program as a tutor or tutee!" button={true} />
+        </a>       
+
+
+
         <div class="head-txt" >
           <div class="head-con">
             <div class="head-txt-2">
@@ -42,7 +60,9 @@ function Home() {
               <p class="head-p" style={{ maxWidth: "800px" }}>
                 A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
               </p>
-              <a style={{color: "white"}} class="btn btn-full" href="https://tinyurl.com/stemtoberzoom">Join the STEMTober Zoom</a>
+              <a style={{color: "white", marginBottom: "10px"}} class="btn btn-full" href="/about">Learn More</a>
+              <a style={{color: "white", marginBottom: "10px", marginLeft: "10px"}} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Register for our Classes</a>
+
             </div>
             <img class="stemey-logo" src={stemey} />
             {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
@@ -56,38 +76,57 @@ function Home() {
         </div>
 
       </div>
-      {/* <div class="announcement">
-      <h2 style={{marginBottom: "20px"}}>Special Announcement</h2>
-      <p style={{lineHeight: "180%"}}>This Friday, June 19, STEMEY will have a Zoom meeting open to the public for anyone who wants to 
-              ask questions about the program! Link to the meeting will be on this page Friday!</p>
-      </div> */}
+    
       <div class="banner">
         <a class="banner-class" href="/math-class">
-          <img class="class-icon" src={math} />
-          <h2 style={{ color: "white" }}>Math</h2>
+          <img src={geometry} />
         </a>
-        <a class="banner-class" href="/coding-class">
-          <img class="class-icon" src={coding} />
-          <h2 style={{ color: "white" }}>Coding</h2>
+        <a class="banner-class" href="/math-class">
+          <img  src={algebra} />
         </a>
-        <a class="banner-class" href="/chemistry-class">
-          <img class="class-icon" src={chemistry} />
-          <h2 style={{ color: "white" }}>Chemistry</h2>
+        <a class="banner-class" href="/math-class">
+          <img  src={settheory} />
         </a>
         <a class="banner-class" href="/biology-class">
-          <img class="class-icon" src={biology} />
-          <h2 style={{ color: "white" }}>Biology</h2>
+          <img  src={anatomy} />
+        </a>
+        <a class="banner-class" href="/biology-class">
+          <img src={molbio} />
         </a>
         <a class="banner-class" href="/physics-class">
-          <img class="class-icon" src={physics} />
-          <h2 style={{ color: "white" }}>Physics</h2>
+          <img  src={physics} />
         </a>
-
-      </div>
+      </div> 
 
       <section class="who">
         <div class="why-us">
+        <div class="motivate item steps-item-2">
+            <ion-icon name="people-circle"></ion-icon>
+            <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Free Fall STEM Classes</h2>
+            <div class="step step1">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Live Weekly Classes</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Fun Activities, Personalized Support, and More</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Free Online Academic Resources</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Get Help From Experienced and Accomplished High Schoolers</p>
+            </div>
+            <div class="step">
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              <p>Classes in six STEM Disciplines</p>
+            </div>
+            <a style={{color: "white"}} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Register for our Free Classes</a>
 
+
+        </div>
         
           <div class="motivate item steps-item">
             <ion-icon name="globe"></ion-icon>
@@ -113,94 +152,26 @@ function Home() {
 
           </div>
 
-          <div class="motivate item steps-item-2">
-            <ion-icon name="people-circle"></ion-icon>
-            <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Summer STEM Classes</h2>
-            <div class="step step1">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Free Online Academic Resources</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Fun Activities, Video Lectures, and More</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Pick and Choose What You Learn</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Get Help From Experienced and Accomplished High Schoolers</p>
-            </div>
-            <div class="step">
-              <i class="fas fa-arrow-alt-circle-right"></i>
-              <p>Classes in eight STEM Disciplines</p>
-            </div>
-            <a style={{color: "white"}} class="btn btn-full" href="https://tinyurl.com/stemeyfallclasses">Sign Up for Classes</a>
-
+         
 
         </div>
 
-        </div>
+        <div class="banner" style={{marginTop: "50px"}}>
+        <a class="banner-class" href="https://tinyurl.com/stemeytutoring">
+          <img  src={tutor} />
+        </a>
+        <a class="banner-class" href="/plantcell-lab">
+          <img  src={labs} />
+        </a>
+
+        <a class="banner-class" href="/stemworld">
+          <img  src={stemworld}/>
+        </a>
+      </div> 
       </section>
 
 
-      {/* <div style={{backgroundColor: "rgb(0, 0, 0, 0.7)", display: "grid", gridTemplateColumns: "1fr", justifyItems: "center", marginTop: "50px"}}>
-        <h1 style={{marginTop: "20px"}}>Didn't get to watch our last STEM Convention?</h1>
-        <p>No Worries! Watch all of our videos on YouTube by clicking any of the links below!!</p>
-      </div> */}
-
-      {/* <div class='youtube-videos'>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp1H11ozNCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yVdLvW_Xvik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div> */}
-
-      <h1 class="biggest-header">Why Us?</h1>
-      <section class="who">
-  
-        <div class="why-us">
-          <div class="inspire item">
-            <ion-icon name="logo-electron"></ion-icon>
-            <h2>Fun Classes</h2>
-            <p class="p-home">
-              Our main goal is for our students to have FUN while they are learning STEM.
-              We will discuss the latest, inspiring innovations in each field and provide fun, interactive
-              activities that you can do right from your home! You have complete flexibility over
-              what concepts you want to learn about and what activities you perform!
-            </p>
-          </div>
-          <div class="motivate item">
-            <ion-icon name="color-filter"></ion-icon>
-            <h2>Great Instruction</h2>
-            <p class="p-home">
-              Many of our lead instructors have competed in STEM Competitions including Science Bowl, Science Olympiad, Biology Olympiad, Chemistry Olympiad, the Brain Bee, and the American Invitational Math Examination.
-              We have about twenty instructors in total who are involved in STEM clubs at Leigh
-              High School including Science National Honors Society, Biology and Chemistry Olympiad.
-              Many of us have experience tutoring and teaching other high schoolers and middle schoolers.
-              Check out our TEAM page to learn more about our team!
-             </p>
-          </div>
-
-        </div>
-        {/* <div class="why-us">
-          
-          <div class="motivate item">
-            <ion-icon name="color-wand"></ion-icon>
-            <h2>We're Super Flexible!</h2>
-            <p class="p-home"
-            >
-              We offer assignments and instruction through many modalities! We will post assignments
-              (including labs and activities) through classroom but Zoom classes and
-              individual online tutoring will also be available! All completely free!
-            </p>
-          </div>
-        </div> */}
-
-      </section>
-
-
-      <h1 style={{ backgroundColor: "rgb(0, 0, 0, 0.7)", padding: "20px", marginTop: "50px" }}>Partners/Supporters</h1>
+      <h1 class="partners-head" >Partners/Supporters</h1>
 
       <div class="banner partners-banner" style={{ marginBottom: "40px" }}>
         <a class="banner-class" href="https://solveitforkids.com/">
@@ -217,11 +188,7 @@ function Home() {
         </a>
         <a class="banner-class" href="https://www.polygence.org/">
           <img class="class-icon" style={{ width: "150px", marginTop: "30px" }} src={polygence} />
-          <h2 style={{ color: "white" }}>Polygence</h2>
-        </a>
-        <a class="banner-class" href="https://www.carrythevision.org/">
-          <img class="class-icon" style={{ width: "150px", marginTop: "30px" }} src={carryTheVision} />
-          <h2 style={{ color: "white" }}>Carry the Vision</h2>
+          <h2 style={{ color: "white" }}>A Research Mentorship Program</h2>
         </a>
         <a class="banner-class" href="https://nxstep.co/">
           <img class="class-icon" style={{ width: "150px", marginTop: "40px" }} src={nxstep} />

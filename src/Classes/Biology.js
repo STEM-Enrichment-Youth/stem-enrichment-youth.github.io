@@ -1,101 +1,98 @@
 import React from "react";
-
+import {Helmet} from "react-helmet"; 
+import molbio from "./ClassPics/MolBio.png"
+import anatomy from "./ClassPics/Anatomy.png"
 
 export default function NewClasses() {
 
 
     return (<div class="new-team-con">
         <div class="new-class">
-            <h1>Biology</h1>
+            <h1>Fall Biology</h1>
+    
 
             <div class="class-con sign-up">
+            
                 <div class="class-con-item">
-                    <h2 class="h">Course Description</h2>
-                    <p class="p-team" style={{marginBottom: "0"}}>
-                    In this class, we will explore the biological mechanisms of life on earth. We will delve into the 
-                    physiological inner workings of microscopic organisms, cellular components, animal organ systems, and plants. We will also provide
-                    guidance for students eager to participate and study for the USA Biology Olympiad. </p>
-                    <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
-                        <p><span class="class-des-p">Intended Ages: </span>Grades 6-10</p>
-                        <p><span class="class-des-p">Lead Instructor: </span>Aniketh Prasad</p>
-                        <p><span class="class-des-p">Prerequisites: </span>None!</p>
+                    <img class="class-img" src={molbio}/> 
+                    <h2 class="h">Molecular Biology</h2>
+                    <p class="class-des" style={{ marginBottom: "0" }}>
+                       
+
+                    Join the molecular biology class to explore the fascinating roles that molecules play in biology! In this class, you will gain an understanding of biological molecules, cellular and metabolic processes, genetics, gene expression, and current advances in this field. 
+</p> 
+                    <div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
+                        <p><span class="class-des-p">Intended Ages: </span>11 yrs old + </p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Catherine Zhou</p>
+                        <p><span class="class-des-p">Prerequisites: </span>None</p>
+                        <p><span class="class-des-p">Time: </span>11 AM - 12 PM PDT Every Saturday</p>
 
                     </div>
-
-
-                    <p class="sign-up-p" > Sign up with the Classroom Code:</p>
-                    <h2>4qtekpr</h2>
+                    <button class="btn btn-fb">
+                        <a href="/biology" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}> 
+                        See Our Team 
+                        </a>
+                    </button>
                     <button class="btn btn-danger">
-                        <a href="https://classroom.google.com/u/0/h" style={{
+                        <a href="https://www.eventbrite.com/e/stemey-weekly-molecular-biology-class-tickets-126924415343" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}> 
+                        Register Now
+                        </a>
+                    </button>
+
+                </div>
+                <div class="class-con-item">
+                <img class="class-img" src={anatomy}/> 
+                    <h2 class="h">Anatomy</h2>
+                    <p class="class-des" style={{ marginBottom: "0" }}>
+                       
+
+                    Join us to explore the wonders of the human body. You’ll be exploring everything from the intricacies of the body systems, to how all these parts connect to help our body function! </p> 
+<div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
+                        <p><span class="class-des-p">Intended Ages: </span>11 years old +</p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Arushi Singhal & Priyanka Kalidindi</p>
+                        <p><span class="class-des-p">Prerequisites: </span>None</p>
+                        <p><span class="class-des-p">Time: </span>2-3 PM PDT Every Sunday</p>
+                    </div>
+
+                    <button class="btn btn-fb">
+                        <a href="/biology" style={{
+                            textDecoration: "none",
+                            color: "white",
+                            letterSpacing: "3px",
+                            fontWeight: "200",
+                            fontSize: "20px"
+                        }}> 
+                        See Our Team 
+                        </a>
+                    </button>
+                    <button class="btn btn-danger">
+                        <a href="https://www.eventbrite.com/e/stemey-weekly-anatomy-class-tickets-126923167611" style={{
                             textDecoration: "none",
                             color: "white",
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
                         }}>
-                            SIGN UP
-                        </a>
+Register Now                        </a>
                     </button>
 
                 </div>
-                <div class="class-con-item" style={{gridTemplateRows: "repeat(2, auto)"}}>
-                    <div class="sign-up-steps" style={{marginBottom: "0"}}>
-                        <h2>Units</h2>
-                        <div class="step step1">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>The Chemistry of Life</p>
-                        </div>
-
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>The Cell</p>
-                        </div>
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Genetics</p>
-                        </div>
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Plant Form and Function</p>
-                        </div>
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Animal Anatomy and Physiology</p>
-                        </div>
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Medical Applications of Biology</p>
-                        </div>
-                    </div>
-
-                    <div class="sign-up-steps" style={{marginBottom: "0"}}>
-                        <h2>What we provide</h2>
-                        <div class="step step1">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Videos for each chapter</p>
-                        </div>
-
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Worksheets</p>
-                        </div>
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Quizzes</p>
-                        </div>
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Activities</p>
-                        </div>
-                        <div class="step">
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            <p>Online Tutoring</p>
-                        </div>
-                    </div>
-                </div>
-                
-
+            
             </div>
+            
+       
         </div>
     </div>
     )
