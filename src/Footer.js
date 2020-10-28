@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { black } from 'material-ui/styles/colors';
 import { Button, Grid, TextField } from '@material-ui/core';
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     input: {
-        borderRadius: 10,
+        borderRadius: 15,
         backgroundColor: 'white'
     },
 }));
@@ -37,50 +37,48 @@ const CustomForm = ({ status, message, onValidated }) => {
             NAME: name.value
         });
 
+    let form;
+    if (status === "sending") {
+        form = <Grid item><div>Sending...</div></Grid>
+    } else if (status === "error") {
+        form = <Grid item><div dangerouslySetInnerHTML={{ __html: message }} /></Grid>
+    } else if (status === "success") {
+        form = <Grid item><div dangerouslySetInnerHTML={{ __html: message }} /></Grid>
+    } else {
+        form = <Fragment>
+                        <Grid item>
+                            <TextField variant="outlined"
+                                placeholder="First Name"
+                                type="text"
+                                required
+                                inputProps={{ className: classes.input }}
+                                inputRef={node => (name = node)}
+                            />
+                        </Grid>
+                        <Grid item>
+                            <TextField type="email"
+                                placeholder="Email"
+                                variant="outlined"
+                                required
+                                validate
+                                inputProps={{ className: classes.input }}
+                                inputRef={node => (email = node)}
+                            />
+                        </Grid>
+                        <Grid item>
+                            <Button onClick={submit} size="large" variant="contained" style={{borderRadius: 15}}>Join</Button>
+                        </Grid>
+                    </Fragment>
+    }
+
     return (
-        <form validate>
+        <form>
             <Grid container
                 direction="row"
                 justify="center"
                 alignItems="center"
                 spacing={2}>
-                <Grid item>
-                    <TextField variant="outlined"
-                        placeholder="First Name"
-                        type="text"
-                        required
-                        inputProps={{ className: classes.input }}
-                        ref={node => (name = node)}
-                    />
-                </Grid>
-                <Grid item>
-                    <TextField type="email"
-                        placeholder="Email"
-                        variant="outlined"
-                        required
-                        validate
-                        inputProps={{ className: classes.input }}
-                        ref={node => (email = node)}
-                    />
-                </Grid>
-                <Grid item>
-                    <Button onClick={submit} size="large" variant="contained">Join</Button>
-                </Grid>
-                <Grid>
-                    {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-                    {status === "error" && (
-                        <div
-                            style={{ color: "red" }}
-                            dangerouslySetInnerHTML={{ __html: message }}
-                        />
-                    )}
-                    {status === "success" && (
-                        <div
-                            style={{ color: "green" }}
-                            dangerouslySetInnerHTML={{ __html: message }}
-                        />
-                    )}
-                </Grid>
+                    {form}
             </Grid>
         </form>
     );
