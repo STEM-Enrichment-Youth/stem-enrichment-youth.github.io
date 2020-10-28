@@ -1,6 +1,6 @@
 import React from "react";
 import {Helmet} from "react-helmet"; 
-import molbio from "./ClassPics/MolBio.jpeg"
+import molbio from "./ClassPics/MolBio.png"
 import anatomy from "./ClassPics/Anatomy.png"
 
 export default function NewClasses() {

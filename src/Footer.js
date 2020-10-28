@@ -88,7 +88,7 @@ export default function Footer() {
     const classes = useStyles();
     return (
         <footer className={classes.footer}>
-            <h2 justify="center">Join Our Newsletter!</h2>
+            <h2 justify="center" paddingTop="8px" >Join Our Newsletter!</h2>
             <br />
             <MailchimpSubscribe
                 url={process.env.REACT_APP_MAILCHIMP_URL}
@@ -107,16 +107,16 @@ export default function Footer() {
                 alignItems="center"
                 spacing={3}>
                 <Grid item>
-                    <SocialIcon url="youtube.com" fgColor="#FFFFFF"></SocialIcon>
+                    <SocialIcon url="https://www.youtube.com/channel/UClH63PzuvNWKH9U_8Li0R_Q/featured" fgColor="#FFFFFF"></SocialIcon>
                 </Grid>
                 <Grid item>
-                    <SocialIcon url="facebook.com" fgColor="#FFFFFF"></SocialIcon>
+                    <SocialIcon url="https://www.facebook.com/faith.han.9828" fgColor="#FFFFFF"></SocialIcon>
                 </Grid>
                 <Grid item>
-                    <SocialIcon url="tumblr.com" fgColor="#FFFFFF"></SocialIcon>
+                    <SocialIcon url="https://www.linkedin.com/company/stem-enrichment-youth" fgColor="#FFFFFF"></SocialIcon>
                 </Grid>
                 <Grid item>
-                    <SocialIcon url="instagram.com" fgColor="#FFFFFF"></SocialIcon>
+                    <SocialIcon url="https://www.instagram.com/stemenrichmentyouth/" fgColor="#FFFFFF"></SocialIcon>
                 </Grid>
             </Grid>
         </footer>

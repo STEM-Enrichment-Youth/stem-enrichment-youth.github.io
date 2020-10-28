@@ -11,8 +11,8 @@
   
   .new-class h1 {
     text-align: center;
-    padding: 0 20px; 
-    font-size: 7rem;
+    padding: 0 10px; 
+    font-size: 6rem;
   }
   
   .class-intro {
@@ -198,6 +198,10 @@
     }
 
     .sign-up-p { width: 80%;}
+
+    .class-con, .class-con-item {
+        grid-template-columns: repeat(1, minmax(100%, 1fr)); 
+    }
   }
   
 

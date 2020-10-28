@@ -23,7 +23,7 @@ import medicine from "./Partners/Logos/medicine.jpeg";
 import lemonslife from "./Partners/Logos/lemonslife.jpeg";
 import physics from "./Classes/ClassPics/Physics.png"; 
 import anatomy from "./Classes/ClassPics/Anatomy.png"; 
-import molbio from "./Classes/ClassPics/MolBio.jpeg"; 
+import molbio from "./Classes/ClassPics/MolBio.png"; 
 import settheory from "./Classes/ClassPics/SetTheory.png"; 
 import geometry from "./Classes/ClassPics/Geometry.png"; 
 import algebra from "./Classes/ClassPics/Algebra.png"; 
@@ -79,22 +79,22 @@ function Home() {
     
       <div class="banner">
         <a class="banner-class" href="/math-class">
+          <img  src={settheory} />
+        </a>
+        <a class="banner-class" href="/math-class">
           <img src={geometry} />
         </a>
         <a class="banner-class" href="/math-class">
           <img  src={algebra} />
-        </a>
-        <a class="banner-class" href="/math-class">
-          <img  src={settheory} />
-        </a>
-        <a class="banner-class" href="/biology-class">
-          <img  src={anatomy} />
         </a>
         <a class="banner-class" href="/biology-class">
           <img src={molbio} />
         </a>
         <a class="banner-class" href="/physics-class">
           <img  src={physics} />
+        </a>
+        <a class="banner-class" href="/biology-class">
+          <img  src={anatomy} />
         </a>
       </div> 
 
@@ -171,8 +171,8 @@ function Home() {
       </section>
 
 
-      <h1 class="partners-head" >Partners/Supporters</h1>
-
+      {/* <h1 class="partners-head" >Partners/Supporters</h1> */}
+{/* 
       <div class="banner partners-banner" style={{ marginBottom: "40px" }}>
         <a class="banner-class" href="https://solveitforkids.com/">
           <img class="class-icon" src={solveit} />
@@ -214,16 +214,12 @@ function Home() {
           <img class="class-icon" src={antarexxa} />
           <h2 style={{ color: "white" }}>Antarexxa Space Global</h2>
         </a>
-        {/* <a class="banner-class" href="/neuroscience-class">
-          <img class="class-icon" style={{ marginTop: '25px' }} src={simply} />
-          <h2 style={{ color: "white" }}>Simply Neuroscience</h2>
-        </a> */}
         <a class="banner-class" href="https://www.wavelf.org/">
           <img class="class-icon" style={{ marginTop: '15px' }} src={wlf} />
           <h2 style={{ color: "white" }}>Wave Learning Festival</h2>
         </a>
       </div>
-
+ */}
 
 
 
