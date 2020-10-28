@@ -54,7 +54,9 @@ export default function Navbar(props) {
             </div>
           </li>
          <li class="nav-item active nav-link">
-            <Button href="/discord" variant="contained">Discord</Button>
+         <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
+                class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/discord" role="button">
+                Discord</a>
           </li>
           
           <li class="nav-item dropdown nav-link active">
@@ -98,7 +100,9 @@ export default function Navbar(props) {
           </li>
       
           <li class="nav-item active nav-link">
-            <Button href="/teach" variant="contained">Apply</Button>
+            <a style={{color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)"}}
+                class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/teach" role="button">
+                Apply</a>
           </li>
 
         </ul>
