@@ -18,7 +18,6 @@ import defaultInstructor from "../icons/head-cross.png";
 
 export default function Biology() {
     return (<div class="new-team-con">
-        <Navbar/> 
         <div class="new-team">
         <h1>Biology</h1>
         <h2>Meet our Anatomy and Molecular Biology Team Members</h2>

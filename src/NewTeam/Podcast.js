@@ -13,7 +13,6 @@ import amy from "./InstructorImages/amynam.jpg";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
-        <Navbar />
         <div class="new-team">
             <h1>Podcast</h1>
             <div class="con">

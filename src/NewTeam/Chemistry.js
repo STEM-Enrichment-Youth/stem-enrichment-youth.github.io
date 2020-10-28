@@ -8,7 +8,6 @@ import amynam from "./InstructorImages/amynam.jpg";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
-        <Navbar />
         <div class="new-team">
             <h1>Chemistry</h1>
             <div class="con">

@@ -15,7 +15,6 @@ import diana from "./InstructorImages/diana.jpg";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
-        <Navbar />
         <div class="new-team">
             <h1>Design & Tech</h1>
             <div class="con">

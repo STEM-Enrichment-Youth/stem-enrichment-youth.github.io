@@ -13,7 +13,6 @@ import brian from "./InstructorImages/brian.jpeg";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
-        <Navbar/> 
         <div class="new-team">
         <h1>Computer Science</h1>
         <div class="con">

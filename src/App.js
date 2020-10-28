@@ -4,8 +4,9 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import SND from "./SND"; 
+import SND from "./SND";
 import Navbar from "./Navbar";
+import Footer from './Footer';
 import Home from "./Home";
 import NewTeam from "./NewTeam/NewTeam";
 import NewClasses from "./Classes/NewClasses";
@@ -25,12 +26,13 @@ import Login from "./Login";
 import Discord from "./Discord";
 import Donate from "./Donate";
 import Contact from "./Contact";
-import STEMWorld from "./STEMWorld"; 
-import STEMTober from "./STEMTober"; 
+import STEMWorld from "./STEMWorld";
+import STEMTober from "./STEMTober";
 import STEMSpeakers from "./STEMSpeakers";
 import Sponsorship from "./Sponsorship";
-import Executives from "./NewTeam/Executives"; 
-import About from "./About"; 
+import Executives from "./NewTeam/Executives";
+import About from "./About";
+import { Nav } from "react-bootstrap";
 
 
 export default function App() {
@@ -40,10 +42,11 @@ export default function App() {
       <div>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
+        <Navbar />
         <Switch>
 
           {/* <Route path="/activities">
-            <Navbar/> 
+            
             <Activities/>
           </Route> */}
           <Route path="/biology">
@@ -74,84 +77,83 @@ export default function App() {
             <Tech />
           </Route>
           <Route path="/discord">
-            <Navbar/> 
+
             <Discord />
           </Route>
 
           <Route path="/partnerships">
-            <Navbar/> 
-            < SND /> 
+            < SND />
           </Route>
 
           <Route path="/stemworld">
-            <Navbar/> 
-            < STEMWorld /> 
+
+            < STEMWorld />
           </Route>
           <Route path="/stemtober">
-            <Navbar/> 
-            < STEMTober /> 
+
+            < STEMTober />
           </Route>
           <Route path="/nerdcon">
-            <Navbar/> 
-            < STEMWorld /> 
+
+            < STEMWorld />
           </Route>
           <Route path="/login">
-            <Navbar/> 
-            < Login /> 
+
+            < Login />
           </Route>
           <Route path="/stemworldspeakers">
-            <Navbar/> 
-            < STEMSpeakers /> 
+
+            < STEMSpeakers />
           </Route>
           <Route path="/sponsorship">
-            <Navbar/> 
-            < Sponsorship /> 
+
+            < Sponsorship />
           </Route>
           <Route path="/chemistry-class">
-            <Navbar /><ChemistryClass />
+            <ChemistryClass />
           </Route>
           <Route path="/executives">
-            <Navbar /><Executives />
+            <Executives />
           </Route>
           <Route path="/biology-class">
-            <Navbar /><BiologyClass />
+            <BiologyClass />
           </Route>
           <Route path="/math-class">
-            <Navbar /><MathClass />
+            <MathClass />
           </Route>
           <Route path="/neuroscience-class">
-            <Navbar />  <NeuroscienceClass />
+            <NeuroscienceClass />
           </Route>
           <Route path="/physics-class">
-            <Navbar /> <PhysicsClass />
+            <PhysicsClass />
           </Route>
           <Route path="/coding-class">
-            <Navbar /><CodingClass />
+            <CodingClass />
           </Route>
 
           <Route path="/animalcell-lab">
-            <Navbar /><AnimalCellLab />
+            <AnimalCellLab />
           </Route>
           <Route path="/plantcell-lab">
-            <Navbar /><PlantCellLab />
+            <PlantCellLab />
           </Route>
 
           <Route path="/teach">
             <Join />
           </Route>
           <Route path="/about">
-            <Navbar/> 
+
             <About />
           </Route>
 
           <Route path="/donate">
-            <Navbar/>
+
             <Donate />
           </Route>
 
 
           <Route path="/contact">
-            <Navbar />
+
             <Contact />
           </Route>
 
@@ -160,14 +162,14 @@ export default function App() {
             <NewTeam />
           </Route>
           <Route path="/classes">
-            <Navbar />
+
             <NewClasses />
           </Route>
           <Route path="/">
-            <Navbar />
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

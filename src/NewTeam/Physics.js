@@ -13,7 +13,6 @@ import srinjoy from "./InstructorImages/srinjoy.png";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
-        <Navbar/> 
         <div class="new-team">
         <h1>Physics</h1>
         <div class="con">

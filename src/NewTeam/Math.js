@@ -14,8 +14,7 @@ import avery from "./InstructorImages/avery.jpeg";
 import srishti from "./InstructorImages/srishti.jpeg";
 
 export default function NewTeam() {
-    return (<div class="new-team-con">
-        <Navbar/> 
+    return (<div class="new-team-con"> 
         <div class="new-team">
         <h1>Math</h1>
         <div class="con">
