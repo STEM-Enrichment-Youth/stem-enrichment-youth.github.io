@@ -8,6 +8,7 @@ import sakshi from "./InstructorImages/sakshi.png";
 // import aniketh from "./InstructorImages/";
 import brianado from "./InstructorImages/brianado.jpg";
 import yana from "./InstructorImages/yana.jpeg"; 
+import diana from "./InstructorImages/diana.jpg"; 
 
 
 
@@ -55,6 +56,12 @@ export default function NewTeam() {
                     position="Design Co-Lead"
 
                 />
+                <Card
+                    imgURL = {diana}
+                    name = "Diana Poplacenel"
+                    position = "Website Design Team"
+                    des="     Diana Poplacenel is the co-founder of STEM Enrichment Youth, and a founding member and officer of Leigh High School’s Biology & Chemistry Olympiad, Science Bowl, and Science National Honors Society clubs. She is passionate about the intersection between biology and computer science, and has taken HarvardX and Johns Hopkins’ Neuroscience and Bioinformatics courses. She is a semifinalist in the USA Biology Olympiad and a former student at the Biomedical Engineering Innovation Program at Johns Hopkins. She currently leads the Computer Science Connect RWC Class at STEMEY. "
+                /> 
 
             </div>
         </div>

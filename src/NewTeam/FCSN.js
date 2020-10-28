@@ -8,6 +8,7 @@ import justin from "./InstructorImages/justin.jpg";
 import katherine from "./InstructorImages/katherine.jpg";
 import brianado from "./InstructorImages/brianado.jpg";
 import elyssa from "./InstructorImages/elyssa.jpg";
+import diana from "./InstructorImages/diana.jpg";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
@@ -57,6 +58,12 @@ export default function NewTeam() {
                     position="FCSN Class Instructor"
                     des="Elyssa Wolter is a senior at Leigh High School. She is a member of the Science National Honor Society, California Scholarship Federation, National Honor Society, and Link Crew. She enjoys teaching and working with kids and has worked as a babysitter and soccer referee since middle school and the past two summers she was a camp counselor at Mulberry School. She is the Activities Director of STEMEY, is apart of the FCSN live classes, and is on the strategy team."
                 />
+                <Card
+                    imgURL = {diana}
+                    name = "Diana Poplacenel"
+                    position = "Chief Executive Officer"
+                    des="     Diana Poplacenel is the co-founder of STEM Enrichment Youth, and a founding member and officer of Leigh High School’s Biology & Chemistry Olympiad, Science Bowl, and Science National Honors Society clubs. She is passionate about the intersection between biology and computer science, and has taken HarvardX and Johns Hopkins’ Neuroscience and Bioinformatics courses. She is a semifinalist in the USA Biology Olympiad and a former student at the Biomedical Engineering Innovation Program at Johns Hopkins. She currently leads the Computer Science Connect RWC Class at STEMEY. "
+                /> 
 
             </div>
         </div>

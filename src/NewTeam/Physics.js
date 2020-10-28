@@ -5,7 +5,6 @@ import Card from "./TeamCard";
 import fiona from "./InstructorImages/fiona.png"; 
 import liza from "./InstructorImages/liza.jpg"; 
 import defaultInstructor from "../icons/head-brains.png";
-import elyssa from "./InstructorImages/elyssa.jpg"; 
 import tanvirao from "./InstructorImages/tanvirao.jpeg";
 import keshavnarang from "./InstructorImages/keshavnarang.png";
 import marksandey from "./InstructorImages/marksandey.png";

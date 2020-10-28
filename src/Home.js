@@ -61,7 +61,7 @@ function Home() {
                 A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to advance the public’s STEM education and experience.
               </p>
               <a style={{color: "white", marginBottom: "10px"}} class="btn btn-full" href="/about">Learn More</a>
-              <a style={{color: "white", marginBottom: "10px", marginLeft: "10px"}} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Register for our Classes</a>
+              <a style={{color: "white", marginBottom: "10px", marginLeft: "10px"}} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Register Today</a>
 
             </div>
             <img class="stemey-logo" src={stemey} />
@@ -123,7 +123,7 @@ function Home() {
               <i class="fas fa-arrow-alt-circle-right"></i>
               <p>Classes in six STEM Disciplines</p>
             </div>
-            <a style={{color: "white"}} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Register for our Free Classes</a>
+            <a style={{color: "white"}} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Register Today</a>
 
 
         </div>
@@ -147,7 +147,7 @@ function Home() {
               <i class="fas fa-arrow-alt-circle-right"></i>
               <p>Advice and Tips on College Advimissions and STEM Opportunities</p>
             </div>
-            <a style={{color: "white"}} class="btn btn-full" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Subscribe & Watch STEM World</a>
+            <a style={{color: "white"}} class="btn btn-full" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Watch Now</a>
 
 
           </div>
@@ -156,7 +156,7 @@ function Home() {
 
         </div>
 
-        <div class="banner" style={{marginTop: "50px"}}>
+        <div class="banner" style={{marginTop: "50px", marginBottom: "20px"}}>
         <a class="banner-class" href="https://tinyurl.com/stemeytutoring">
           <img  src={tutor} />
         </a>

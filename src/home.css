@@ -288,6 +288,13 @@
     .why-us { 
         justify-items: center; 
     }
+    .main-header h1:nth-child(odd) {
+        font-size: 400%;
+    }
+
+    .step p {
+        font-size: 90%; 
+    }
 
 }
 
@@ -311,7 +318,7 @@
     .biggest-header-2 { font-size: 100%; }
 
     .why-us {
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
         justify-items: center; 
     }
     .who {

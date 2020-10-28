@@ -6,15 +6,15 @@ export default function NewClasses() {
 
     return (<div class="new-team-con">
         <div class="new-class">
-            <h1>Coding</h1>
+            <h1>Programming</h1>
 
 
 
             <div class="class-con sign-up">
                 <div class="class-con-item">
-                    <h2 class="h">Intro to Coding</h2>
+                    <h2 class="h">Intro to Computer Science</h2>
                     <p class="p-team" style={{ marginBottom: "0" }}>
-                        In this course we will be covering the basics of coding through learning java and going through the AP Computer Science course. By the end of the course students will know the main concepts of coding which will help in learning any language moving forward.
+                        CURRENTLY OFFERED ONLY FOR CONNECT RWC STUDENTS. In this course we will be covering the basics of coding through learning java and going through the AP Computer Science course. By the end of the course students will know the main concepts of coding which will help in learning any language moving forward.
                     </p>
                     {/* <Carousel /> */}
                     <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>

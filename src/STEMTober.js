@@ -15,7 +15,7 @@ function STEMTober() {
         <div class="whole-home">
         <h1 class="help" style={{ textAlign: "center" }}>STEMTober</h1>
         <div style={{display: "grid", gridTemplateColumns: "1fr"}}>
-        <a style={{justifySelf: "center" }} class="btn btn-full" href="https://tinyurl.com/stemtoberzoom">Join the STEMTober Zoom</a>
+        <a style={{justifySelf: "center", marginTop: "20px"}} class="btn btn-full" href="https://www.youtube.com/playlist?list=PLC-l94m5eWHYxLLdquTr2A0TD4IlCNDEI">Watch STEMTober</a>
         <a style={{justifySelf: "center", marginTop: "20px"}} class="btn btn-full" href="https://wavelf.org">Check out WLF</a>
 
         </div>

@@ -11,7 +11,7 @@ export default function NewClasses() {
 
     return (<div class="new-team-con">
         <div class="new-class">
-            <h1>Classes</h1>
+            <h1>Summer Classes</h1>
 
             <div class="class-con sign-up">
                 <div class="class-con-item" style={{ display: "grid", gridTemplateRows: "1fr", alignItems: "center" }}>

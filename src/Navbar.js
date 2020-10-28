@@ -63,10 +63,10 @@ export default function Navbar(props) {
             Classes</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/biology-class">Biology</a>
-              <a class="dropdown-item" href="/chemistry-class">Chemistry</a>
               <a class="dropdown-item" href="/physics-class">Physics</a>
               <a class="dropdown-item" href="/math-class">Math</a>
-              <a class="dropdown-item" href="/coding-class">Coding</a>
+              <a class="dropdown-item" href="/coding-class">Programming</a>
+              <a class="dropdown-item" href="/classes">Summer Classes</a>
 
             </div>
           </li>
