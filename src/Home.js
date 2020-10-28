@@ -23,7 +23,7 @@ import medicine from "./Partners/Logos/medicine.jpeg";
 import lemonslife from "./Partners/Logos/lemonslife.jpeg";
 import physics from "./Classes/ClassPics/Physics.png"; 
 import anatomy from "./Classes/ClassPics/Anatomy.png"; 
-import molbio from "./Classes/ClassPics/MolBio.png"; 
+import molbio from "./Classes/ClassPics/MolBio.jpeg"; 
 import settheory from "./Classes/ClassPics/SetTheory.png"; 
 import geometry from "./Classes/ClassPics/Geometry.png"; 
 import algebra from "./Classes/ClassPics/Algebra.png"; 
