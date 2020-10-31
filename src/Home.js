@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import stemey from "./GoodStemeyLogo.png";
+import stemey from "./NewStemeyLogo.png";
 import stemworld from "./stemworldlogo.png";
 import coding from "./icons/head-cross.png";
 import chemistry from "./icons/beaker-atom.png"; import biology from "./icons/genetics.png";
