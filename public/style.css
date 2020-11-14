@@ -1,7 +1,7 @@
 
 body {
     background-size: cover; 
-    background-image:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.7)), url("./new-background.png"); 
+    background-image:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.7)), url("./new-background.jpg"); 
     background-attachment: fixed; 
   
   

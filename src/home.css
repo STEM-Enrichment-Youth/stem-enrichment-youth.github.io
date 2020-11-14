@@ -165,6 +165,10 @@
 
 }
 
+.class-banner {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+}
+
 .banner-class {
     display: grid; grid-template-columns: 1fr;
     justify-items: center; 
