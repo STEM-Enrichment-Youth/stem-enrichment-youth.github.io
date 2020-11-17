@@ -12,7 +12,8 @@ import ChemistryClass from "./Classes/Chemistry"; import BiologyClass from "./Cl
 import MathClass from "./Classes/Math";
 import PhysicsClass from "./Classes/Physics"; import CodingClass from "./Classes/Coding";
 
-import AnimalCellLab from "./Labs/AnimalCellLab"; import PlantCellLab from "./Labs/PlantCellLab";
+// import AnimalCellLab from "./Labs/AnimalCellLab"; 
+import PlantCellLab from "./Labs/PlantCellLab";
 
 import Biology from "./NewTeam/Biology"; import Chemistry from "./NewTeam/Chemistry";
 import Physics from "./NewTeam/Physics"; import Coding from "./NewTeam/Coding";
@@ -28,6 +29,7 @@ import STEMSpeakers from "./STEMSpeakers";
 import Sponsorship from "./Sponsorship";
 import Executives from "./NewTeam/Executives";
 import About from "./About";
+
 
 
 export default function App() {
@@ -112,9 +114,9 @@ export default function App() {
             <CodingClass />
           </Route>
 
-          <Route path="/animalcell-lab">
+          {/* <Route path="/animalcell-lab">
             <AnimalCellLab />
-          </Route>
+          </Route> */}
           <Route path="/plantcell-lab">
             <PlantCellLab />
           </Route>

@@ -1,11 +1,8 @@
 import React from "react";
 import "./NewTeam.css";
-import Navbar from "../Navbar.js";
 import Card from "./TeamCard";
-import defaultInstructor from "../icons/head-brains.png";
 import navaneet from "./InstructorImages/navaneet.jpg";
 import sakshi from "./InstructorImages/sakshi.png";
-// import aniketh from "./InstructorImages/";
 import brianado from "./InstructorImages/brianado.jpg";
 import yana from "./InstructorImages/yana.jpeg"; 
 import diana from "./InstructorImages/diana.jpg"; 

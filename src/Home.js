@@ -51,6 +51,36 @@ function Home() {
       </div>
     
     
+      <div class="class-banner banner" style={{marginTop: "50px", marginBottom: "20px"}}>
+        <a class="banner-class" href="https://tinyurl.com/stemeytutoring">
+          <img  src={tutor} />
+        </a>
+        <a class="banner-class" href="/plantcell-lab">
+          <img  src={labs} />
+        </a>
+
+        <a class="banner-class" href="/stemworld">
+          <img  src={stemworld}/>
+        </a>
+        <a class="banner-class" href="/math-class">
+          <img  src={settheory} />
+        </a>
+        <a class="banner-class" href="/math-class">
+          <img src={geometry} />
+        </a>
+        <a class="banner-class" href="/math-class">
+          <img  src={algebra} />
+        </a>
+        <a class="banner-class" href="/biology-class">
+          <img src={molbio} />
+        </a>
+        <a class="banner-class" href="/physics-class">
+          <img  src={physics} />
+        </a>
+        <a class="banner-class" href="/biology-class">
+          <img  src={anatomy} />
+        </a>
+      </div> 
       
 
       <section class="who">
@@ -111,36 +141,6 @@ function Home() {
 
         </div>
 
-        <div class="class-banner banner" style={{marginTop: "50px", marginBottom: "20px"}}>
-        <a class="banner-class" href="https://tinyurl.com/stemeytutoring">
-          <img  src={tutor} />
-        </a>
-        <a class="banner-class" href="/plantcell-lab">
-          <img  src={labs} />
-        </a>
-
-        <a class="banner-class" href="/stemworld">
-          <img  src={stemworld}/>
-        </a>
-        <a class="banner-class" href="/math-class">
-          <img  src={settheory} />
-        </a>
-        <a class="banner-class" href="/math-class">
-          <img src={geometry} />
-        </a>
-        <a class="banner-class" href="/math-class">
-          <img  src={algebra} />
-        </a>
-        <a class="banner-class" href="/biology-class">
-          <img src={molbio} />
-        </a>
-        <a class="banner-class" href="/physics-class">
-          <img  src={physics} />
-        </a>
-        <a class="banner-class" href="/biology-class">
-          <img  src={anatomy} />
-        </a>
-      </div> 
       </section>
 
 
