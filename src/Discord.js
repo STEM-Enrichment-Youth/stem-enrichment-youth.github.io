@@ -1,11 +1,6 @@
 import React from "react";
 import "./home.css";
 import "./timeline.css";
-import stemey from "./GoodStemeyLogo.png";
-import Timeline, { TimelineEntry, TimelineMarker } from './Timeline';
-import Papa from 'papaparse';
-import speakers from './speakers.csv';
-import { Container, Row, Col } from 'react-grid-system';
 import {Helmet} from "react-helmet"; 
 
 

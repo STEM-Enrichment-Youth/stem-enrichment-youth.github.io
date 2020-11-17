@@ -1,6 +1,5 @@
 import React from "react";
 import "./NewTeam.css";
-import Navbar from "../Navbar.js";
 import Card from "./TeamCard";
 import diana from "./InstructorImages/diana.jpg";
 import aiswarya from "./InstructorImages/aiswarya.jpeg";

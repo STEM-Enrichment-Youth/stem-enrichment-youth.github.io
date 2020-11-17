@@ -1,11 +1,6 @@
 import React from "react";
 import "./home.css";
-import stemey from "./GoodStemeyLogo.png";
-import coding from "./icons/head-cross.png"; 
-import chemistry from "./icons/beaker-atom.png"; import biology from "./icons/genetics.png"; 
-import physics from "./icons/Newtons-cradle.png"; 
-import math from "./icons/checkboard-graph.png"; 
-import neuroscience from "./icons/head-brains.png"; 
+import stemey from "./NewStemeyLogo.png";
 
 function Contact() {
   const [scale, setScale] = React.useState(false);
