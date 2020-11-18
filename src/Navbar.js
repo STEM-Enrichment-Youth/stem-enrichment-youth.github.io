@@ -95,7 +95,7 @@ export default function Navbar(props) {
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Labs</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {/* <a class="dropdown-item" href="/animalcell-lab">Animal Cell</a> */}
+              <a class="dropdown-item" href="/animalcell-lab">Animal Cell</a>
               <a class="dropdown-item" href="/plantcell-lab">Plant Cell</a>
             </div>
           </li>
