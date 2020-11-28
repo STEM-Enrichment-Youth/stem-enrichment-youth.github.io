@@ -60,19 +60,12 @@ export default function Navbar(props) {
               Discord</a>
           </li>
 
-          <li class="nav-item dropdown nav-link active">
+          <li class="nav-item active nav-link">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
-              class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/classes" role="button">
               Classes</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/biology-class">Biology</a>
-              <a class="dropdown-item" href="/physics-class">Physics</a>
-              <a class="dropdown-item" href="/math-class">Math</a>
-              <a class="dropdown-item" href="/coding-class">Programming</a>
-              <a class="dropdown-item" href="/classes">Summer Classes</a>
-
-            </div>
           </li>
+         
           <li class="nav-item dropdown nav-link active">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

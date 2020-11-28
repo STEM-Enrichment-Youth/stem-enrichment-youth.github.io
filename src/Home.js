@@ -32,7 +32,7 @@ function Home() {
               <div>
               <a style={{color: "white", marginBottom: "20px"}} class="btn btn-full" href="/about">About Us</a>
               <a style={{color: "white", marginBottom: "20px", marginLeft: "10px"}} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Classes</a>
-              <a style={{color: "white", marginBottom: "20px", marginLeft: "10px"}} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Tutoring</a>
+              <a style={{color: "white", marginBottom: "20px", marginLeft: "10px"}} class="btn btn-full" href="/tutoring">Tutoring</a>
 
               </div>
               
@@ -52,7 +52,7 @@ function Home() {
     
     
       <div class="class-banner banner" style={{marginTop: "50px", marginBottom: "20px"}}>
-        <a class="banner-class" href="https://tinyurl.com/stemeytutoring">
+        <a class="banner-class" href="/tutoring">
           <img  src={tutor} />
         </a>
         <a class="banner-class" href="/plantcell-lab">

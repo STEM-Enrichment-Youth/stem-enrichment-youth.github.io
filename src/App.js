@@ -29,6 +29,8 @@ import STEMSpeakers from "./STEMSpeakers";
 import Sponsorship from "./Sponsorship";
 import Executives from "./NewTeam/Executives";
 import About from "./About";
+import Tutoring from "./Tutoring";
+import Classes from "./Classes/Classes";
 
 
 
@@ -124,6 +126,9 @@ export default function App() {
           <Route path="/teach">
             <Join />
           </Route>
+          <Route path="/tutoring">
+            <Tutoring />
+          </Route>
           <Route path="/about">
 
             <About />
@@ -138,7 +143,7 @@ export default function App() {
 
           <Route path="/classes">
 
-            <NewClasses />
+            <Classes />
           </Route>
           <Route path="/">
             <Home />
