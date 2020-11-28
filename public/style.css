@@ -1,9 +1,8 @@
 
 body {
     background-size: cover; 
-    background-image:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.7)), url("./new-background.jpg"); 
+    background-image:linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.2)), url("./new-background.png"); 
     background-attachment: fixed; 
-  
   
     border: none; 
     font-weight: 200; 

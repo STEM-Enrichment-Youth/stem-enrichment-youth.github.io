@@ -46,29 +46,29 @@ const CustomForm = ({ status, message, onValidated }) => {
         form = <Grid item><div dangerouslySetInnerHTML={{ __html: message }} /></Grid>
     } else {
         form = <Fragment>
-                        <Grid item>
-                            <TextField variant="outlined"
-                                placeholder="First Name"
-                                type="text"
-                                required
-                                inputProps={{ className: classes.input }}
-                                inputRef={node => (name = node)}
-                            />
-                        </Grid>
-                        <Grid item>
-                            <TextField type="email"
-                                placeholder="Email"
-                                variant="outlined"
-                                required
-                                validate
-                                inputProps={{ className: classes.input }}
-                                inputRef={node => (email = node)}
-                            />
-                        </Grid>
-                        <Grid item>
-                            <Button onClick={submit} size="large" variant="contained" style={{borderRadius: 15}}>Join</Button>
-                        </Grid>
-                    </Fragment>
+            <Grid item>
+                <TextField variant="outlined"
+                    placeholder="First Name"
+                    type="text"
+                    required
+                    inputProps={{ className: classes.input }}
+                    inputRef={node => (name = node)}
+                />
+            </Grid>
+            <Grid item>
+                <TextField type="email"
+                    placeholder="Email"
+                    variant="outlined"
+                    required
+                    validate
+                    inputProps={{ className: classes.input }}
+                    inputRef={node => (email = node)}
+                />
+            </Grid>
+            <Grid item>
+                <Button onClick={submit} size="large" variant="contained" style={{ borderRadius: 15 }}>Join</Button>
+            </Grid>
+        </Fragment>
     }
 
     return (
@@ -78,7 +78,7 @@ const CustomForm = ({ status, message, onValidated }) => {
                 justify="center"
                 alignItems="center"
                 spacing={2}>
-                    {form}
+                {form}
             </Grid>
         </form>
     );
@@ -88,8 +88,9 @@ export default function Footer() {
     const classes = useStyles();
     return (
         <footer className={classes.footer}>
-            <h2 justify="center" paddingTop="8px" >Join Our Newsletter!</h2>
-            <br />
+            <h2 style={{textAlign: "center"}} paddingTop="8px" >Join Our Mailing List!</h2>
+            <p style={{textAlign: "center"}}>Get updates on STEMEY Opportunities!</p>
+
             <MailchimpSubscribe
                 url={process.env.REACT_APP_MAILCHIMP_URL}
                 render={({ subscribe, status, message }) => (

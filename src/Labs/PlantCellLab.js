@@ -1,4 +1,5 @@
 import React from "react"; 
+import "./labs.css"
 
 export default function PlantCellLab() {
     return (
