@@ -44,12 +44,23 @@ export default function Navbar(props) {
             </div>
           </li>
 
+         
+          
+          <li class="nav-item active nav-link">
+            <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
+              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/classes" role="button">
+              Classes</a>
+          </li>
+          <li class="nav-item active nav-link">
+            <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
+              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/tutoring" role="button">
+              Tutoring</a>
+          </li>
           <li class="nav-item dropdown nav-link active">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Events</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://tinyurl.com/stemeyevents">Classes</a>
               <a class="dropdown-item" href="/stemworld">STEM World</a>
               <a class="dropdown-item" href="/stemtober">STEM-Tober</a>
             </div>
@@ -60,12 +71,6 @@ export default function Navbar(props) {
               Discord</a>
           </li>
 
-          <li class="nav-item active nav-link">
-            <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
-              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/classes" role="button">
-              Classes</a>
-          </li>
-         
           <li class="nav-item dropdown nav-link active">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -9,6 +9,7 @@ import molbio from "./Classes/ClassPics/5.png";
 import settheory from "./Classes/ClassPics/3.png"; 
 import geometry from "./Classes/ClassPics/4.png"; 
 import algebra from "./Classes/ClassPics/6.png"; 
+import fcsn from "./Classes/ClassPics/FCSN.png"; 
 import tutor from "./Tutoring.png"; 
 import labs from "./Lab.png"; 
 
@@ -26,7 +27,7 @@ function Home() {
               <div class="main-header">
                 <h1 style={{ textAlign: "left" }}>STEMEY</h1>
               </div>
-              <p class="head-p" style={{ maxWidth: "800px" }}>
+              <p class="head-p" style={{ maxWidth: "700px" }}>
                 A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to democratize STEM education.
               </p>
               <div>
@@ -37,7 +38,7 @@ function Home() {
               </div>
               
             </div>
-            <img class="stemey-logo" src={stemey} />
+            <img class="stemey-logo" src={fcsn} />
             {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
             {/* <p >Explore biology, coding, neuroscience, programming, physics, or chemistry online at your own pace with the help of 
               passionate, accomplished high school STEM enthusiasts.</p> */}
