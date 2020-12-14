@@ -38,9 +38,11 @@
     "react-native-dash": "0.0.11",
     "react-native-timeline-flatlist": "^0.7.3",
     "react-native-timeline-theme": "0.0.9",
+    "react-popupbox": "^2.0.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
+    "reactjs-popup": "^2.0.4",
     "tabletop": "^1.6.3",
     "vertical-timeline-component-react": "^1.2.3"
   },

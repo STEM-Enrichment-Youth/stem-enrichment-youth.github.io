@@ -31,7 +31,7 @@ import Executives from "./NewTeam/Executives";
 import About from "./About";
 import Tutoring from "./Tutoring";
 import Classes from "./Classes/Classes";
-
+import Test from "./Test"; 
 
 
 export default function App() {
@@ -48,7 +48,7 @@ export default function App() {
             
             <Activities/>
           </Route> */}
-          <Route path="/biology">
+          {/* <Route path="/biology">
             <Biology />
           </Route>
           <Route path="/chemistry">
@@ -63,12 +63,15 @@ export default function App() {
           </Route>
           <Route path="/coding">
             <Coding />
-          </Route>
+          </Route> */}
           <Route path="/podcast">
             <Podcast />
           </Route>
           <Route path="/events">
             <Events />
+          </Route>
+          <Route path="/test">
+            <Test />
           </Route>
           <Route path="/tech">
             <Tech />

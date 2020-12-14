@@ -1,4 +1,9 @@
 import React from "react";
+import {
+  PopupboxManager,
+  PopupboxContainer
+} from 'react-popupbox';
+import Popup from "reactjs-popup"
 import "./home.css";
 import stemey from "./NewStemeyLogo.png";
 import stemworld from "./newstemworld.png";
@@ -15,11 +20,12 @@ import labs from "./Lab.png";
 
 
 function Home() {
-  const [scale, setScale] = React.useState(false);
+ 
+
   return (
     <div class="whole-home">
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
-
+      
 
         <div class="head-txt" >
           <div class="head-con">
@@ -32,7 +38,7 @@ function Home() {
               </p>
               <div>
               <a style={{color: "white", marginBottom: "20px"}} class="btn btn-full" href="/about">About Us</a>
-              <a style={{color: "white", marginBottom: "20px", marginLeft: "10px"}} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Classes</a>
+              <a style={{color: "white", marginBottom: "20px", marginLeft: "10px"}} class="btn btn-full" href="/classes">Classes</a>
               <a style={{color: "white", marginBottom: "20px", marginLeft: "10px"}} class="btn btn-full" href="/tutoring">Tutoring</a>
 
               </div>
@@ -63,22 +69,22 @@ function Home() {
         <a class="banner-class" href="/stemworld">
           <img  src={stemworld}/>
         </a>
-        <a class="banner-class" href="/math-class">
+        <a class="banner-class" href="/classes">
           <img  src={settheory} />
         </a>
-        <a class="banner-class" href="/math-class">
+        <a class="banner-class" href="/classes">
           <img src={geometry} />
         </a>
-        <a class="banner-class" href="/math-class">
+        <a class="banner-class" href="/classes">
           <img  src={algebra} />
         </a>
-        <a class="banner-class" href="/biology-class">
+        <a class="banner-class" href="/classes">
           <img src={molbio} />
         </a>
-        <a class="banner-class" href="/physics-class">
+        <a class="banner-class" href="/classes">
           <img  src={physics} />
         </a>
-        <a class="banner-class" href="/biology-class">
+        <a class="banner-class" href="/classes">
           <img  src={anatomy} />
         </a>
       </div> 
