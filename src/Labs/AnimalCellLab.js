@@ -7,7 +7,7 @@ export default function AnimalCellLab() {
         <h1>Animal Cell Lab</h1>
         <p id="helptext">Use a desktop for an optimal experience</p>
         <div class="container center">
-            <iframe src="../Labs/animalcell/index.html" class="responsive-iframe" frameBorder="0"></iframe>
+            <iframe title="Animal Cell Lab" src="../Labs/animalcell/index.html" class="responsive-iframe" frameBorder="0"></iframe>
         </div>
     </div>
     )

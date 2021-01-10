@@ -44,11 +44,11 @@ export default function App() {
         <Navbar />
         <Switch>
 
-          {/* <Route path="/activities">
+          <Route path="/activities">
             
             <Activities/>
-          </Route> */}
-          {/* <Route path="/biology">
+          </Route>
+          <Route path="/biology">
             <Biology />
           </Route>
           <Route path="/chemistry">
@@ -63,7 +63,7 @@ export default function App() {
           </Route>
           <Route path="/coding">
             <Coding />
-          </Route> */}
+          </Route>
           <Route path="/podcast">
             <Podcast />
           </Route>
@@ -77,17 +77,14 @@ export default function App() {
             <Tech />
           </Route>
           <Route path="/discord">
-
             <Discord />
           </Route>
 
           
           <Route path="/stemworld">
-
             < STEMWorld />
           </Route>
           <Route path="/stemtober">
-
             < STEMTober />
           </Route>
          
