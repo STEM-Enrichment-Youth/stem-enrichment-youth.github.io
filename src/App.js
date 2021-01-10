@@ -44,10 +44,9 @@ export default function App() {
         <Navbar />
         <Switch>
 
-          <Route path="/activities">
-            
+          {/* <Route path="/activities">
             <Activities/>
-          </Route>
+          </Route> */}
           <Route path="/biology">
             <Biology />
           </Route>
