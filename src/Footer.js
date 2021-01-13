@@ -108,16 +108,16 @@ export default function Footer() {
                 alignItems="center"
                 spacing={3}>
                 <Grid item>
-                    <SocialIcon url="https://www.youtube.com/channel/UClH63PzuvNWKH9U_8Li0R_Q/featured" fgColor="#FFFFFF"></SocialIcon>
+                    <SocialIcon target="_blank" url="https://www.youtube.com/channel/UClH63PzuvNWKH9U_8Li0R_Q/featured" fgColor="#FFFFFF"></SocialIcon>
                 </Grid>
                 <Grid item>
-                    <SocialIcon url="https://www.facebook.com/faith.han.9828" fgColor="#FFFFFF"></SocialIcon>
+                    <SocialIcon target="_blank" url="https://www.facebook.com/STEMEnrichmentYouth" fgColor="#FFFFFF"></SocialIcon>
                 </Grid>
                 <Grid item>
-                    <SocialIcon url="https://www.linkedin.com/company/stem-enrichment-youth" fgColor="#FFFFFF"></SocialIcon>
+                    <SocialIcon target="_blank" url="https://www.linkedin.com/company/stem-enrichment-youth" fgColor="#FFFFFF"></SocialIcon>
                 </Grid>
                 <Grid item>
-                    <SocialIcon url="https://www.instagram.com/stemenrichmentyouth/" fgColor="#FFFFFF"></SocialIcon>
+                    <SocialIcon target="_blank" url="https://www.instagram.com/stemenrichmentyouth/" fgColor="#FFFFFF"></SocialIcon>
                 </Grid>
             </Grid>
         </footer>

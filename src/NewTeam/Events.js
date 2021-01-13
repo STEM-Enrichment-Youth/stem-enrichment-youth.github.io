@@ -10,7 +10,7 @@ import briana from "./InstructorImages/briana.jpeg";
 import catherine from "./InstructorImages/catherineZhou.jpeg";
 // import matilda from "./InstructorImages/";
 // import ridhima from "./InstructorImages/";
-// import ruhani from "./InstructorImages/";
+import ruhani from "./InstructorImages/ruhani.jpg";
 // import saara from "./InstructorImages/";
 import yana from "./InstructorImages/yana.jpeg";
 import yulia from "./InstructorImages/yulia.JPG";
@@ -60,17 +60,10 @@ export default function NewTeam() {
                 />
 
                 <Card
-                    imgURL={defaultInstructor}
-                    name="Ridhima Inukruti"
-                    // position=""
-                    des=""
-                />
-
-                <Card
-                    imgURL={defaultInstructor}
+                    imgURL={ruhani}
                     name="Ruhani Chhabra"
                     // position=""
-                    des="Ruhani Chhabra is an eight grader at Farmwell Station Middle School in Ashburn, Virginia and she is on the events and outreach team for Stem Enrichment Youth(Stemey). She also helped promote Stem World. Ruhani is very passionate about STEM, specifically coding, computers, and science and is enrolled in Stemey’s Coding Class. In School, she is a part of the Science Olympiad and Advanced Chamber Orchestra Club. Ruhani also qualified to go to Nationals for the National Science Bee, and was supposed to compete in July of 2020, but could not because of Covid-19. She is also a accomplished Violinist and has played Violin for 5+ years, and has participated in Solo and Ensemble 3 times and received the highest rank each time. Some of her leisure activities include: singing, dancing, drawing, and hanging out with family and friends. Ruhani is super excited to help Stemey grow and looks forward to working with everyone."
+                    des="Ruhani Chhabra is an eighth grader at Farmwell Station Middle School in Ashburn, Virginia and she is on the events and outreach team for Stem Enrichment Youth(Stemey). She also helped promote Stem World. Ruhani is very passionate about STEM, specifically coding, computers, and science and is enrolled in Stemey’s Coding Class. In School, she is a part of the Science Olympiad and Advanced Chamber Orchestra Club. Ruhani also qualified to go to Nationals for the National Science Bee, and was supposed to compete in July of 2020, but could not because of Covid-19. She is also a accomplished Violinist and has played Violin for 5+ years, and has participated in Solo and Ensemble 3 times and received the highest rank each time. Some of her leisure activities include: singing, dancing, drawing, and hanging out with family and friends. Ruhani is super excited to help Stemey grow and looks forward to working with everyone."
                 />
 
                 <Card
@@ -92,6 +85,13 @@ export default function NewTeam() {
                     name="Yulia Anashkina"
                     // position=""
                     des="Yulia Anashkina is a sophomore at Leigh High School. She has a passion for STEM, especially Biology and Neuroscience. She has taken several online courses related to STEM including a neuroscience course from Harvard. Additionally, she is a competitive figure skater who competes individually as well as with SFIT, a team ranked top 5 internationally. She is very excited to be working with STEMEY! "
+                />
+
+                <Card
+                    imgURL={defaultInstructor}
+                    name="Ridhima Inukruti"
+                    // position=""
+                    des=""
                 />
 
 
