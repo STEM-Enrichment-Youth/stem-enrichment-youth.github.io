@@ -173,6 +173,10 @@
     display: grid; grid-template-columns: 1fr;
     justify-items: center; 
 }
+.banner-class:hover {
+    transform: scale(1.02); 
+}
+
 .banner-class h2 { font-size: 110%; margin-top: 10px; text-align: center; }
 
 .partners {

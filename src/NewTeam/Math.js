@@ -1,6 +1,5 @@
 import React from "react"; 
 import "./NewTeam.css"; 
-import Navbar from "../Navbar.js"; 
 import Card from "./TeamCard"; 
 import yana from "./InstructorImages/yana.jpeg"; 
 import emily from "./InstructorImages/emily.jpg"; 
@@ -12,6 +11,7 @@ import casey from "./InstructorImages/casey.jpg";
 import arjun from "./InstructorImages/arjun.jpeg"; 
 import avery from "./InstructorImages/avery.jpeg";
 import srishti from "./InstructorImages/srishti.jpeg";
+import mahathi from "./InstructorImages/mahathi.jpg"
 
 export default function NewTeam() {
     return (<div class="new-team-con"> 
@@ -90,12 +90,17 @@ export default function NewTeam() {
                     imgURL={daniel}
                     des="
 
-                    Daniel Lee is a rising senior at Leigh HIgh School. He has been a member of Leigh’s Science Olympiad, Math Club, California Scholarship Federation, National Honors Society for 3 years and is the founder of Leigh Science Bowl Team. He has also been the captain of Leigh’s School Varsity Golf team for the last 2 years. He has won several awards including AIME, President’s Volunteer Service Award, Silicon Valley Korean Unification Competition Silver Medal. He has tutoring experience through volunteering at Silicon Valley Korean School. He is currently studying Multivariable Calculus in Mission College. 
-"
+                    Daniel Lee is a rising senior at Leigh HIgh School. He has been a member of Leigh’s Science Olympiad, Math Club, California Scholarship Federation, National Honors Society for 3 years and is the founder of Leigh Science Bowl Team. He has also been the captain of Leigh’s School Varsity Golf team for the last 2 years. He has won several awards including AIME, President’s Volunteer Service Award, Silicon Valley Korean Unification Competition Silver Medal. He has tutoring experience through volunteering at Silicon Valley Korean School. He is currently studying Multivariable Calculus in Mission College. "
                     position="Calculus Summer Class Lead"
                 />
+                <Card
+                    name = "Mahathi Shankarram"
+                    position = "Geometry and Algebra Class Instructor"
+                    des = "Mahathi is a sophomore at Leigh High School. She loves teaching, and has been teaching piano and Indian Classical music for a year. She is interested in all things Math and Science and is part of the Leigh Science Olympiad team. She is taking multiple AP and Honors classes, including AP Calculus AB and Chemistry Honors. She is also passionate about sports and volunteering. She is part of the Leigh Basketball and Track teams, and is part of the leadership board of her school's LEOS service club, and PassionAI club. Outside of school, she regularly volunteers, plays sports, and has won several awards in national music competitions. She is very excited to be a part of STEMEY. "                    
+                    imgURL = {mahathi}
+
+                /> 
                 
-               
             </div>
         </div>
     </div>

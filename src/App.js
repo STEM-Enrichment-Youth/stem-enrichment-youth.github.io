@@ -7,7 +7,6 @@ import {
 import Navbar from "./Navbar";
 import Footer from './Footer';
 import Home from "./Home";
-import NewClasses from "./Classes/NewClasses";
 import ChemistryClass from "./Classes/Chemistry"; import BiologyClass from "./Classes/Biology";
 import MathClass from "./Classes/Math";
 import PhysicsClass from "./Classes/Physics"; import CodingClass from "./Classes/Coding";
@@ -18,8 +17,8 @@ import PlantCellLab from "./Labs/PlantCellLab";
 import Biology from "./NewTeam/Biology"; import Chemistry from "./NewTeam/Chemistry";
 import Physics from "./NewTeam/Physics"; import Coding from "./NewTeam/Coding";
 import Podcast from "./NewTeam/Podcast"; import Events from "./NewTeam/Events";
-import Math from "./NewTeam/Math"; 
-import Tech from "./NewTeam/Tech";
+import Math from "./NewTeam/Math"; import Tech from "./NewTeam/Tech";
+import TutoringTeam from "./NewTeam/Tutoring";
 import Join from "./Join";
 import Discord from "./Discord";
 import Contact from "./Contact";
@@ -32,6 +31,8 @@ import About from "./About";
 import Tutoring from "./Tutoring";
 import Classes from "./Classes/Classes";
 import Test from "./Test"; 
+import Partnerships from "./Partnerships";
+import Opportunities from "./Opportunities";
 
 
 export default function App() {
@@ -74,6 +75,9 @@ export default function App() {
           </Route>
           <Route path="/tech">
             <Tech />
+          </Route>
+          <Route path="/tutoringteam">
+            <TutoringTeam />
           </Route>
           <Route path="/discord">
             <Discord />
@@ -122,31 +126,37 @@ export default function App() {
             <PlantCellLab />
           </Route>
 
-          <Route path="/teach">
+          <Route path="/apply">
             <Join />
           </Route>
           <Route path="/tutoring">
             <Tutoring />
           </Route>
           <Route path="/about">
-
             <About />
           </Route>
 
 
           <Route path="/contact">
-
             <Contact />
           </Route>
 
-
           <Route path="/classes">
-
             <Classes />
           </Route>
+          
+          <Route path="/partnerships">
+            <Partnerships />
+          </Route>
+          <Route path="/opportunities">
+            <Opportunities />
+          </Route>
+
           <Route path="/">
             <Home />
           </Route>
+          
+        
         </Switch>
         <Footer />
       </div>

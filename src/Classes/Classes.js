@@ -1,5 +1,6 @@
 import React from "react";
 import {Helmet} from "react-helmet"; 
+import "./NewClasses.css"
 import molbio from "./ClassPics/MolBio.png"
 import anatomy from "./ClassPics/Anatomy.png"
 import geometry from "./ClassPics/Geometry.png"
@@ -12,7 +13,7 @@ export default function NewClasses() {
 
     return (<div class="new-team-con">
         <div class="new-class">
-        <h1>Fall Classes</h1>
+        <h1>Classes</h1>
 
     
             <div class="class-con sign-up">

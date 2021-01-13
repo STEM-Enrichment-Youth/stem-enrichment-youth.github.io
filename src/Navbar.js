@@ -1,10 +1,4 @@
 import React from "react";
-import classNames from "classnames";
-import { Toolbar, AppBar, Button, Typography, IconButton } from '@material-ui/core';
-import { withStyles } from 'material-ui/styles';
-import Menu from "./Menu";
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import stemey from "./GoodStemeyLogo.png";
 
 export default function Navbar(props) {
   const [scrolled, setScrolled] = React.useState(false);
@@ -43,9 +37,11 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/contact">Contact Us</a>
             </div>
           </li>
-
-         
-          
+          <li class="nav-item active nav-link">
+            <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
+              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/partnerships" role="button">
+              Partnerships</a>
+          </li> 
           <li class="nav-item active nav-link">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/classes" role="button">
@@ -84,6 +80,7 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/coding">Coding</a>
               <a class="dropdown-item" href="/podcast">Podcast</a>
               <a class="dropdown-item" href="/events">Events</a>
+              <a class="dropdown-item" href="/tutoringteam">Tutoring</a>
               <a class="dropdown-item" href="/tech">Tech</a>
             </div>
           </li>
@@ -97,10 +94,14 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/plantcell-lab">Plant Cell</a>
             </div>
           </li>
-
           <li class="nav-item active nav-link">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
-              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/teach" role="button">
+              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/opportunities" role="button">
+              Opportunities</a>
+          </li>
+          <li class="nav-item active nav-link">
+            <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
+              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/apply" role="button">
               Apply</a>
           </li>
 

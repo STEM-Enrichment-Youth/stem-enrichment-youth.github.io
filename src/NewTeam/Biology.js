@@ -1,6 +1,5 @@
 import React from "react"; 
 import "./NewTeam.css"; 
-import Navbar from "../Navbar.js"; 
 import Card from "./TeamCard"; 
 import fiona from "./InstructorImages/fiona.png"; 
 import yulia from "./InstructorImages/yulia.JPG"; 
@@ -8,7 +7,6 @@ import aashvi from "./InstructorImages/aashvi.jpeg";
 import aiswarya from "./InstructorImages/aiswarya.jpeg"; 
 import alexandra from "./InstructorImages/alexandra.jpeg"; 
 import arushi from "./InstructorImages/arushi.jpeg"; 
-import catherine from "./InstructorImages/catherineZhou.jpeg"; 
 import maddy from "./InstructorImages/maddy.jpeg"; 
 import priyanka from "./InstructorImages/priyanka.jpeg"; 
 import srinjoy from "./InstructorImages/srinjoy.png"; 
@@ -44,20 +42,13 @@ Aniketh is a rising senior at Leigh High School. He is a passionate biology stud
                     name = "Arushi Singhal"
                     imgURL = {arushi}
                     position = "Anatomy Class Co-Lead"
-                    des = "Arushi Singhal is a sophomore at Leigh High School with a passion in human biology. She loves all things science, and plans to pursue a career as a surgeon. Arushi is also an officer of the internationally recognized Interact Club, and is a member of Model United Nations as well. She has taken multtiple Human Anatomy courses from the University of Michigan, and has applied them to her everyday life. As a someone who loves helping people, Arushi volunteers wherever and whenever there are people in need. Apart of academics, Arushi loves running track and playing the violin in the San Jose Youth Symphony. "
-                /> 
-
-                <Card
-                    name = "Catherine Zhou"
-                    imgURL = {catherine}
-                    position = "Molecular Biology Class Lead & Anatomy Instructor "
-                    des = "Catherine Zhou is a sophomore at Lynbrook. She’s an active member of many STEM-related clubs at her school, and she is an officer of Lynbrook Pre-Med Club. She has self-studied AP biology and chemistry, and has taken biochemistry, organic chemistry, and several other STEM courses online, as she enjoys conducting research in those fields. Additionally, she has placed at regional and state level in Science Olympiad for three years, and she’s an intermediate biology olympiad gold medalist. She is looking forward to leading the molecular biology class as well as being part of the anatomy and events outreach team this fall!"
+                    des = "Arushi Singhal is a sophomore at Leigh High School with a passion in human biology. She loves all things science, and plans to pursue a career as a surgeon. Arushi is also an officer of the internationally recognized Interact Club, a member of Model United Nations, academic coordinator for the Leigh Biology Club, and is a member of the California Scholarship Federation. She has taken multiple Human Anatomy courses from the University of Michigan, and has applied them to her everyday life, as well has numerous online courses relating to biology. As a someone who loves helping people, Arushi volunteers wherever and whenever there are people in need. Apart of academics, Arushi loves running track and playing the violin in the San Jose Youth Symphony."
                 /> 
                 <Card
                     name="Yulia Anashkina"
                     imgURL={yulia}
                     des = "Yulia Anashkina is a sophomore at Leigh High School. She has a passion for STEM, especially Biology and Neuroscience. She has taken several online courses related to STEM including a neuroscience course from Harvard. Additionally, she is a competitive figure skater who competes individually as well as with SFIT, a team ranked top 5 internationally. She is very excited to be working with STEMEY! "
-                    position="Molecular Biology and Anatomy Instructor"
+                    position="Molecular Biology Lead and Anatomy Instructor"
 
                 />
                 

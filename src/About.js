@@ -30,7 +30,8 @@ function About() {
 
                 </div>
             </section>
-            <h1>Our Programs</h1>
+            <br></br>
+            <h1 class="help" style={{ color: "white" }}>Our Programs</h1>
             <section class="who">
                 <div class="why-us">
 

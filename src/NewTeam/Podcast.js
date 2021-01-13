@@ -6,7 +6,6 @@ import aiswarya from "./InstructorImages/aiswarya.jpeg";
 import katherine from "./InstructorImages/katherine.jpg";
 import sophie from "./InstructorImages/sophie.jpeg";
 import arun from "./InstructorImages/arun.jpg";
-import aryan from "./InstructorImages/aryan2.jpg";
 import amy from "./InstructorImages/amynam.jpg";
 
 
@@ -17,10 +16,10 @@ export default function NewTeam() {
             <div class="con">
 
                 <Card
-                    imgURL = {diana}
-                    name = "Diana Poplacenel"
+                    imgURL={diana}
+                    name="Diana Poplacenel"
                     des="     Diana Poplacenel is the co-founder of STEM Enrichment Youth, and a founding member and officer of Leigh High School’s Biology & Chemistry Olympiad, Science Bowl, and Science National Honors Society clubs. She is passionate about the intersection between biology and computer science, and has taken HarvardX and Johns Hopkins’ Neuroscience and Bioinformatics courses. She is a semifinalist in the USA Biology Olympiad and a former student at the Biomedical Engineering Innovation Program at Johns Hopkins. She currently leads the Computer Science Connect RWC Class at STEMEY. "
-                /> 
+                />
                 <Card
                     name="Arun Yadavalli"
                     des="
@@ -45,15 +44,6 @@ Arun is a rising junior at Leigh. He is an officer of LEOs at Leigh, an organizi
                     imgURL={katherine}
                     des="Katherine Liu is a rising senior at Leigh High School, and she is an officer in Leigh’s Math Club, Physics Olympiad Club, and Science National Honor Society Club. She has tutoring experience through her job at the Kumon Math and Reading Center as well as through volunteering at Friends of Children with Special Needs and with Leigh’s National Honors Society. She has participated in math competitions since middle school, and she is an AIME Qualifier, scoring a 9 on the AIME this year. Her other activities include competitive dance and drawing, which she has won several awards and achievements in."
                 />
-
-                <Card
-                    imgURL={aryan}
-                    name="Aryan Mathur"
-                    des="Aryan Mathur is currently a senior at Leigh High School. He is the Founder and Chief Executive Officer of Caravan LLC and has had a wide experience in leading organizations and creating strategic plans for improvements for businesses both internally and externelly. He is also the founder of Debate Club and the Vice President of AI and USACO club. He is a coding enthusiast who has experience in Java, Javascript, Go-lang and Typescript and is currently a USACO silver. He has had teaching experience volunteering for the First Tee of Silicon Valley to teach young kids golf. He has also been the captain of the Leigh High School Varsity Golf team for the last two years and has earned multiple awards in league competitions as well as outside competitions. Linkedin: www.linkedin.com/in/aryan-mathur "
-                />
-
-
-
                 <Card
                     name="Amy Nam"
                     imgURL={amy}
