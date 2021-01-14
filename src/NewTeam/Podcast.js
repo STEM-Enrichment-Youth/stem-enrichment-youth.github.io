@@ -6,8 +6,7 @@ import katherine from "./InstructorImages/katherine.jpg";
 import sophie from "./InstructorImages/sophie.jpeg";
 import arun from "./InstructorImages/arun.jpg";
 import amy from "./InstructorImages/amynam.jpg";
-import defaultInstructor from "../icons/head-brains.png";
-
+import amogh from "./InstructorImages/amogh.jpg"
 
 export default function NewTeam() {
     return (<div class="new-team-con">
@@ -27,9 +26,9 @@ export default function NewTeam() {
                     imgURL={arun}
                 />
                 <Card
-                    imgURL={defaultInstructor}
+                    imgURL={amogh}
                     name="Amogh Tantradi"
-                    des=""
+                    des="Amogh Tantradi is a senior at Arnold O. Beckman high school. He loves mathematics and computer science and wishes to study computer science in college. In his free time, Amogh likes competing in programming and mathematics competitions such as the Berkeley math tournament, Caltech-HM math competition, Harvard-MIT math tournament,USACO, and the AIME. His passion for problem-solving and computer science has influenced him to join Stem-Enrichment youth as a member of the Podcast team, where he interviews professionals in the fields of mathematics and computer science.                    "
                 />
 
                 <Card
