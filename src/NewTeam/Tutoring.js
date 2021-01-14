@@ -16,7 +16,7 @@ export default function NewTeam() {
                     imgURL={matilda}
                     name="Matilda Eriksson"
                     position="Tutoring Co-Director"
-                    des="Matilda Eriksson is a senior at Leigh High School. She is passionate about various STEM related subjects, currently focusing on mathematics, biology and physics. She has completed AP Physics 1 and is currently taking AP biology, Computer science, and AP calculus. She is also a part of California Scholarship Federation, Science National Honors Society and Link Crew. She loves working with kids and works as an assistant teacher for the Swedish School of Silicon Valley where she teaches kids Swedish. Matilda is on the Strategy team as well as the events team for STEMEY."
+                    des="Matilda Eriksson is a senior at Leigh High School. She is passionate about various STEM related subjects, currently focusing on mathematics, biology and physics. She has completed AP Physics 1 and is currently taking AP biology, Computer science, and AP calculus. She is also a part of California Scholarship Federation, Science National Honors Society and Link Crew. She loves working with kids and works as an assistant teacher for the Swedish School of Silicon Valley where she teaches kids Swedish."
                 />
 
                 <Card

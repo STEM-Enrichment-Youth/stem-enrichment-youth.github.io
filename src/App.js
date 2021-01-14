@@ -2,7 +2,8 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from './Footer';
@@ -125,7 +126,9 @@ export default function App() {
           <Route path="/plantcell-lab">
             <PlantCellLab />
           </Route>
-
+          <Route path="/teach">
+            <Redirect to="/apply"/>
+          </Route>
           <Route path="/apply">
             <Join />
           </Route>
