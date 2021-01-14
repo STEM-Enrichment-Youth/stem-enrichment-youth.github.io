@@ -2,11 +2,11 @@ import React from "react";
 import "./NewTeam.css";
 import Card from "./TeamCard";
 import diana from "./InstructorImages/diana.jpg";
-import aiswarya from "./InstructorImages/aiswarya.jpeg";
 import katherine from "./InstructorImages/katherine.jpg";
 import sophie from "./InstructorImages/sophie.jpeg";
 import arun from "./InstructorImages/arun.jpg";
 import amy from "./InstructorImages/amynam.jpg";
+import defaultInstructor from "../icons/head-brains.png";
 
 
 export default function NewTeam() {
@@ -18,20 +18,18 @@ export default function NewTeam() {
                 <Card
                     imgURL={diana}
                     name="Diana Poplacenel"
-                    des="     Diana Poplacenel is the co-founder of STEM Enrichment Youth, and a founding member and officer of Leigh High School’s Biology & Chemistry Olympiad, Science Bowl, and Science National Honors Society clubs. She is passionate about the intersection between biology and computer science, and has taken HarvardX and Johns Hopkins’ Neuroscience and Bioinformatics courses. She is a semifinalist in the USA Biology Olympiad and a former student at the Biomedical Engineering Innovation Program at Johns Hopkins. She currently leads the Computer Science Connect RWC Class at STEMEY. "
+                    position="Podcast Lead"
+                    des="Diana Poplacenel is the co-founder of STEM Enrichment Youth, and a founding member and officer of Leigh High School’s Biology & Chemistry Olympiad, Science Bowl, and Science National Honors Society clubs. She is passionate about the intersection between biology and computer science, and has taken HarvardX and Johns Hopkins’ Neuroscience and Bioinformatics courses. She is a semifinalist in the USA Biology Olympiad and a former student at the Biomedical Engineering Innovation Program at Johns Hopkins. She currently leads the Computer Science Connect RWC Class at STEMEY. "
                 />
                 <Card
                     name="Arun Yadavalli"
-                    des="
-Arun is a rising junior at Leigh. He is an officer of LEOs at Leigh, an organizing committee member of the badminton team, varsity badminton player, a member of the Leigh robotics club, California Scholarship Federation, Leigh Science Olympiad for two years and a member of Dartmouth science olympiad for three years. He has taken AP Computer Science A as well as some others and has experience coding in JAVA. Arun has a keen interest in robotics and has won awards in multiple FTC robotics competitions. As of now he is making software for a company,  scheduling meetings with various professional badminton players  around the globe for online meetings with the Leigh Badminton team, and also studying for the deadly SAT. In his spare time Arun practices violin, talks to his friends, bakes, cooks, bikes, and codes. He is looking forward to teaching some JAVA :)
-"
+                    des="Arun is a rising junior at Leigh. He is an officer of LEOs at Leigh, an organizing committee member of the badminton team, varsity badminton player, a member of the Leigh robotics club, California Scholarship Federation, Leigh Science Olympiad for two years and a member of Dartmouth science olympiad for three years. He has taken AP Computer Science A as well as some others and has experience coding in JAVA. Arun has a keen interest in robotics and has won awards in multiple FTC robotics competitions. As of now he is making software for a company,  scheduling meetings with various professional badminton players  around the globe for online meetings with the Leigh Badminton team, and also studying for the deadly SAT. In his spare time Arun practices violin, talks to his friends, bakes, cooks, bikes, and codes. He is looking forward to teaching some JAVA :)"
                     imgURL={arun}
                 />
                 <Card
-                    imgURL={aiswarya}
-                    name="Aiswarya Saravanan"
-                    position="Podcast Creation Lead"
-                    des="Aiswarya Saravanan is a rising junior at Plymouth High School from Michigan, USA. She loves all things STEM and activism, and she is super passionate about neuroscience and biomedicial engineering in general. She is part of Simply Neuroscience and STEM Without Boundaries, where she is the Director of Sponsorships. She also recently started her own non-profit organization called Basically Biomedicine to educate people in the biomedical fields. In STEMEY, she is part of the anatomy team, molecular biology team, and the podcast team, and she is super excited to make a difference!"
+                    imgURL={defaultInstructor}
+                    name="Amogh Tantradi"
+                    des=""
                 />
 
                 <Card

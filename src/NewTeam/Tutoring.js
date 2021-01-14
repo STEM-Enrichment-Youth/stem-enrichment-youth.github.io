@@ -1,15 +1,15 @@
 import React from "react";
 import "./NewTeam.css";
 import Card from "./TeamCard";
-import defaultInstructor from "../icons/head-brains.png";
 import matilda from "./InstructorImages/matilda.jpg";
 import casey from "./InstructorImages/caseylopez.jpg";
+import elyssa from "./InstructorImages/elyssa.jpg"
 
 
 export default function NewTeam() {
     return (<div class="new-team-con">
         <div class="new-team">
-            <h1>Tutoring</h1>
+            <h1>Tutoring/Activities</h1>
             <div class="con">
 
                 <Card
@@ -24,6 +24,13 @@ export default function NewTeam() {
                     name="Casey Lopez"
                     position="Tutoring Co-Director"
                     des=""
+                />
+
+                <Card
+                    imgURL={elyssa}
+                    name="Elyssa Wolter"
+                    position="Activities Director"
+                    des="Elyssa Wolter is a senior at Leigh High School. She is a member of the Science National Honor Society, California Scholarship Federation, National Honor Society, and Link Crew. She enjoys teaching and working with kids and has worked as a babysitter and soccer referee since middle school and the past two summers she was a camp counselor at Mulberry School. She is the Activities Director of STEMEY, is apart of the FCSN live classes, and is on the strategy team."
                 />
 
             </div>

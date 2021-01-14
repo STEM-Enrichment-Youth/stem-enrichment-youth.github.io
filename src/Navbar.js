@@ -80,7 +80,7 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/coding">Coding</a>
               <a class="dropdown-item" href="/podcast">Podcast</a>
               <a class="dropdown-item" href="/events">Events</a>
-              <a class="dropdown-item" href="/tutoringteam">Tutoring</a>
+              <a class="dropdown-item" href="/tutoringteam">Tutoring/Activites</a>
               <a class="dropdown-item" href="/tech">Tech</a>
             </div>
           </li>
