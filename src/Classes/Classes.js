@@ -29,7 +29,7 @@ export default function NewClasses() {
 </p> 
                     <div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
                         <p><span class="class-des-p">Intended Ages: </span>11 yrs old + </p>
-                        <p><span class="class-des-p">Lead Instructor: </span>Catherine Zhou</p>
+                        <p><span class="class-des-p">Lead Instructor: </span>Yulia Anashkina</p>
                         <p><span class="class-des-p">Prerequisites: </span>None</p>
                         <p><span class="class-des-p">Time: </span>11 AM - 12 PM PDT Every Saturday</p>
 
