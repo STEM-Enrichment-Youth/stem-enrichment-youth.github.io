@@ -23,7 +23,7 @@ export default function NewTeam() {
                     imgURL={casey}
                     name="Casey Lopez"
                     position="Tutoring Co-Director"
-                    des=""
+                    des="Casey Lopez is a junior at Olympian High School. She loves biology and math, and works to further accessible STEM education for others. She helps run Olympian’s Helyx Initiative non-profit chapter, where she coordinates tutoring, review sessions, and career panels. She is a long-term member of Better Education for Women in Science and Engineering (BE WiSE). She has received recognition for her Rheumatoid Arthritis research with the Scripps Research Institute 2020 SciMET Competition and seeks to further this research in the future. Hoping to enter the medical field one day, Casey is a public health intern on a Sexual Health Advisory Board Advocated By Youth (SHABABY) and volunteers at her local SHARP hospital as a convalescent center aide. Outside of STEM, Casey is a two year co-captain of Olympian Colorguard and Varsity Winterguard, treasurer of Olympian Dance Company, a Link Crew leader, Peer Mediator, School Site Council chairperson, Chula Vista Animal Shelter volunteer, and a part of the Olympian Band Council Student Life Team.                    "
                 />
 
                 <Card
