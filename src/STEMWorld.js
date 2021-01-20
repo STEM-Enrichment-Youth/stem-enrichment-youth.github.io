@@ -20,7 +20,7 @@ function SND() {
                             <h1 style={{ textAlign: "center" }} class="biggest-header-4">STEM World</h1>
                             <h2 style={{ textAlign: "center", fontSize: "23px", marginBottom: "30px" }}> Free Virtual Stem Convention</h2>
                             <p style={{textAlign: "center"}}><a class="btn btn-full" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">Watch STEM World</a></p>
-                            <p style={{textAlign: "center"}}><a class="btn btn-full" href="https://www.youtube.com/channel/UC9d1d74gAklaCvM9cItwQ0w">STEM World Speakers</a></p>
+                            <p style={{textAlign: "center"}}><a class="btn btn-full" href="/stemworldspeakers">STEM World Speakers</a></p>
 
                             <div class="container" style={{paddingTop: "0"}}>
                             <Container>
