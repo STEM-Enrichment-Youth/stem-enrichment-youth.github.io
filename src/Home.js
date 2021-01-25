@@ -19,6 +19,8 @@ import settheoryflyer from "./SetTheoryFlyer.jpg";
 
 export default class Home extends Component {
 
+  doPopup = false;
+
   constructor() {
     super();
     this.state = {
@@ -28,7 +30,7 @@ export default class Home extends Component {
 
   componentDidMount() {
     let visited = sessionStorage.getItem('alreadyVisited');
-    if (visited) {
+    if (visited || !this.doPopup) {
       this.setState({ viewPopup: false })
       //do not view Popup
     } else {
