@@ -6,7 +6,7 @@ import fiona from "./InstructorImages/fiona.png";
 import liza from "./InstructorImages/liza.jpg";
 import defaultInstructor from "../icons/head-brains.png";
 import tanvirao from "./InstructorImages/tanvirao.jpeg";
-import keshavnarang from "./InstructorImages/keshavnarang.png";
+import keshavnarang from "./InstructorImages/keshav.jpg";
 import marksandey from "./InstructorImages/marksandey.png";
 import srinjoy from "./InstructorImages/srinjoy.png";
 
@@ -40,9 +40,10 @@ export default function NewTeam() {
 
 
                 <Card
+                    imgURL={keshavnarang}
                     name="Keshav Narang"
                     position="Physics Instructor"
-                    des=""
+                    des="Keshav Narang is a freshman at Basis Independent Silicon Valley in the Bay Area, California who is enthusiastic about everything from English and History to Math and Computer Science. An avid tutor, Keshav is extremely excited to be teaching AP Physics 1 at STEMEY this year! In his spare time, you can find Keshav playing sports (usually basketball and table tennis) and building fun inventions."
                 />
 
             </div>
