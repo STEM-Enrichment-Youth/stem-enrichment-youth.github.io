@@ -201,7 +201,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img height="450px" src={stemworld2}></img>
+        <img height="300px" src={stemworld2}></img>
         <p>
         STEM World II! Hosted by EFA and STEMEY. We’ve come back from STEM World I with over a dozen of even more distinguished speakers as well as bigger, brain-itching competitions. Get ready for a whole array of new activities, social events, and workshops to ultimately explore critical issues in modern society that relate to STEM and/or global education. Happening on March 20-28th.
         </p>
