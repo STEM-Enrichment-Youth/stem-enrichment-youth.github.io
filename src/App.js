@@ -24,6 +24,7 @@ import Join from "./Join";
 import Discord from "./Discord";
 import Contact from "./Contact";
 import STEMWorld from "./STEMWorld";
+import STEMWorld2 from "./STEMWorld2"
 import STEMTober from "./STEMTober";
 import STEMSpeakers from "./STEMSpeakers";
 import Sponsorship from "./Sponsorship";
@@ -87,6 +88,9 @@ export default function App() {
           
           <Route path="/stemworld">
             < STEMWorld />
+          </Route>
+          <Route path="/stemworld2">
+            < STEMWorld2 />
           </Route>
           <Route path="/stemtober">
             < STEMTober />

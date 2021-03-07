@@ -14,12 +14,12 @@ import tutor from "./Tutoring.png";
 import labs from "./Lab.png";
 import { Component } from "react";
 import Modal from "react-bootstrap/Modal";
-import settheoryflyer from "./SetTheoryFlyer.jpg";
+import stemworld2 from "./stemworld2logo.png";
 
 
 export default class Home extends Component {
 
-  doPopup = false;
+  doPopup = true;
 
   constructor() {
     super();
@@ -197,19 +197,17 @@ function MyVerticallyCenteredModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Upcoming Set Theory Workshop!
+          STEM World II!
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img height="450px" src={settheoryflyer}></img>
+        <img height="450px" src={stemworld2}></img>
         <p>
-          Interested in exploring college-level Discrete Mathematics explained at a high-school level? 
-          Join us for a Set Theory Mathematics Workshop with Mr. Yul Inn, a Stanford University Math Circle Instructor. 
-          Sign Up Below!
+        STEM World II! Hosted by EFA and STEMEY. We’ve come back from STEM World I with over a dozen of even more distinguished speakers as well as bigger, brain-itching competitions. Get ready for a whole array of new activities, social events, and workshops to ultimately explore critical issues in modern society that relate to STEM and/or global education. Happening on March 20-28th.
         </p>
       </Modal.Body>
       <Modal.Footer>
-        <a style={{ color: "black", marginBottom: "20px" }} class="btn btn-full" target="_blank" href="https://tinyurl.com/settheoryworkshop">Sign Up!</a>
+        <a style={{ color: "black", marginBottom: "20px" }} class="btn btn-full" href="/stemworld2">Learn More!</a>
       </Modal.Footer>
     </Modal>
   );

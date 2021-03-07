@@ -58,6 +58,7 @@ export default function Navbar(props) {
               Events</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/stemworld">STEM World</a>
+              <a class="dropdown-item" href="/stemworld2">STEM World II</a>
               <a class="dropdown-item" href="/stemtober">STEM-Tober</a>
             </div>
           </li>
