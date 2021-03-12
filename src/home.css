@@ -34,7 +34,7 @@
 }
 
 .main-header {
-    letter-spacing: 12px; 
+    letter-spacing: 5px; 
     display: flex;
     flex-direction: column;
 }
@@ -52,7 +52,7 @@
 .biggest-header, .biggest-header-4, .biggest-header-2{
     font-size: 700%; 
     text-transform: uppercase;
-    letter-spacing: 12px; 
+    letter-spacing: 5px; 
 }
 .biggest-header-2 { font-size: 250%; }
 .biggest-header-4 { font-size: 500%; }
@@ -67,7 +67,7 @@
 
 .why-us {
     display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); 
     justify-items: center;
     margin-top: 50px; 
     grid-gap: 40px; 
@@ -129,7 +129,7 @@
 .step {
     display: grid;
     grid-template-columns: auto 1fr; 
-    grid-template-rows: repeat(4, auto); 
+    margin-bottom: 10px; 
     grid-gap: 10px; 
     justify-self: start; 
 }
