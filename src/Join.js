@@ -7,16 +7,7 @@ export default function Join() {
 
     return (
         <div class="new-team-con" style={{minHeight: "100vh", marginBottom: "50px"}}>
-            <div class="new-team-join">
-                <h1>Interested in joining the STEMEY team?</h1>
-                <p>Fill Out this Application Form and we will get back to you as soon as we can!</p>
-                <div class="typeform-widget"
-                    data-url="https://form.typeform.com/to/Wnxscz"
-                    style={{ width: "80%", margin: "0 auto", height: "500px" }}>
-                </div>
-            </div>
-
-
+            <iframe style={{width: "50%", marginLeft: "25%", marginTop: "20px", height: "85vh"}}src="https://docs.google.com/document/d/e/2PACX-1vR7C3QGOhXNOtiSZbbjLfwtP_Ct-RVS75HGrDGdrS282S6fE9NRTGVQQEd18NN0Hk8qoNrX0qcFJ-SJ/pub?embedded=true"></iframe>
         </div>
     )
 }
