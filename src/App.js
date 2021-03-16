@@ -12,7 +12,7 @@ import ChemistryClass from "./Classes/Chemistry"; import BiologyClass from "./Cl
 import MathClass from "./Classes/Math";
 import PhysicsClass from "./Classes/Physics"; import CodingClass from "./Classes/Coding";
 
-import AnimalCellLab from "./Labs/AnimalCellLab"; 
+import AnimalCellLab from "./Labs/AnimalCellLab";
 import PlantCellLab from "./Labs/PlantCellLab";
 
 import Biology from "./NewTeam/Biology"; import Chemistry from "./NewTeam/Chemistry";
@@ -25,6 +25,7 @@ import Discord from "./Discord";
 import Contact from "./Contact";
 import STEMWorld from "./STEMWorld";
 import STEMWorld2 from "./STEMWorld2"
+import STEMWorld2Speakers from "./STEMWorld2Speakers";
 import STEMTober from "./STEMTober";
 import STEMSpeakers from "./STEMSpeakers";
 import Sponsorship from "./Sponsorship";
@@ -32,7 +33,7 @@ import Executives from "./NewTeam/Executives";
 import About from "./About";
 import Tutoring from "./Tutoring";
 import Classes from "./Classes/Classes";
-import Test from "./Test"; 
+import Test from "./Test";
 import Partnerships from "./Partnerships";
 import Opportunities from "./Opportunities";
 
@@ -85,7 +86,7 @@ export default function App() {
             <Discord />
           </Route>
 
-          
+
           <Route path="/stemworld">
             < STEMWorld />
           </Route>
@@ -95,13 +96,15 @@ export default function App() {
           <Route path="/stemtober">
             < STEMTober />
           </Route>
-         
-          <Route path="/stemworldspeakers">
 
+          <Route path="/stemworld2speakers">
+            <STEMWorld2Speakers />
+          </Route>
+
+          <Route path="/stemworldspeakers">
             < STEMSpeakers />
           </Route>
           <Route path="/sponsorship">
-
             < Sponsorship />
           </Route>
           <Route path="/chemistry-class">
@@ -116,7 +119,7 @@ export default function App() {
           <Route path="/math-class">
             <MathClass />
           </Route>
-         
+
           <Route path="/physics-class">
             <PhysicsClass />
           </Route>
@@ -131,7 +134,7 @@ export default function App() {
             <PlantCellLab />
           </Route>
           <Route path="/teach">
-            <Redirect to="/apply"/>
+            <Redirect to="/apply" />
           </Route>
           <Route path="/apply">
             <Join />
@@ -151,7 +154,7 @@ export default function App() {
           <Route path="/classes">
             <Classes />
           </Route>
-          
+
           <Route path="/partnerships">
             <Partnerships />
           </Route>
@@ -162,8 +165,8 @@ export default function App() {
           <Route path="/">
             <Home />
           </Route>
-          
-        
+
+
         </Switch>
         <Footer />
       </div>

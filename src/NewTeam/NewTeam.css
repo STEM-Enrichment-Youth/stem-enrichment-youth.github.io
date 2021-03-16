@@ -1,5 +1,4 @@
 
-
 .new-team {
   margin: 0;
   padding: 0;
@@ -23,14 +22,13 @@
   font-size: 4rem;
 }
 
-
 .con, .con2 {
   display: grid;  
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
   grid-gap: 20px; 
   color: white; 
   padding: 0; 
-  margin: 50px; 
+  margin: 50px;
 }
 
 .con-item {

@@ -4,10 +4,8 @@ import Card from "./TeamCard";
 import navaneet from "./InstructorImages/navaneet.jpg";
 import sakshi from "./InstructorImages/sakshi.png";
 import brianado from "./InstructorImages/brianado.jpg";
-import yana from "./InstructorImages/yana.jpeg"; 
-import diana from "./InstructorImages/diana.jpg"; 
-
-
+import yana from "./InstructorImages/yana.jpeg";
+import diana from "./InstructorImages/diana.jpg";
 
 
 export default function NewTeam() {
@@ -27,7 +25,7 @@ export default function NewTeam() {
                     imgURL={sakshi}
                     name="Sakshi Sivaraman"
                     position="Website Design Member"
-                    des="                Sakshi is a junior at Leigh High School. She is a member of the National Honor Society and Coding Club, as well as vice president of the Girls Who Code Club at Leigh. She has completed programming courses in and outside of school, including the Programming Methodologies in Java course at Foothill College, as well as AP Computer Science A in the past year. She serves as an assistant instructor at CodeLinkd to teach elementary schoolers coding and lego robotics, and has 3+ years of experience tutoring in various subjects (mainly math) at the Sunnyvale Public Library. She has tutored other high schoolers in math up to Algebra 2/Trig at the Students for Success Center at Fremont High School. Additionally, she has participated and won prizes in a few hackathons. She is looking forward to instructing the CS class at STEMEY, as well as helping out with the website design :).                " 
+                    des="                Sakshi is a junior at Leigh High School. She is a member of the National Honor Society and Coding Club, as well as vice president of the Girls Who Code Club at Leigh. She has completed programming courses in and outside of school, including the Programming Methodologies in Java course at Foothill College, as well as AP Computer Science A in the past year. She serves as an assistant instructor at CodeLinkd to teach elementary schoolers coding and lego robotics, and has 3+ years of experience tutoring in various subjects (mainly math) at the Sunnyvale Public Library. She has tutored other high schoolers in math up to Algebra 2/Trig at the Students for Success Center at Fremont High School. Additionally, she has participated and won prizes in a few hackathons. She is looking forward to instructing the CS class at STEMEY, as well as helping out with the website design :).                "
 
                 />
 
@@ -38,26 +36,26 @@ export default function NewTeam() {
 "
                 />
 
-<Card
+                <Card
                     name="Briana Do"
                     imgURL={brianado}
                     position="Design Co-Lead"
                     des="Briana Do is a senior at Leigh High School. She is a involved in various leadership and STEM groups including the Science National Honor Society, Leos, Link Crew, and is vice-president of BSA's Venturing Crew 719. She is fluent in english and vietnamese and has experience outside of school tutoring young kids in math and reading.Over the summer, she helped create the acitivites curriculumn for the biology class, created promotional materials for STEM World, and started a small buisness for her artwork. She is currently a part of the events team, helping teach the FCSN live classes, and is the design team co-lead."
                 />
 
-<Card
-                    imgURL = {yana}
+                <Card
+                    imgURL={yana}
                     name="Yana Samoylova"
-                    des= "Yana Samoylova is a senior at Leigh High School who is interested in STEM, education, and art. At school, she has taken AP Chemistry and AP Calculus, and is a member of CSF and NAHS. Outside of school, she works at Kumon and helps kids with reading and math as well as volunteers over Zoom. She runs a weekly educational podcast called Explained: Simply for which she manages research, promotion, and design. She’s done art for the past ten years and been in Leigh’s art program for the past three, taking AP Art and Art 4 this year. She is a Design Team co-lead, algebra instructor and a member of the events and outreach committee. She’s excited to be working with STEMEY!"
+                    des="Yana Samoylova is a senior at Leigh High School who is interested in STEM, education, and art. At school, she has taken AP Chemistry and AP Calculus, and is a member of CSF and NAHS. Outside of school, she works at Kumon and helps kids with reading and math as well as volunteers over Zoom. She runs a weekly educational podcast called Explained: Simply for which she manages research, promotion, and design. She’s done art for the past ten years and been in Leigh’s art program for the past three, taking AP Art and Art 4 this year. She is a Design Team co-lead, algebra instructor and a member of the events and outreach committee. She’s excited to be working with STEMEY!"
                     position="Design Co-Lead"
 
                 />
                 <Card
-                    imgURL = {diana}
-                    name = "Diana Poplacenel"
-                    position = "Website Design Team"
+                    imgURL={diana}
+                    name="Diana Poplacenel"
+                    position="Website Design Team"
                     des="     Diana Poplacenel is the co-founder of STEM Enrichment Youth, and a founding member and officer of Leigh High School’s Biology & Chemistry Olympiad, Science Bowl, and Science National Honors Society clubs. She is passionate about the intersection between biology and computer science, and has taken HarvardX and Johns Hopkins’ Neuroscience and Bioinformatics courses. She is a semifinalist in the USA Biology Olympiad and a former student at the Biomedical Engineering Innovation Program at Johns Hopkins. She currently leads the Computer Science Connect RWC Class at STEMEY. "
-                /> 
+                />
 
             </div>
         </div>
