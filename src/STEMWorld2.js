@@ -6,12 +6,66 @@ import schedule from "./stemworld2schedule.jpg"
 import sponsor1 from "./stemworld2sponsor1.png"
 import sponsor2 from "./stemworld2sponsor2.png"
 import { Container, Row, Col } from 'react-grid-system';
+import Timeline, { TimelineMarker } from './Timeline';
+import scheduleCSV from "./STEMWorldScheduleSequelFinal.csv";
+import Papa from "papaparse";
 
+// Retrieve and parse data from csv file
+const getData = async () => {
+  const response = await fetch(scheduleCSV);
+  const reader = response.body.getReader();
+  const result = await reader.read();
+  const decoder = new TextDecoder("utf-8");
+  const csv = decoder.decode(result.value);
+  const results = Papa.parse(csv, { delimiter: ";", header: true });
+  return results.data; // array of object data
+}
+
+// Modified timeline entry component to allow for short description to be displayed
+const TimeLineEntry = (props) => {
+  return (
+    <li key={props.id} class="timeline-item">
+      <div class="timeline-info">
+        <span>{props.time + " PDT"}</span>
+      </div>
+      <div class="timeline-marker"></div>
+      <a class="timeline-content" href={props.link} >
+        <h3 class="timeline-title">{props.title}</h3>
+        <h4>{props.speaker}</h4>
+        <p class="timeline-description">{props.shortDescription}</p>
+        <div class="timeline-detailed"><p>{props.description}</p></div>
+      </a>
+    </li>
+  )
+}
 
 export default class STEMWorld2 extends Component {
 
-  componentDidMount() {
+  constructor() {
+    super();
+    this.state = {
+      events: [] // keep track of events retrieved from csv file
+    }
+  }
 
+  componentDidMount() {
+    // Read data into events array in state object
+    getData().then(events => {
+      for (var event of events) {
+        const mapping = {
+          day: event.Day,
+          time: event.Time,
+          title: event.Title,
+          speaker: event.Speaker,
+          description: event.Description,
+          shortDescription: event.ShortDescription
+        }
+        const eventData = this.state.events.slice();
+        eventData.push(mapping);
+
+        this.setState({ events: eventData });
+      }
+    });
   }
 
   closeModal() {
@@ -72,7 +126,161 @@ export default class STEMWorld2 extends Component {
 
             <h1 class="biggest-header-2" style={{ marginTop: "50px" }}>Schedule</h1>
             <div class="stem-world" style={{ height: "auto" }}>
-              <img style={{ width: "50%" }} src={schedule} />
+              <div style={{ width: "90%" }}>
+                <ul class="timeline timeline-centered">
+
+                  <TimelineMarker
+                    title="Friday, March 19"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "19-Mar").map((event, index) => { // Retrieve all events for this day
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                  < TimelineMarker
+                    title="Saturday, March 20"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "20-Mar").map((event, index) => {
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                  < TimelineMarker
+                    title="Sunday, March 21"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "21-Mar").map((event, index) => {
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                  < TimelineMarker
+                    title="Monday, March 22"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "22-Mar").map((event, index) => {
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                  < TimelineMarker
+                    title="Tuesday, March 23"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "23-Mar").map((event, index) => {
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                  < TimelineMarker
+                    title="Wednesday, March 24"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "24-Mar").map((event, index) => {
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                  < TimelineMarker
+                    title="Thursday, March 25"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "25-Mar").map((event, index) => {
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                  < TimelineMarker
+                    title="Friday, March 26"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "26-Mar").map((event, index) => {
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                  < TimelineMarker
+                    title="Saturday, March 27"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "27-Mar").map((event, index) => {
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                  < TimelineMarker
+                    title="Sunday, March 28"
+                  />
+                  {this.state.events.filter(event => String(event.day) === "28-Mar").map((event, index) => {
+                    return <TimeLineEntry
+                      id={index}
+                      title={event.title}
+                      speaker={event.speaker}
+                      time={event.time}
+                      shortDescription={event.shortDescription}
+                      description={event.description}
+                    />
+                  })
+                  }
+
+                </ul>
+              </div>
             </div>
 
             <h1 class="biggest-header-2" style={{ marginTop: "50px" }}>FAQ</h1>
