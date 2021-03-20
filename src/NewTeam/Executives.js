@@ -35,7 +35,7 @@ export default function NewTeam() {
                 <Card
                     name="Maariyah Kharal"
                     imgURL={maariyah}
-                    des="Maariyah is a recent graduate of Leigh High School. She participated in WiSTEM, the Medical Explorers Program, and volunteered at Good Samaritan Hospital. She is pursuing the Pre-Medical Track at New York University. She looks forward to sharing her passion for the life sciences via the Biology course at STEMEY."
+                    des="Maariyah Kharal is an undergraduate student at New York University on the Pre-Health track. She is involved in clinical volunteering, research, and advocacy. She is the founder of Lean on Us Foundation through which she raises funds and awareness for cognitive disease research. Maariyah has also received many service awards and research certificates. She is passionate about encouraging others to pursue STEM and is excited to serve as CCO of STEMEY!"
                     position="Chief Communications Officer"
 
                 />
@@ -47,14 +47,6 @@ export default function NewTeam() {
 
                 />
 
-                <Card
-                    name="Arun Yadavalli"
-                    position="Chief Marketing Officer"
-                    des="
-Arun is a junior at Leigh. He is an officer of LEOs at Leigh, an organizing committee member of the badminton team, varsity badminton player, a member of the Leigh robotics club, California Scholarship Federation, Leigh Science Olympiad for two years and a member of Dartmouth science olympiad for three years. He has taken AP Computer Science A as well as some others and has experience coding in JAVA. Arun has a keen interest in robotics and has won awards in multiple FTC robotics competitions. As of now he is making software for a company,  scheduling meetings with various professional badminton players  around the globe for online meetings with the Leigh Badminton team, and also studying for the deadly SAT. In his spare time Arun practices violin, talks to his friends, bakes, cooks, bikes, and codes. He is looking forward to teaching some JAVA :)
-"
-                    imgURL={arun}
-                />
                 <Card
                     name="Sophie Takmopoulos"
                     imgURL={sophie}
