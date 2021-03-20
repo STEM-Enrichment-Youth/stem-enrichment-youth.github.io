@@ -37,10 +37,14 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/contact">Contact Us</a>
             </div>
           </li>
-          <li class="nav-item active nav-link">
-            <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
-              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/partnerships" role="button">
-              Partnerships</a>
+          <li class="nav-item dropdown active nav-link">
+          <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
+              class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              partnerships</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/wiz">Wiz Robotics</a>
+              <a class="dropdown-item" href="/partnerships">Request to Partner</a>
+            </div>
           </li> 
           <li class="nav-item active nav-link">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
@@ -95,11 +99,7 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/plantcell-lab">Plant Cell</a>
             </div>
           </li>
-          <li class="nav-item active nav-link">
-            <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
-              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/opportunities" role="button">
-              Opportunities</a>
-          </li>
+          
           <li class="nav-item active nav-link">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/apply" role="button">

@@ -15,6 +15,7 @@ import labs from "./Lab.png";
 import { Component } from "react";
 import Modal from "react-bootstrap/Modal";
 import stemworld2 from "./stemworld2logo.png";
+import wiz from "./stemworld2wizprodigy.png"
 
 
 export default class Home extends Component {
@@ -66,14 +67,9 @@ export default class Home extends Component {
                 </div>
 
               </div>
-              <img class="stemey-logo" src={fcsn} />
-              {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
-              {/* <p >Explore biology, coding, neuroscience, programming, physics, or chemistry online at your own pace with the help of 
-              passionate, accomplished high school STEM enthusiasts.</p> */}
-
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/E1miQGvFh2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
             </div>
 
-            {/* <img class="stemey-logo-no stemey-logo" src={stemey} /> */}
 
           </div>
 
@@ -85,40 +81,53 @@ export default class Home extends Component {
         />
 
 
-        <div class="class-banner banner" style={{ marginTop: "50px", marginBottom: "20px" }}>
-          <a class="banner-class" href="/tutoring">
-            <img src={tutor} />
-          </a>
-          <a class="banner-class" href="/plantcell-lab">
-            <img src={labs} />
-          </a>
-
-          <a class="banner-class" href="/stemworld">
-            <img src={stemworld} />
-          </a>
-          <a class="banner-class" href="/classes">
-            <img src={settheory} />
-          </a>
-          <a class="banner-class" href="/classes">
-            <img src={geometry} />
-          </a>
-          <a class="banner-class" href="/classes">
-            <img src={algebra} />
-          </a>
-          <a class="banner-class" href="/classes">
-            <img src={molbio} />
-          </a>
-          <a class="banner-class" href="/classes">
-            <img src={physics} />
-          </a>
-          <a class="banner-class" href="/classes">
-            <img src={anatomy} />
-          </a>
-        </div>
-
-
         <section class="who">
           <div class="why-us">
+          <div class="motivate item steps-item">
+              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World II</h2>
+              <div class="step step1">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                <p>Coming to you on March 20-28. . . </p>
+              </div>
+              <div class="step">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                <p>Speaker Workshops led by industry professionals and top ranking university professors.</p>
+              </div>
+              <div class="step">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                <p>High-school level, prize-winning STEM competitions.</p>
+              </div>
+              <div class="step">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                <p>Daily global networking events and a tight-knit global community of STEM enthusiasts.</p>
+              </div>
+              <a style={{ color: "white" }} class="btn btn-full" href="/stemworld2">Learn More</a>
+
+
+            </div>
+            
+            <div class="motivate item steps-item">
+              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEMEY X Wiz Robotics</h2>
+              <div class="step step1">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                <p>Register for Wiz Prodigy, an online STEM and robotics competition that will unleash your talent and creativity.</p>
+              </div>
+              <div class="step">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                <p>Learn to code, design, and build your own version of a Cybertruck.</p>
+              </div>
+              <div class="step">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                <p>Receive a FREE robotics kit in the mail as part of the competition.</p>
+              </div>
+              <div class="step">
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                <p>Learn more and sign up at wizprodigy.com/STEMEY</p>
+              </div>
+              <a style={{ color: "white" }} class="btn btn-full" href="https://www.wizprodigy.com/stemey/">Register Now</a>
+
+            </div>
+            
             <div class="motivate item steps-item-2">
               <ion-icon name="people-circle"></ion-icon>
               <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Free Fall STEM Classes</h2>
@@ -177,6 +186,37 @@ export default class Home extends Component {
 
         </section>
 
+
+        <div class="class-banner banner" style={{ marginTop: "50px", marginBottom: "20px" }}>
+          <a class="banner-class" href="/tutoring">
+            <img src={tutor} />
+          </a>
+          <a class="banner-class" href="/plantcell-lab">
+            <img src={labs} />
+          </a>
+
+          <a class="banner-class" href="/stemworld">
+            <img src={stemworld} />
+          </a>
+          <a class="banner-class" href="/classes">
+            <img src={settheory} />
+          </a>
+          <a class="banner-class" href="/classes">
+            <img src={geometry} />
+          </a>
+          <a class="banner-class" href="/classes">
+            <img src={algebra} />
+          </a>
+          <a class="banner-class" href="/classes">
+            <img src={molbio} />
+          </a>
+          <a class="banner-class" href="/classes">
+            <img src={physics} />
+          </a>
+          <a class="banner-class" href="/classes">
+            <img src={anatomy} />
+          </a>
+        </div>
 
 
       </div>

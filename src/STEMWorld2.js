@@ -5,6 +5,9 @@ import logo from "./stemworld2logo.png"
 import schedule from "./stemworld2schedule.jpg"
 import sponsor1 from "./stemworld2sponsor1.png"
 import sponsor2 from "./stemworld2sponsor2.png"
+import sponsor3 from "./stemworld2wizprodigy.png"
+import wiz from "./WIZ ICON.png"
+
 import { Container, Row, Col } from 'react-grid-system';
 import { TimelineMarker } from './Timeline';
 import scheduleCSV from "./STEMWorldScheduleSequelFinal.csv";
@@ -87,8 +90,8 @@ export default class STEMWorld2 extends Component {
             <h2 style={{ textAlign: "center", fontSize: "19px", marginBottom: "25px" }}> Who: Everyone is eligible to participate; however, only grades 12 or lower can compete. </h2>
             <h2 style={{ textAlign: "center", fontSize: "15px", width: "80%", marginLeft: "10%", marginBottom: "25px" }}> Hosted by STEM Enrichment Youth and the Education For All Foundation, STEM World II is a virtual, free STEM convention consisting of professional speaker workshops, high-school level competitions, and networking opportunities. We welcome STEM enthusiasts of ALL backgrounds, ages, ethnicities, genders, sexualities, and cultures.</h2>
             <h2 style={{ textAlign: "center", fontSize: "13px", marginBottom: "25px" }}> Full schedule shown below. </h2>
+            <p style={{ textAlign: "center" }}><a class="btn btn-full" href="https://zoom.us/j/6778777788?pwd=YXpxRXYyT2pURHFaUHRKazdqMzNvZz09">Speaker Workshops Zoom Link</a></p>
             <p style={{ textAlign: "center" }}><a class="btn btn-full" href="https://tinyurl.com/stemworld2">RSVP (Closes 03/20)</a></p>
-            <p style={{ textAlign: "center" }}><a class="btn btn-full" href="https://tinyurl.com/stemworld2-i">Informational Document</a></p>
             <p style={{ textAlign: "center" }}><a class="btn btn-full" href="/stemworld2speakers">STEM World Speakers</a></p>
 
 
@@ -97,7 +100,7 @@ export default class STEMWorld2 extends Component {
                 <Row>
                   <Col sm={6}>
                     <div>
-                      <h2 style={{ textAlign: "left", lineHeight: "2" }}> Speaker Workshops </h2>
+                      <h2 style={{ textAlign: "left", lineHeight: "2", fontWeight: "400" }}> Speaker Workshops </h2>
                       <p>Attend workshops led by industry professionals and top-ranking university professors from around the world, including researchers at Duke, Dartmouth, MIT, & more! </p>
                       <p>Workshop Topics include. . .</p>
                       <p>A Guide to Financial Literacy and the Importance of Management</p>
@@ -112,7 +115,7 @@ export default class STEMWorld2 extends Component {
 
                   <Col sm={6}>
                     <div>
-                      <h2 style={{ textAlign: "left", lineHeight: "2" }}> Global Networking </h2>
+                      <h2 style={{ textAlign: "left", lineHeight: "2", fontWeight: "400" }}> Global Networking </h2>
                       <p> Join the STEM World II sTEAMs to connect with a tight-knit, global community of STEM enthusiasts. Each sTEAM will host a variety of social events throughout STEM World II (03/20-28), including team dinners, game nights, cooking sessions, and more! </p>
                       <p>Participants will be sorted into 4 houses: Matcha, Oolong, Jasmine, Chai</p>
                       <p>Each house will have exclusive bonding events: Game Nights, Speed Friending, Boba/Food Chats, Talent Shows</p>
@@ -123,7 +126,7 @@ export default class STEMWorld2 extends Component {
                   </Col>
                   <Col sm={6}>
                     <div>
-                      <h2 style={{ textAlign: "left", lineHeight: "2" }}> Competitions </h2>
+                      <h2 style={{ textAlign: "left", lineHeight: "2", fontWeight: "400"}}> Competitions </h2>
                       <p>Interested in testing your STEM knowledge and winning amazing prizes? Compete in STEM World II between 3/20-28. There will be Team and Individual rounds for competitions. All competitions will be conducted virtually and asynchronously over a 1-week long time slot.</p>
                       <h2 style={{ textAlign: "left", fontSize: "25px", marginBottom: "10px" }}> Individual Competitions </h2>
                       <p>You will compete by yourself in 1-hour long tests, and you can choose which subject you would like to compete in.</p>
@@ -133,7 +136,7 @@ export default class STEMWorld2 extends Component {
                   </Col>
                   <Col sm={6}>
                     <div>
-                      <h2 style={{ textAlign: "left", fontSize: "25px", marginTop: "20px" }}> Team Competitions </h2>
+                      <h2 style={{ textAlign: "left", fontSize: "25px", marginTop: "20px", fontWeight: "400"}}> Team Competitions </h2>
                       <p style={{ textAlign: "left" }}>You will compete in a team of 3-4 participants for two 60-minute long tests with high school level questions. </p>
                       <p style={{ textAlign: "left" }}>If you do not have a team, please request a team on the STEM World II RSVP form, and we will match you with other competitors as soon as possible.</p>
                       <p style={{ textAlign: "left" }}>Each competition will consist of questions from Math, Biology, Physics, AND Chemistry. </p>
@@ -141,9 +144,20 @@ export default class STEMWorld2 extends Component {
                     </div>
                   </Col>
                   <Col sm={6}>
-                    <h2 style={{ textAlign: "left", lineHeight: "2" }}> Sponsored By </h2>
+                    <h2 style={{ textAlign: "left", lineHeight: "2", fontWeight: "400" }}> Sponsored By </h2>
                     <img style={{ width: "40%", padding: "20px" }} src={sponsor1} />
                     <img style={{ width: "40%", padding: "20px" }} src={sponsor2} />
+                    <a href="https://www.wizprodigy.com/stemey/" style={{display: "inline"}}><img style={{ width: "40%", padding: "20px" }} src={sponsor3} /></a>
+
+
+                  </Col>
+                  <Col sm={6}>
+                    <h2 style={{ textAlign: "left", lineHeight: "2", fontWeight: "400" }}> Compete in Wiz Prodigy </h2>
+                    <p style={{ textAlign: "left" }}>Join our amazing STEMEY and STEM World II sponsor, Wiz Robotics, in an online STEM and robotics competition that will unleash your talent and creativity.</p>
+                    <iframe src="https://drive.google.com/file/d/1sLntzxZvWxEZRAJ6IDQsR3Bdx4wbOTGM/preview" width="auto"></iframe>                  
+                    
+                    <p style={{ textAlign: "left", marginTop: "20px"}}><a class="btn btn-full" href="https://www.wizprodigy.com/stemey/">Learn More and Register</a></p>
+
                   </Col>
                 </Row>
 
