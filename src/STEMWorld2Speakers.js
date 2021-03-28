@@ -165,9 +165,6 @@ export default class STEMWorld2Speakers extends Component {
                         />
 
                     </div>
-
-
-
                 </div>
             </div>
         )
