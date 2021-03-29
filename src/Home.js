@@ -259,7 +259,7 @@ function WizModal(props) {
   return (
     <Modal
       {...props}
-      size="90w"
+      size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
       dialogClassName="modal"
