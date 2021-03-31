@@ -37,6 +37,7 @@ import Test from "./Test";
 import Partnerships from "./Partnerships";
 import Opportunities from "./Opportunities";
 import Wiz from "./Wiz"; 
+import CIC from "./CIC/CIC"; 
 
 export default function App() {
   return (
@@ -161,6 +162,9 @@ export default function App() {
           </Route>
           <Route path="/opportunities">
             <Opportunities />
+          </Route>
+          <Route path="/cic-stemey">
+            <CIC/> 
           </Route>
 
           <Route path="/">
