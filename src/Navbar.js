@@ -44,6 +44,7 @@ export default function Navbar(props) {
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/wiz">Wiz Robotics</a>
               <a class="dropdown-item" href="/partnerships">Request to Partner</a>
+              <a class="dropdown-item" href="/cic-stemey">CIC Internship Program</a>
             </div>
           </li> 
           <li class="nav-item active nav-link">

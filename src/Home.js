@@ -106,24 +106,16 @@ export default class Home extends Component {
             </div>
 
             <div class="motivate item steps-item">
-              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEMEY X Wiz Robotics</h2>
+              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEMEY X CIC Internship Program</h2>
               <div class="step step1">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Register for Wiz Prodigy, an online STEM and robotics competition that will unleash your talent and creativity.</p>
+                <p>Virtual, rigorous 6-week program where high school students are matched with a mentor to assist in a chemistry-related research project.</p>
               </div>
               <div class="step">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Learn to code, design, and build your own version of a Cybertruck.</p>
+                <p>Made possible by the CIC, an interdisciplinary team of researchers that develop the fundamental chemistry needed to prepare synthetic plastics</p>
               </div>
-              <div class="step">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Receive a FREE robotics kit in the mail as part of the competition.</p>
-              </div>
-              <div class="step">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Learn more and sign up at wizprodigy.com/STEMEY</p>
-              </div>
-              <a style={{ color: "white" }} class="btn btn-full" href="https://www.wizprodigy.com/stemey/">Register Now</a>
+              <a style={{ color: "white" }} class="btn btn-full" href="/cic-stemey">Learn More</a>
 
             </div>
 
