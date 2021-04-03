@@ -43,8 +43,10 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
+    "react-slick": "^0.28.1",
     "react-visibility-sensor": "^5.1.1",
     "reactjs-popup": "^2.0.4",
+    "slick-carousel": "^1.8.1",
     "tabletop": "^1.6.3",
     "vertical-timeline-component-react": "^1.2.3"
   },

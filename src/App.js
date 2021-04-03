@@ -36,8 +36,6 @@ import Classes from "./Classes/Classes";
 import Test from "./Test";
 import Partnerships from "./Partnerships";
 import Opportunities from "./Opportunities";
-import Wiz from "./Wiz"; 
-import CIC from "./CIC/CIC"; 
 
 export default function App() {
   return (
@@ -83,7 +81,6 @@ export default function App() {
           <Route path="/tutoringteam">
             <TutoringTeam />
           </Route>
-          <Route path="/wiz"> <Wiz /> </Route>
           <Route path="/discord">
             <Discord />
           </Route>
