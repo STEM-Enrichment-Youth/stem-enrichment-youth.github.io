@@ -40,22 +40,12 @@ export default function Navbar(props) {
           <li class="nav-item dropdown active nav-link">
           <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              partnerships</a>
+              Academics</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/wiz">Wiz Robotics</a>
-              <a class="dropdown-item" href="/partnerships">Request to Partner</a>
+              <a class="dropdown-item" href="/classes">Classes</a>
+              <a class="dropdown-item" href="/tutoring">Tutoring</a>
             </div>
           </li> 
-          <li class="nav-item active nav-link">
-            <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
-              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/classes" role="button">
-              Classes</a>
-          </li>
-          <li class="nav-item active nav-link">
-            <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
-              class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/tutoring" role="button">
-              Tutoring</a>
-          </li>
           <li class="nav-item dropdown nav-link active">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -66,12 +56,11 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/stemtober">STEM-Tober</a>
             </div>
           </li>
-          <li class="nav-item active nav-link">
+          {/* <li class="nav-item active nav-link">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/discord" role="button">
               Discord</a>
-          </li>
-
+          </li> */}
           <li class="nav-item dropdown nav-link active">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -88,23 +77,23 @@ export default function Navbar(props) {
               <a class="dropdown-item" href="/tutoringteam">Tutoring/Activites</a>
               <a class="dropdown-item" href="/tech">Tech</a>
             </div>
-          </li>
-
+          </li>   
           <li class="nav-item dropdown nav-link active">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Labs</a>
+              Get Involved</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/animalcell-lab">Animal Cell</a>
-              <a class="dropdown-item" href="/plantcell-lab">Plant Cell</a>
+              <a class="dropdown-item" href="/apply">Apply</a>
+              <a class="dropdown-item" href="/discord">Discord</a>
+              <a class="dropdown-item" href="/partnerships">Partner</a>
             </div>
-          </li>
+          </li>         
           
-          <li class="nav-item active nav-link">
+          {/* <li class="nav-item active nav-link">
             <a style={{ color: "black", paddingLeft: "10px", paddingRight: "10px", color: "rgba(0, 0, 0, 0.87)" }}
               class="nav-link MuiButtonBase-root MuiButton-root MuiButton-contained" href="/apply" role="button">
               Apply</a>
-          </li>
+          </li> */}
 
         </ul>
       </div>

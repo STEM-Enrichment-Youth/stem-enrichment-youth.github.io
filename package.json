@@ -29,6 +29,7 @@
     "passport-local-mongoose": "^6.0.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
+    "react-countup": "^4.3.3",
     "react-db-google-sheets": "^2.1.1",
     "react-dom": "^16.13.1",
     "react-grid-system": "^7.0.3",
@@ -42,6 +43,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
+    "react-visibility-sensor": "^5.1.1",
     "reactjs-popup": "^2.0.4",
     "tabletop": "^1.6.3",
     "vertical-timeline-component-react": "^1.2.3"

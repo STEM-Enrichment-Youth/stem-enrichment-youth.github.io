@@ -16,6 +16,9 @@ import { Component } from "react";
 import Modal from "react-bootstrap/Modal";
 import stemworld2 from "./stemworld2logo.png";
 import wiz from "./stemworld2wizprodigy.png";
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
+
 
 export default class Home extends Component {
 
@@ -43,6 +46,8 @@ export default class Home extends Component {
   closeModal() {
     this.setState({ viewPopup: false })
   }
+
+
 
   render() {
     return (
@@ -74,6 +79,95 @@ export default class Home extends Component {
 
         </div>
 
+
+
+        <div class="head-txt" style={{ marginTop: "50px", marginBottom: "20px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap:"50px"}}>
+
+            <CountUp
+              start={0}
+              end={30000}
+              delay={0}
+              duration={2.5}
+              separator=","
+              suffix=""
+              onEnd={() => { }}
+              onStart={() => { }}
+            >
+              {({ countUpRef, start }) => (
+                <div>
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <h1 ref={countUpRef} />
+                  </VisibilitySensor>
+                  <h1>Viewers</h1>
+                </div>
+              )}
+            </CountUp>
+
+
+            <CountUp
+              start={0}
+              end={500}
+              delay={0}
+              duration={1.85}
+              separator=","
+              suffix=""
+              onEnd={() => { }}
+              onStart={() => { }}
+            >
+              {({ countUpRef, start }) => (
+                <div>
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <h1 ref={countUpRef} />
+                  </VisibilitySensor>
+                  <h1>Students</h1>
+                </div>
+              )}
+            </CountUp>
+
+            <CountUp
+              start={0}
+              end={300}
+              delay={0}
+              duration={1.75}
+              separator=","
+              suffix=""
+              onEnd={() => { }}
+              onStart={() => { }}
+            >
+              {({ countUpRef, start }) => (
+                <div>
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <h1 ref={countUpRef} />
+                  </VisibilitySensor>
+                  <h1>Video Lectures</h1>
+                </div>
+              )}
+            </CountUp>
+
+            <CountUp
+              start={0}
+              end={1000}
+              delay={0}
+              duration={2}
+              separator=","
+              suffix=""
+              onEnd={() => { }}
+              onStart={() => { }}
+            >
+              {({ countUpRef, start }) => (
+                <div>
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <h1 ref={countUpRef} />
+                  </VisibilitySensor>
+                  <h1>Event Attendees</h1>
+                </div>
+              )}
+            </CountUp>
+
+          </div>
+        </div>
+
         <WizModal
           show={this.state.viewPopup}
           onHide={() => this.closeModal()}
@@ -82,7 +176,7 @@ export default class Home extends Component {
 
         <section class="who">
           <div class="why-us">
-            
+
 
             <div class="motivate item steps-item-2">
               <ion-icon name="people-circle"></ion-icon>
