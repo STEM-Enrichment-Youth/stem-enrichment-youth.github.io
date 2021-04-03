@@ -90,8 +90,6 @@ export default class STEMWorld2 extends Component {
             <h2 style={{ textAlign: "center", fontSize: "19px", marginBottom: "25px" }}> Who: Everyone is eligible to participate; however, only grades 12 or lower can compete. </h2>
             <h2 style={{ textAlign: "center", fontSize: "15px", width: "80%", marginLeft: "10%", marginBottom: "25px" }}> Hosted by STEM Enrichment Youth and the Education For All Foundation, STEM World II is a virtual, free STEM convention consisting of professional speaker workshops, high-school level competitions, and networking opportunities. We welcome STEM enthusiasts of ALL backgrounds, ages, ethnicities, genders, sexualities, and cultures.</h2>
             <h2 style={{ textAlign: "center", fontSize: "13px", marginBottom: "25px" }}> Full schedule shown below. </h2>
-            <p style={{ textAlign: "center" }}><a class="btn btn-full" href="https://zoom.us/j/6778777788?pwd=YXpxRXYyT2pURHFaUHRKazdqMzNvZz09">Speaker Workshops Zoom Link</a></p>
-            <p style={{ textAlign: "center" }}><a class="btn btn-full" href="https://tinyurl.com/stemworld2">RSVP (Closes 03/20)</a></p>
             <p style={{ textAlign: "center" }}><a class="btn btn-full" href="/stemworld2speakers">STEM World Speakers</a></p>
 
 
@@ -165,26 +163,10 @@ export default class STEMWorld2 extends Component {
 
             </div>
 
-            <h1 class="biggest-header-2" style={{ marginTop: "50px" }}>Schedule</h1>
+            <h1 class="biggest-header-2" style={{ marginTop: "50px" }}>Speaker Schedule</h1>
             <div class="stem-world" style={{ height: "auto" }}>
               <div style={{ width: "90%" }}>
                 <ul class="timeline timeline-centered">
-
-                  <TimelineMarker
-                    title="Friday, March 19"
-                  />
-                  {this.state.events.filter(event => String(event.day) === "19-Mar").map((event, index) => { // Retrieve all events for this day
-                    return <TimeLineEntry
-                      id={index}
-                      title={event.title}
-                      speaker={event.speaker}
-                      time={event.time}
-                      shortDescription={event.shortDescription}
-                      description={event.description}
-                      link={"/stemworld2speakers"}
-                    />
-                  })
-                  }
 
                   < TimelineMarker
                     title="Saturday, March 20"
@@ -206,86 +188,6 @@ export default class STEMWorld2 extends Component {
                     title="Sunday, March 21"
                   />
                   {this.state.events.filter(event => String(event.day) === "21-Mar").map((event, index) => {
-                    return <TimeLineEntry
-                      id={index}
-                      title={event.title}
-                      speaker={event.speaker}
-                      time={event.time}
-                      shortDescription={event.shortDescription}
-                      description={event.description}
-                      link={"/stemworld2speakers"}
-                    />
-                  })
-                  }
-
-                  < TimelineMarker
-                    title="Monday, March 22"
-                  />
-                  {this.state.events.filter(event => String(event.day) === "22-Mar").map((event, index) => {
-                    return <TimeLineEntry
-                      id={index}
-                      title={event.title}
-                      speaker={event.speaker}
-                      time={event.time}
-                      shortDescription={event.shortDescription}
-                      description={event.description}
-                      link={"/stemworld2speakers"}
-                    />
-                  })
-                  }
-
-                  < TimelineMarker
-                    title="Tuesday, March 23"
-                  />
-                  {this.state.events.filter(event => String(event.day) === "23-Mar").map((event, index) => {
-                    return <TimeLineEntry
-                      id={index}
-                      title={event.title}
-                      speaker={event.speaker}
-                      time={event.time}
-                      shortDescription={event.shortDescription}
-                      description={event.description}
-                      link={"/stemworld2speakers"}
-                    />
-                  })
-                  }
-
-                  < TimelineMarker
-                    title="Wednesday, March 24"
-                  />
-                  {this.state.events.filter(event => String(event.day) === "24-Mar").map((event, index) => {
-                    return <TimeLineEntry
-                      id={index}
-                      title={event.title}
-                      speaker={event.speaker}
-                      time={event.time}
-                      shortDescription={event.shortDescription}
-                      description={event.description}
-                      link={"/stemworld2speakers"}
-                    />
-                  })
-                  }
-
-                  < TimelineMarker
-                    title="Thursday, March 25"
-                  />
-                  {this.state.events.filter(event => String(event.day) === "25-Mar").map((event, index) => {
-                    return <TimeLineEntry
-                      id={index}
-                      title={event.title}
-                      speaker={event.speaker}
-                      time={event.time}
-                      shortDescription={event.shortDescription}
-                      description={event.description}
-                      link={"/stemworld2speakers"}
-                    />
-                  })
-                  }
-
-                  < TimelineMarker
-                    title="Friday, March 26"
-                  />
-                  {this.state.events.filter(event => String(event.day) === "26-Mar").map((event, index) => {
                     return <TimeLineEntry
                       id={index}
                       title={event.title}

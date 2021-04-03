@@ -22,10 +22,10 @@ import michaelodell from "./SpeakersWorld2/First Weekend/Sunday 3-21/odell.png";
 import jillcode from "./SpeakersWorld2/First Weekend/Sunday 3-21/JillianneCode.png";
 import fredgould from "./SpeakersWorld2/First Weekend/Sunday 3-21/fred-gould.jpg";
 import jamescoll from "./SpeakersWorld2/First Weekend/Sunday 3-21/JamesCollins.jpg";
-import eleanorfish from "./SpeakersWorld2/First Weekend/Sunday 3-21/2020 headshot as jpeg (1).jp2";
+import eleanorfish from "./SpeakersWorld2/First Weekend/Sunday 3-21/eleanor.jpeg";
 
 // 3-27
-import rogeraze from "./SpeakersWorld2/Second Weekend/Saturday 3-27/Azevedo pic UCF.jpg";
+import monicapop from "./SpeakersWorld2/Second Weekend/Saturday 3-27/Monica.jpg";
 import michaelk from "./SpeakersWorld2/Second Weekend/Saturday 3-27/michaelkay.jpg";
 import tigersheng from "./SpeakersWorld2/Second Weekend/Saturday 3-27/DSC_0125.jpg";
 
@@ -123,10 +123,12 @@ export default class STEMWorld2Speakers extends Component {
 
                         {/* Second weekend => 3-27 */}
                         <Card
-                            name="Dr. Roger Azevedo"
-                            imgURL={rogeraze}
-                            des="Dr. Roger Azevedo is a Professor in the Department of Learning Sciences & Educational Research at the University of Central Florida. He is the Lead Scientist for UCF’s Learning Sciences Faculty Cluster Initiative. He received his doctorate from McGill University (1998) and completed his postdoctoral training in cognitive psychology at Carnegie Mellon University. His main research area includes examining the role of cognitive, metacognitive, affective, and motivational self-regulatory processes during learning with advanced learning technologies (e.g., intelligent tutoring systems, hypermedia, multimedia, simulations, serious games, immersive virtual learning environments)."
-                            position="University Professor"
+                            name="Monica Poplacenel"
+                            imgURL={monicapop}
+                            des="Monica has a Postgraduate degree in Business Administration and a vast experience in multinational companies, as well as a degree in Psychology and a Specialisation in Classical Psychodrama. 
+                            Her successful career in Corporate Sales has been followed by several years of work in a British International School in Bucharest. Throughout her school and her career, she has taken numerous courses in communication and negotiation, as well as Mindfulness and Emotional Intelligence and has attended a specialisation course in the Integrative Psychotherapy for Children and Teenagers within the European Institute for Children and Teenagers Therapy. 
+                            Monica is also an accredited trainer and is now working as a child and youth psychotherapist in Bucharest."
+                            position="Entrepreneur and Psychologist"
                         />
                         <Card
                             name="Michael Kay"

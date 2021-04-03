@@ -42,7 +42,6 @@ export default function Navbar(props) {
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               partnerships</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/cic-stemey">CIC Internship Program</a>
               <a class="dropdown-item" href="/wiz">Wiz Robotics</a>
               <a class="dropdown-item" href="/partnerships">Request to Partner</a>
             </div>

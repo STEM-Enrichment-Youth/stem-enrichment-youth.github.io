@@ -82,46 +82,11 @@ export default class Home extends Component {
 
         <section class="who">
           <div class="why-us">
-            <div class="motivate item steps-item">
-              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World II</h2>
-              <div class="step step1">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Coming to you on March 20-28. . . </p>
-              </div>
-              <div class="step">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Speaker Workshops led by industry professionals and top ranking university professors.</p>
-              </div>
-              <div class="step">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>High-school level, prize-winning STEM competitions.</p>
-              </div>
-              <div class="step">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Daily global networking events and a tight-knit global community of STEM enthusiasts.</p>
-              </div>
-              <a style={{ color: "white" }} class="btn btn-full" href="/stemworld2">Learn More</a>
-
-
-            </div>
-
-            <div class="motivate item steps-item">
-              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEMEY X CIC Internship Program</h2>
-              <div class="step step1">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Virtual, rigorous 6-week program where high school students are matched with a mentor to assist in a chemistry-related research project.</p>
-              </div>
-              <div class="step">
-                <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Made possible by the CIC, an interdisciplinary team of researchers that develop the fundamental chemistry needed to prepare synthetic plastics</p>
-              </div>
-              <a style={{ color: "white" }} class="btn btn-full" href="/cic-stemey">Learn More</a>
-
-            </div>
+            
 
             <div class="motivate item steps-item-2">
               <ion-icon name="people-circle"></ion-icon>
-              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Free Fall STEM Classes</h2>
+              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Free STEM Classes</h2>
               <div class="step step1">
                 <i class="fas fa-arrow-alt-circle-right"></i>
                 <p>Live Weekly Classes</p>
@@ -142,25 +107,25 @@ export default class Home extends Component {
                 <i class="fas fa-arrow-alt-circle-right"></i>
                 <p>Classes in six STEM Disciplines</p>
               </div>
-              <a style={{ color: "white" }} class="btn btn-full" href="https://tinyurl.com/stemeyevents">Register Today</a>
+              <a style={{ color: "white" }} class="btn btn-full" href="/classes">Register Today</a>
 
 
             </div>
 
             <div class="motivate item steps-item">
               <ion-icon name="globe"></ion-icon>
-              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World</h2>
+              <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>STEM World Conventions</h2>
               <div class="step step1">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>22 Hours Worth of STEM Lectures and Events</p>
+                <p>Professional Speaker Workshops and High-school Level Competitions</p>
               </div>
               <div class="step">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Explore Interdisciplinary and Innovative Areas of Science</p>
+                <p>Featuring 50+ researchers from top-ranking American universities</p>
               </div>
               <div class="step">
                 <i class="fas fa-arrow-alt-circle-right"></i>
-                <p>Watch all of our lectures from STEM World on Youtube</p>
+                <p>30K viewers and 1K event attendees from 20+ countries</p>
               </div>
               <div class="step">
                 <i class="fas fa-arrow-alt-circle-right"></i>

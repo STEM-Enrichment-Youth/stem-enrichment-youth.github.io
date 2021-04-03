@@ -163,9 +163,6 @@ export default function App() {
           <Route path="/opportunities">
             <Opportunities />
           </Route>
-          <Route path="/cic-stemey">
-            <CIC/> 
-          </Route>
 
           <Route path="/">
             <Home />
