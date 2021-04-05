@@ -82,10 +82,8 @@ export default class Home extends Component {
 
         </div>
 
-
-        {/*
         <div class="head-txt" style={{ marginTop: "50px", marginBottom: "20px" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "50px" }}>
+          <div style={{ display: "grid", justifyContent: "center", gridTemplateColumns: "repeat(4,1fr)" }}>
 
             <CountUp
               start={0}
@@ -170,18 +168,10 @@ export default class Home extends Component {
 
           </div>
         </div>
-              */}
-
-        <HomeModal
-          show={this.state.viewPopup}
-          onHide={() => this.closeModal()}
-        />
 
 
         <section class="who">
           <div class="why-us">
-
-
             <div class="motivate item steps-item-2">
               <ion-icon name="people-circle"></ion-icon>
               <h2 style={{ fontWeight: "100", letterSpacing: "4px" }}>Free STEM Classes</h2>
@@ -233,13 +223,22 @@ export default class Home extends Component {
 
 
             </div>
-
-
-
           </div>
 
         </section>
 
+
+        <YoutubeGrid />
+        <ImageSlider />
+
+        <HomeModal
+          show={this.state.viewPopup}
+          onHide={() => this.closeModal()}
+        />
+
+
+
+        {/*
 
         <div class="class-banner banner" style={{ marginTop: "50px", marginBottom: "20px" }}>
           <a class="banner-class" href="/tutoring">
@@ -271,9 +270,9 @@ export default class Home extends Component {
             <img src={anatomy} />
           </a>
         </div>
+        */}
 
       </div>
-
 
     )
   }
@@ -282,31 +281,31 @@ export default class Home extends Component {
 /*
 function MyVerticallyCenteredModal(props) {
   return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-      dialogClassName="modal"
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          STEM World II!
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <img height="300px" src={stemworld2}></img>
-        <p>
-          STEM World II! Hosted by EFA and STEMEY. We’ve come back from STEM World I with over a dozen of even more distinguished speakers as well as bigger, brain-itching competitions. Get ready for a whole array of new activities, social events, and workshops to ultimately explore critical issues in modern society that relate to STEM and/or global education. Happening on March 20-28th.
-        </p>
-      </Modal.Body>
-      <Modal.Footer>
-        <a style={{ color: "black", marginBottom: "20px" }} class="btn btn-full" href="/stemworld2">Learn More!</a>
-      </Modal.Footer>
-    </Modal>
-  );
+        <Modal
+          {...props}
+          size="lg"
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+          dialogClassName="modal"
+        >
+          <Modal.Header closeButton>
+            <Modal.Title id="contained-modal-title-vcenter">
+              STEM World II!
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <img height="300px" src={stemworld2}></img>
+            <p>
+              STEM World II! Hosted by EFA and STEMEY. We’ve come back from STEM World I with over a dozen of even more distinguished speakers as well as bigger, brain-itching competitions. Get ready for a whole array of new activities, social events, and workshops to ultimately explore critical issues in modern society that relate to STEM and/or global education. Happening on March 20-28th.
+            </p>
+          </Modal.Body>
+          <Modal.Footer>
+            <a style={{ color: "black", marginBottom: "20px" }} class="btn btn-full" href="/stemworld2">Learn More!</a>
+          </Modal.Footer>
+        </Modal>
+        );
 }
-*/
+        */
 
 function HomeModal(props) {
   return (

@@ -1,6 +1,7 @@
 .videos-container {
     display: block;
     justify-content: center;
+    margin-top: 2em;
     margin-left: -2.5em; /* Align with above content => This might not be required if you used on other pages */
 }
 
@@ -35,12 +36,26 @@
               0 16px 16px rgba(0,0,0,0.12);
 }
 
+.social-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 1em;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .icon-container {
     display: flex;
     justify-content: center;
     padding-top: 1em; /* Allow space for animation */
     padding-left: 2em;
     animation: wiggle 2s infinite;
+}
+
+.icon-container:hover {
+    transition: 0.2s linear;
+    animation: none;
 }
 
 @keyframes wiggle {
@@ -57,7 +72,47 @@
 }
 
 .youtube-icon:hover {
+    opacity: 1;
+}
+
+.instagram-icon {
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+}
+
+.instagram-icon:hover {
     cursor: pointer;
+    opacity: 1;
+}
+
+.discord-icon {
+    width: 90px;
+    height: 90px;
+    opacity: 0.8;
+}
+
+.discord-icon:hover {
+    opacity: 1;
+}
+
+.classroom-logo {
+    width: 90px;
+    height: 90px;
+    opacity: 0.5;
+}
+
+.classroom-logo:hover {
+    opacity: 1;
+}
+
+.linkedin-logo {
+    width: 100px;
+    height: 80px;
+    opacity: 0.5;
+}
+
+.linkedin-logo:hover {
     opacity: 1;
 }
 
@@ -72,6 +127,12 @@
         margin-top: 1.5em;
     }
 
+}
+
+@media only screen and (max-width: 768px) {
+    .social-container {
+        display: none;
+    }
 }
 
 

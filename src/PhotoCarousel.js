@@ -25,27 +25,32 @@ const Images = [
   {
     id: 1,
     src: physics,
-    alt: "Physics"
+    alt: "Physics",
+    link: "physics"
   },
   {
     id: 2,
     src: anatomy,
-    alt: "Anatomy"
+    alt: "Anatomy",
+    link: "anatomy"
   },
   {
     id: 3,
     src: molbio,
-    alt: "Molecular Biology"
+    alt: "Molecular Biology",
+    link: "molecularbio"
   },
   {
     id: 4,
     src: settheory,
-    alt: "Set theory"
+    alt: "Set theory",
+    link: "settheory"
   },
   {
     id: 5,
     src: geometry,
-    alt: "Geometry"
+    alt: "Geometry",
+    link: "geometry"
   },
   {
     id: 6,

@@ -78,6 +78,6 @@
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
-    "react-social-icons": "^4.1.0"
+    "react-social-icons": "^5.0.0"
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import {Helmet} from "react-helmet"; 
+import { Helmet } from "react-helmet";
 import "./NewClasses.css"
 import molbio from "./ClassPics/MolBio.png"
 import anatomy from "./ClassPics/Anatomy.png"
@@ -13,20 +13,18 @@ export default function NewClasses() {
 
     return (<div class="new-team-con">
         <div class="new-class">
-        <h1>Classes</h1>
+            <h1>Classes</h1>
 
-    
             <div class="class-con sign-up">
-        
-            
-                <div class="class-con-item">
-                    <img class="class-img" src={molbio}/> 
+
+                <div id="molecular-bio" class="class-con-item">
+                    <img class="class-img" src={molbio} />
                     {/* <h2 class="h">Molecular Biology</h2> */}
                     <p class="class-des" style={{ marginBottom: "0" }}>
-                       
 
-                    Join the molecular biology class to explore the fascinating roles that molecules play in biology! In this class, you will gain an understanding of biological molecules, cellular and metabolic processes, genetics, gene expression, and current advances in this field. 
-</p> 
+
+                        Join the molecular biology class to explore the fascinating roles that molecules play in biology! In this class, you will gain an understanding of biological molecules, cellular and metabolic processes, genetics, gene expression, and current advances in this field.
+                    </p>
                     <div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
                         <p><span class="class-des-p">Intended Ages: </span>11 yrs old + </p>
                         <p><span class="class-des-p">Lead Instructor: </span>Yulia Anashkina</p>
@@ -41,8 +39,8 @@ export default function NewClasses() {
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
-                        }}> 
-                        See Our Team 
+                        }}>
+                            See Our Team
                         </a>
                     </button>
                     <button class="btn btn-danger">
@@ -52,20 +50,20 @@ export default function NewClasses() {
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
-                        }}> 
-                        Register Now
+                        }}>
+                            Register Now
                         </a>
                     </button>
 
                 </div>
-                <div class="class-con-item">
-                <img class="class-img" src={anatomy}/> 
+                <div id="anatomy" class="class-con-item">
+                    <img class="class-img" src={anatomy} />
                     {/* <h2 class="h">Anatomy</h2> */}
                     <p class="class-des" style={{ marginBottom: "0" }}>
-                       
 
-                    Join us to explore the wonders of the human body. You’ll be exploring everything from the intricacies of the body systems, to how all these parts connect to help our body function! </p> 
-<div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
+
+                        Join us to explore the wonders of the human body. You’ll be exploring everything from the intricacies of the body systems, to how all these parts connect to help our body function! </p>
+                    <div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
                         <p><span class="class-des-p">Intended Ages: </span>11 years old +</p>
                         <p><span class="class-des-p">Lead Instructor: </span>Arushi Singhal & Priyanka Kalidindi</p>
                         <p><span class="class-des-p">Prerequisites: </span>None</p>
@@ -79,8 +77,8 @@ export default function NewClasses() {
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
-                        }}> 
-                        See Our Team 
+                        }}>
+                            See Our Team
                         </a>
                     </button>
                     <button class="btn btn-danger">
@@ -91,17 +89,17 @@ export default function NewClasses() {
                             fontWeight: "200",
                             fontSize: "20px"
                         }}>
-Register Now                        </a>
+                            Register Now                        </a>
                     </button>
 
                 </div>
-                <div class="class-con-item">
-                    <img class="class-img" src={geometry}/> 
+                <div id="geometry" class="class-con-item">
+                    <img class="class-img" src={geometry} />
                     {/* <h2 class="h">Geometry</h2> */}
                     <p class="class-des" style={{ marginBottom: "0" }}>
-                       
-Join our introductory course to learn the fundamentals of geometry! We will cover proofs and various problem solving skills, and we will look at applications of geometry in competition math problems.
-</p> {/* <Carousel /> */}
+
+                        Join our introductory course to learn the fundamentals of geometry! We will cover proofs and various problem solving skills, and we will look at applications of geometry in competition math problems.
+                    </p> {/* <Carousel /> */}
                     <div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
                         <p><span class="class-des-p">Intended Ages: </span>Grades 5-10</p>
                         <p><span class="class-des-p">Lead Instructor: </span>Justin Liu</p>
@@ -116,8 +114,8 @@ Join our introductory course to learn the fundamentals of geometry! We will cove
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
-                        }}> 
-                        See Our Team 
+                        }}>
+                            See Our Team
                         </a>
                     </button>
                     <button class="btn btn-danger">
@@ -127,19 +125,19 @@ Join our introductory course to learn the fundamentals of geometry! We will cove
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
-                        }}> 
-                        Register Now
+                        }}>
+                            Register Now
                         </a>
                     </button>
 
                 </div>
-                <div class="class-con-item">
-                <img class="class-img" src={algebra}/> 
+                <div id="algebra" class="class-con-item">
+                    <img class="class-img" src={algebra} />
                     {/* <h2 class="h">Algebra</h2> */}
                     <p class="class-des" style={{ marginBottom: "0" }}>
-                       
 
-                    Join our introductory course to learn the basics of algebra 1! We will cover ways to solve different kinds of equations, and we will look at applications of algebra in competition math problems.</p> {/* <Carousel /> */}
+
+                        Join our introductory course to learn the basics of algebra 1! We will cover ways to solve different kinds of equations, and we will look at applications of algebra in competition math problems.</p> {/* <Carousel /> */}
                     <div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
                         <p><span class="class-des-p">Intended Ages: </span>Grades 5-10</p>
                         <p><span class="class-des-p">Lead Instructor: </span>Justin Liu</p>
@@ -155,8 +153,8 @@ Join our introductory course to learn the fundamentals of geometry! We will cove
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
-                        }}> 
-                        See Our Team 
+                        }}>
+                            See Our Team
                         </a>
                     </button>
                     <button class="btn btn-danger">
@@ -167,17 +165,17 @@ Join our introductory course to learn the fundamentals of geometry! We will cove
                             fontWeight: "200",
                             fontSize: "20px"
                         }}>
-Register Now                        </a>
+                            Register Now                        </a>
                     </button>
 
                 </div>
-            
+
             </div>
             <div class="class-con sign-up">
-                <div class="class-con-item">
-                <img class="class-img" src={physics}/> 
-                    <p class="class-des" style={{marginBottom: "0"}}>
-                    In this course, we will study the basics of Newtonian mechanics, and develop some of the mindset needed to approach Physics problems. This course approximately follows the first ~2/3 of AP Physics 1 and requires some basic [math] skills, including Algebra, basic Geometry, Trigonometry, and a willingness to learn.</p>
+                <div id="physics" class="class-con-item">
+                    <img class="class-img" src={physics} />
+                    <p class="class-des" style={{ marginBottom: "0" }}>
+                        In this course, we will study the basics of Newtonian mechanics, and develop some of the mindset needed to approach Physics problems. This course approximately follows the first ~2/3 of AP Physics 1 and requires some basic [math] skills, including Algebra, basic Geometry, Trigonometry, and a willingness to learn.</p>
                     {/* <Carousel /> */}
                     <div style={{ boxShadow: "0px 0px 10px black", padding: "0 15px" }}>
                         <p><span class="class-des-p">Intended Ages: </span>Grades 5-12</p>
@@ -193,8 +191,8 @@ Register Now                        </a>
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
-                        }}> 
-                        See Our Team 
+                        }}>
+                            See Our Team
                         </a>
                     </button>
 
@@ -211,8 +209,8 @@ Register Now                        </a>
                     </button>
 
                 </div>
-                <div class="class-con-item" style={{gridTemplateRows: "repeat(2, auto)"}}>
-                    <div class="sign-up-steps" style={{marginBottom: "0"}}>
+                <div class="class-con-item" style={{ gridTemplateRows: "repeat(2, auto)" }}>
+                    <div class="sign-up-steps" style={{ marginBottom: "0" }}>
                         <h2>Units</h2>
                         <div class="step step1">
                             <i class="fas fa-arrow-alt-circle-right"></i>
@@ -245,7 +243,7 @@ Register Now                        </a>
                         </div>
                     </div>
 
-                    <div class="sign-up-steps" style={{marginBottom: "0"}}>
+                    <div class="sign-up-steps" style={{ marginBottom: "0" }}>
                         <h2>What we provide</h2>
                         <div class="step step1">
                             <i class="fas fa-arrow-alt-circle-right"></i>
@@ -270,19 +268,19 @@ Register Now                        </a>
                         </div>
                     </div>
                 </div>
-                
+
 
             </div>
-           
-                
+
+
             <div class="class-con sign-up">
-                <div class="class-con-item">
-                    <img class="class-img" src={settheory}/> 
+                <div id="settheory" class="class-con-item">
+                    <img class="class-img" src={settheory} />
                     {/* <h2 class="h">Set Theory</h2> */}
                     <p class="class-des" style={{ marginBottom: "0" }}>
-                       
-                    Set theory is the standard foundation of mathematics. Every mathematical object can be viewed as a set, and every theorem in any branch of mathematics, from geometry to calculus, is but one of the theorems In set theory. It takes Mathematics way beyond counting and arithmetic. 
-</p> {/* <Carousel /> */}
+
+                        Set theory is the standard foundation of mathematics. Every mathematical object can be viewed as a set, and every theorem in any branch of mathematics, from geometry to calculus, is but one of the theorems In set theory. It takes Mathematics way beyond counting and arithmetic.
+                    </p> {/* <Carousel /> */}
                     <div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
                         <p><span class="class-des-p">Intended Ages: </span>Grades 7+</p>
                         <p><span class="class-des-p">Lead Instructor: </span>Aamen Muharram</p>
@@ -297,8 +295,8 @@ Register Now                        </a>
                             letterSpacing: "3px",
                             fontWeight: "200",
                             fontSize: "20px"
-                        }}> 
-                        See Our Team 
+                        }}>
+                            See Our Team
                         </a>
                     </button>
                     <button class="btn btn-danger">
@@ -317,27 +315,27 @@ Register Now                        </a>
                 <div class="class-con-item">
                     <h2 class="h">Set Theory Examples</h2>
                     <p class="class-des" style={{ marginBottom: "0" }}>
-                       
-                    4 of your friends drank truth or lie potions at random and they say the following:  </p> {/* <Carousel /> */}
+
+                        4 of your friends drank truth or lie potions at random and they say the following:  </p> {/* <Carousel /> */}
                     <div class="class-intro" style={{ boxShadow: "0px 0px 10px black" }}>
-                       <p><span class="class-des-p">Person A: </span>If I lie, so must B</p>
+                        <p><span class="class-des-p">Person A: </span>If I lie, so must B</p>
                         <p><span class="class-des-p">Person C: </span>There is at least one liar.</p>
                         <p><span class="class-des-p">Person D: </span>A is lying</p>
                     </div>
 
                     <p class="class-des">
-                    Suppose you know for sure that if B says the truth, then C must be lying. 
-Who drank the lie potion?
+                        Suppose you know for sure that if B says the truth, then C must be lying.
+                        Who drank the lie potion?
                     </p>
                     <h2 class="h">Set Theory Videos Coming Soon!</h2>
 
                 </div>
-            
-            </div>
-       
 
-            
-            
+            </div>
+
+
+
+
             <div class="class-con sign-up">
                 <div class="class-con-item">
                     <h2 class="h">Competition Math</h2>
@@ -419,8 +417,8 @@ Who drank the lie potion?
                     </div>
                 </div>
             </div>
-            
-       
+
+
         </div>
     </div>
     )
