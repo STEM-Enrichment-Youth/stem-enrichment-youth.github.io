@@ -12,6 +12,83 @@
     color: black;
 }
 
+.volunteer-of-the-month {
+    display: block;
+    margin-top: 1em;
+    justify-content: center;
+    transition: 1s linear;
+}
+
+.volunteer-of-the-month:hover .volunteer-header {
+    transition: 1s linear;
+    background: rgba(189,0,255,0.65);
+    background: radial-gradient(circle farthest-corner at center center, rgba(189,0,255,0.65) 0%, #3300ff 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, rgba(189,0,255,0.65) 0%, #3300ff 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, rgba(189,0,255,0.65) 0%, #3300ff 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.volunteer-of-the-month:hover .volunteer-text-content span {
+    transition: 1s linear;
+    background: #bd00ff;
+    background: radial-gradient(circle farthest-corner at center center, #bd00ff 0%, #8f00ff 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #bd00ff 0%, #8f00ff 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #bd00ff 0%, #8f00ff 80%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.volunteer-of-the-month:hover {
+    transform: scale(1.02);
+}
+
+.volunteer-content-container {
+    display: block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+}
+
+.volunteer-header {
+    transition: 1s linear;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.volunteer-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot-container {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.headshot-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+}
+
+.volunteer-text-content {
+    align-self: center;
+    font-size: 3rem;
+    margin-right: 2em;
+}
+
+.volunteer-text-content span {
+    font-weight: bold;
+}
 
 .who {
     /* min-height: 120vh;  */
@@ -244,6 +321,9 @@
     .head-txt-2 { display: grid; grid-template-columns: 1fr; justify-items: center; }
     .head-p { width: 80%; }
     .stemey-logo { width: 300px; }
+    .impact-numbers h1{
+        font-size: 1.9rem;
+    }
 
 }
 @media only screen and (max-width: 767px) {
@@ -284,6 +364,21 @@
 
     .p-home { width: 100%; }
 
+    .impact-numbers h1{
+        font-size: 1.4rem;
+    }
+
+    .volunteer-container {
+        display: block;
+    }
+
+    .headshot-container img {
+        padding-bottom: 2em;
+    }
+
+    .volunteer-text-content {
+        margin: 0 auto;
+    }
     
 
 }   
