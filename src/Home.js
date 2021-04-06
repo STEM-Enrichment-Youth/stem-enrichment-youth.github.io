@@ -86,26 +86,6 @@ export default class Home extends Component {
 
             <CountUp
               start={0}
-              end={30000}
-              delay={0}
-              duration={2.5}
-              separator=","
-              suffix=""
-              onEnd={() => { }}
-              onStart={() => { }}
-            >
-              {({ countUpRef, start }) => (
-                <div>
-                  <VisibilitySensor onChange={start} delayedCall>
-                    <h1 ref={countUpRef} />
-                  </VisibilitySensor>
-                  <h1>Viewers</h1>
-                </div>
-              )}
-            </CountUp>
-
-            <CountUp
-              start={0}
               end={300}
               delay={0}
               duration={1.75}
@@ -124,12 +104,11 @@ export default class Home extends Component {
               )}
             </CountUp>
 
-
             <CountUp
               start={0}
-              end={500}
+              end={30000}
               delay={0}
-              duration={1.85}
+              duration={2.5}
               separator=","
               suffix=""
               onEnd={() => { }}
@@ -140,11 +119,10 @@ export default class Home extends Component {
                   <VisibilitySensor onChange={start} delayedCall>
                     <h1 ref={countUpRef} />
                   </VisibilitySensor>
-                  <h1>Students</h1>
+                  <h1>Video Lectures</h1>
                 </div>
               )}
             </CountUp>
-
 
 
             <CountUp
@@ -162,13 +140,33 @@ export default class Home extends Component {
                   <VisibilitySensor onChange={start} delayedCall>
                     <h1 ref={countUpRef} />
                   </VisibilitySensor>
-                  <h1>Event Attendees</h1>
+                  <h1>Students</h1>
                 </div>
               )}
             </CountUp>
 
-          </div>
-        </div>
+            <CountUp
+              start={0}
+              end={300}
+              delay={0}
+              duration={1.85}
+              separator=","
+              suffix=""
+              onEnd={() => { }}
+              onStart={() => { }}
+            >
+              {({ countUpRef, start }) => (
+                <div>
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <h1 ref={countUpRef} />
+                  </VisibilitySensor>
+                  <h1>Students</h1>
+                </div>
+              )}
+            </CountUp>
+
+          </div >
+        </div >
 
         <section class="who">
           <div class="why-us">
@@ -250,7 +248,7 @@ export default class Home extends Component {
           onHide={() => this.closeModal()}
         />
 
-      </div>
+      </div >
 
     )
   }
