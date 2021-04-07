@@ -1,12 +1,13 @@
 import React from "react";
 import stemey from "./NewStemeyLogo.png";
-import yulia from "./NewTeam/InstructorImages/yulia.JPG"
+import yulia from "./yulia_volunteer_of_the_month.jpg";
 
 import "./HomeModal.css";
 import "./home.css";
 
 import ImageSlider from "./PhotoCarousel";
 import YoutubeGrid from "./YoutubeGrid";
+import VolunteerOfTheMonth from "./VolunteerOfTheMonth";
 
 import { Component } from "react";
 import Modal from "react-bootstrap/Modal";
@@ -14,11 +15,9 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
 /* EDIT THIS TO CHANGE CONTENT FOR VOLUNTEER OF THE MONTH */
-const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const volunteerOfTheMonth = {
   headshotSrc: yulia,
   announcement: "From the moment she joined STEMEY, Yulia has demonstrated exemplary devotion and enthusiasm as a volunteer. She consistently takes initiative to foster innovation and growth within STEMEY, from spearheading our Annual Review Video Project to developing meaningful, engaging academic resources. As one of our most involved volunteers, Yulia channels her dependability and ambition as a one-on-one tutor, event coordinator, video creator, biology teacher, and Special Needs Science and Math instructor. Yulia is also a passionate and considerate leader: as the Molecular Biology Lead instructor, she fosters a constructive, welcoming work environment and coordinates successful team initiatives.",
-  month: months[new Date().getMonth()], // Auto generated from current month
   name: "Yulia Anashkina"
 }
 
@@ -223,23 +222,11 @@ export default class Home extends Component {
         </section>
 
 
-        <section className="volunteer-of-the-month">
-          <div className="volunteer-content-container">
-            <h1 className="volunteer-header">Volunteer of the Month!</h1>
-            <div className="volunteer-container">
-              <div className="headshot-container">
-                <img src={volunteerOfTheMonth.headshotSrc} alt="Volunteer of the month photo" />
-              </div>
-              <div className="volunteer-text-content">
-                <h4>We are proud to announce STEMEY’s {volunteerOfTheMonth.month} Volunteer of the Month: <span>{volunteerOfTheMonth.name}! </span></h4>
-                <p>
-                  {volunteerOfTheMonth.announcement}
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
+        <VolunteerOfTheMonth
+          headshotSrc={volunteerOfTheMonth.headshotSrc}
+          announcement={volunteerOfTheMonth.announcement}
+          name={volunteerOfTheMonth.name}
+        />
         <YoutubeGrid />
         <ImageSlider />
 
