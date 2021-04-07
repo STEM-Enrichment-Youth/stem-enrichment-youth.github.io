@@ -1,7 +1,7 @@
 import React from 'react'
 
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const month = months[new Date().getMonth()];
+const month = months[2];
 
 export default function VolunteerOfTheMonth({ headshotSrc, announcement, name }) {
     return (
