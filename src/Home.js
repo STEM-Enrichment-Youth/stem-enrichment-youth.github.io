@@ -81,7 +81,7 @@ export default class Home extends Component {
         </div>
 
         <div class="head-txt" style={{ marginTop: "50px", marginBottom: "20px" }}>
-          <div className="impact-numbers" style={{ display: "grid", justifyContent: "center", gridTemplateColumns: "repeat(4,1fr)", paddingRight: "5em" }}>
+          <div className="impact-numbers" style={{ display: "grid", justifyContent: "center", gridTemplateColumns: "repeat(4,1fr)", paddingRight: "2em" }}>
 
             <CountUp
               start={0}
