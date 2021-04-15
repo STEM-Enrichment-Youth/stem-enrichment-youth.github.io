@@ -18,7 +18,8 @@ import VisibilitySensor from 'react-visibility-sensor';
 const volunteerOfTheMonth = {
   headshotSrc: yulia,
   announcement: "From the moment she joined STEMEY, Yulia has demonstrated exemplary devotion and enthusiasm as a volunteer. She consistently takes initiative to foster innovation and growth within STEMEY, from spearheading our Annual Review Video Project to developing meaningful, engaging academic resources. As one of our most involved volunteers, Yulia channels her dependability and ambition as a one-on-one tutor, event coordinator, video creator, biology teacher, and Special Needs Science and Math instructor. Yulia is also a passionate and considerate leader: as the Molecular Biology Lead instructor, she fosters a constructive, welcoming work environment and coordinates successful team initiatives.",
-  name: "Yulia Anashkina"
+  name: "Yulia Anashkina",
+  month: "March"
 }
 
 export default class Home extends Component {
@@ -225,7 +226,7 @@ export default class Home extends Component {
           headshotSrc={volunteerOfTheMonth.headshotSrc}
           announcement={volunteerOfTheMonth.announcement}
           name={volunteerOfTheMonth.name}
-          month="March"
+          month={volunteerOfTheMonth.month}
         />
         <YoutubeGrid />
         <ImageSlider />
