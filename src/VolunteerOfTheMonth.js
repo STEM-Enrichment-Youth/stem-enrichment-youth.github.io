@@ -1,9 +1,8 @@
 import React from 'react'
 
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const month = months[new Date().getMonth()];
 
-export default function VolunteerOfTheMonth({ headshotSrc, announcement, name }) {
+export default function VolunteerOfTheMonth({ headshotSrc, announcement, name, month }) {
     return (
         <section className="volunteer-of-the-month">
             <div className="volunteer-content-container">
@@ -13,7 +12,7 @@ export default function VolunteerOfTheMonth({ headshotSrc, announcement, name })
                         <img src={headshotSrc} alt="Volunteer of the month photo" />
                     </div>
                     <div className="volunteer-text-content">
-                        <h4>We are proud to announce STEMEY’s {month} Volunteer of the Month: <span>{name}! </span></h4>
+                        <h4>We are proud to announce STEMEY’s {month || months[new Date().getMonth()]} Volunteer of the Month: <span>{name}! </span></h4>
                         <p>
                             {announcement}
                         </p>

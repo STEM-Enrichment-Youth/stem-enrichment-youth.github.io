@@ -225,6 +225,7 @@ export default class Home extends Component {
           headshotSrc={volunteerOfTheMonth.headshotSrc}
           announcement={volunteerOfTheMonth.announcement}
           name={volunteerOfTheMonth.name}
+          month="March"
         />
         <YoutubeGrid />
         <ImageSlider />
