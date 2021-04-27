@@ -3,8 +3,7 @@ import "./NewTeam.css";
 import Card from "./TeamCard";
 import matilda from "./InstructorImages/matilda.jpg";
 import casey from "./InstructorImages/caseylopez.jpg";
-import elyssa from "./InstructorImages/elyssa.jpg"
-
+import elyssa from "./InstructorImages/elyssa_wolter.png";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
