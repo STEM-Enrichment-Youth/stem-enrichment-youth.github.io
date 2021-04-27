@@ -12,6 +12,7 @@ import priyanka from "./InstructorImages/priyanka.jpeg";
 import srinjoy from "./InstructorImages/srinjoy.png";
 import brian from "./InstructorImages/brian.jpeg";
 import akshaya from "./InstructorImages/akshaya.jpg"
+import ryann from "./InstructorImages/ryann.png"
 
 import defaultInstructor from "../icons/head-cross.png";
 
@@ -104,6 +105,14 @@ Aniketh is a rising senior at Leigh High School. He is a passionate biology stud
                     position="Anatomy and Molecular Biology Instructor"
                     des="Akshaya is a freshman at Leigh High School. She is passionate about anything STEM-related and is all about cultivating a connected community through spreading and acquiring knowldege with a growth mindset. Other than being a Molecular Biology and Anatomy instructor for STEMEY, Akshaya is a student executive of the Bay Area Youth Society for Neuroscience and she's involved in multiple STEM clubs at her highschool such as WISTEM and Biology Olympiad. During her free time, you can catch her playing soccer, reading, hanging out with her family or just watching movie marathons. Akshaya is super excited to be involved with STEMEY!"
                     imgURL={akshaya}
+
+                />
+
+                <Card
+                    name="Ryann Jordan"
+                    position="Anatomy and Molecular Biology Instructor"
+                    des="Ryann Jordan is a sophomore at Sanford H. Calhoun High School. She has a deep passion for STEM and science research. She is currently in an advanced science research program in her high school where she is studying genome editing. Along with being an active member in several clubs at her school, she is also a competitive swimmer on her team and participates in track and field. Ryann is extremely interested in a future career in the medical field. She is very excited to be working with STEMEY and sharing her passion for science with others!"
+                    imgURL={ryann}
 
                 />
 
