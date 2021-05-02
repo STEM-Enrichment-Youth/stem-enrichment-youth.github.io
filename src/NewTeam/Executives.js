@@ -51,7 +51,7 @@ export default function NewTeam() {
                     name="Sophie Takmopoulos"
                     imgURL={sophie}
                     position="Chief Administrative Officer"
-                    des="Sophie Takmopoulos is a rising senior at Sanford H. Calhoun High School in Merrick, NY. In school, she is a co-founder of C.O.P.E. (Collectively Overcoming Problems Effectively) a mental health initiative organization and club, a part of Science Olympiads, a member of Dialect (Philosophy Club), and a member of Calhoun’s Literary Magazine: Pegasus and Science Honors Society. She was also the Vice President of Sophomore Class and has been a varisty tennis player since sophomore year. Outside of school she is a member of the TASK Force Youth Advisory Council (Sub-Committee), is a director at the organization Project Positivity, and blogs for the STEAM On Team. She was also accepted into the Stevens Institute of Technology Pre-Medical Biology Summer Program and the Boston Leadership Institute Biomedical Engineering Summer Program."
+                    des="Sophie Takmopoulos is a senior at Sanford H. Calhoun High School in Merrick, NY. In school, she is a part of Science Olympiads, National Science Honor Society, National Honors Society, Math Honors Society, a co-founder of C.O.P.E. (Collectively Overcoming Problems Effectively) a mental health initiative club and the Vice President of Calhoun’s Sophomore Class. Outside of school she is a director of Project Positivity an, organization that spreads resources relating to balance, wellness, and self-esteem, and she also writes medical/biology related articles for Techvik Blog. She also enjoys playing tennis, art, journaling and philosophy on her free-time."
                 />
 
 
