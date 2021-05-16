@@ -6,6 +6,7 @@ import sakshi from "./InstructorImages/sakshi.png";
 import brianado from "./InstructorImages/brianado.jpg";
 import yana from "./InstructorImages/yana.jpeg";
 import diana from "./InstructorImages/diana.jpg";
+import kyle from "./InstructorImages/kyleSmith.jpg";
 
 
 export default function NewTeam() {
@@ -27,6 +28,13 @@ export default function NewTeam() {
                     position="Website Design Member"
                     des="                Sakshi is a junior at Leigh High School. She is a member of the National Honor Society and Coding Club, as well as vice president of the Girls Who Code Club at Leigh. She has completed programming courses in and outside of school, including the Programming Methodologies in Java course at Foothill College, as well as AP Computer Science A in the past year. She serves as an assistant instructor at CodeLinkd to teach elementary schoolers coding and lego robotics, and has 3+ years of experience tutoring in various subjects (mainly math) at the Sunnyvale Public Library. She has tutored other high schoolers in math up to Algebra 2/Trig at the Students for Success Center at Fremont High School. Additionally, she has participated and won prizes in a few hackathons. She is looking forward to instructing the CS class at STEMEY, as well as helping out with the website design :).                "
 
+                />
+
+                <Card
+                    imgURL={kyle}
+                    name="Kyle Smith"
+                    position="Lead Website Developer"
+                    des="Kyle is a second year student studying Computer Science at the University of Pretoria in South Africa. He is a member of the Golden Key Honours Society, he was the lead programmer for his FIRST Robotics team for three years and he received an innovation reward for the OpenCV vision system he developed for the team's robot."
                 />
 
                 <Card
