@@ -74,6 +74,11 @@ export default function Join() {
                                 <p>Apply for the position your are interested in.</p>
                             </div>
 
+                            <h2 style={{width: "100%", textAlign: "left"}}>Junior Executive</h2>
+                            <div class="step">
+                                <a style={{ color: "white" }} class="btn btn-full" href="https://docs.google.com/document/d/1k2gpqlXlvwO6ldsQMcsKncN5semE7yBZhNRSyUF9gFQ/edit">Junior Executives</a>
+                            </div>
+
                             <h2 style={{width: "100%", textAlign: "left"}}>Academics</h2>
                             <div class="step">
                                 <a style={{ color: "white" }} class="btn btn-full" href="https://docs.google.com/forms/d/e/1FAIpQLSfPC7NDahQTNQjysplNA0OTYXKhdAXL55yn7sjyUGsL-6n-qg/viewform">Instructors and Tutors</a>
