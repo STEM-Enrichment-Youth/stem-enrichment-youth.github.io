@@ -1,0 +1,34 @@
+.summer-desc {
+    text-align: center;
+    margin: 1em 0 2em 0;
+}
+
+.btn-summer {
+    display: block;
+    margin: 2em auto;
+}
+
+.tabs {
+    width: 100%;
+    text-decoration: underline;
+}
+
+.summer-signup-form {
+    display: block;
+    margin: 0 auto;
+    width: 99vw;
+    height: 1000px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .summer-signup-form {
+        width: 60vw;
+        height: 1000px;
+    }
+
+    .summer-desc {
+        padding: 0 5em;
+    }
+
+}
