@@ -10,6 +10,7 @@ import YoutubeGrid from "./YoutubeGrid";
 import VolunteerOfTheMonth from "./VolunteerOfTheMonth";
 
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import Modal from "react-bootstrap/Modal";
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
@@ -67,10 +68,9 @@ export default class Home extends Component {
                   A high school led nonprofit organization that aims to inspire middle and high school students to pursue STEM and to democratize STEM education.
                 </p>
                 <div>
-                  <a style={{ color: "white", marginBottom: "20px" }} class="btn btn-full" href="/about">About Us</a>
-                  <a style={{ color: "white", marginBottom: "20px", marginLeft: "10px" }} class="btn btn-full" href="/classes">Classes</a>
-                  <a style={{ color: "white", marginBottom: "20px", marginLeft: "10px" }} class="btn btn-full" href="/tutoring">Tutoring</a>
-
+                  <Link style={{ color: "white", marginBottom: "20px" }} class="btn btn-full" to="/about">About Us</Link>
+                  <Link style={{ color: "white", marginBottom: "20px", marginLeft: "10px" }} class="btn btn-full" to="/classes">Classes</Link>
+                  <Link style={{ color: "white", marginBottom: "20px", marginLeft: "10px" }} class="btn btn-full" to="/tutoring">Tutoring</Link>
                 </div>
 
               </div>
@@ -256,7 +256,7 @@ function HomeModal(props) {
       <Modal.Header closeButton>
         <div style={{ display: "flex", alignItems: "center" }} className="header-content">
           <Modal.Title id="contained-modal-title-vcenter">
-            Want to join <span className="gradient-text">STEMEY</span><span className="wiggle-text">?</span>
+            Ready to start off your summer with <span className="gradient-text">STEMEY</span><span className="wiggle-text">?</span>
           </Modal.Title>
           <div className="wizCog-container">
           </div>
@@ -267,14 +267,12 @@ function HomeModal(props) {
           <img src={stemey} alt="STEMEY Logo" />
         </div>
         <p>
-          Applications for <span className="gradient-text">STEMEY</span> are open and rolling!
-          Interested in applying your STEM knowledge and skills to democratize education?
-          Passionate about helping underprivileged youth explore STEM?
-          Join <span className="gradient-text">STEMEY</span> today! We welcome individuals of diverse interests and skills, including web development, community engagement, video animation, and marketing.
+          Start off your summer with <span className="gradient-text">STEMEY</span>!
+          From From <span className="gradient-text">July 12 - August 6</span>, we will be hosting STEMpowerment, an online summer program that aims to build K-6 students' futures in STEM through hands-on exploration, industry-professional and student-led instruction, and academic mentorship/community-building.
         </p>
       </Modal.Body>
       <Modal.Footer style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <a style={{ color: "black" }} class="btn btn-full" href="/apply">Learn More</a>
+        <Link style={{ color: "black" }} class="btn btn-full" to="/tutoring-summer">Learn More</Link>
       </Modal.Footer>
     </Modal >
   );
