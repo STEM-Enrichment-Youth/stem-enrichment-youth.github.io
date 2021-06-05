@@ -34,7 +34,7 @@ const STEMSummer = () => {
             <div class="new-team-join">
                 <h1><strong>STEMPowerment</strong> Summer Program</h1>
                 <h2>Ready to start your Summer with <strong>STEM?</strong></h2>
-                <p className="summer-desc">From From July 12 - August 6, we will be hosting STEMpowerment, an online summer program that aims to build K-6 students' futures in STEM through hands-on exploration, industry-professional and student-led instruction, and academic mentorship/community-building.</p>
+                <p className="summer-desc">From July 12 - August 6, we will be hosting STEMpowerment, an online summer program that aims to build K-6 students' futures in STEM through hands-on exploration, industry-professional and student-led instruction, and academic mentorship/community-building.</p>
                 <Tabs className="tabs" style={{ background: 'transparent', boxShadow: 'none', outline: "none", border: "none" }} TabIndicatorProps={{ style: { background: 'white', boxShadow: 'none' } }} variant="fullWidth" centered value={value} onChange={handleChange} aria-label="STEM Summer Tabs for Parents and Students">
                     <Tab label="For Students/Parents" />
                     <Tab label="For Instructors" />
