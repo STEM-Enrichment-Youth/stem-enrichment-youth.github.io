@@ -268,7 +268,7 @@ function HomeModal(props) {
         </div>
         <p>
           Start off your summer with <span className="gradient-text">STEMEY</span>!
-          From From <span className="gradient-text">July 12 - August 6</span>, we will be hosting STEMpowerment, an online summer program that aims to build K-6 students' futures in STEM through hands-on exploration, industry-professional and student-led instruction, and academic mentorship/community-building.
+          From <span className="gradient-text">July 12 - August 6</span>, we will be hosting STEMpowerment, an online summer program that aims to build K-6 students' futures in STEM through hands-on exploration, industry-professional and student-led instruction, and academic mentorship/community-building.
         </p>
       </Modal.Body>
       <Modal.Footer style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
