@@ -11,6 +11,8 @@ import VolunteerOfTheMonth from "./VolunteerOfTheMonth";
 
 import { Component } from "react";
 import { Link } from "react-router-dom";
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 import Modal from "react-bootstrap/Modal";
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
@@ -31,7 +33,7 @@ export default class Home extends Component {
   constructor() {
     super();
     this.state = {
-      viewPopup: false
+      viewPopup: false,
     };
   }
 
@@ -244,9 +246,15 @@ export default class Home extends Component {
 }
 
 function HomeModal(props) {
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
   return (
     <Modal
-      {...props}
+      show={props.show}
+      onHide={props.onHide}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
@@ -256,24 +264,54 @@ function HomeModal(props) {
       <Modal.Header closeButton>
         <div style={{ display: "flex", alignItems: "center" }} className="header-content">
           <Modal.Title id="contained-modal-title-vcenter">
-            Ready to start off your summer with <span className="gradient-text">STEMEY</span><span className="wiggle-text">?</span>
+            What's going on at <span className="gradient-text">STEMEY</span><span className="wiggle-text">?</span>
           </Modal.Title>
           <div className="wizCog-container">
           </div>
         </div>
       </Modal.Header>
       <Modal.Body style={{ margin: "1em" }}>
-        <div className="image-container">
-          <img src={stemey} alt="STEMEY Logo" />
-        </div>
-        <p>
-          Start off your summer with <span className="gradient-text">STEMEY</span>!
-          From <span className="gradient-text">July 12 - August 6</span>, we will be hosting STEMpowerment, an online summer program that aims to build K-6 students' futures in STEM through hands-on exploration, industry-professional and student-led instruction, and academic mentorship/community-building.
-        </p>
+        <Tabs className="tabs" style={{ background: 'transparent', boxShadow: 'none', outline: "none", border: "none", margin: "0.5em 0" }} TabIndicatorProps={{ style: { background: 'purple', boxShadow: 'none' } }} variant="fullWidth" centered value={value} onChange={handleChange} aria-label="STEM Summer Tabs for Parents and Students">
+          <Tab label="STEMPowerment" />
+          <Tab label="Junior Executives Positions" />
+        </Tabs>
+        <TabPanel value={value} index={0}>
+          <div className="image-container">
+            <img src={stemey} alt="STEMEY Logo" />
+          </div>
+          <p>
+            Start off your summer with <span className="gradient-text">STEMEY</span>!
+            From <span className="gradient-text">July 12 - August 6</span>, we will be hosting STEMpowerment, an online summer program that aims to build K-6 students' futures in STEM through hands-on exploration, industry-professional and student-led instruction, and academic mentorship/community-building.
+          </p>
+        </TabPanel>
+        <TabPanel value={value} index={1}>
+          <div className="image-container">
+            <img src={stemey} alt="STEMEY Logo" />
+          </div>
+          <p>
+            <span className="gradient-text">STEMEY </span> is currently looking for passionate and committed high school or college students to become <span className="gradient-text"> Junior Executives </span> (also called VP’s), who will play a pivotal role in growing and developing our organization’s initiatives.
+          </p>
+        </TabPanel>
       </Modal.Body>
       <Modal.Footer style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <Link style={{ color: "black" }} class="btn btn-full" to="/tutoring-summer">Learn More</Link>
+        <Link style={{ color: "black" }} class="btn btn-full" to={value === 0 ? "/tutoring-summer" : "https://docs.google.com/forms/d/e/1FAIpQLScCQjatAwjhWFHIwjgMtujR35ti5A49RK8adGTarbPtRewabA/viewform"}>{value === 0 ? "Learn More" : "Signup"}</Link>
       </Modal.Footer>
     </Modal >
+  );
+}
+
+const TabPanel = (props) => {
+  const { children, value, index, ...other } = props;
+
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`simple-tabpanel-${index}`}
+      aria-labelledby={`simple-tab-${index}`}
+      {...other}
+    >
+      {children}
+    </div>
   );
 }

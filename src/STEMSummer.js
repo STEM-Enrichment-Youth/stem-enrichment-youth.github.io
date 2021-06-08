@@ -40,37 +40,15 @@ const STEMSummer = () => {
                     <Tab label="For Instructors" />
                 </Tabs>
                 <TabPanel value={value} index={0}>
-                    <button class="btn-summer btn btn-fb" style={{
-                        backgroundColor: "black",
-                        opacity: ".7"
-                    }}>
-                        <a target="_blank" href="https://docs.google.com/document/d/1No1veibhoFP6RdRFL-FCJTqXvpOOHc4cznFCuQt9s9s/edit" style={{
-                            textDecoration: "none",
-                            color: "white",
-                            letterSpacing: "3px",
-                            fontWeight: "200",
-                            fontSize: "20px"
-                        }}>
-                            Click Here to Learn More
-                        </a>
-                    </button>
+                    <div class="responsive-google-slides">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR3morXofLhNAtkwollkfqsmcJaDLKFVSXvkjYcFF6LO8n-wXwB5dDJTzsE30C1sg0yyJhrRW_71zC6/embed?start=true&loop=true&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
                     <iframe className="summer-signup-form" src="https://docs.google.com/forms/d/1MLW-T1BlkIPr5hQhT5ZIKY6Dr56hU8D1i-Rpyxax_YQ/viewform?embedded=true" frameBorder="0">Loading…</iframe>
                 </TabPanel>
                 <TabPanel value={value} index={1}>
-                    <button class="btn-summer btn btn-fb" style={{
-                        backgroundColor: "black",
-                        opacity: ".7"
-                    }}>
-                        <a target="_blank" href="https://docs.google.com/document/d/1rFZuAYquBklWB3mRNU0qLMlyo5OCbRLsUEK-QUr0D2M/edit" style={{
-                            textDecoration: "none",
-                            color: "white",
-                            letterSpacing: "3px",
-                            fontWeight: "200",
-                            fontSize: "20px"
-                        }}>
-                            Click Here to Learn More
-                        </a>
-                    </button>
+                    <div class="responsive-google-slides">
+                        <iframe className="presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vRohn2yNPPjdY3nc9hh06b3IhY0xoy0oNPgPK75Utrl6lMDMmOZij9H3BhLf-gk8vAZmeqv24Mg9jg0/embed?start=false&amp;loop=true&amp;delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
                     <iframe class="summer-signup-form" src="https://docs.google.com/forms/d/1WKJlkmf6iT2NPFPHRhOLkeiZqDwp8fNXBXP71nF4tE4/viewform?embedded=true" frameborder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                 </TabPanel>
             </div>
