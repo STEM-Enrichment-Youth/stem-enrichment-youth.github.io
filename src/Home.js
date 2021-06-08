@@ -40,7 +40,7 @@ export default class Home extends Component {
   componentDidMount() {
     let visited = sessionStorage.getItem('alreadyVisited');
     if (visited || !this.doPopup) {
-      this.setState({ viewPopup: false })
+      this.setState({ viewPopup: true })
       //do not view Popup
     } else {
       //this is the first time
@@ -294,7 +294,11 @@ function HomeModal(props) {
         </TabPanel>
       </Modal.Body>
       <Modal.Footer style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <Link style={{ color: "black" }} class="btn btn-full" to={value === 0 ? "/tutoring-summer" : "https://docs.google.com/forms/d/e/1FAIpQLScCQjatAwjhWFHIwjgMtujR35ti5A49RK8adGTarbPtRewabA/viewform"}>{value === 0 ? "Learn More" : "Signup"}</Link>
+        {value === 0 ?
+          <Link style={{ color: "black" }} className="btn btn-full" to="/tutoring-summer">Learn More</Link>
+          :
+          <p><a style={{ color: "black" }} target="_blank" className="btn btn-full" href="https://docs.google.com/forms/d/e/1FAIpQLScCQjatAwjhWFHIwjgMtujR35ti5A49RK8adGTarbPtRewabA/viewform">Sign Up</a></p>
+        }
       </Modal.Footer>
     </Modal >
   );
