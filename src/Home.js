@@ -8,11 +8,10 @@ import "./home.css";
 import ImageSlider from "./PhotoCarousel";
 import YoutubeGrid from "./YoutubeGrid";
 import VolunteerOfTheMonth from "./VolunteerOfTheMonth";
+import PositionedSnackbar from "./PositionedSnackbar";
 
 import { Component } from "react";
 import { Link } from "react-router-dom";
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
 import Modal from "react-bootstrap/Modal";
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
@@ -40,7 +39,7 @@ export default class Home extends Component {
   componentDidMount() {
     let visited = sessionStorage.getItem('alreadyVisited');
     if (visited || !this.doPopup) {
-      this.setState({ viewPopup: false })
+      this.setState({ viewPopup: true })
       //do not view Popup
     } else {
       //this is the first time
@@ -239,6 +238,8 @@ export default class Home extends Component {
           onHide={() => this.closeModal()}
         />
 
+        {!this.state.viewPopup ? <PositionedSnackbar /> : ''}
+
       </div >
 
     )
@@ -271,34 +272,16 @@ function HomeModal(props) {
         </div>
       </Modal.Header>
       <Modal.Body style={{ margin: "1em" }}>
-        <Tabs className="tabs" style={{ background: 'transparent', boxShadow: 'none', outline: "none", border: "none", margin: "0.5em 0" }} TabIndicatorProps={{ style: { background: 'purple', boxShadow: 'none' } }} variant="fullWidth" centered value={value} onChange={handleChange} aria-label="STEM Summer Tabs for Parents and Students">
-          <Tab label="STEMPowerment" />
-          <Tab label="Junior Executives Positions" />
-        </Tabs>
-        <TabPanel value={value} index={0}>
-          <div className="image-container">
-            <img src={stemey} alt="STEMEY Logo" />
-          </div>
-          <p>
-            Start off your summer with <span className="gradient-text">STEMEY</span>!
-            From <span className="gradient-text">July 12 - August 6</span>, we will be hosting STEMpowerment, an online summer program that aims to build K-6 students' futures in STEM through hands-on exploration, industry-professional and student-led instruction, and academic mentorship/community-building.
-          </p>
-        </TabPanel>
-        <TabPanel value={value} index={1}>
-          <div className="image-container">
-            <img src={stemey} alt="STEMEY Logo" />
-          </div>
-          <p>
-            <span className="gradient-text">STEMEY </span> is currently looking for passionate and committed high school or college students to become <span className="gradient-text"> Junior Executives </span> (also called VP’s), who will play a pivotal role in growing and developing our organization’s initiatives.
-          </p>
-        </TabPanel>
+        <div className="image-container">
+          <img src={stemey} alt="STEMEY Logo" />
+        </div>
+        <p>
+          Start off your summer with <span className="gradient-text">STEMEY</span>!
+          From <span className="gradient-text">July 12 - August 6</span>, we will be hosting STEMpowerment, an online summer program that aims to build K-6 students' futures in STEM through hands-on exploration, industry-professional and student-led instruction, and academic mentorship/community-building.
+        </p>
       </Modal.Body>
       <Modal.Footer style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-        {value === 0 ?
-          <Link style={{ color: "black" }} className="btn btn-full" to="/tutoring-summer">Learn More</Link>
-          :
-          <p><a style={{ color: "black" }} target="_blank" className="btn btn-full" href="https://docs.google.com/forms/d/e/1FAIpQLScCQjatAwjhWFHIwjgMtujR35ti5A49RK8adGTarbPtRewabA/viewform">Sign Up</a></p>
-        }
+        <Link style={{ color: "black" }} className="btn btn-full" to="/tutoring-summer">Learn More</Link>
       </Modal.Footer>
     </Modal >
   );
