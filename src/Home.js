@@ -39,7 +39,7 @@ export default class Home extends Component {
   componentDidMount() {
     let visited = sessionStorage.getItem('alreadyVisited');
     if (visited || !this.doPopup) {
-      this.setState({ viewPopup: true })
+      this.setState({ viewPopup: false })
       //do not view Popup
     } else {
       //this is the first time
