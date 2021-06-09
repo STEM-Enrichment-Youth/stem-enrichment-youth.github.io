@@ -1,0 +1,8 @@
+.snackbar-card {
+    padding: 1em;
+    border-radius: 1em;
+    background: #8f00ff;
+    background-image: linear-gradient(90deg,#8f00ff 0%, #6100ff 80%);
+    background-image: -webkit-linear-gradient(90deg,#8f00ff 0%, #6100ff 80%);
+    background-image: -moz-linear-gradient(90deg,#8f00ff 0%, #6100ff 80%);
+}
