@@ -169,6 +169,7 @@ export default class Home extends Component {
           </div >
         </div >
 
+{/** 
         <section class="who">
           <div class="why-us">
             <div class="motivate item steps-item-2">
@@ -230,16 +231,18 @@ export default class Home extends Component {
           name={volunteerOfTheMonth.name}
           month={volunteerOfTheMonth.month}
         />
+        */}
         <YoutubeGrid />
         <ImageSlider />
 
+        {/** 
         <HomeModal
           show={this.state.viewPopup}
           onHide={() => this.closeModal()}
         />
 
         {!this.state.viewPopup ? <PositionedSnackbar /> : ''}
-
+        */}
       </div >
 
     )

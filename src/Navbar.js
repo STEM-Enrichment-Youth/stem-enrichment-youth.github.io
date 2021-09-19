@@ -44,9 +44,9 @@ export default function Navbar(props) {
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Academics</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link class="dropdown-item" to="/classes">Classes</Link>
+              {/*<Link class="dropdown-item" to="/classes">Classes</Link>*/}
               <Link class="dropdown-item" to="/tutoring">Tutoring</Link>
-              <Link class="dropdown-item" to="/tutoring-summer">STEM Summer Camp</Link>
+              {/*<Link class="dropdown-item" to="/tutoring-summer">STEM Summer Camp</Link>*/}
             </div>
           </li>
           <li class="nav-item dropdown nav-link active">
