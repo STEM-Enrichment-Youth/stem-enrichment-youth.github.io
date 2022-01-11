@@ -62,7 +62,7 @@ Aniketh is a rising senior at Leigh High School. He is a passionate biology stud
                 />
 
                 <Card
-                    name="Aiswarya Saravanan"
+                    name="Aiswarya saravanan"
                     imgURL={aiswarya}
                     position="Anatomy and Molecular Biology Instructor"
                     des="Aiswarya Saravanan is a rising junior at Plymouth High School from Michigan, USA. She loves all things STEM and activism, and she is super passionate about neuroscience and biomedicial engineering in general. She is part of Simply Neuroscience and STEM Without Boundaries, where she is the Director of Sponsorships. She also recently started her own non-profit organization called Basically Biomedicine to educate people in the biomedical fields. In STEMEY, she is part of the anatomy team, molecular biology team, and the podcast team, and she is super excited to make a difference!"
