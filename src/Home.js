@@ -70,7 +70,7 @@ export default class Home extends Component {
                 </p>
                 <div>
                   <Link style={{ color: "white", marginBottom: "20px" }} class="btn btn-full" to="/about">About Us</Link>
-                  <Link style={{ color: "white", marginBottom: "20px", marginLeft: "10px" }} class="btn btn-full" to="/classes">Classes</Link>
+                  <Link style={{ color: "white", marginBottom: "20px", marginLeft: "10px" }} class="btn btn-full" to="/classes">Classes 2020-2021</Link>
                   <Link style={{ color: "white", marginBottom: "20px", marginLeft: "10px" }} class="btn btn-full" to="/tutoring">Tutoring</Link>
                 </div>
 
