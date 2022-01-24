@@ -88,7 +88,7 @@ export default function Navbar(props) {
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <Link class="dropdown-item" to="/apply">Apply</Link>
               <Link class="dropdown-item" to="/discord">Discord</Link>
-              <Link class="dropdown-item" to="/partnerships">Partner</Link>
+              <Link class="dropdown-item" to="/partnerships">Shop + Donate!</Link>
             </div>
           </li>
 
