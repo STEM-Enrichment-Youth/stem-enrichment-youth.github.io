@@ -2,7 +2,7 @@ import React from "react";
 import "./NewTeam.css";
 import Card from "./TeamCard";
 import diana from "./InstructorImages/diana.jpg";
-import arun from "./InstructorImages/arun.jpg";
+// import arun from "./InstructorImages/arun.jpg";
 import faith from "./InstructorImages/faith.png";
 import katherine from "./InstructorImages/katherine.jpg";
 import maariyah from "./InstructorImages/maariyah.jpg";

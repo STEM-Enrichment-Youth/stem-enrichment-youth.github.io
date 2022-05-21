@@ -46,7 +46,7 @@ export function TimelineEntry(props) {
   }, [])
   let talkDescription = "";
   for (let item of rows) {
-    if (cleanSpeakerName(item.speaker) == cleanSpeakerName(props.speaker)) {
+    if (cleanSpeakerName(item.speaker) === cleanSpeakerName(props.speaker)) {
       console.log(item.talkDescription)
       talkDescription = item.talkDescription
     }

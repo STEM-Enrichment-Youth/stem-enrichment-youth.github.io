@@ -1,5 +1,5 @@
 {
-  "homepage": "https://navaneet614.github.io",
+  "homepage": "https://stem-enrichment-youth.github.io/STEMEY/",
   "name": "new-project",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "material-ui": "^0.20.2",
     "mongoose": "^5.9.16",
     "mongoose-findorcreate": "^3.0.0",
@@ -53,9 +53,9 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

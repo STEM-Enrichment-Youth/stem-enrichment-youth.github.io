@@ -5,6 +5,8 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+// import styles from '../public/style.css';
+
 import Navbar from "./Navbar";
 import Footer from './Footer';
 import Home from "./Home";

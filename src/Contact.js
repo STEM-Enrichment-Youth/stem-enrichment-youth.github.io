@@ -3,21 +3,21 @@ import "./home.css";
 import stemey from "./NewStemeyLogo.png";
 
 function Contact() {
-  const [scale, setScale] = React.useState(false);
+  // const [scale, setScale] = React.useState(false);
 
   return (
     <div class="whole-home" style={{marginTop: "70px"}}>
       <div class="home-header" style={{ background: "url(" + { stemey } + ")", backgroundImage: "cover" }}>
         <div class="head-txt" >
           <div class="head-con row-flex">
-            <div class="head-txt-2" class="column-flex" style={{width: "100%"}}>
+            <div class="head-txt-2 column-flex" style={{width: "100%"}}>
               <h1 class="biggest-header">stemey</h1>
               <p class="head-p" style={{textAlign: "left"}}>EMAIL: stemenrichmentyouth@gmail.com</p>
               <p class="head-p" style={{textAlign: "left", maxWidth: "400px"}}>Feel free to email us with ANY questions that you have about the program, and we will get to your questions as soon as possible!</p>
 
             </div>
             <div class="column-flex" style={{width: "100%"}}>
-              <img class="stemey-logo" src={stemey} style={{textAlign: "center"}} />
+              <img class="stemey-logo" src={stemey} style={{textAlign: "center"}} alt="stemey logo" />
             </div>
               {/* <h1 class="biggest-header-2">stem enrichment youth</h1> */}
               {/* <p >Explore biology, coding, neuroscience, programming, physics, or chemistry online at your own pace with the help of 

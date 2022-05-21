@@ -3,7 +3,7 @@ import "./home.css";
 import stemey from "./GoodStemeyLogo.png";
 import "./sponsorship.css";
 import ctv from "./Partners/Logos/carrythevision.png";
-import smarterd from "./smarterd.png";
+// import smarterd from "./smarterd.png";
 import nxstep from "./nxstep.png";
 
 function Sponsorship() {
