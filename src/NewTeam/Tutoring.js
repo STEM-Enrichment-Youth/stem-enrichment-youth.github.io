@@ -42,7 +42,6 @@ export default function NewTeam() {
             <Card imgURL={casey}
                     name="Casey Lopez"
                     position="Tutoring Director"
-                    position=""
                     des="Casey Lopez is a junior at Olympian High School. She loves biology and math, and works to further accessible STEM education for others. She helps run Olympian’s Helyx Initiative non-profit chapter, where she coordinates tutoring, review sessions, and career panels. She is a long-term member of Better Education for Women in Science and Engineering (BE WiSE). She has received recognition for her Rheumatoid Arthritis research with the Scripps Research Institute 2020 SciMET Competition and seeks to further this research in the future. Hoping to enter the medical field one day, Casey is a public health intern on a Sexual Health Advisory Board Advocated By Youth (SHABABY) and volunteers at her local SHARP hospital as a convalescent center aide. Outside of STEM, Casey is a two year co-captain of Olympian Colorguard and Varsity Winterguard, treasurer of Olympian Dance Company, a Link Crew leader, Peer Mediator, School Site Council chairperson, Chula Vista Animal Shelter volunteer, and a part of the Olympian Band Council Student Life Team." />
                 <Card
                     imgURL={matilda}
@@ -204,7 +203,7 @@ Christian was the Leigh High School Biology and Chemistry Olympiad Club Vice Pre
                     des="
                     Casey Lin is a junior at Leigh High School. She is a member of multiple groups including the National Honors Society, the California Scholarship Federation, Link Crew, and Keystone. She’s the secretary of the Leigh High School Biomedical Engineering Society. Casey and her team competed in, and won, the Berkeley Biomedical Engineering High School Competition. Casey is a field hockey coach and referee and hopes to continue playing at Leigh later in the year. She is now taking AP Physics 1, AP Calculus, and AP English Language and Composition. Over the summer, Casey taught both math and chemistry classes with STEMEY, and made chemistry activities. Moving forward, she is excited to be the Science Lead for the FCSN class, and to teach the FCSN math class and live geometry class. "
                 />
-                 <Card
+                <Card
                     name="Daniel Lee"
                     imgURL={daniel}
                     des="
@@ -286,9 +285,8 @@ Arun is a rising junior at Leigh. He is an officer of LEOs at Leigh, an organizi
                 />
 
 
->>>>>>> 410e0aad0e11fb5fcf8a0475d1af270b53608925
             </div>
         </div>
-    </div>
+    )
 }
 // imgURL name des
