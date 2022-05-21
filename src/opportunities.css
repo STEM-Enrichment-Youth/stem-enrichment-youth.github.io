@@ -1,0 +1,19 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0% 15% 2% 15%;
+}
+
+.grid .grid-item {
+  width: 50%;
+  text-align: center;
+}
+
+.grid .grid-item:hover {
+  transform: scale(1.02);
+}
+
+.grid img {
+  width: calc(100% - (20px * 2));
+  margin: 20px;
+}

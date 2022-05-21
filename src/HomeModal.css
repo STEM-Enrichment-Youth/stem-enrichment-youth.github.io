@@ -1,0 +1,44 @@
+.gradient-text {
+    background: #8f00ff;
+    background-image: linear-gradient(90deg,#8f00ff 0%, #6100ff 80%);
+    background-image: -webkit-linear-gradient(90deg,#8f00ff 0%, #6100ff 80%);
+    background-image: -moz-linear-gradient(90deg,#8f00ff 0%, #6100ff 80%);
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.image-container {
+    margin: 0 auto;
+    max-width: 25em;
+    background-color: black;
+    border-radius: 8em;
+    transition: 0.4s linear; 
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.75);
+    background: radial-gradient(circle farthest-corner at center center, #9e00ff 0%, #4200ff 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #9e00ff 0%, #4200ff 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #9e00ff 0%, #4200ff 80%);
+}
+
+.image-container:hover {
+    border-radius: 14em;
+    box-shadow: 1px -1px 45px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -1px 45px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 45px 5px rgba(0,0,0,0.75);
+}
+
+.wiggle-text {
+    position: absolute;
+    animation: wiggle 1.3s linear infinite;
+}
+
+@keyframes wiggle {
+    55% { transform: translate(0, -30%) rotate(20deg);}
+    60% { transform: translate(0, -30%) rotate(-20deg); }
+    65% { transform: translate(0, -30%) rotate(20deg); }
+    70% { transform: translate(0, -30%) rotate(-20deg); }
+}

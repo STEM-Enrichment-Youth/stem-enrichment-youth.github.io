@@ -1,0 +1,40 @@
+.slide {
+  transform: scale(0.7);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.slideWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.prevArrow {
+  display: block;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.nextArrow {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top:50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.slick-slide {
+   height: auto;
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+
+.slick-slide img {
+  height: 30%;
+}
+
+
+

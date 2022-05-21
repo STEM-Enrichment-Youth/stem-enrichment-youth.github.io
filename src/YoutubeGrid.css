@@ -1,0 +1,143 @@
+.videos-container {
+    display: block;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: -2.5em; /* Align with above content => This might not be required if you used on other pages */
+}
+
+.videos-list {
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* Assuming 2x2 grid layout */
+    grid-gap: 1.5em;
+}
+
+/* List item containing the youtube video */
+.video {
+    width: auto;
+    height: 45vh; /* Scales video with width of viewing screen */
+}
+
+/* Youtube video iframe */
+.video iframe {
+    transition: 0.3s linear; /* Ensure smooth animation when not hovering on frame */
+    height: 100%;
+    width: 100%;
+}
+
+.video:hover iframe {
+    transition: 0.3s linear;
+    border-radius: 2em;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), /* Add layered boxes for smoother shadow */ 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+.social-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 1em;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em; /* Allow space for animation */
+    padding-left: 2em;
+    animation: wiggle 2s infinite;
+}
+
+.icon-container:hover {
+    transition: 0.2s linear;
+    animation: none;
+}
+
+@keyframes wiggle {
+    55% { transform: translate(0, -20%) rotate(15deg);}
+    60% { transform: translate(0, -20%) rotate(-15deg); }
+    65% { transform: translate(0, -20%) rotate(15deg); }
+    70% { transform: translate(0, -20%) rotate(-15deg); }
+}
+
+.youtube-icon {
+    width: 100px;
+    height: 70px;
+    opacity: 0.5;
+}
+
+.youtube-icon:hover {
+    opacity: 1;
+}
+
+.instagram-icon {
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+}
+
+.instagram-icon:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.discord-icon {
+    width: 90px;
+    height: 90px;
+    opacity: 0.8;
+}
+
+.discord-icon:hover {
+    opacity: 1;
+}
+
+.classroom-logo {
+    width: 90px;
+    height: 90px;
+    opacity: 0.5;
+}
+
+.classroom-logo:hover {
+    opacity: 1;
+}
+
+.linkedin-logo {
+    width: 100px;
+    height: 80px;
+    opacity: 0.5;
+}
+
+.linkedin-logo:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1025px) {
+    .videos-list {
+        display: flex; /* Display Videos as 1 column */
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .video {
+        margin-top: 1.5em;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .social-container {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 592px){
+    .video {
+        width: 91vw; /* Scale width to size of screen */
+    }
+}

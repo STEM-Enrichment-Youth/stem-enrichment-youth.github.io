@@ -1,0 +1,70 @@
+.donate-row {
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    grid-gap: 20px;
+    display: grid;
+    flex-grow: 1;
+}
+
+.tiers-cont {
+    width: 100%;
+}
+
+.amt-row span {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.tier-row span {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.tier-div {
+    width: 100%;
+}  
+
+.description-cont {
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+    opacity: 0.8;
+    height: 100%;
+}
+
+.sponsors-grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.sponsors-grid div {
+    padding: 20px 50px 20px 50px;
+    flex-grow: 1;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+/* 
+.sponsors-grid img { 
+    height: 100%;
+    width: auto !important;
+} */
+
+#current-sponsors {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+#current-sponsors h2 {
+    margin-top: 30px;
+}

@@ -1,0 +1,57 @@
+.summer-desc {
+    text-align: center;
+    margin: 1em 0 2em 0;
+}
+
+.btn-summer {
+    display: block;
+    margin: 2em auto;
+}
+
+.tabs {
+    width: 100%;
+    text-decoration: underline;
+}
+
+.summer-signup-form {
+    display: block;
+    margin: 0 auto;
+    width: 99vw;
+    height: 1000px;
+}
+
+.responsive-google-slides {
+    position: relative;
+    padding-bottom: 56.25%; 
+    margin: 2em 0;
+    border-radius: 1em;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-google-slides iframe {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+@media only screen and (min-width: 768px) {
+
+    .summer-signup-form {
+        width: 60vw;
+        height: 1000px;
+    }
+
+    .summer-desc {
+        padding: 0 5em;
+    }
+
+    .presentation {
+        width: 80vw;
+        height: 50vw;
+    }
+
+}
