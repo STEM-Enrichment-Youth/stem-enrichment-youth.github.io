@@ -1,21 +1,21 @@
-import React from "react";
-import "./NewTeam.css";
-import Navbar from "../Navbar.js";
-import Card from "./TeamCard";
-import fiona from "./InstructorImages/fiona.png";
-import liza from "./InstructorImages/liza.jpg";
-import defaultInstructor from "../icons/head-brains.png";
-import tanvirao from "./InstructorImages/tanvirao.jpeg";
-import keshavnarang from "./InstructorImages/keshav.jpg";
-import marksandey from "./InstructorImages/marksandey.png";
-import srinjoy from "./InstructorImages/srinjoy.png";
-
+import React from 'react';
+import './NewTeam.css';
+import Navbar from '../Navbar.js';
+import Card from './TeamCard';
+import fiona from './InstructorImages/fiona.png';
+import liza from './InstructorImages/liza.jpg';
+import defaultInstructor from '../icons/head-brains.png';
+import tanvirao from './InstructorImages/tanvirao.jpeg';
+import keshavnarang from './InstructorImages/keshav.jpg';
+import marksandey from './InstructorImages/marksandey.png';
+import srinjoy from './InstructorImages/srinjoy.png';
 
 export default function NewTeam() {
-    return (<div class="new-team-con">
-        <div class="new-team">
-            <h1>Physics</h1>
-            <div class="con">
+    return (
+        <div class='new-team-con'>
+            <div class='new-team'>
+                <h1>Current Volunteers</h1>
+                {/* <div class="con">
 
                 <Card
                     imgURL={tanvirao}
@@ -45,10 +45,10 @@ export default function NewTeam() {
                     position="Physics Instructor"
                     des="Keshav Narang is a freshman at Basis Independent Silicon Valley in the Bay Area, California who is enthusiastic about everything from English and History to Math and Computer Science. An avid tutor, Keshav is extremely excited to be teaching AP Physics 1 at STEMEY this year! In his spare time, you can find Keshav playing sports (usually basketball and table tennis) and building fun inventions."
                 />
-
+            </div>
+*/}
             </div>
         </div>
-    </div>
-    )
+    );
 }
 // imgURL name des

@@ -32,6 +32,7 @@ import Sponsorship from "./Sponsorship";
 import Executives from "./NewTeam/Executives";
 import About from "./About";
 import Tutoring from "./Tutoring";
+import Notes from "./Notes";
 import Classes from "./Classes/Classes";
 import Test from "./Test";
 import Partnerships from "./Partnerships";
@@ -141,6 +142,9 @@ export default function App() {
           </Route>
           <Route path="/tutoring">
             <Tutoring />
+          </Route>
+          <Route path="/notes">
+            <Notes />
           </Route>
           <Route path="/about">
             <About />

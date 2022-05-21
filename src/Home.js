@@ -108,7 +108,7 @@ export default class Home extends Component {
 
             <CountUp
               start={0}
-              end={30000}
+              end={40000}
               delay={0}
               duration={2.5}
               separator=","
