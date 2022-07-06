@@ -38,7 +38,7 @@ import catherineZhou from "./InstructorImages/catherineZhou.jpeg";
 export default function NewTeam() {
     return (<div class="new-team-con">
         <div class="new-team">
-            <h1>Tutoring/Activities</h1>
+            <h1>Past Volunteers</h1>
             <Card imgURL={casey}
                     name="Casey Lopez"
                     position="Tutoring Director"
