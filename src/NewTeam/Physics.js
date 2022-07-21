@@ -2,13 +2,13 @@ import React from 'react';
 import './NewTeam.css';
 import Navbar from '../Navbar.js';
 import Card from './TeamCard';
-import fiona from './InstructorImages/fiona.png';
-import liza from './InstructorImages/liza.jpg';
+import fiona from './images/fiona.png';
+import liza from './images/liza.jpg';
 import defaultInstructor from '../icons/head-brains.png';
-import tanvirao from './InstructorImages/tanvirao.jpeg';
-import keshavnarang from './InstructorImages/keshav.jpg';
-import marksandey from './InstructorImages/marksandey.png';
-import srinjoy from './InstructorImages/srinjoy.png';
+import tanvirao from './images/tanvirao.jpeg';
+import keshavnarang from './images/keshav.jpg';
+import marksandey from './images/marksandey.png';
+import srinjoy from './images/srinjoy.png';
 
 export default function NewTeam() {
     return (

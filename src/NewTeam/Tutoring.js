@@ -1,44 +1,44 @@
 import React from "react";
 import "./NewTeam.css";
 import Card from "./TeamCard";
-import matilda from "./InstructorImages/matilda.jpg";
-import casey from "./InstructorImages/caseylopez.jpg";
-import elyssa from "./InstructorImages/elyssa_wolter.png";
-import diana from "./InstructorImages/diana.jpg";
-import faith from "./InstructorImages/faith.png";
-import katherine from "./InstructorImages/katherine.jpg";
-import maariyah from "./InstructorImages/maariyah.jpg";
-import sophie from "./InstructorImages/sophie.jpeg";
-import justin from "./InstructorImages/justin.jpg";
-import aashvi from "./InstructorImages/aashvi.jpeg";
-import aiswarya from "./InstructorImages/aiswarya.jpeg";
-import alexandra from "./InstructorImages/alexandra.jpeg";
-import maddy from "./InstructorImages/maddy.jpeg";
-import srinjoy from "./InstructorImages/srinjoy.png";
-import brian from "./InstructorImages/brian.jpeg";
-import christian from "./InstructorImages/christian.png";
-import sarahchang from "./InstructorImages/sarahchang.jpg";
-import amynam from "./InstructorImages/amynam.jpg";
-import yana from "./InstructorImages/yana.jpeg"; 
-import emily from "./InstructorImages/emily.jpg"; 
-import catherine from "./InstructorImages/catherine.jpeg"; 
-import daniel from "./InstructorImages/daniel.png"; 
-import arjun from "./InstructorImages/arjun.jpeg"; 
-import avery from "./InstructorImages/avery.jpeg";
-import liza from "./InstructorImages/liza.jpg";
-import sakshi from "./InstructorImages/sakshi.png";
-import arun from "./InstructorImages/arun.jpg";
-import ethan from "./InstructorImages/ethan.jpeg";
-import navaneet from "./InstructorImages/navaneet.jpg";
-import amogh from "./InstructorImages/amogh.jpg";
-import claire from "./InstructorImages/ClaireJin.png";
-import briana from "./InstructorImages/briana.jpeg";
-import catherineZhou from "./InstructorImages/catherineZhou.jpeg";
+import matilda from "./images/matilda.jpg";
+import casey from "./images/caseylopez.jpg";
+import elyssa from "./images/elyssa_wolter.png";
+import diana from "./images/diana.jpg";
+import faith from "./images/faith.png";
+import katherine from "./images/katherine.jpg";
+import maariyah from "./images/maariyah.jpg";
+import sophie from "./images/sophie.jpeg";
+import justin from "./images/justin.jpg";
+import aashvi from "./images/aashvi.jpeg";
+import aiswarya from "./images/aiswarya.jpeg";
+import alexandra from "./images/alexandra.jpeg";
+import maddy from "./images/maddy.jpeg";
+import srinjoy from "./images/srinjoy.png";
+import brian from "./images/brian.jpeg";
+import christian from "./images/christian.png";
+import sarahchang from "./images/sarahchang.jpg";
+import amynam from "./images/amynam.jpg";
+import yana from "./images/yana.jpeg"; 
+import emily from "./images/emily.jpg"; 
+import catherine from "./images/catherine.jpeg"; 
+import daniel from "./images/daniel.png"; 
+import arjun from "./images/arjun.jpeg"; 
+import avery from "./images/avery.jpeg";
+import liza from "./images/liza.jpg";
+import sakshi from "./images/sakshi.png";
+import arun from "./images/arun.jpg";
+import ethan from "./images/ethan.jpeg";
+import navaneet from "./images/navaneet.jpg";
+import amogh from "./images/amogh.jpg";
+import claire from "./images/ClaireJin.png";
+import briana from "./images/briana.jpeg";
+import catherineZhou from "./images/catherineZhou.jpeg";
 
 export default function NewTeam() {
     return (<div class="new-team-con">
         <div class="new-team">
-            <h1>Tutoring/Activities</h1>
+            <h1>Past Volunteers</h1>
             <Card imgURL={casey}
                     name="Casey Lopez"
                     position="Tutoring Director"
@@ -106,7 +106,7 @@ export default function NewTeam() {
                 />
 
                 <Card
-                    name="Aiswarya saravanan"
+                    name="Aiswarya Saravanan"
                     imgURL={aiswarya}
                    //  position="Anatomy and Molecular Biology Instructor"
                     des="Aiswarya Saravanan is a rising junior at Plymouth High School from Michigan, USA. She loves all things STEM and activism, and she is super passionate about neuroscience and biomedicial engineering in general. She is part of Simply Neuroscience and STEM Without Boundaries, where she is the Director of Sponsorships. She also recently started her own non-profit organization called Basically Biomedicine to educate people in the biomedical fields. In STEMEY, she is part of the anatomy team, molecular biology team, and the podcast team, and she is super excited to make a difference!"

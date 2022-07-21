@@ -70,14 +70,8 @@ export default function Navbar(props) {
               class="nav-link dropdown-toggle MuiButtonBase-root MuiButton-root MuiButton-contained" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Team</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {/*<Link class="dropdown-item" to="/executives">Executive Team</Link>
-              <Link class="dropdown-item" to="/biology">Biology</Link>
-        <Link class="dropdown-item" to="/chemistry">Chemistry</Link> */}
+              <Link class="dropdown-item" to="/executives">Executive Team</Link>
               <Link class="dropdown-item" to="/physics">Current Volunteers</Link>
-              {/*<Link class="dropdown-item" to="/math">Math</Link>
-              <Link class="dropdown-item" to="/coding">Coding</Link>
-              <Link class="dropdown-item" to="/podcast">Podcast</Link>
-      <Link class="dropdown-item" to="/events">Events</Link> */}
               <Link class="dropdown-item" to="/tutoringteam">Past Volunteers</Link>
               {/* <Link class="dropdown-item" to="/tech">Tech</Link> */}
             </div>

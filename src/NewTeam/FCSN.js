@@ -2,13 +2,13 @@ import React from "react";
 import "./NewTeam.css";
 import Navbar from "../Navbar.js";
 import Card from "./TeamCard";
-import casey from "./InstructorImages/casey.jpg";
-import emily from "./InstructorImages/emily.jpg";
-import justin from "./InstructorImages/justin.jpg";
-import katherine from "./InstructorImages/katherine.jpg";
-import brianado from "./InstructorImages/brianado.jpg";
-import elyssa from "./InstructorImages/elyssa.jpg";
-import diana from "./InstructorImages/diana.jpg";
+import casey from "./images/casey.jpg";
+import emily from "./images/emily.jpg";
+import justin from "./images/justin.jpg";
+import katherine from "./images/katherine.jpg";
+import brianado from "./images/brianado.jpg";
+import elyssa from "./images/elyssa.jpg";
+import diana from "./images/diana.jpg";
 
 export default function NewTeam() {
     return (<div class="new-team-con">

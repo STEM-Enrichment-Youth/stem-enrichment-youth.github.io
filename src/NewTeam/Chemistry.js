@@ -2,9 +2,9 @@ import React from "react";
 import "./NewTeam.css";
 import Navbar from "../Navbar.js";
 import Card from "./TeamCard";
-import christian from "./InstructorImages/christian.png";
-import sarahchang from "./InstructorImages/sarahchang.jpg";
-import amynam from "./InstructorImages/amynam.jpg";
+import christian from "./images/christian.png";
+import sarahchang from "./images/sarahchang.jpg";
+import amynam from "./images/amynam.jpg";
 
 export default function NewTeam() {
     return (<div class="new-team-con">

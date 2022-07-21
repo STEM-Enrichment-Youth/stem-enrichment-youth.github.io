@@ -1,12 +1,12 @@
 import React from "react";
 import "./NewTeam.css";
 import Card from "./TeamCard";
-import diana from "./InstructorImages/diana.jpg";
-import katherine from "./InstructorImages/katherine.jpg";
-import sophie from "./InstructorImages/sophie.jpeg";
-import arun from "./InstructorImages/arun.jpg";
-import amy from "./InstructorImages/amynam.jpg";
-import amogh from "./InstructorImages/amogh.jpg"
+import diana from "./images/diana.jpg";
+import katherine from "./images/katherine.jpg";
+import sophie from "./images/sophie.jpeg";
+import arun from "./images/arun.jpg";
+import amy from "./images/amynam.jpg";
+import amogh from "./images/amogh.jpg"
 
 export default function NewTeam() {
     return (<div class="new-team-con">

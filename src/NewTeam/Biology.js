@@ -1,18 +1,18 @@
 import React from "react";
 import "./NewTeam.css";
 import Card from "./TeamCard";
-import fiona from "./InstructorImages/fiona.png";
-import yulia from "./InstructorImages/yulia.JPG";
-import aashvi from "./InstructorImages/aashvi.jpeg";
-import aiswarya from "./InstructorImages/aiswarya.jpeg";
-import alexandra from "./InstructorImages/alexandra.jpeg";
-import arushi from "./InstructorImages/arushi.jpeg";
-import maddy from "./InstructorImages/maddy.jpeg";
-import priyanka from "./InstructorImages/priyanka.jpeg";
-import srinjoy from "./InstructorImages/srinjoy.png";
-import brian from "./InstructorImages/brian.jpeg";
-import akshaya from "./InstructorImages/akshaya.jpg"
-import ryann from "./InstructorImages/ryann.png"
+import fiona from "./images/fiona.png";
+import yulia from "./images/yulia.JPG";
+import aashvi from "./images/aashvi.jpeg";
+import aiswarya from "./images/aiswarya.jpeg";
+import alexandra from "./images/alexandra.jpeg";
+import arushi from "./images/arushi.jpeg";
+import maddy from "./images/maddy.jpeg";
+import priyanka from "./images/priyanka.jpeg";
+import srinjoy from "./images/srinjoy.png";
+import brian from "./images/brian.jpeg";
+import akshaya from "./images/akshaya.jpg"
+import ryann from "./images/ryann.png"
 
 import defaultInstructor from "../icons/head-cross.png";
 

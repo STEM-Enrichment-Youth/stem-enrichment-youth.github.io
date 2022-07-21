@@ -3,17 +3,17 @@ import "./NewTeam.css";
 import Navbar from "../Navbar.js";
 import Card from "./TeamCard";
 import defaultInstructor from "../icons/head-brains.png";
-import faith from "./InstructorImages/faith.png";
-import claire from "./InstructorImages/ClaireJin.png";
-import maddy from "./InstructorImages/maddy.jpeg";
-import briana from "./InstructorImages/briana.jpeg";
-import catherine from "./InstructorImages/catherineZhou.jpeg";
-// import matilda from "./InstructorImages/";
-// import ridhima from "./InstructorImages/";
-import ruhani from "./InstructorImages/ruhani.jpg";
-// import saara from "./InstructorImages/";
-import yana from "./InstructorImages/yana.jpeg";
-import yulia from "./InstructorImages/yulia.JPG";
+import faith from "./images/faith.png";
+import claire from "./images/ClaireJin.png";
+import maddy from "./images/maddy.jpeg";
+import briana from "./images/briana.jpeg";
+import catherine from "./images/catherineZhou.jpeg";
+// import matilda from "./images/";
+// import ridhima from "./images/";
+import ruhani from "./images/ruhani.jpg";
+// import saara from "./images/";
+import yana from "./images/yana.jpeg";
+import yulia from "./images/yulia.JPG";
 
 
 

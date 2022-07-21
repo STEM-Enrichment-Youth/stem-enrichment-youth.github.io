@@ -1,12 +1,12 @@
 import React from "react";
 import "./NewTeam.css";
 import Card from "./TeamCard";
-import navaneet from "./InstructorImages/navaneet.jpg";
-import sakshi from "./InstructorImages/sakshi.png";
-import brianado from "./InstructorImages/brianado.jpg";
-import yana from "./InstructorImages/yana.jpeg";
-import diana from "./InstructorImages/diana.jpg";
-import kyle from "./InstructorImages/kyleSmith.jpg";
+import navaneet from "./images/navaneet.jpg";
+import sakshi from "./images/sakshi.png";
+import brianado from "./images/brianado.jpg";
+import yana from "./images/yana.jpeg";
+import diana from "./images/diana.jpg";
+import kyle from "./images/kyleSmith.jpg";
 
 
 export default function NewTeam() {

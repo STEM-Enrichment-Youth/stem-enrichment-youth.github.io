@@ -1,12 +1,12 @@
 import React from "react";
 import "./NewTeam.css";
 import Card from "./TeamCard";
-import liza from "./InstructorImages/liza.jpg";
-import sakshi from "./InstructorImages/sakshi.png";
-import arun from "./InstructorImages/arun.jpg";
-import ethan from "./InstructorImages/ethan.jpeg";
-import diana from "./InstructorImages/diana.jpg";
-import brian from "./InstructorImages/brian.jpeg";
+import liza from "./images/liza.jpg";
+import sakshi from "./images/sakshi.png";
+import arun from "./images/arun.jpg";
+import ethan from "./images/ethan.jpeg";
+import diana from "./images/diana.jpg";
+import brian from "./images/brian.jpeg";
 
 
 export default function NewTeam() {

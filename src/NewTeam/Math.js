@@ -1,17 +1,17 @@
 import React from "react"; 
 import "./NewTeam.css"; 
 import Card from "./TeamCard"; 
-import yana from "./InstructorImages/yana.jpeg"; 
-import emily from "./InstructorImages/emily.jpg"; 
-import katherine from "./InstructorImages/katherine.jpg"; 
-import justin from "./InstructorImages/justin.jpg"; 
-import catherine from "./InstructorImages/catherine.jpeg"; 
-import daniel from "./InstructorImages/daniel.png"; 
-import casey from "./InstructorImages/casey.jpg"; 
-import arjun from "./InstructorImages/arjun.jpeg"; 
-import avery from "./InstructorImages/avery.jpeg";
-import srishti from "./InstructorImages/srishti.jpeg";
-import mahathi from "./InstructorImages/mahathi.jpg"
+import yana from "./images/yana.jpeg"; 
+import emily from "./images/emily.jpg"; 
+import katherine from "./images/katherine.jpg"; 
+import justin from "./images/justin.jpg"; 
+import catherine from "./images/catherine.jpeg"; 
+import daniel from "./images/daniel.png"; 
+import casey from "./images/casey.jpg"; 
+import arjun from "./images/arjun.jpeg"; 
+import avery from "./images/avery.jpeg";
+import srishti from "./images/srishti.jpeg";
+import mahathi from "./images/mahathi.jpg"
 
 export default function NewTeam() {
     return (<div class="new-team-con"> 

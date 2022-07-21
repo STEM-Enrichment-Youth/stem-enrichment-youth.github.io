@@ -3,16 +3,16 @@ import {Helmet} from "react-helmet";
 import geometry from "./ClassPics/Geometry.png"
 import algebra from "./ClassPics/Algebra.png"
 import settheory from "./ClassPics/SetTheory.png"
-import yana from "../NewTeam/InstructorImages/yana.jpeg"; 
-import emily from "../NewTeam/InstructorImages/emily.jpg"; 
-import katherine from "../NewTeam/InstructorImages/katherine.jpg"; 
-import justin from "../NewTeam/InstructorImages/justin.jpg"; 
-import catherine from "../NewTeam/InstructorImages/catherine.jpeg"; 
-import daniel from "../NewTeam/InstructorImages/daniel.png"; 
-import casey from "../NewTeam/InstructorImages/casey.jpg"; 
-import arjun from "../NewTeam/InstructorImages/arjun.jpeg"; 
-import avery from "../NewTeam/InstructorImages/avery.jpeg";
-import srishti from "../NewTeam/InstructorImages/srishti.jpeg";
+import yana from "../NewTeam/images/yana.jpeg"; 
+import emily from "../NewTeam/images/emily.jpg"; 
+import katherine from "../NewTeam/images/katherine.jpg"; 
+import justin from "../NewTeam/images/justin.jpg"; 
+import catherine from "../NewTeam/images/catherine.jpeg"; 
+import daniel from "../NewTeam/images/daniel.png"; 
+import casey from "../NewTeam/images/casey.jpg"; 
+import arjun from "../NewTeam/images/arjun.jpeg"; 
+import avery from "../NewTeam/images/avery.jpeg";
+import srishti from "../NewTeam/images/srishti.jpeg";
 
 export default function NewClasses() {
 
