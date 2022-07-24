@@ -19,14 +19,14 @@ export default function NewTeam() {
                 <Card
                     imgURL={srishti}
                     name="Srishti Venkatesan"
-                    position="Chief Operating Officer"
+                    position="Co-Chief Operating Officer"
                     des="Srishti Venkatesan is a freshman at Leigh High School. She is passionate about all things STEM, but especially loves the fields of mathematics and biology. As someone who appreciates community engagement, Srishti actively volunteers in her neighborhood by tutoring and helping out in any way she can. Aside from STEMEY, she is part of her high school’s leadership class, serves as a student representative for the Bay Area Youth Society for Neuroscience, and is a member of several STEM clubs at Leigh. In her free time, she loves to dance, play the trumpet, and travel. In STEMEY, she is part of the math team, specifically an algebra instructor, and she is super exited for this upcoming year!"
                 />
                 <Card
                     imgURL={amiruthaa}
                     name="Amiruthaa Amudh"
-                    position="Chief Operating Officer"
-                    des="Amiruthaa Amudh is a student at Leigh High School who loves to delve deeper into STEM-related fields."
+                    position="Co-Chief Operating Officer"
+                    des="Amiruthaa Amudharasan is a junior at Arcadia High School. She is passionate about STEM and is particularly fond of mathematics and business. Being someone that loves volunteering and helping out in the community, Amiruthaa volunteers at several organization that seek to help the public, and underprivileged communities. Outside of STEMEY, she is passionate about music and spends her free time tutoring or playing at various concerts, and is part of two orchestras. At school, she is a member of a music honor society, and clubs aimed at funding charities. At STEMEY, she is a co-COO, the podcast lead, and manages the social medias!"
                 />
             </div>
         </div>
